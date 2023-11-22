@@ -1,46 +1,16 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/layout"
 
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
 
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <Layout>
+      <div className="flex flex-col items-center m-10">
+        <div className="font-semibold text-black mb-10 dark:text-white">Lost in the Ruck 👉 <Link className="hover:text-red-900 dark:hover:text-red-500" to="/blog">Go back to articles</Link></div>
+        <iframe title="ubb giph" src="https://giphy.com/embed/9JwUjUAyLpIuNLg8ky" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      </div>
+    </Layout >
   )
 }
 

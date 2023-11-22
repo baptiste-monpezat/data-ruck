@@ -9,11 +9,11 @@ import BlogPost from "../../components/blogpost"
 
 const IndexPage = ({ data }) => {
   return (
-    <Layout pageTitle="Home">
-      <div class="mx-auto flex w-full max-w-[820px] flex-col p-6 sm:p-16 gap-10">
-        <p class="font-bold text-5xl relative left-0 text-red-900 dark:text-white">Articles</p>
+    <Layout>
+      <div className="mx-auto flex w-full max-w-[820px] flex-col p-6 sm:p-16 gap-10">
+        <p className="font-bold text-5xl relative left-0 text-red-900 dark:text-white">Articles</p>
         {data.allMdx.nodes.map((node) => {
-          return <Link key={node.id} to={`/blog/${node.frontmatter.slug}`}><BlogPost key={node.id} title={node.frontmatter.title} date={node.frontmatter.datePublished} excerpt={node.excerpt} categories={node.frontmatter.categories} /></Link>
+          return <Link key={node.id} to={`/blog/${node.frontmatter.slug}`}><BlogPost id={node.id} title={node.frontmatter.title} date={node.frontmatter.datePublished} excerpt={node.excerpt} categories={node.frontmatter.categories} /></Link>
         })}
       </div>
     </Layout>
@@ -35,7 +35,8 @@ export const query = graphql`
     }
   }}`
 
-export const Head = () => <Seo title="Home Page" />
+export const Head = () => <Seo page="Articles" description="Page with all written articles" type="website" path="/blog/" />
+
 export default IndexPage
 
 
