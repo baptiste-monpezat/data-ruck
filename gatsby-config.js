@@ -2,6 +2,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/data-ruck",
   siteMetadata: {
     title: `Data Ruck`,
     description: `A blog about Rugby data analytics`,

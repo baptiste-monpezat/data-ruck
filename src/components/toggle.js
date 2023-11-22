@@ -5,7 +5,12 @@ import { Switch } from '@headlessui/react'
 
 const Toggle = () => {
     const [enabled, setEnabled] = useState(() => {
-        const initialTheme = localStorage.getItem("theme");
+        if (typeof window !== 'undefined') {
+            const initialTheme = localStorage.getItem("theme");
+        } else {
+            const initialTheme = "dark"
+        }
+
         return initialTheme === "light" ? true : false
     })
 
