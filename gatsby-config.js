@@ -2,6 +2,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  flags: {
+    DEV_SSR: true,
+  },
   pathPrefix: "/data-ruck",
   siteMetadata: {
     title: `Data Ruck`,
