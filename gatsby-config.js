@@ -10,11 +10,6 @@ module.exports = {
     keywords: `rugby, data science, data analytics, machine learning, sport analytics`,
     url: `https://baptiste-monpezat.github.io/data-ruck`,
     ogImage: 'images/og-image.png',
-    favicon: {
-      ico: 'images/favicon.ico',
-      sm: 'images/favicon-16x16.png',
-      lg: 'images/favicon-32x32.png'
-    },
     lang: `en`
 
   },
@@ -27,5 +22,17 @@ module.exports = {
         "path": `${__dirname}/src/articles/`
       },
       __key: "pages"
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/icon.png`
+      }
     }]
 };

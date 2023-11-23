@@ -15,11 +15,6 @@ const Seo = ({ page, description, type, path }) => {
                     keywords
                     url
                     ogImage
-                    favicon {
-                        ico
-                        sm
-                        lg
-                        }
                     lang
                 }
             }
@@ -38,9 +33,6 @@ const Seo = ({ page, description, type, path }) => {
             <meta name="image:alt" content={description} />
             <meta name="keywords" content={data.site.siteMetadata.keywords} />
 
-            <link rel="icon" type="image/png" sizes="16x16" href={`${data.site.siteMetadata.url}/${data.site.siteMetadata.favicon.ico}`} />
-            <link rel="icon" type="image/png" sizes="16x16" href={`${data.site.siteMetadata.url}/${data.site.siteMetadata.favicon.sm}`} />
-            <link rel="icon" type="image/png" sizes="32x32" href={`${data.site.siteMetadata.url}/${data.site.siteMetadata.favicon.lg}`} />
 
             {/* Facebook */}
             <meta property="og:type" content={type} />
