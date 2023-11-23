@@ -2,13 +2,12 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: "/data-ruck",
   siteMetadata: {
     title: `Data Ruck`,
     description: `A blog about Rugby data analytics`,
     author: `Baptiste Monpezat`,
     keywords: `rugby, data science, data analytics, machine learning, sport analytics`,
-    url: `https://baptiste-monpezat.github.io/data-ruck/`,
+    url: `https://baptiste-monpezat.github.io`,
     ogImage: 'images/og-image.png',
     favicon: {
       ico: 'images/favicon.ico',
