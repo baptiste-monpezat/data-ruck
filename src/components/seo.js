@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 
 
+
 const Seo = ({ page, description, type, path }) => {
 
     const data = useStaticQuery(graphql`
@@ -14,13 +15,13 @@ const Seo = ({ page, description, type, path }) => {
                     author
                     keywords
                     url
-                    ogImage
                     lang
                 }
             }
         }
     `
     )
+
 
 
 
