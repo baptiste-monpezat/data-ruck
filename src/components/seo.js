@@ -36,7 +36,7 @@ const Seo = ({ page, description, type, path }) => {
         <>
             <script>
                 const theme = localStorage.getItem('theme') || 'dark';
-                localStorage.theme = theme;
+                document.documentElement.classList.add(theme)
             </script>
             <title>{`${page} | ${data.site.siteMetadata.title}`}</title>
             <html lang={data.site.siteMetadata.lang} />
