@@ -10,8 +10,8 @@ import BlogPost from "../../components/blogpost"
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <div className="mx-auto flex w-full max-w-[820px] flex-col p-6 sm:p-16 gap-10">
-        <p className="font-bold text-5xl relative left-0 text-red-900 dark:text-white">Articles</p>
+      <div className="flex flex-grow mx-auto flex w-full max-w-[820px] flex-col p-6 sm:p-16 gap-10">
+        <p className="font-bold text-5xl relative left-0 text-red-900 dark:text-white z-0">Articles</p>
         {data.allMdx.nodes.map((node) => {
           return <Link key={node.id} to={`/blog/${node.frontmatter.slug}`}><BlogPost id={node.id} title={node.frontmatter.title} date={node.frontmatter.datePublished} excerpt={node.excerpt} categories={node.frontmatter.categories} /></Link>
         })}

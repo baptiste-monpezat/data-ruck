@@ -9,7 +9,7 @@ const BlogPost = ({ data, children }) => {
     <Layout >
 
 
-      <div className="prose prose-light my-20 mx-auto w-full max-w-[1000px] dark:prose-invert">
+      <div className="flex flex-grow flex-col prose prose-light my-20 mx-auto w-full max-w-[1000px] dark:prose-invert">
         <h1>{data.mdx.frontmatter.title}</h1>
         <h3>{data.mdx.frontmatter.datePublished}</h3>
         {children}</div>

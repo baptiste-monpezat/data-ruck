@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     return (
         <>
 
-            <main className="dark:bg-slate-800 min-h-screen">
+            <main className="flex flex-col dark:bg-slate-800 min-h-screen">
                 <Navbar />
                 {children}
                 <Footer />

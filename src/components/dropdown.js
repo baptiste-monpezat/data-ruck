@@ -24,7 +24,7 @@ const DropDown = () => {
                                 <path d="M4 6L20 6" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"></path> </g></svg>
                     </div>
                 </Menu.Button>
-                <Menu.Items className="absolute right-0 w-56 rounded-md bg-white dark:bg-slate-800">
+                <Menu.Items className="absolute right-0 w-56 rounded-md bg-white dark:bg-slate-800 z-10">
                     <div className="px-1 py-1 ">
                         <Menu.Item>
                             {({ active }) => (

@@ -4,8 +4,9 @@ import * as React from "react";
 const Footer = () => {
 
     return (
-        <div className="flex flew-row font-semibold items-center justify-center absolute bottom-0  w-full bg-red-900 dark:bg-slate-800 h-7 text-white">
-            <p>Made with Love in Bordeaux. Proudly supporter of UBB!</p>
+        <div className="flex flex-col font-semibold items-center justify-center w-full bg-red-900 dark:bg-slate-800 text-white">
+            <p>Made with Love in Bordeaux by Baptiste Monpezat</p>
+            <p>Proudly supporter of UBB!</p>
 
         </div>
     )

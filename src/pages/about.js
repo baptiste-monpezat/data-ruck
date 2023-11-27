@@ -12,8 +12,11 @@ const About = () => {
     return (
         <>
             <Layout pageTitle="About">
-                <div className="flex flex-col items-center mx-auto w-full max-w-[1200px] p-12 gap-10 md:p-24 md:flex-row">
-                    <StaticImage className="flex-none rounded-full h-36 w-36" alt="Baptiste Monpezat" src="../images/baptiste.jpeg" />
+                <div className="flex flex-grow flex-col  items-center mx-auto w-full max-w-[1200px] p-12 gap-10 md:flex-row">
+                    <div className="flex-none overflow-hidden rounded-full isolate">
+                        <StaticImage className="h-36 w-36" alt="Baptiste Monpezat" src="../images/baptiste.jpeg" />
+                    </div>
+
                     <div className="flex flex-col font-semibold whitespace-normal text-ellipsis max-w-[800px] text-justify text-red-900 dark:text-white gap-3">
 
                         <p>Hi ! I'm Baptiste Monpezat ! </p>
