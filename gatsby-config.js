@@ -42,5 +42,7 @@ module.exports = {
         display: `standalone`,
         icon: `src/images/icon.png`
       }
-    }]
+    },
+
+  ]
 };
