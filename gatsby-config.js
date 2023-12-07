@@ -13,6 +13,9 @@ module.exports = {
     lang: `en`
 
   },
+  flags: {
+    DEV_SSR: false
+  },
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-mdx", `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, `gatsby-plugin-react-helmet`, {

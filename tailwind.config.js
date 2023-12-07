@@ -7,18 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      typography: ({ theme }) => ({
-        "light": {
-          css: {
-            '--tw-prose-headings': theme('colors.red[900]'),
-            '--tw-prose-bullets': theme('colors.red[900]'),
-            '--tw-prose-body': theme('colors.black'),
-            '--tw-prose-invert-headings': theme('colors.red[500]'),
-            '--tw-prose-invert-body': theme('colors.white'),
-
-          }
-        }
-      }),
+      colors: {
+        "bg-primary": "var(--color-bg-primary)",
+        "bg-secondary": "var(--color-bg-secondary)",
+        "text-primary": "var(--color-text-primary)",
+        "text-secondary": "var(--color-text-secondary)",
+        "text-accent": "var(--color-text-accent)",
+      },
     }
   },
   plugins: [

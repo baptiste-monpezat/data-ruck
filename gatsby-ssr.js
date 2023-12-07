@@ -20,16 +20,19 @@ const MagicScriptTag = () => {
     }
     // If they are using a browser/OS that doesn't support
     // color themes, let's default to 'light'.
-    return 'dark';
+    return 'light';
     }
 
     const colorMode = getInitialColorMode();
     const root = document.documentElement;
-            if (colorMode === 'dark') {
+        if (colorMode === 'dark') {
             root.classList.add('dark')
         } else {
             root.classList.remove('dark')
         }
+    if (typeof window !== 'undefined') {
+        window.localStorage.setItem('color-mode',colorMode);
+    }
 })()
   `;
     // eslint-disable-next-line react/no-danger

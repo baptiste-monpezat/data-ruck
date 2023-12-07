@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage, getSrc } from "gatsby-plugin-image"
 
 import DropDown from "./dropdown"
 import Toggle from "./toggle"
@@ -14,9 +14,8 @@ const Navbar = () => {
 
     return (
         <div className="flex flex-row items-center  dark:bg-slate-800">
-            <Link to="/"><StaticImage className="block ml-3 dark:hidden" width={90} height={90} layout="fixed" alt="Data Ruck Logo" src="../images/DataRuckLight.png" /></Link>
-            <Link to="/"><StaticImage className="hidden ml-3 dark:block" width={90} height={90} layout="fixed" alt="Data Ruck Logo" src="../images/DataRuckDark.png" /></Link>
-
+            <Link to="/"><StaticImage className="block ml-3 dark:hidden" imgStyle={{ "transition": "none", "opacity": 1, "willChange": "none" }} width={90} height={90} layout="fixed" alt="Data Ruck Logo" src="../images/DataRuckLight.png" /></Link>
+            <Link to="/"><StaticImage className="hidden ml-3 dark:block" imgStyle={{ "transition": "none", "opacity": 1, "willChange": "none" }} width={90} height={90} layout="fixed" alt="Data Ruck Logo" src="../images/DataRuckDark.png" /></Link>
             <div className="flex basis-full justify-center">
                 <nav>
                     <ul className="hidden md:flex md:flex-row">
@@ -25,7 +24,9 @@ const Navbar = () => {
                     </ul>
                 </nav>
             </div>
-            <Toggle />
+            <div className="w-[90px]">
+                <Toggle />
+            </div>
             <DropDown />
         </div>
     )
