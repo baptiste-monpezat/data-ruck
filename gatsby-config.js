@@ -16,7 +16,7 @@ module.exports = {
   flags: {
     DEV_SSR: false
   },
-  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-mdx", `gatsby-plugin-image`,
+  plugins: ["gatsby-plugin-postcss", `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, `gatsby-plugin-react-helmet`, {
       resolve: 'gatsby-source-filesystem',
@@ -46,6 +46,26 @@ module.exports = {
         icon: `src/images/icon.png`
       }
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+              {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              strict: `ignore`,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          },
+
+        ],
+      }}
+
 
   ]
 };

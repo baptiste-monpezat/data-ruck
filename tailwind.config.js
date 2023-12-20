@@ -7,13 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        "bg-primary": "var(--color-bg-primary)",
-        "bg-secondary": "var(--color-bg-secondary)",
-        "text-primary": "var(--color-text-primary)",
-        "text-secondary": "var(--color-text-secondary)",
-        "text-accent": "var(--color-text-accent)",
-      },
+      typography: ({ theme }) => ({
+        dark: {
+          css: {
+            '--tw-prose-headings': theme('colors.red[500]'),
+            '--tw-prose-body': theme('colors.white'),
+             '--tw-prose-bold': theme('colors.white'),
+          },
+        },
+        light: {
+          css: {
+            '--tw-prose-headings': theme('colors.red[900]'),
+          },
+        },
+      })
     }
   },
   plugins: [
