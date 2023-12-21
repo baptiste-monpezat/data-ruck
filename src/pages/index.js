@@ -19,7 +19,7 @@ const Home = () => (
     </Layout>
 
 )
-export const Head = () => <Seo page="Home Page" description="Data Analytics blog home" type="website" path="" />
+export const Head = () => <Seo page="Home Page" description="Data Ruck home page" type="website" path="" />
 
 
 export default Home

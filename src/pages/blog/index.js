@@ -35,7 +35,7 @@ export const query = graphql`
     }
   }}`
 
-export const Head = () => <Seo page="Articles" description="Page with all written articles" type="website" path="/blog/" />
+export const Head = () => <Seo page="Data Ruck Articles" description="Data Ruck articles" type="website" path="/blog/" />
 
 export default IndexPage
 

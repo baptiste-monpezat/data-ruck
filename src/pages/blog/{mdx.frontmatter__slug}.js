@@ -22,7 +22,7 @@ const BlogPost = ({ data, children }) => {
   )
 }
 
-export const Head = ({ data }) => <Seo page="Article" description="Page with all written articles" type="website" path={`/blog/${data.mdx.frontmatter.slug}`} />
+export const Head = ({ data }) => <Seo page={data.mdx.frontmatter.title} description="Page with all written articles" type="website" path={`/blog/${data.mdx.frontmatter.slug}`} />
 
 export const query = graphql`
   query ($id:String){

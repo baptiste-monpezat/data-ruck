@@ -34,6 +34,6 @@ const About = () => {
 
 }
 
-export const Head = () => <Seo page="About Page" description="About this Data Analytics blog" type="website" path="/about" />
+export const Head = () => <Seo page="About Data Ruck" description="About Data Ruck" type="website" path="/about" />
 
 export default About
