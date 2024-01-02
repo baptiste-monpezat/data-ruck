@@ -3,7 +3,7 @@ title: "Finding the sweet spot that maximizes kick angle"
 slug: "maximizing-kick-angle"
 datePublished: "2023-12-19"
 author: "Baptiste Monpezat"
-categories: "Maths | Penalties | Conversion | Trigonometry | Angle"
+categories: "Maths | Penalties | Conversions | Trigonometry | Angle"
 ---
 
 # A simple math problem!
@@ -28,8 +28,10 @@ Let's draw our problem:
 - θ is the angle between the kick and goal posts
 - x is the kick distance from goal line.
 
-![Data Ruck Rugby pitch case 1](../images/pitch.jpg)
+![Data Ruck Rugby pitch case 1](../images/maximize_kick_angle/pitch.jpg)
+<div class="center-em">
 *Rugby Pitch Figure*
+</div>
 
 
 We can formulate our problem as follow: **given the distance Y, we will compute x that maximizes θ.**\
@@ -49,8 +51,10 @@ $$
 
 Let's draw θ(x) for y=50m
 
-![Angle Function Case 1](../images/theta_x.jpg)
+![Angle Function Case 1](../images/maximize_kick_angle/theta_x.jpg)
+<div class="center-em">
 *Figure of θ(x)*
+</div>
 
 
 We set X max, the distance from crossbar that maximizes the kick angle.
@@ -74,13 +78,11 @@ $$
 Knowing that we can compute the $$ \theta(x) $$ derivative:
 
 $$
-\begin{aligned}
 \frac{\partial \theta}{\partial x} = - \frac{(k+y)}{x^2}\times\frac{1}{1+(\frac{k+y}{x})^2} + \frac{y}{x^2}\times\frac{1}{1+\frac{y^2}{x^2}} \\[16pt]
 \Rightarrow \frac{\partial \theta}{\partial x} =  - \frac{(k+y)}{x^2+(k+y)^2}+\frac{y}{x^2+y^2} \\[16pt]
 \Rightarrow \frac{\partial \theta}{\partial x} = \frac{y}{x^2+y^2} - \frac{k+y}{x^2+k^2+2yk+y^2} \\[16pt]
 \Rightarrow \frac{\partial \theta}{\partial x} = \frac{yx^2+yk^2+2y^2k+y^3+-kx^2-ky^2-yx^2-y^3}{(x^2+y^2) \times (x^2+k^2+2yk+y^2)} \\[16pt]
 \Rightarrow  \frac{\partial \theta}{\partial x} = \frac{yk^2+ky^2-kx^2}{(x^2+y^2) \times (x^2+k^2+2yk+y^2)}
-\end{aligned}
 $$
 
 We now have to find x so that  $$\large \frac{\partial \theta}{\partial x} = 0$$
@@ -106,16 +108,20 @@ $$
 
 Let's draw the sweet spot distance vs y: 
 
-![Optimum X vs y case 1](../images/optimum_x.jpg)
+![Optimum X vs y case 1](../images/maximize_kick_angle/optimum_x.jpg)
+<div class="center-em">
 *X Max vs y*
+</div>
 
 This equation is true when the try is located on the right or left of the goal posts. It differs when the try is scored
 between the goal posts.
 
 Let's compute the angle equation for this case:
 
-![Data Ruck Rugby pitch case 2](../images/new_pitch.jpg)
+![Data Ruck Rugby pitch case 2](../images/maximize_kick_angle/new_pitch.jpg)
+<div class="center-em">
 *Rugby Pitch math when try between goal posts*
+</div>
 
 
 We have: 
@@ -134,8 +140,10 @@ $$
 This function is not defined for $$ x=\sqrt(ab) $$ as the denominator would be 0. 
 Let's draw it for a=2m:
 
-![Angle Function Case 2](../images/theta_x_2.jpg)
+![Angle Function Case 2](../images/maximize_kick_angle/theta_x_2.jpg)
+<div class="center-em">
 *Figure of θ(x)*
+</div>
 
 
 The function tends to 90 degrees when x tend to $$ \sqrt(ab)$$ from the right side.
@@ -146,8 +154,10 @@ Enough calculus, let's put everything together and plot the sweet spots on the p
 
 I computed X max for every y point (from 0 to 70m as a rugby pitch width is 70m). Here is the result: 
 
-![Optimum distance](../images/optimum_line.jpg)
+![Optimum distance](../images/maximize_kick_angle/optimum_line.jpg)
+<div class="center-em">
 *Figure of the optimal distance that maximizes angle*
+</div>
 
 Of course the angle is not the only variable to take into account. When the try is scored between 
 the two goal posts, the optimum distance that we computed seems to be too small. Players take into consideration 
@@ -158,7 +168,10 @@ Do they have the equation we computed in mind ?
 Here are all the conversions that were kicked during 2023 Rugby World cup. Without any surprise, 
 we see that players choose the distance kick close to the optimum distance we computed !
 
-![Rugby world cup 2023 conversion coordinates](../images/optimum_line_with_penalties.jpg)
+![Rugby world cup 2023 conversion coordinates](../images/maximize_kick_angle/optimum_line_with_penalties.jpg)
+<div class="center-em">
+*Rugby world cup 2023 conversion coordinates* 
+</div>
 
 This first article was a good warm up! In the following article, we will continue diving into 
 the science of rugby kicks: we will try to build a model predicting success probability based on kicks 

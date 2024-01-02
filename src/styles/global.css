@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.katex>.katex-html {
+    white-space: normal;
+}
+
+.katex .base {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.center-em {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

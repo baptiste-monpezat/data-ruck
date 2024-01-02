@@ -12,7 +12,8 @@ module.exports = {
           css: {
             '--tw-prose-headings': theme('colors.red[500]'),
             '--tw-prose-body': theme('colors.white'),
-             '--tw-prose-bold': theme('colors.white'),
+            '--tw-prose-bold': theme('colors.white'),
+            '--tw-prose-links': theme('colors.white'),
           },
         },
         light: {
