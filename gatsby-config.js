@@ -9,7 +9,7 @@ module.exports = {
     description: `A blog about Rugby data analytics`,
     author: `Baptiste Monpezat`,
     keywords: `rugby, data science, data analytics, machine learning, sport analytics`,
-    url: `https://baptiste-monpezat.github.io/data-ruck`,
+    url: `https://www.data-ruck.com`,
     ogImage: 'static/og-image.png',
     lang: `en`
 
@@ -18,6 +18,7 @@ module.exports = {
     DEV_SSR: false
   },
   plugins: ["gatsby-plugin-postcss", `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, `gatsby-plugin-react-helmet`, {
       resolve: 'gatsby-source-filesystem',
@@ -51,7 +52,7 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         gatsbyRemarkPlugins: [
-              {
+          {
             resolve: `gatsby-remark-katex`,
             options: {
               strict: `ignore`,
@@ -65,7 +66,8 @@ module.exports = {
           },
 
         ],
-      }},
+      }
+    },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
