@@ -9,7 +9,7 @@ module.exports = {
     description: `A blog about Rugby data analytics`,
     author: `Baptiste Monpezat`,
     keywords: `rugby, data science, data analytics, machine learning, sport analytics`,
-    url: `https://www.data-ruck.com`,
+    url: `https://baptiste-monpezat.github.io/data-ruck`,
     siteUrl: `https://www.data-ruck.com`,
     ogImage: 'static/og-image.png',
     lang: `en`
