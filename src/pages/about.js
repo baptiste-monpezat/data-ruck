@@ -21,7 +21,7 @@ const About = () => {
 
                         <p>Hi ! I'm Baptiste Monpezat ! </p>
                         <p>I'm excited to introduce Data Ruck, the blog I have dedicated to the thrilling world of Rugby Data Analytics.</p>
-                        <p>I'm a Senior Data Scientist at Goshaba, and I'm more than obsessed with mixing my love for data with my passion for rugby.</p>
+                        <p>I'm a Data Analyst at french fintech company Shine, and I'm more than obsessed with mixing my love for data with my passion for rugby.</p>
                         <p>Whether it’s spotting the next big thing on the pitch through clever stats, or guessing who's going to win the next big match based on player performance and past data, Data Ruck digs deep into the science behind our beloved sport.</p>
                         <p>So if you are up for some sports talks with a statistical twist, then Data Ruck is the place for you ! </p>
                     </div>
