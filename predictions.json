@@ -4,31 +4,31 @@
       "champ": "prod2",
       "season": "2025-2026",
       "day": "demi-finale",
-      "gen_at": "2026-05-27T23:44:46.576295",
+      "gen_at": "2026-05-29T12:16:11.639642",
       "matches": [
         {
           "home": "RC Vannes",
           "away": "Oyonnax Rugby",
           "lineup_available": true,
           "base": {
-            "pred_home": 32.2,
-            "pred_away": 15.2,
-            "pred_diff": 17.0,
-            "pred_total": 47.3,
+            "pred_home": 32.0,
+            "pred_away": 15.4,
+            "pred_diff": 16.6,
+            "pred_total": 47.4,
             "outcome": "H",
             "prob_h": 79.8,
             "prob_d": 4.4,
             "prob_a": 15.8
           },
           "lineup": {
-            "pred_home": 28.9,
-            "pred_away": 17.7,
-            "pred_diff": 11.2,
-            "pred_total": 46.6,
+            "pred_home": 28.6,
+            "pred_away": 18.8,
+            "pred_diff": 9.8,
+            "pred_total": 47.4,
             "outcome": "H",
-            "prob_h": 77.3,
-            "prob_d": 3.8,
-            "prob_a": 18.9
+            "prob_h": 73.2,
+            "prob_d": 3.7,
+            "prob_a": 23.1
           },
           "raw": {
             "elo_home": 1710.5146196062165,
@@ -65,16 +65,16 @@
             "away_n_away_games": 5
           },
           "exp_raw": {
-            "lineup_h_avg_games_played": 4.47,
-            "lineup_h_avg_starts": 3.8,
+            "lineup_h_avg_games_played": 4.33,
+            "lineup_h_avg_starts": 3.4,
             "subs_h_avg_games_played": 2.62,
-            "charniere_h_avg_games_played": 4.0,
-            "charniere_h_avg_starts": 3.5,
+            "charniere_h_avg_games_played": 3.0,
+            "charniere_h_avg_starts": 0.5,
             "forwards_h_avg_games_played": 4.5,
             "forwards_h_avg_starts": 3.88,
             "backs_h_avg_games_played": 4.6,
             "backs_h_avg_starts": 3.8,
-            "total_h_avg_games_played": 3.83,
+            "total_h_avg_games_played": 3.74,
             "lineup_a_avg_games_played": 4.13,
             "lineup_a_avg_starts": 3.13,
             "subs_a_avg_games_played": 4.25,
@@ -87,45 +87,48 @@
             "total_a_avg_games_played": 4.17
           },
           "derived": {
-            "lineup_adj_elo_diff": 117.67278069229798,
-            "elo_lineup_interaction": -0.40239945435381297,
+            "lineup_adj_elo_diff": 117.49278069229798,
+            "elo_lineup_interaction": -0.508916956976881,
             "disruption_diff": 0.0,
-            "charniere_vs_total_diff": -1.17,
+            "charniere_vs_total_diff": -3.77,
             "fwd_dominance_diff": 2.3600000000000003
           },
           "weather": {
             "rain_mm": 0.0,
-            "wind_speed_kmh": 7.6,
-            "temperature_c": 29.4
+            "wind_speed_kmh": 0.0,
+            "temperature_c": null
           },
-          "actual": null,
-          "actual_outcome": null,
-          "base_correct": null,
-          "lineup_correct": null
+          "actual": {
+            "home": 0,
+            "away": 0
+          },
+          "actual_outcome": "D",
+          "base_correct": false,
+          "lineup_correct": false
         },
         {
           "home": "Colomiers Rugby",
           "away": "Provence Rugby",
-          "lineup_available": false,
+          "lineup_available": true,
           "base": {
-            "pred_home": 26.5,
-            "pred_away": 19.2,
-            "pred_diff": 7.3,
-            "pred_total": 45.7,
+            "pred_home": 26.7,
+            "pred_away": 18.6,
+            "pred_diff": 8.1,
+            "pred_total": 45.3,
             "outcome": "H",
             "prob_h": 75.2,
             "prob_d": 3.5,
             "prob_a": 21.3
           },
           "lineup": {
-            "pred_home": 26.5,
-            "pred_away": 18.5,
-            "pred_diff": 8.0,
-            "pred_total": 45.0,
+            "pred_home": 27.0,
+            "pred_away": 18.9,
+            "pred_diff": 8.1,
+            "pred_total": 45.9,
             "outcome": "H",
-            "prob_h": 77.1,
-            "prob_d": 3.0,
-            "prob_a": 19.9
+            "prob_h": 72.4,
+            "prob_d": 3.5,
+            "prob_a": 24.0
           },
           "raw": {
             "elo_home": 1653.2352333972963,
@@ -162,38 +165,38 @@
             "away_n_away_games": 5
           },
           "exp_raw": {
-            "lineup_h_avg_games_played": 0.0,
-            "lineup_h_avg_starts": 0.0,
-            "subs_h_avg_games_played": 0.0,
-            "charniere_h_avg_games_played": 0.0,
-            "charniere_h_avg_starts": 0.0,
-            "forwards_h_avg_games_played": 0.0,
-            "forwards_h_avg_starts": 0.0,
-            "backs_h_avg_games_played": 0.0,
-            "backs_h_avg_starts": 0.0,
-            "total_h_avg_games_played": 0.0,
-            "lineup_a_avg_games_played": 0.0,
-            "lineup_a_avg_starts": 0.0,
-            "subs_a_avg_games_played": 0.0,
-            "charniere_a_avg_games_played": 0.0,
-            "charniere_a_avg_starts": 0.0,
-            "forwards_a_avg_games_played": 0.0,
-            "forwards_a_avg_starts": 0.0,
-            "backs_a_avg_games_played": 0.0,
-            "backs_a_avg_starts": 0.0,
-            "total_a_avg_games_played": 0.0
+            "lineup_h_avg_games_played": 5.67,
+            "lineup_h_avg_starts": 4.07,
+            "subs_h_avg_games_played": 3.88,
+            "charniere_h_avg_games_played": 4.5,
+            "charniere_h_avg_starts": 1.5,
+            "forwards_h_avg_games_played": 5.62,
+            "forwards_h_avg_starts": 3.62,
+            "backs_h_avg_games_played": 6.2,
+            "backs_h_avg_starts": 5.8,
+            "total_h_avg_games_played": 5.04,
+            "lineup_a_avg_games_played": 4.8,
+            "lineup_a_avg_starts": 3.8,
+            "subs_a_avg_games_played": 5.0,
+            "charniere_a_avg_games_played": 5.0,
+            "charniere_a_avg_starts": 3.5,
+            "forwards_a_avg_games_played": 5.88,
+            "forwards_a_avg_starts": 4.75,
+            "backs_a_avg_games_played": 3.0,
+            "backs_a_avg_starts": 2.4,
+            "total_a_avg_games_played": 4.87
           },
           "derived": {
-            "lineup_adj_elo_diff": 12.255637148602545,
-            "elo_lineup_interaction": 0.0,
+            "lineup_adj_elo_diff": 12.595637148602545,
+            "elo_lineup_interaction": 0.02083458315262432,
             "disruption_diff": 0.0,
-            "charniere_vs_total_diff": 0.0,
-            "fwd_dominance_diff": 0.0
+            "charniere_vs_total_diff": -2.2700000000000005,
+            "fwd_dominance_diff": -4.529999999999999
           },
           "weather": {
             "rain_mm": 0.0,
-            "wind_speed_kmh": 2.5,
-            "temperature_c": 30.4
+            "wind_speed_kmh": 9.0,
+            "temperature_c": 28.3
           },
           "actual": null,
           "actual_outcome": null,
@@ -204,7 +207,7 @@
       "complete": false,
       "base_correct": 0,
       "lineup_correct": 0,
-      "total": 0
+      "total": 1
     },
     "history": [
       {
@@ -42392,5 +42395,5 @@
       }
     }
   },
-  "generated_at": "27/05/2026 à 23:44"
+  "generated_at": "29/05/2026 à 12:16"
 }
