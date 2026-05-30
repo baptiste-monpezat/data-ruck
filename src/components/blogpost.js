@@ -1,28 +1,15 @@
 import * as React from "react"
+import Tag from "./tag"
 
-import Tag from "../components/tag"
-
-
-
-const BlogPost = ({ id, title, date, excerpt, categories }) => {
-
-    return (
-        <div className="flex flex-col gap-2">
-            <p className="text-ellipsis font-bold text-2xl text-red-900 dark:text-red-500">{title}</p>
-            <p className="text-base text-red-900 dark:text-slate-400">{date}</p>
-            <p className="text-ellipsis line-clamp-2 text-lg text-black max-w-prose dark:text-white">{excerpt}</p>
-
-            <div className="flex flex-row gap-3">
-                {
-                    categories.split('|').map((category) => {
-                        return <Tag key={category} category={category} />
-                    })
-
-                }
-            </div>
-
+const BlogPost = ({ title, date, excerpt, categories }) => (
+    <div>
+        <div className="oa-article-date">{date}</div>
+        <div className="oa-article-title">{title}</div>
+        {excerpt && <div className="oa-article-excerpt">{excerpt}</div>}
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '14px' }}>
+            {(categories || '').split('|').filter(Boolean).map(cat => <Tag key={cat} category={cat} />)}
         </div>
-    )
-}
+    </div>
+)
 
 export default BlogPost

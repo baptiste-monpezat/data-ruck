@@ -39,6 +39,17 @@ const DropDown = () => {
                         </Menu.Item>
                         <Menu.Item>
                             {({ active }) => (
+                                <Link to="/predictions">
+                                    <button
+                                        className={`font-bold text-red-900 dark:text-white hover:bg-red-50 dark:hover:bg-slate-500 group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                    >
+                                        PREDICTIONS
+                                    </button>
+                                </Link>
+                            )}
+                        </Menu.Item>
+                        <Menu.Item>
+                            {({ active }) => (
                                 <Link to="/about">
                                     <button
                                         className={`font-bold text-red-900 dark:text-white hover:bg-red-50 dark:hover:bg-slate-500 group flex w-full items-center rounded-md px-2 py-2 text-sm`}

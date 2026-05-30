@@ -1,122 +1,132 @@
 ---
-title: "Predicting penalties and conversions success"
+title: "Prédire la réussite des pénalités et transformations"
 slug: "predicting-kicks-outcome"
 datePublished: "2023-12-31"
 author: "Baptiste Monpezat"
-categories: "Machine Learning | Penalties | Conversions"
+lang: "fr"
+categories: "Machine Learning | Pénalités | Transformations"
 ---
 
-# Rugby World Cup 2023 Kicks probability insight 
+# La probabilité des coups de pied à la Coupe du monde 2023
 
-If you watched the 2023 Rugby World Cup, you probably noticed the little insight cards that sometimes 
-popped up on your tv screen when a player was preparing for a kick. This insight informed us about the 
-distance, probability and angle of the kick. 
+Si vous avez regardé la Coupe du monde de rugby 2023, vous avez sans doute remarqué les petites
+infographies qui apparaissaient parfois à l'écran lorsqu'un joueur se préparait à botter. Ces
+encarts nous informaient sur la distance, la probabilité de réussite et l'angle du coup de pied.
 
 ![Johnny Sexton - Rugby World Cup 2023 ](../images/kicks_success_predictor/rwc_kicks_predictor.jpg)
 <div class="center-em">
-*Johnny Sexton tossing a coin*
+*Johnny Sexton lance une pièce*
 </div>
 
-Does Johnny Sexton scored this transformation? You will know at the end of this article. With 53% success probability, 
-it is as much likely as getting a tail or head on a coin toss... 
+Johnny Sexton a-t-il réussi cette transformation ? Vous le saurez à la fin de cet article. Avec une
+probabilité de réussite de 53 %, c'est à peu près aussi aléatoire que pile ou face...
 
-Working as a Data Scientist, this data insights caught my attention and I was quite excited to know 
-the probability of success for the kicks (Don't judge! I know I'm a weird data geek...). 
-The irrestible desire to compute this probability was building up everytime the insight popped up!
-I started to wonder: 
-- What data did they use? 
-- How did they compute this probability? 
-- How much accurate is this prediction? 
-- Is France going to win the World Cup?
+En tant que Data Scientist, ces infographies ont immédiatement capté mon attention et j'étais
+impatient de comprendre comment on calcule une telle probabilité (Ne me jugez pas ! Je sais que
+je suis un geek des données un peu bizarre...).
+L'envie irrésistible de reproduire ce calcul grandissait à chaque apparition de l'encart !
+Je me suis mis à me poser des questions :
+- Quelles données ont-ils utilisées ?
+- Comment ont-ils calculé cette probabilité ?
+- Quelle est la précision de cette prédiction ?
+- La France allait-elle gagner la Coupe du monde ?
 
-Good news, we will answer those questions in this article. Bad news, if you are still reading this, you are
-probably a weird data geek like me... 
+Bonne nouvelle : nous allons répondre à ces questions dans cet article. Mauvaise nouvelle : si vous
+lisez encore, vous êtes probablement un geek des données aussi bizarre que moi...
 
-I recommend reading my previous article [Finding the sweet spot that maximizes kick angle](https://www.data-ruck.com/blog/maximizing-kick-angle/) 
-before going further, as we will use some results in this article. 
+Je vous recommande de lire mon article précédent [Trouver le point optimal qui maximise l'angle de transformation](https://www.data-ruck.com/blog/maximizing-kick-angle/)
+avant de continuer, car nous allons y réutiliser certains résultats.
 
-# Exploring 2023 Rugby World Cup Kicks 
+# Explorer les coups de pied de la Coupe du monde 2023
 
-We will use the kicks data from 2023 Rugby World Cup. There were:
-    - 318 conversions  
-    - 197 penalties
+Nous allons utiliser les données des coups de pied de la Coupe du monde de rugby 2023. On dénombre :
+    - 318 transformations
+    - 197 pénalités
 
 ![Rugby World Cup 2023 Kicks Type](../images/kicks_success_predictor/kicks_type.jpg)
 
-Hooray! We have in total 515 kicks that we can use to compute kicks outcome probability. We will also need the outcome of the kicks: 
-is the kick missed or not ? Luckily we got that! 
-- 64 conversions were missed, about 25%
-- 50 penalties were missed about 34% 
+Parfait ! Nous disposons au total de 515 coups de pied pour estimer la probabilité de réussite. Il
+nous faut également connaître le résultat de chaque coup de pied : réussi ou raté ? Bonne nouvelle,
+nous avons cette information !
+- 64 transformations ratées, soit environ 25 %
+- 50 pénalités ratées, soit environ 34 %
 
 ![Rugby World Cup 2023 Kicks Outcome](../images/kicks_success_predictor/kicks_outcome.jpg)
 
-Congrats to Argentinian player Emiliano Boffelli who scored the farthest penalty of the world cup (55m) against Wales!
+Bravo à l'Argentin Emiliano Boffelli qui a inscrit la pénalité la plus lointaine de la compétition
+(55 m) face au Pays de Galles !
 
-We've got everything we need to start working! Let's goooooo!
+Nous avons tout ce qu'il nous faut pour commencer. C'est parti !
 
-# Defining our machine learning problem
+# Définir notre problème de machine learning
 
-Our problem is what we call a **classification problem**: using some features (distance,angle,wind speed...), we want to predict 
-one of the two classes: Missed or Scored.
+Notre problème est ce qu'on appelle un **problème de classification** : à partir de certaines
+variables (distance, angle, vitesse du vent...), nous voulons prédire l'une des deux classes :
+Raté ou Réussi.
 
-For those that are not familiar with machine learning, a feature is an independant variable that will be used to feed 
-a statistical model. If you watch a game, and try to predict the outcome of a kick yourself, It is likely that you take the distance and 
-angle as features to take your decision. 
+Pour ceux qui ne sont pas familiers avec le machine learning, une variable (ou *feature*) est une
+variable indépendante qui sert à alimenter un modèle statistique. Si vous regardez un match et
+essayez de prédire vous-même le résultat d'un coup de pied, vous vous basez probablement sur la
+distance et l'angle — ce sont vos *features*.
 
-So we will compute the distance from goal posts and angle for every kick in our dataset. 
+Nous allons donc calculer la distance aux poteaux et l'angle pour chaque coup de pied du jeu de
+données.
 
 ![Rugby World Cup 2023 Kicks Outcome](../images/kicks_success_predictor/pitch.jpg)
 
-The formula to compute angle is: $$ \theta(x)   = Arctan(\frac{k+y}{x})-Arctan(\frac{y}{x}) $$ \
-The formula to compute distance is: $$ d = \sqrt{x^2+y^2} $$ \
-Note that the angle equation is not the same between goal posts. If you want to learn more about those formulas, please read: [Finding the sweet spot that maximizes kick angle](https://www.data-ruck.com/blog/maximizing-kick-angle/) \
-For sure, the wind speed and wind direction are important features, but we don't have this information. 
+La formule pour calculer l'angle est : $$ \theta(x)   = Arctan(\frac{k+y}{x})-Arctan(\frac{y}{x}) $$ \
+La formule pour calculer la distance est : $$ d = \sqrt{x^2+y^2} $$ \
+L'équation de l'angle diffère lorsque l'essai est marqué entre les poteaux. Pour en savoir plus sur ces formules, lisez : [Trouver le point optimal qui maximise l'angle de transformation](https://www.data-ruck.com/blog/maximizing-kick-angle/) \
+La vitesse et la direction du vent sont bien sûr des variables importantes, mais nous ne disposons
+pas de cette information.
 
-# Generating "fake" data points 
+# Générer des points de données "artificiels"
 
-We want to be able to predict the outcome of a kick from every coordinates on the pitch. 
-MAYDAY we got a problem! In fact we got two issues: 
-- The dataset is unbalanced: we have a lot more Scored kicks (401 kicks) than Missed Kicks (114 kicks). This issue 
-can affect our model perfomance as the model will have a poor precision predicting the Missed kicks.
-- Some areas on the field don't have any data points we can learn from: Damn no one tried to kick from the goal line... 
-So it is likely that our model will predict a success probability > 0 for a kick on the goal line (which is wrong, unless you are 
-Antoine Dupont: [Watch Video](https://www.dailymotion.com/video/x8osne7))
+Nous souhaitons pouvoir prédire le résultat d'un coup de pied depuis n'importe quelle coordonnée
+du terrain. Problème ! En réalité, nous en avons deux :
+- Le jeu de données est déséquilibré : nous avons beaucoup plus de coups de pied réussis (401)
+que ratés (114). Ce déséquilibre peut nuire aux performances du modèle, qui aura du mal à
+prédire correctement les coups ratés.
+- Certaines zones du terrain ne contiennent aucune donnée : personne n'a botté depuis la ligne
+d'en-but... Notre modèle risque donc d'attribuer une probabilité de réussite supérieure à 0 pour
+un coup botté sur la ligne d'en-but, ce qui est faux — sauf si vous êtes Antoine Dupont :
+[Voir la vidéo](https://www.dailymotion.com/video/x8osne7)
 
-In order to tackle those issues, I artificially generated 276 Missed kicks. 
-I generated those failed kicks on the goal line and 90 meters away from it (the actual world record is 65.5 meters)
-It tackles both issues as the dataset is now balanced, and the model will learn that the probability to score a kick on the 
-goal line is close to 0.
+Pour remédier à ces problèmes, j'ai généré artificiellement 276 coups de pied ratés. Ces coups
+fictifs ont été placés sur la ligne d'en-but et à 90 mètres de celle-ci (le record du monde réel est
+de 65,5 mètres). Cela résout les deux problèmes : le jeu de données est désormais équilibré, et
+le modèle apprend que la probabilité de réussite sur la ligne d'en-but est proche de 0.
 
 ![Generating Fake Data Points](../images/kicks_success_predictor/generated_kicks.jpg)
 
-# Fitting our model 
+# Ajuster notre modèle
 
-The more parameters in the model, the more data you need to train it. Thus it is important to choose a simple model. 
-We will use a logistic regression function to predict kicks outcome. \
-The logistic function has a S shape and varies between 0 and 1. \
-1 is the class for **Scored** kicks\
-0 is the class for **Missed** kicks\
-Our model is the following:
+Plus un modèle contient de paramètres, plus il a besoin de données pour être entraîné. Il est donc
+important de choisir un modèle simple. Nous utiliserons une **régression logistique** pour prédire
+le résultat des coups de pied. \
+La fonction logistique a une forme en S et varie entre 0 et 1. \
+1 correspond à la classe **Réussi**\
+0 correspond à la classe **Raté**\
+Notre modèle est le suivant :
 $$
 \begin{aligned}
-P_{Scored} = \frac{1}{1+  e^{-(\beta_{angle}\times x_{angle} + \beta_{distance} \times x_{distance} + k)}}
+P_{Réussi} = \frac{1}{1+  e^{-(\beta_{angle}\times x_{angle} + \beta_{distance} \times x_{distance} + k)}}
 \end{aligned}
 $$
 
-with $$P_{Scored}$$ being the probability of success.\
-$$x_{angle}$$ is the kick angle\
-$$x_{distance}$$ is the kick distance\
-$$ k $$ is the intercept 
-
+avec $$P_{Réussi}$$ la probabilité de réussite.\
+$$x_{angle}$$ est l'angle du coup de pied\
+$$x_{distance}$$ est la distance du coup de pied\
+$$ k $$ est l'intercepte
 
 ![Logistic Regression](../images/kicks_success_predictor/logistic_regression.jpg)
 
-Fitting our models is the process of searching for the coefficients $$ \beta_{angle}$$, $$\beta_{distance}$$ and $$k$$ that minimizes 
-the prediction error. Let's do it!
+Ajuster le modèle consiste à rechercher les coefficients $$ \beta_{angle}$$, $$\beta_{distance}$$ et $$k$$ qui minimisent
+l'erreur de prédiction. À vos marques !
 
-# Predicting kicks probabilities!
+# Prédire la probabilité des coups de pied !
 
-We fitted our model, and here is what we found: 
+Après ajustement, voici les coefficients obtenus :
 $$
 \begin{aligned}
 \beta_{angle}\approx 0.45 \\
@@ -127,24 +137,26 @@ k \approx -1.78
 \end{aligned}
 $$
 
-The larger the angle, the more likely the kick is a success.
-The larger the distance, the more likely the kick is missed.
+Plus l'angle est grand, plus le coup de pied a de chances d'être réussi.
+Plus la distance est grande, plus le coup de pied a de chances d'être raté.
 
-The model has an accuracy of 81%, it means that we successfully predicts a kick outcome 8 times out of 10.
-Let's draw the predicted probability on the rugby pitch! 
-In my last article, I computed the optimum kick distance that maximizes kick angle. On the 
-following figure we see that the maximum probability computed with our model is very close 
-to the maximum kick angle line
+Le modèle atteint une précision de 81 %, ce qui signifie qu'il prédit correctement le résultat
+8 fois sur 10. Traçons la probabilité prédite sur le terrain de rugby !
+Dans mon article précédent, j'avais calculé la distance optimale de frappe qui maximise l'angle.
+Sur la figure ci-dessous, on constate que la probabilité maximale calculée par notre modèle est
+très proche de cette ligne de distance optimale.
 
 ![Kicks Success Probability](../images/kicks_success_predictor/probability_angle.jpg)
 
-I computed all the probability gap between the missed conversion and the location on the maximum probability line.
-The gap is very low, but at this level every chance to score has to be taken. 
+J'ai calculé l'écart de probabilité entre les transformations ratées et la position sur la ligne de
+probabilité maximale. Cet écart est très faible, mais à ce niveau de compétition, chaque
+opportunité de marquer doit être saisie.
 
-This model has some limitations as it doesn't take into account some variables such as weather condition or the fact that
-a player can charge down the kicker. It is still a good insight for team to take a decision wether or not to kick a penalty
-based on the probability of success. 
+Ce modèle a ses limites : il ne prend pas en compte des variables comme les conditions
+météorologiques ou la possibilité qu'un joueur charge sur le botteur. Il constitue néanmoins une
+aide précieuse pour qu'une équipe décide si elle doit tenter une pénalité en fonction de sa
+probabilité de réussite.
 
-For those who are still reading, yes!! Johnny Sexton scored this transformation. 
+Pour ceux qui lisent encore : oui !! Johnny Sexton a réussi cette transformation.
 
-Thank you for reading! 
+Merci d'avoir lu !

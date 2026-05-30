@@ -1,81 +1,78 @@
 ---
-title: "Finding the sweet spot that maximizes kick angle"
+title: "Trouver le point optimal qui maximise l'angle de transformation"
 slug: "maximizing-kick-angle"
 datePublished: "2023-12-19"
 author: "Baptiste Monpezat"
-categories: "Maths | Penalties | Conversions | Trigonometry | Angle"
+lang: "fr"
+categories: "Maths | Pénalités | Transformations | Trigonométrie | Angle"
 ---
 
-# A simple math problem!
+# Un problème de maths simple !
 
-In this first blog post, we go back to mathematics basics: **Trigonometry, derivatives and maximum...**\
-Don't leave !!! I swear that it will be fun and applied on rugby!
+Dans ce premier article de blog, on revient aux bases des mathématiques : **trigonométrie, dérivées et maximum...**\
+Ne partez pas ! Je vous promets que ce sera fun et appliqué au rugby !
 
-I had the idea about this article because I wanted to compute the probability of success for a penalty kick 
-or a try conversion. I was thinking about the variables that may impact this probability of success: **position on the pitch, distance from crossbar
-or angle**.
+J'ai eu l'idée de cet article parce que je voulais calculer la probabilité de réussite d'une pénalité ou d'une transformation. Je réfléchissais aux variables qui peuvent influencer cette probabilité : **la position sur le terrain, la distance à la barre transversale ou l'angle**.
 
-For thus that are not familiar with rugby rules, when a try is scored it gives that team the right to attempt a conversion. 
-The kicker takes the kick in the field of play on a line through the place where the try was awarded, parallel to the touchlines.
-How do the kicker chose the distance to take the kick ? This is the question we try to answer below.\
+Pour ceux qui ne connaissent pas bien les règles du rugby, quand un essai est marqué, l'équipe a le droit à une tentative de transformation. Le botteur prend le coup de pied dans le terrain de jeu sur une ligne passant par l'endroit où l'essai a été accordé, parallèle aux lignes de touche.
+Comment le botteur choisit-il la distance à laquelle prendre le coup de pied ? C'est la question à laquelle nous essayons de répondre ci-dessous.\
 
-One of the possible answer is: the kicker will takes the kick at the distance that maximizes the angle between him and 
-the two goal posts. **The larger the angle, the higher the probability of success!**
+Une des réponses possibles est : le botteur prend le coup de pied à la distance qui maximise l'angle entre lui et les deux poteaux. **Plus l'angle est grand, plus la probabilité de réussite est élevée !**
 
-Let's draw our problem:
-- Y is the distance between the right goal post and the try.
-- k is the crossbar length, it is a constant k = 5.6m.
-- θ is the angle between the kick and goal posts
-- x is the kick distance from goal line.
+Posons le problème :
+- Y est la distance entre le poteau droit et l'endroit de l'essai.
+- k est la longueur de la barre transversale, constante égale à k = 5,6 m.
+- θ est l'angle entre le botteur et les poteaux.
+- x est la distance de frappe par rapport à la ligne d'en-but.
 
 ![Data Ruck Rugby pitch case 1](../images/maximize_kick_angle/pitch.jpg)
 <div class="center-em">
-*Rugby Pitch Figure*
+*Schéma du terrain de rugby*
 </div>
 
 
-We can formulate our problem as follow: **given the distance Y, we will compute x that maximizes θ.**\
-You see it is a simple math problem ! If we remember Trigonometry ...
+On peut formuler notre problème ainsi : **étant donné la distance Y, on cherche x qui maximise θ.**\
+Vous voyez, c'est un problème de maths simple ! Si on se souvient de la trigonométrie...
 
-# Remembering Trigonometry!
+# Retrouver la trigonométrie !
 
-Remember sinus, cosinus and tangent? It is time to use those old good friends. 
-As we want to find x that maximizes θ, we will write θ as a function of x:
+Vous vous souvenez du sinus, cosinus et tangente ? Il est temps de ressortir ces vieux amis.
+Comme on veut trouver x qui maximise θ, on va écrire θ en fonction de x :
 
 $$
 tan(\theta + \alpha) = \frac{k+y}{x} \\[16pt]
 \theta + \alpha = Arctan(\frac{k+y}{x}) \\[16pt]
-\text{$\theta   = Arctan(\frac{k+y}{x})-\alpha, \:$ with $\: \alpha=tan(\frac{y}{x})$} \\[16pt]
+\text{$\theta   = Arctan(\frac{k+y}{x})-\alpha, \:$ avec $\: \alpha=tan(\frac{y}{x})$} \\[16pt]
 \theta(x)   = Arctan(\frac{k+y}{x})-Arctan(\frac{y}{x})
 $$
 
-Let's draw θ(x) for y=50m
+Traçons θ(x) pour y = 50 m :
 
 ![Angle Function Case 1](../images/maximize_kick_angle/theta_x.jpg)
 <div class="center-em">
-*Figure of θ(x)*
+*Tracé de θ(x)*
 </div>
 
 
-We set X max, the distance from crossbar that maximizes the kick angle.
-Using Fermat's theorem, we know that θ has a maximum where its derivative equals 0.
+On note X max la distance à la barre transversale qui maximise l'angle de frappe.
+Par le théorème de Fermat, on sait que θ admet un maximum là où sa dérivée est nulle.
 
 
-# Finding the sweet spot X max! 
+# Trouver le point optimal X max !
 
-We have to compute the derivative $$ \large \frac{\partial \theta}{\partial x} $$ and find x so that $$\large \frac{\partial \theta}{\partial x} = 0$$ \
-The derivative of Arctan is:
+On doit calculer la dérivée $$ \large \frac{\partial \theta}{\partial x} $$ et trouver x tel que $$\large \frac{\partial \theta}{\partial x} = 0$$ \
+La dérivée de Arctan est :
 $$ 
 Arctan'(x)=\frac{1}{1+x^2}
 $$
 
-The derivative of a composed function $$  \frac{1}{f(x)} $$ is:
+La dérivée d'une fonction composée $$  \frac{1}{f(x)} $$ est :
 
 $$ 
 - \frac{f'(x)}{f(x)^2}
 $$
 
-Knowing that we can compute the $$ \theta(x) $$ derivative:
+On peut donc calculer la dérivée de $$ \theta(x) $$ :
 
 $$
 \frac{\partial \theta}{\partial x} = - \frac{(k+y)}{x^2}\times\frac{1}{1+(\frac{k+y}{x})^2} + \frac{y}{x^2}\times\frac{1}{1+\frac{y^2}{x^2}} \\[16pt]
@@ -85,7 +82,7 @@ $$
 \Rightarrow  \frac{\partial \theta}{\partial x} = \frac{yk^2+ky^2-kx^2}{(x^2+y^2) \times (x^2+k^2+2yk+y^2)}
 $$
 
-We now have to find x so that  $$\large \frac{\partial \theta}{\partial x} = 0$$
+On cherche maintenant x tel que $$\large \frac{\partial \theta}{\partial x} = 0$$
 
 $$
 \begin{aligned}
@@ -97,38 +94,36 @@ $$
 \end{aligned}
 $$
 
-Hooray! we just found the sweet spot equation! For a try located at 10m from the right goal post, the 
-distance that maximizes the kick angle is: 
+On a trouvé la formule du point optimal ! Pour un essai marqué à 10 m du poteau droit, la distance qui maximise l'angle est :
 
 $$ 
 \begin{aligned}
-x_{max} = \sqrt{10^2 + 10\times5.6} = 12.5m 
+x_{max} = \sqrt{10^2 + 10\times5.6} = 12.5\text{ m}
 \end{aligned}
 $$
 
-Let's draw the sweet spot distance vs y: 
+Traçons la distance optimale en fonction de y :
 
 ![Optimum X vs y case 1](../images/maximize_kick_angle/optimum_x.jpg)
 <div class="center-em">
-*X Max vs y*
+*X Max en fonction de y*
 </div>
 
-This equation is true when the try is located on the right or left of the goal posts. It differs when the try is scored
-between the goal posts.
+Cette équation est valable quand l'essai est marqué à droite ou à gauche des poteaux. Elle diffère quand l'essai est marqué entre les poteaux.
 
-Let's compute the angle equation for this case:
+Calculons l'équation d'angle pour ce cas :
 
 ![Data Ruck Rugby pitch case 2](../images/maximize_kick_angle/new_pitch.jpg)
 <div class="center-em">
-*Rugby Pitch math when try between goal posts*
+*Schéma mathématique quand l'essai est marqué entre les poteaux*
 </div>
 
 
-We have: 
+On a :
 
 $$
 \begin{aligned}
-k = a+b = 5.6m \\
+k = a+b = 5.6\text{ m} \\
 \theta = \alpha + \beta \\[16pt]
 tan(\theta) = \frac{tan(\alpha)+tan(\beta)}{1-tan(\alpha)\times tan(\beta)} \\[16pt]
 \Rightarrow tan(\theta) = \frac{\frac{a}{x}+\frac{b}{x}}{1-\frac{ab}{x^2}} \\[16pt]
@@ -137,44 +132,39 @@ tan(\theta) = \frac{tan(\alpha)+tan(\beta)}{1-tan(\alpha)\times tan(\beta)} \\[1
 \end{aligned}
 $$
 
-This function is not defined for $$ x=\sqrt(ab) $$ as the denominator would be 0. 
-Let's draw it for a=2m:
+Cette fonction n'est pas définie pour $$ x=\sqrt(ab) $$ car le dénominateur serait nul.
+Traçons-la pour a = 2 m :
 
 ![Angle Function Case 2](../images/maximize_kick_angle/theta_x_2.jpg)
 <div class="center-em">
-*Figure of θ(x)*
+*Tracé de θ(x)*
 </div>
 
 
-The function tends to 90 degrees when x tend to $$ \sqrt(ab)$$ from the right side.
-Enough calculus, let's put everything together and plot the sweet spots on the pitch ! 
+La fonction tend vers 90 degrés quand x tend vers $$ \sqrt(ab)$$ par la droite.
+Assez de calculs, mettons tout ça ensemble et traçons les points optimaux sur le terrain !
 
 
-# A good fit 
+# Un résultat convaincant
 
-I computed X max for every y point (from 0 to 70m as a rugby pitch width is 70m). Here is the result: 
+J'ai calculé X max pour chaque valeur de y (de 0 à 70 m, la largeur d'un terrain de rugby). Voici le résultat :
 
 ![Optimum distance](../images/maximize_kick_angle/optimum_line.jpg)
 <div class="center-em">
-*Figure of the optimal distance that maximizes angle*
+*Distance optimale qui maximise l'angle*
 </div>
 
-Of course the angle is not the only variable to take into account. When the try is scored between 
-the two goal posts, the optimum distance that we computed seems to be too small. Players take into consideration 
-the height of the cross bar (3m) and also the distance to the goal line.
+Bien sûr, l'angle n'est pas la seule variable à prendre en compte. Quand l'essai est marqué entre les deux poteaux, la distance optimale calculée semble trop faible. Les joueurs tiennent compte de la hauteur de la barre transversale (3 m) et de la distance à la ligne d'en-but.
 
-It would be interesting to know how players place themselves to kick a conversion or a penalty... 
-Do they have the equation we computed in mind ? 
-Here are all the conversions that were kicked during 2023 Rugby World cup. Without any surprise, 
-we see that players choose the distance kick close to the optimum distance we computed !
+Il serait intéressant de savoir comment les joueurs se positionnent réellement pour botter une transformation ou une pénalité…
+Ont-ils la formule en tête ?
+Voici toutes les transformations bottées lors de la Coupe du monde de rugby 2023. Sans surprise, on constate que les joueurs choisissent une distance de frappe très proche de la distance optimale calculée !
 
 ![Rugby world cup 2023 conversion coordinates](../images/maximize_kick_angle/optimum_line_with_penalties.jpg)
 <div class="center-em">
-*Rugby world cup 2023 conversion coordinates* 
+*Coordonnées des transformations de la Coupe du monde 2023*
 </div>
 
-This first article was a good warm up! In the following article, we will continue diving into 
-the science of rugby kicks: we will try to build a model predicting success probability based on kicks 
-coordinates! 
+Cet article était une bonne mise en jambes ! Dans le suivant, on continuera à explorer la science des coups de pied au rugby : on cherchera à construire un modèle prédisant la probabilité de réussite à partir des coordonnées de frappe !
 
-Thank you for reading! 
+Merci d'avoir lu !

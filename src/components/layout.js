@@ -1,21 +1,15 @@
-import * as React from "react";
-
+import * as React from "react"
 import Navbar from "./navbar"
 import Footer from "./footer"
 
-
-const Layout = ({ children }) => {
-    return (
-        <>
-
-            <main className="flex flex-col dark:bg-slate-800 min-h-screen">
-                <Navbar />
-                {children}
-                <Footer />
-            </main>
-        </>
-
-    )
-}
+const Layout = ({ children }) => (
+    <div style={{ background: 'var(--ink)', color: 'var(--chalk)', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <Navbar />
+        <main style={{ flex: 1 }}>
+            {children}
+        </main>
+        <Footer />
+    </div>
+)
 
 export default Layout
