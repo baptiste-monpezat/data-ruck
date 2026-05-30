@@ -90,7 +90,7 @@ const Navbar = () => {
                         onMouseEnter={e => e.currentTarget.style.transform = 'translateY(-1px)'}
                         onMouseLeave={e => e.currentTarget.style.transform = ''}
                     >
-                        Book a call
+                        Me contacter
                     </a>
 
                     {/* Mobile hamburger */}
@@ -153,7 +153,7 @@ const Navbar = () => {
                             textAlign: 'center',
                         }}
                     >
-                        Book a call →
+                        Me contacter →
                     </a>
                 </div>
             )}
