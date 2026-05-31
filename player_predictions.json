@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T15:49:24.618542",
+  "generated_at": "2026-05-31T16:14:40.101282",
   "matches": [
     {
       "home": "ASM Clermont",
@@ -13,6 +13,19 @@
           "team": "Racing 92",
           "position": "wing",
           "season_pct": 50.0,
+          "feats": {
+            "player_try_rate": 50.0,
+            "team_attack": 3.75,
+            "opp_defense": 3.88,
+            "exp_tries": 7.62,
+            "elo_team": 1668,
+            "elo_diff": 2,
+            "rank_scored_pg": 31.5,
+            "rank_opp_conceded": 26.5,
+            "games_played": 8,
+            "is_home": 0,
+            "team_exp_norm": 45.5
+          },
           "try_proba": 45.5
         },
         {
@@ -21,6 +34,19 @@
           "team": "Racing 92",
           "position": "wing",
           "season_pct": 27.8,
+          "feats": {
+            "player_try_rate": 27.8,
+            "team_attack": 3.75,
+            "opp_defense": 3.88,
+            "exp_tries": 7.62,
+            "elo_team": 1668,
+            "elo_diff": 2,
+            "rank_scored_pg": 31.5,
+            "rank_opp_conceded": 26.5,
+            "games_played": 18,
+            "is_home": 0,
+            "team_exp_norm": 41.8
+          },
           "try_proba": 41.8
         },
         {
@@ -29,6 +55,19 @@
           "team": "ASM Clermont",
           "position": "fullback",
           "season_pct": 23.5,
+          "feats": {
+            "player_try_rate": 23.5,
+            "team_attack": 3.88,
+            "opp_defense": 3.75,
+            "exp_tries": 7.62,
+            "elo_team": 1665,
+            "elo_diff": -2,
+            "rank_scored_pg": 31.9,
+            "rank_opp_conceded": 28.8,
+            "games_played": 17,
+            "is_home": 1,
+            "team_exp_norm": 41.7
+          },
           "try_proba": 41.7
         },
         {
@@ -37,6 +76,19 @@
           "team": "Racing 92",
           "position": "fullback",
           "season_pct": 15.4,
+          "feats": {
+            "player_try_rate": 15.4,
+            "team_attack": 3.75,
+            "opp_defense": 3.88,
+            "exp_tries": 7.62,
+            "elo_team": 1668,
+            "elo_diff": 2,
+            "rank_scored_pg": 31.5,
+            "rank_opp_conceded": 26.5,
+            "games_played": 13,
+            "is_home": 0,
+            "team_exp_norm": 34.6
+          },
           "try_proba": 34.6
         },
         {
@@ -45,6 +97,19 @@
           "team": "ASM Clermont",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.88,
+            "opp_defense": 3.75,
+            "exp_tries": 7.62,
+            "elo_team": 1665,
+            "elo_diff": -2,
+            "rank_scored_pg": 31.9,
+            "rank_opp_conceded": 28.8,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 31.7
+          },
           "try_proba": 31.7
         },
         {
@@ -53,6 +118,19 @@
           "team": "ASM Clermont",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.88,
+            "opp_defense": 3.75,
+            "exp_tries": 7.62,
+            "elo_team": 1665,
+            "elo_diff": -2,
+            "rank_scored_pg": 31.9,
+            "rank_opp_conceded": 28.8,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 31.7
+          },
           "try_proba": 31.7
         },
         {
@@ -61,6 +139,19 @@
           "team": "ASM Clermont",
           "position": "front_row",
           "season_pct": 15.8,
+          "feats": {
+            "player_try_rate": 15.8,
+            "team_attack": 3.88,
+            "opp_defense": 3.75,
+            "exp_tries": 7.62,
+            "elo_team": 1665,
+            "elo_diff": -2,
+            "rank_scored_pg": 31.9,
+            "rank_opp_conceded": 28.8,
+            "games_played": 19,
+            "is_home": 1,
+            "team_exp_norm": 31.4
+          },
           "try_proba": 31.4
         },
         {
@@ -69,6 +160,19 @@
           "team": "ASM Clermont",
           "position": "flanker",
           "season_pct": 9.1,
+          "feats": {
+            "player_try_rate": 9.1,
+            "team_attack": 3.88,
+            "opp_defense": 3.75,
+            "exp_tries": 7.62,
+            "elo_team": 1665,
+            "elo_diff": -2,
+            "rank_scored_pg": 31.9,
+            "rank_opp_conceded": 28.8,
+            "games_played": 11,
+            "is_home": 1,
+            "team_exp_norm": 30.1
+          },
           "try_proba": 30.1
         },
         {
@@ -77,6 +181,19 @@
           "team": "Racing 92",
           "position": "front_row",
           "season_pct": 22.2,
+          "feats": {
+            "player_try_rate": 22.2,
+            "team_attack": 3.75,
+            "opp_defense": 3.88,
+            "exp_tries": 7.62,
+            "elo_team": 1668,
+            "elo_diff": 2,
+            "rank_scored_pg": 31.5,
+            "rank_opp_conceded": 26.5,
+            "games_played": 18,
+            "is_home": 0,
+            "team_exp_norm": 29.8
+          },
           "try_proba": 29.8
         },
         {
@@ -85,6 +202,19 @@
           "team": "Racing 92",
           "position": "flanker",
           "season_pct": 12.5,
+          "feats": {
+            "player_try_rate": 12.5,
+            "team_attack": 3.75,
+            "opp_defense": 3.88,
+            "exp_tries": 7.62,
+            "elo_team": 1668,
+            "elo_diff": 2,
+            "rank_scored_pg": 31.5,
+            "rank_opp_conceded": 26.5,
+            "games_played": 24,
+            "is_home": 0,
+            "team_exp_norm": 29.0
+          },
           "try_proba": 29.0
         },
         {
@@ -93,6 +223,19 @@
           "team": "ASM Clermont",
           "position": "back_row",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.88,
+            "opp_defense": 3.75,
+            "exp_tries": 7.62,
+            "elo_team": 1665,
+            "elo_diff": -2,
+            "rank_scored_pg": 31.9,
+            "rank_opp_conceded": 28.8,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 27.2
+          },
           "try_proba": 27.2
         },
         {
@@ -101,6 +244,19 @@
           "team": "Racing 92",
           "position": "flanker",
           "season_pct": 14.3,
+          "feats": {
+            "player_try_rate": 14.3,
+            "team_attack": 3.75,
+            "opp_defense": 3.88,
+            "exp_tries": 7.62,
+            "elo_team": 1668,
+            "elo_diff": 2,
+            "rank_scored_pg": 31.5,
+            "rank_opp_conceded": 26.5,
+            "games_played": 7,
+            "is_home": 0,
+            "team_exp_norm": 27.1
+          },
           "try_proba": 27.1
         },
         {
@@ -109,6 +265,19 @@
           "team": "Racing 92",
           "position": "center",
           "season_pct": 15.0,
+          "feats": {
+            "player_try_rate": 15.0,
+            "team_attack": 3.75,
+            "opp_defense": 3.88,
+            "exp_tries": 7.62,
+            "elo_team": 1668,
+            "elo_diff": 2,
+            "rank_scored_pg": 31.5,
+            "rank_opp_conceded": 26.5,
+            "games_played": 20,
+            "is_home": 0,
+            "team_exp_norm": 26.5
+          },
           "try_proba": 26.5
         },
         {
@@ -117,6 +286,19 @@
           "team": "ASM Clermont",
           "position": "lock",
           "season_pct": 5.0,
+          "feats": {
+            "player_try_rate": 5.0,
+            "team_attack": 3.88,
+            "opp_defense": 3.75,
+            "exp_tries": 7.62,
+            "elo_team": 1665,
+            "elo_diff": -2,
+            "rank_scored_pg": 31.9,
+            "rank_opp_conceded": 28.8,
+            "games_played": 20,
+            "is_home": 1,
+            "team_exp_norm": 25.9
+          },
           "try_proba": 25.9
         },
         {
@@ -125,6 +307,19 @@
           "team": "ASM Clermont",
           "position": "halfback",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.88,
+            "opp_defense": 3.75,
+            "exp_tries": 7.62,
+            "elo_team": 1665,
+            "elo_diff": -2,
+            "rank_scored_pg": 31.9,
+            "rank_opp_conceded": 28.8,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 24.3
+          },
           "try_proba": 24.3
         },
         {
@@ -133,6 +328,19 @@
           "team": "ASM Clermont",
           "position": "halfback",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.88,
+            "opp_defense": 3.75,
+            "exp_tries": 7.62,
+            "elo_team": 1665,
+            "elo_diff": -2,
+            "rank_scored_pg": 31.9,
+            "rank_opp_conceded": 28.8,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 24.3
+          },
           "try_proba": 24.3
         }
       ]
@@ -149,6 +357,19 @@
           "team": "Section Paloise",
           "position": "center",
           "season_pct": 47.1,
+          "feats": {
+            "player_try_rate": 47.1,
+            "team_attack": 3.54,
+            "opp_defense": 3.96,
+            "exp_tries": 7.5,
+            "elo_team": 1681,
+            "elo_diff": 34,
+            "rank_scored_pg": 30.3,
+            "rank_opp_conceded": 22.7,
+            "games_played": 17,
+            "is_home": 0,
+            "team_exp_norm": 45.5
+          },
           "try_proba": 45.5
         },
         {
@@ -157,6 +378,19 @@
           "team": "Montpellier Hérault Rugby",
           "position": "wing",
           "season_pct": 27.3,
+          "feats": {
+            "player_try_rate": 27.3,
+            "team_attack": 3.96,
+            "opp_defense": 3.54,
+            "exp_tries": 7.5,
+            "elo_team": 1647,
+            "elo_diff": -34,
+            "rank_scored_pg": 32.1,
+            "rank_opp_conceded": 25.2,
+            "games_played": 22,
+            "is_home": 1,
+            "team_exp_norm": 40.6
+          },
           "try_proba": 40.6
         },
         {
@@ -165,6 +399,19 @@
           "team": "Montpellier Hérault Rugby",
           "position": "fullback",
           "season_pct": 21.7,
+          "feats": {
+            "player_try_rate": 21.7,
+            "team_attack": 3.96,
+            "opp_defense": 3.54,
+            "exp_tries": 7.5,
+            "elo_team": 1647,
+            "elo_diff": -34,
+            "rank_scored_pg": 32.1,
+            "rank_opp_conceded": 25.2,
+            "games_played": 23,
+            "is_home": 1,
+            "team_exp_norm": 38.1
+          },
           "try_proba": 38.1
         },
         {
@@ -173,6 +420,19 @@
           "team": "Section Paloise",
           "position": "back_row",
           "season_pct": 18.8,
+          "feats": {
+            "player_try_rate": 18.8,
+            "team_attack": 3.54,
+            "opp_defense": 3.96,
+            "exp_tries": 7.5,
+            "elo_team": 1681,
+            "elo_diff": 34,
+            "rank_scored_pg": 30.3,
+            "rank_opp_conceded": 22.7,
+            "games_played": 16,
+            "is_home": 0,
+            "team_exp_norm": 37.6
+          },
           "try_proba": 37.6
         },
         {
@@ -181,6 +441,19 @@
           "team": "Montpellier Hérault Rugby",
           "position": "front_row",
           "season_pct": 35.3,
+          "feats": {
+            "player_try_rate": 35.3,
+            "team_attack": 3.96,
+            "opp_defense": 3.54,
+            "exp_tries": 7.5,
+            "elo_team": 1647,
+            "elo_diff": -34,
+            "rank_scored_pg": 32.1,
+            "rank_opp_conceded": 25.2,
+            "games_played": 17,
+            "is_home": 1,
+            "team_exp_norm": 36.5
+          },
           "try_proba": 36.5
         },
         {
@@ -189,6 +462,19 @@
           "team": "Section Paloise",
           "position": "center",
           "season_pct": 25.0,
+          "feats": {
+            "player_try_rate": 25.0,
+            "team_attack": 3.54,
+            "opp_defense": 3.96,
+            "exp_tries": 7.5,
+            "elo_team": 1681,
+            "elo_diff": 34,
+            "rank_scored_pg": 30.3,
+            "rank_opp_conceded": 22.7,
+            "games_played": 4,
+            "is_home": 0,
+            "team_exp_norm": 31.0
+          },
           "try_proba": 31.0
         },
         {
@@ -197,6 +483,19 @@
           "team": "Montpellier Hérault Rugby",
           "position": "back_row",
           "season_pct": 5.0,
+          "feats": {
+            "player_try_rate": 5.0,
+            "team_attack": 3.96,
+            "opp_defense": 3.54,
+            "exp_tries": 7.5,
+            "elo_team": 1647,
+            "elo_diff": -34,
+            "rank_scored_pg": 32.1,
+            "rank_opp_conceded": 25.2,
+            "games_played": 20,
+            "is_home": 1,
+            "team_exp_norm": 29.5
+          },
           "try_proba": 29.5
         },
         {
@@ -205,6 +504,19 @@
           "team": "Montpellier Hérault Rugby",
           "position": "flanker",
           "season_pct": 13.3,
+          "feats": {
+            "player_try_rate": 13.3,
+            "team_attack": 3.96,
+            "opp_defense": 3.54,
+            "exp_tries": 7.5,
+            "elo_team": 1647,
+            "elo_diff": -34,
+            "rank_scored_pg": 32.1,
+            "rank_opp_conceded": 25.2,
+            "games_played": 15,
+            "is_home": 1,
+            "team_exp_norm": 29.3
+          },
           "try_proba": 29.3
         },
         {
@@ -213,6 +525,19 @@
           "team": "Montpellier Hérault Rugby",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.96,
+            "opp_defense": 3.54,
+            "exp_tries": 7.5,
+            "elo_team": 1647,
+            "elo_diff": -34,
+            "rank_scored_pg": 32.1,
+            "rank_opp_conceded": 25.2,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 27.8
+          },
           "try_proba": 27.8
         },
         {
@@ -221,6 +546,19 @@
           "team": "Montpellier Hérault Rugby",
           "position": "center",
           "season_pct": 13.0,
+          "feats": {
+            "player_try_rate": 13.0,
+            "team_attack": 3.96,
+            "opp_defense": 3.54,
+            "exp_tries": 7.5,
+            "elo_team": 1647,
+            "elo_diff": -34,
+            "rank_scored_pg": 32.1,
+            "rank_opp_conceded": 25.2,
+            "games_played": 23,
+            "is_home": 1,
+            "team_exp_norm": 27.4
+          },
           "try_proba": 27.4
         },
         {
@@ -229,6 +567,19 @@
           "team": "Montpellier Hérault Rugby",
           "position": "halfback",
           "season_pct": 6.7,
+          "feats": {
+            "player_try_rate": 6.7,
+            "team_attack": 3.96,
+            "opp_defense": 3.54,
+            "exp_tries": 7.5,
+            "elo_team": 1647,
+            "elo_diff": -34,
+            "rank_scored_pg": 32.1,
+            "rank_opp_conceded": 25.2,
+            "games_played": 15,
+            "is_home": 1,
+            "team_exp_norm": 27.1
+          },
           "try_proba": 27.1
         },
         {
@@ -237,6 +588,19 @@
           "team": "Section Paloise",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.54,
+            "opp_defense": 3.96,
+            "exp_tries": 7.5,
+            "elo_team": 1681,
+            "elo_diff": 34,
+            "rank_scored_pg": 30.3,
+            "rank_opp_conceded": 22.7,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 26.7
+          },
           "try_proba": 26.7
         },
         {
@@ -245,6 +609,19 @@
           "team": "Section Paloise",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.54,
+            "opp_defense": 3.96,
+            "exp_tries": 7.5,
+            "elo_team": 1681,
+            "elo_diff": 34,
+            "rank_scored_pg": 30.3,
+            "rank_opp_conceded": 22.7,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 26.7
+          },
           "try_proba": 26.7
         },
         {
@@ -253,6 +630,19 @@
           "team": "Montpellier Hérault Rugby",
           "position": "center",
           "season_pct": 12.5,
+          "feats": {
+            "player_try_rate": 12.5,
+            "team_attack": 3.96,
+            "opp_defense": 3.54,
+            "exp_tries": 7.5,
+            "elo_team": 1647,
+            "elo_diff": -34,
+            "rank_scored_pg": 32.1,
+            "rank_opp_conceded": 25.2,
+            "games_played": 16,
+            "is_home": 1,
+            "team_exp_norm": 25.9
+          },
           "try_proba": 25.9
         },
         {
@@ -261,6 +651,19 @@
           "team": "Section Paloise",
           "position": "flanker",
           "season_pct": 6.2,
+          "feats": {
+            "player_try_rate": 6.2,
+            "team_attack": 3.54,
+            "opp_defense": 3.96,
+            "exp_tries": 7.5,
+            "elo_team": 1681,
+            "elo_diff": 34,
+            "rank_scored_pg": 30.3,
+            "rank_opp_conceded": 22.7,
+            "games_played": 16,
+            "is_home": 0,
+            "team_exp_norm": 23.8
+          },
           "try_proba": 23.8
         },
         {
@@ -269,6 +672,19 @@
           "team": "Section Paloise",
           "position": "fullback",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.54,
+            "opp_defense": 3.96,
+            "exp_tries": 7.5,
+            "elo_team": 1681,
+            "elo_diff": 34,
+            "rank_scored_pg": 30.3,
+            "rank_opp_conceded": 22.7,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 23.4
+          },
           "try_proba": 23.4
         }
       ]
@@ -285,6 +701,19 @@
           "team": "Union Bordeaux-Bègles",
           "position": "fullback",
           "season_pct": 46.2,
+          "feats": {
+            "player_try_rate": 46.2,
+            "team_attack": 4.38,
+            "opp_defense": 3.62,
+            "exp_tries": 8.0,
+            "elo_team": 1678,
+            "elo_diff": 60,
+            "rank_scored_pg": 32.0,
+            "rank_opp_conceded": 31.7,
+            "games_played": 13,
+            "is_home": 0,
+            "team_exp_norm": 48.3
+          },
           "try_proba": 48.3
         },
         {
@@ -293,6 +722,19 @@
           "team": "Union Bordeaux-Bègles",
           "position": "wing",
           "season_pct": 22.2,
+          "feats": {
+            "player_try_rate": 22.2,
+            "team_attack": 4.38,
+            "opp_defense": 3.62,
+            "exp_tries": 8.0,
+            "elo_team": 1678,
+            "elo_diff": 60,
+            "rank_scored_pg": 32.0,
+            "rank_opp_conceded": 31.7,
+            "games_played": 9,
+            "is_home": 0,
+            "team_exp_norm": 43.6
+          },
           "try_proba": 43.6
         },
         {
@@ -301,6 +743,19 @@
           "team": "RC Toulon",
           "position": "fullback",
           "season_pct": 35.3,
+          "feats": {
+            "player_try_rate": 35.3,
+            "team_attack": 3.62,
+            "opp_defense": 4.38,
+            "exp_tries": 8.0,
+            "elo_team": 1618,
+            "elo_diff": -60,
+            "rank_scored_pg": 27.8,
+            "rank_opp_conceded": 27.4,
+            "games_played": 17,
+            "is_home": 1,
+            "team_exp_norm": 40.8
+          },
           "try_proba": 40.8
         },
         {
@@ -309,6 +764,19 @@
           "team": "Union Bordeaux-Bègles",
           "position": "wing",
           "season_pct": 11.8,
+          "feats": {
+            "player_try_rate": 11.8,
+            "team_attack": 4.38,
+            "opp_defense": 3.62,
+            "exp_tries": 8.0,
+            "elo_team": 1678,
+            "elo_diff": 60,
+            "rank_scored_pg": 32.0,
+            "rank_opp_conceded": 31.7,
+            "games_played": 17,
+            "is_home": 0,
+            "team_exp_norm": 40.3
+          },
           "try_proba": 40.3
         },
         {
@@ -317,6 +785,19 @@
           "team": "RC Toulon",
           "position": "wing",
           "season_pct": 21.7,
+          "feats": {
+            "player_try_rate": 21.7,
+            "team_attack": 3.62,
+            "opp_defense": 4.38,
+            "exp_tries": 8.0,
+            "elo_team": 1618,
+            "elo_diff": -60,
+            "rank_scored_pg": 27.8,
+            "rank_opp_conceded": 27.4,
+            "games_played": 23,
+            "is_home": 1,
+            "team_exp_norm": 39.2
+          },
           "try_proba": 39.2
         },
         {
@@ -325,6 +806,19 @@
           "team": "Union Bordeaux-Bègles",
           "position": "halfback",
           "season_pct": 20.0,
+          "feats": {
+            "player_try_rate": 20.0,
+            "team_attack": 4.38,
+            "opp_defense": 3.62,
+            "exp_tries": 8.0,
+            "elo_team": 1678,
+            "elo_diff": 60,
+            "rank_scored_pg": 32.0,
+            "rank_opp_conceded": 31.7,
+            "games_played": 10,
+            "is_home": 0,
+            "team_exp_norm": 37.5
+          },
           "try_proba": 37.5
         },
         {
@@ -333,6 +827,19 @@
           "team": "Union Bordeaux-Bègles",
           "position": "back_row",
           "season_pct": 11.1,
+          "feats": {
+            "player_try_rate": 11.1,
+            "team_attack": 4.38,
+            "opp_defense": 3.62,
+            "exp_tries": 8.0,
+            "elo_team": 1678,
+            "elo_diff": 60,
+            "rank_scored_pg": 32.0,
+            "rank_opp_conceded": 31.7,
+            "games_played": 18,
+            "is_home": 0,
+            "team_exp_norm": 36.3
+          },
           "try_proba": 36.3
         },
         {
@@ -341,6 +848,19 @@
           "team": "Union Bordeaux-Bègles",
           "position": "center",
           "season_pct": 21.4,
+          "feats": {
+            "player_try_rate": 21.4,
+            "team_attack": 4.38,
+            "opp_defense": 3.62,
+            "exp_tries": 8.0,
+            "elo_team": 1678,
+            "elo_diff": 60,
+            "rank_scored_pg": 32.0,
+            "rank_opp_conceded": 31.7,
+            "games_played": 14,
+            "is_home": 0,
+            "team_exp_norm": 34.3
+          },
           "try_proba": 34.3
         },
         {
@@ -349,6 +869,19 @@
           "team": "RC Toulon",
           "position": "halfback",
           "season_pct": 18.2,
+          "feats": {
+            "player_try_rate": 18.2,
+            "team_attack": 3.62,
+            "opp_defense": 4.38,
+            "exp_tries": 8.0,
+            "elo_team": 1618,
+            "elo_diff": -60,
+            "rank_scored_pg": 27.8,
+            "rank_opp_conceded": 27.4,
+            "games_played": 11,
+            "is_home": 1,
+            "team_exp_norm": 32.5
+          },
           "try_proba": 32.5
         },
         {
@@ -357,6 +890,19 @@
           "team": "Union Bordeaux-Bègles",
           "position": "front_row",
           "season_pct": 16.7,
+          "feats": {
+            "player_try_rate": 16.7,
+            "team_attack": 4.38,
+            "opp_defense": 3.62,
+            "exp_tries": 8.0,
+            "elo_team": 1678,
+            "elo_diff": 60,
+            "rank_scored_pg": 32.0,
+            "rank_opp_conceded": 31.7,
+            "games_played": 12,
+            "is_home": 0,
+            "team_exp_norm": 30.1
+          },
           "try_proba": 30.1
         },
         {
@@ -365,6 +911,19 @@
           "team": "RC Toulon",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.62,
+            "opp_defense": 4.38,
+            "exp_tries": 8.0,
+            "elo_team": 1618,
+            "elo_diff": -60,
+            "rank_scored_pg": 27.8,
+            "rank_opp_conceded": 27.4,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 27.7
+          },
           "try_proba": 27.7
         },
         {
@@ -373,6 +932,19 @@
           "team": "RC Toulon",
           "position": "center",
           "season_pct": 16.7,
+          "feats": {
+            "player_try_rate": 16.7,
+            "team_attack": 3.62,
+            "opp_defense": 4.38,
+            "exp_tries": 8.0,
+            "elo_team": 1618,
+            "elo_diff": -60,
+            "rank_scored_pg": 27.8,
+            "rank_opp_conceded": 27.4,
+            "games_played": 6,
+            "is_home": 1,
+            "team_exp_norm": 26.7
+          },
           "try_proba": 26.7
         },
         {
@@ -381,6 +953,19 @@
           "team": "Union Bordeaux-Bègles",
           "position": "halfback",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 4.38,
+            "opp_defense": 3.62,
+            "exp_tries": 8.0,
+            "elo_team": 1678,
+            "elo_diff": 60,
+            "rank_scored_pg": 32.0,
+            "rank_opp_conceded": 31.7,
+            "games_played": 15,
+            "is_home": 0,
+            "team_exp_norm": 25.7
+          },
           "try_proba": 25.7
         },
         {
@@ -389,6 +974,19 @@
           "team": "Union Bordeaux-Bègles",
           "position": "front_row",
           "season_pct": 10.0,
+          "feats": {
+            "player_try_rate": 10.0,
+            "team_attack": 4.38,
+            "opp_defense": 3.62,
+            "exp_tries": 8.0,
+            "elo_team": 1678,
+            "elo_diff": 60,
+            "rank_scored_pg": 32.0,
+            "rank_opp_conceded": 31.7,
+            "games_played": 10,
+            "is_home": 0,
+            "team_exp_norm": 25.2
+          },
           "try_proba": 25.2
         },
         {
@@ -397,6 +995,19 @@
           "team": "Union Bordeaux-Bègles",
           "position": "flanker",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 4.38,
+            "opp_defense": 3.62,
+            "exp_tries": 8.0,
+            "elo_team": 1678,
+            "elo_diff": 60,
+            "rank_scored_pg": 32.0,
+            "rank_opp_conceded": 31.7,
+            "games_played": 22,
+            "is_home": 0,
+            "team_exp_norm": 25.2
+          },
           "try_proba": 25.2
         },
         {
@@ -405,6 +1016,19 @@
           "team": "RC Toulon",
           "position": "front_row",
           "season_pct": 9.5,
+          "feats": {
+            "player_try_rate": 9.5,
+            "team_attack": 3.62,
+            "opp_defense": 4.38,
+            "exp_tries": 8.0,
+            "elo_team": 1618,
+            "elo_diff": -60,
+            "rank_scored_pg": 27.8,
+            "rank_opp_conceded": 27.4,
+            "games_played": 21,
+            "is_home": 1,
+            "team_exp_norm": 24.2
+          },
           "try_proba": 24.2
         }
       ]
@@ -421,6 +1045,19 @@
           "team": "Aviron Bayonnais",
           "position": "wing",
           "season_pct": 42.9,
+          "feats": {
+            "player_try_rate": 42.9,
+            "team_attack": 3.33,
+            "opp_defense": 4.17,
+            "exp_tries": 7.5,
+            "elo_team": 1596,
+            "elo_diff": -58,
+            "rank_scored_pg": 28.1,
+            "rank_opp_conceded": 25.7,
+            "games_played": 21,
+            "is_home": 0,
+            "team_exp_norm": 46.7
+          },
           "try_proba": 46.7
         },
         {
@@ -429,6 +1066,19 @@
           "team": "Stade Français Paris",
           "position": "wing",
           "season_pct": 41.2,
+          "feats": {
+            "player_try_rate": 41.2,
+            "team_attack": 4.17,
+            "opp_defense": 3.33,
+            "exp_tries": 7.5,
+            "elo_team": 1654,
+            "elo_diff": 58,
+            "rank_scored_pg": 33.7,
+            "rank_opp_conceded": 34.3,
+            "games_played": 17,
+            "is_home": 1,
+            "team_exp_norm": 40.1
+          },
           "try_proba": 40.1
         },
         {
@@ -437,6 +1087,19 @@
           "team": "Stade Français Paris",
           "position": "fullback",
           "season_pct": 36.4,
+          "feats": {
+            "player_try_rate": 36.4,
+            "team_attack": 4.17,
+            "opp_defense": 3.33,
+            "exp_tries": 7.5,
+            "elo_team": 1654,
+            "elo_diff": 58,
+            "rank_scored_pg": 33.7,
+            "rank_opp_conceded": 34.3,
+            "games_played": 22,
+            "is_home": 1,
+            "team_exp_norm": 39.5
+          },
           "try_proba": 39.5
         },
         {
@@ -445,6 +1108,19 @@
           "team": "Stade Français Paris",
           "position": "wing",
           "season_pct": 16.7,
+          "feats": {
+            "player_try_rate": 16.7,
+            "team_attack": 4.17,
+            "opp_defense": 3.33,
+            "exp_tries": 7.5,
+            "elo_team": 1654,
+            "elo_diff": 58,
+            "rank_scored_pg": 33.7,
+            "rank_opp_conceded": 34.3,
+            "games_played": 18,
+            "is_home": 1,
+            "team_exp_norm": 37.2
+          },
           "try_proba": 37.2
         },
         {
@@ -453,6 +1129,19 @@
           "team": "Aviron Bayonnais",
           "position": "front_row",
           "season_pct": 33.3,
+          "feats": {
+            "player_try_rate": 33.3,
+            "team_attack": 3.33,
+            "opp_defense": 4.17,
+            "exp_tries": 7.5,
+            "elo_team": 1596,
+            "elo_diff": -58,
+            "rank_scored_pg": 28.1,
+            "rank_opp_conceded": 25.7,
+            "games_played": 21,
+            "is_home": 0,
+            "team_exp_norm": 36.8
+          },
           "try_proba": 36.8
         },
         {
@@ -461,6 +1150,19 @@
           "team": "Stade Français Paris",
           "position": "flanker",
           "season_pct": 28.6,
+          "feats": {
+            "player_try_rate": 28.6,
+            "team_attack": 4.17,
+            "opp_defense": 3.33,
+            "exp_tries": 7.5,
+            "elo_team": 1654,
+            "elo_diff": 58,
+            "rank_scored_pg": 33.7,
+            "rank_opp_conceded": 34.3,
+            "games_played": 14,
+            "is_home": 1,
+            "team_exp_norm": 36.3
+          },
           "try_proba": 36.3
         },
         {
@@ -469,6 +1171,19 @@
           "team": "Stade Français Paris",
           "position": "halfback",
           "season_pct": 14.3,
+          "feats": {
+            "player_try_rate": 14.3,
+            "team_attack": 4.17,
+            "opp_defense": 3.33,
+            "exp_tries": 7.5,
+            "elo_team": 1654,
+            "elo_diff": 58,
+            "rank_scored_pg": 33.7,
+            "rank_opp_conceded": 34.3,
+            "games_played": 21,
+            "is_home": 1,
+            "team_exp_norm": 33.5
+          },
           "try_proba": 33.5
         },
         {
@@ -477,6 +1192,19 @@
           "team": "Aviron Bayonnais",
           "position": "fullback",
           "season_pct": 11.1,
+          "feats": {
+            "player_try_rate": 11.1,
+            "team_attack": 3.33,
+            "opp_defense": 4.17,
+            "exp_tries": 7.5,
+            "elo_team": 1596,
+            "elo_diff": -58,
+            "rank_scored_pg": 28.1,
+            "rank_opp_conceded": 25.7,
+            "games_played": 18,
+            "is_home": 0,
+            "team_exp_norm": 33.3
+          },
           "try_proba": 33.3
         },
         {
@@ -485,6 +1213,19 @@
           "team": "Stade Français Paris",
           "position": "flanker",
           "season_pct": 14.3,
+          "feats": {
+            "player_try_rate": 14.3,
+            "team_attack": 4.17,
+            "opp_defense": 3.33,
+            "exp_tries": 7.5,
+            "elo_team": 1654,
+            "elo_diff": 58,
+            "rank_scored_pg": 33.7,
+            "rank_opp_conceded": 34.3,
+            "games_played": 21,
+            "is_home": 1,
+            "team_exp_norm": 32.5
+          },
           "try_proba": 32.5
         },
         {
@@ -493,6 +1234,19 @@
           "team": "Stade Français Paris",
           "position": "halfback",
           "season_pct": 12.5,
+          "feats": {
+            "player_try_rate": 12.5,
+            "team_attack": 4.17,
+            "opp_defense": 3.33,
+            "exp_tries": 7.5,
+            "elo_team": 1654,
+            "elo_diff": 58,
+            "rank_scored_pg": 33.7,
+            "rank_opp_conceded": 34.3,
+            "games_played": 16,
+            "is_home": 1,
+            "team_exp_norm": 32.4
+          },
           "try_proba": 32.4
         },
         {
@@ -501,6 +1255,19 @@
           "team": "Stade Français Paris",
           "position": "back_row",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 4.17,
+            "opp_defense": 3.33,
+            "exp_tries": 7.5,
+            "elo_team": 1654,
+            "elo_diff": 58,
+            "rank_scored_pg": 33.7,
+            "rank_opp_conceded": 34.3,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 26.9
+          },
           "try_proba": 26.9
         },
         {
@@ -509,6 +1276,19 @@
           "team": "Aviron Bayonnais",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.33,
+            "opp_defense": 4.17,
+            "exp_tries": 7.5,
+            "elo_team": 1596,
+            "elo_diff": -58,
+            "rank_scored_pg": 28.1,
+            "rank_opp_conceded": 25.7,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 25.9
+          },
           "try_proba": 25.9
         },
         {
@@ -517,6 +1297,19 @@
           "team": "Aviron Bayonnais",
           "position": "lock",
           "season_pct": 11.8,
+          "feats": {
+            "player_try_rate": 11.8,
+            "team_attack": 3.33,
+            "opp_defense": 4.17,
+            "exp_tries": 7.5,
+            "elo_team": 1596,
+            "elo_diff": -58,
+            "rank_scored_pg": 28.1,
+            "rank_opp_conceded": 25.7,
+            "games_played": 17,
+            "is_home": 0,
+            "team_exp_norm": 23.5
+          },
           "try_proba": 23.5
         },
         {
@@ -525,6 +1318,19 @@
           "team": "Stade Français Paris",
           "position": "front_row",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 4.17,
+            "opp_defense": 3.33,
+            "exp_tries": 7.5,
+            "elo_team": 1654,
+            "elo_diff": 58,
+            "rank_scored_pg": 33.7,
+            "rank_opp_conceded": 34.3,
+            "games_played": 22,
+            "is_home": 1,
+            "team_exp_norm": 22.7
+          },
           "try_proba": 22.7
         },
         {
@@ -533,6 +1339,19 @@
           "team": "Aviron Bayonnais",
           "position": "halfback",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.33,
+            "opp_defense": 4.17,
+            "exp_tries": 7.5,
+            "elo_team": 1596,
+            "elo_diff": -58,
+            "rank_scored_pg": 28.1,
+            "rank_opp_conceded": 25.7,
+            "games_played": 21,
+            "is_home": 0,
+            "team_exp_norm": 21.8
+          },
           "try_proba": 21.8
         },
         {
@@ -541,6 +1360,19 @@
           "team": "Aviron Bayonnais",
           "position": "back_row",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.33,
+            "opp_defense": 4.17,
+            "exp_tries": 7.5,
+            "elo_team": 1596,
+            "elo_diff": -58,
+            "rank_scored_pg": 28.1,
+            "rank_opp_conceded": 25.7,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 21.0
+          },
           "try_proba": 21.0
         }
       ]
@@ -557,6 +1389,19 @@
           "team": "LOU Rugby",
           "position": "wing",
           "season_pct": 36.4,
+          "feats": {
+            "player_try_rate": 36.4,
+            "team_attack": 3.54,
+            "opp_defense": 5.17,
+            "exp_tries": 8.71,
+            "elo_team": 1548,
+            "elo_diff": -194,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 23.1,
+            "games_played": 11,
+            "is_home": 0,
+            "team_exp_norm": 52.1
+          },
           "try_proba": 52.1
         },
         {
@@ -565,6 +1410,19 @@
           "team": "Stade Toulousain",
           "position": "wing",
           "season_pct": 29.4,
+          "feats": {
+            "player_try_rate": 29.4,
+            "team_attack": 5.17,
+            "opp_defense": 3.54,
+            "exp_tries": 8.71,
+            "elo_team": 1742,
+            "elo_diff": 194,
+            "rank_scored_pg": 38.4,
+            "rank_opp_conceded": 29.5,
+            "games_played": 17,
+            "is_home": 1,
+            "team_exp_norm": 50.8
+          },
           "try_proba": 50.8
         },
         {
@@ -573,6 +1431,19 @@
           "team": "Stade Toulousain",
           "position": "halfback",
           "season_pct": 26.7,
+          "feats": {
+            "player_try_rate": 26.7,
+            "team_attack": 5.17,
+            "opp_defense": 3.54,
+            "exp_tries": 8.71,
+            "elo_team": 1742,
+            "elo_diff": 194,
+            "rank_scored_pg": 38.4,
+            "rank_opp_conceded": 29.5,
+            "games_played": 15,
+            "is_home": 1,
+            "team_exp_norm": 47.0
+          },
           "try_proba": 47.0
         },
         {
@@ -581,6 +1452,19 @@
           "team": "Stade Toulousain",
           "position": "flanker",
           "season_pct": 26.3,
+          "feats": {
+            "player_try_rate": 26.3,
+            "team_attack": 5.17,
+            "opp_defense": 3.54,
+            "exp_tries": 8.71,
+            "elo_team": 1742,
+            "elo_diff": 194,
+            "rank_scored_pg": 38.4,
+            "rank_opp_conceded": 29.5,
+            "games_played": 19,
+            "is_home": 1,
+            "team_exp_norm": 46.3
+          },
           "try_proba": 46.3
         },
         {
@@ -589,6 +1473,19 @@
           "team": "Stade Toulousain",
           "position": "fullback",
           "season_pct": 15.4,
+          "feats": {
+            "player_try_rate": 15.4,
+            "team_attack": 5.17,
+            "opp_defense": 3.54,
+            "exp_tries": 8.71,
+            "elo_team": 1742,
+            "elo_diff": 194,
+            "rank_scored_pg": 38.4,
+            "rank_opp_conceded": 29.5,
+            "games_played": 13,
+            "is_home": 1,
+            "team_exp_norm": 45.3
+          },
           "try_proba": 45.3
         },
         {
@@ -597,6 +1494,19 @@
           "team": "LOU Rugby",
           "position": "halfback",
           "season_pct": 29.4,
+          "feats": {
+            "player_try_rate": 29.4,
+            "team_attack": 3.54,
+            "opp_defense": 5.17,
+            "exp_tries": 8.71,
+            "elo_team": 1548,
+            "elo_diff": -194,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 23.1,
+            "games_played": 17,
+            "is_home": 0,
+            "team_exp_norm": 44.3
+          },
           "try_proba": 44.3
         },
         {
@@ -605,6 +1515,19 @@
           "team": "Stade Toulousain",
           "position": "halfback",
           "season_pct": 16.7,
+          "feats": {
+            "player_try_rate": 16.7,
+            "team_attack": 5.17,
+            "opp_defense": 3.54,
+            "exp_tries": 8.71,
+            "elo_team": 1742,
+            "elo_diff": 194,
+            "rank_scored_pg": 38.4,
+            "rank_opp_conceded": 29.5,
+            "games_played": 12,
+            "is_home": 1,
+            "team_exp_norm": 42.4
+          },
           "try_proba": 42.4
         },
         {
@@ -613,6 +1536,19 @@
           "team": "Stade Toulousain",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 5.17,
+            "opp_defense": 3.54,
+            "exp_tries": 8.71,
+            "elo_team": 1742,
+            "elo_diff": 194,
+            "rank_scored_pg": 38.4,
+            "rank_opp_conceded": 29.5,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 38.0
+          },
           "try_proba": 38.0
         },
         {
@@ -621,6 +1557,19 @@
           "team": "Stade Toulousain",
           "position": "lock",
           "season_pct": 13.3,
+          "feats": {
+            "player_try_rate": 13.3,
+            "team_attack": 5.17,
+            "opp_defense": 3.54,
+            "exp_tries": 8.71,
+            "elo_team": 1742,
+            "elo_diff": 194,
+            "rank_scored_pg": 38.4,
+            "rank_opp_conceded": 29.5,
+            "games_played": 15,
+            "is_home": 1,
+            "team_exp_norm": 36.4
+          },
           "try_proba": 36.4
         },
         {
@@ -629,6 +1578,19 @@
           "team": "Stade Toulousain",
           "position": "front_row",
           "season_pct": 14.3,
+          "feats": {
+            "player_try_rate": 14.3,
+            "team_attack": 5.17,
+            "opp_defense": 3.54,
+            "exp_tries": 8.71,
+            "elo_team": 1742,
+            "elo_diff": 194,
+            "rank_scored_pg": 38.4,
+            "rank_opp_conceded": 29.5,
+            "games_played": 7,
+            "is_home": 1,
+            "team_exp_norm": 34.6
+          },
           "try_proba": 34.6
         },
         {
@@ -637,6 +1599,19 @@
           "team": "Stade Toulousain",
           "position": "back_row",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 5.17,
+            "opp_defense": 3.54,
+            "exp_tries": 8.71,
+            "elo_team": 1742,
+            "elo_diff": 194,
+            "rank_scored_pg": 38.4,
+            "rank_opp_conceded": 29.5,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 33.1
+          },
           "try_proba": 33.1
         },
         {
@@ -645,6 +1620,19 @@
           "team": "LOU Rugby",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.54,
+            "opp_defense": 5.17,
+            "exp_tries": 8.71,
+            "elo_team": 1548,
+            "elo_diff": -194,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 23.1,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 28.4
+          },
           "try_proba": 28.4
         },
         {
@@ -653,6 +1641,19 @@
           "team": "Stade Toulousain",
           "position": "flanker",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 5.17,
+            "opp_defense": 3.54,
+            "exp_tries": 8.71,
+            "elo_team": 1742,
+            "elo_diff": 194,
+            "rank_scored_pg": 38.4,
+            "rank_opp_conceded": 29.5,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 27.9
+          },
           "try_proba": 27.9
         },
         {
@@ -661,6 +1662,19 @@
           "team": "LOU Rugby",
           "position": "halfback",
           "season_pct": 6.7,
+          "feats": {
+            "player_try_rate": 6.7,
+            "team_attack": 3.54,
+            "opp_defense": 5.17,
+            "exp_tries": 8.71,
+            "elo_team": 1548,
+            "elo_diff": -194,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 23.1,
+            "games_played": 15,
+            "is_home": 0,
+            "team_exp_norm": 27.5
+          },
           "try_proba": 27.5
         },
         {
@@ -669,6 +1683,19 @@
           "team": "LOU Rugby",
           "position": "center",
           "season_pct": 10.0,
+          "feats": {
+            "player_try_rate": 10.0,
+            "team_attack": 3.54,
+            "opp_defense": 5.17,
+            "exp_tries": 8.71,
+            "elo_team": 1548,
+            "elo_diff": -194,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 23.1,
+            "games_played": 20,
+            "is_home": 0,
+            "team_exp_norm": 24.8
+          },
           "try_proba": 24.8
         },
         {
@@ -677,6 +1704,19 @@
           "team": "LOU Rugby",
           "position": "fullback",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.54,
+            "opp_defense": 5.17,
+            "exp_tries": 8.71,
+            "elo_team": 1548,
+            "elo_diff": -194,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 23.1,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 24.8
+          },
           "try_proba": 24.8
         }
       ]
@@ -693,6 +1733,19 @@
           "team": "Stade Rochelais",
           "position": "halfback",
           "season_pct": 41.2,
+          "feats": {
+            "player_try_rate": 41.2,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 17,
+            "is_home": 0,
+            "team_exp_norm": 32.7
+          },
           "try_proba": 32.7
         },
         {
@@ -701,6 +1754,19 @@
           "team": "Stade Rochelais",
           "position": "wing",
           "season_pct": 21.1,
+          "feats": {
+            "player_try_rate": 21.1,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 19,
+            "is_home": 0,
+            "team_exp_norm": 32.1
+          },
           "try_proba": 32.1
         },
         {
@@ -709,6 +1775,19 @@
           "team": "Stade Rochelais",
           "position": "fullback",
           "season_pct": 14.3,
+          "feats": {
+            "player_try_rate": 14.3,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 14,
+            "is_home": 0,
+            "team_exp_norm": 30.4
+          },
           "try_proba": 30.4
         },
         {
@@ -717,6 +1796,19 @@
           "team": "Stade Rochelais",
           "position": "flanker",
           "season_pct": 16.7,
+          "feats": {
+            "player_try_rate": 16.7,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 12,
+            "is_home": 0,
+            "team_exp_norm": 28.7
+          },
           "try_proba": 28.7
         },
         {
@@ -725,6 +1817,19 @@
           "team": "Stade Rochelais",
           "position": "halfback",
           "season_pct": 10.0,
+          "feats": {
+            "player_try_rate": 10.0,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 20,
+            "is_home": 0,
+            "team_exp_norm": 28.3
+          },
           "try_proba": 28.3
         },
         {
@@ -733,6 +1838,19 @@
           "team": "Stade Rochelais",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 27.4
+          },
           "try_proba": 27.4
         },
         {
@@ -741,6 +1859,19 @@
           "team": "Stade Rochelais",
           "position": "flanker",
           "season_pct": 11.1,
+          "feats": {
+            "player_try_rate": 11.1,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 9,
+            "is_home": 0,
+            "team_exp_norm": 27.0
+          },
           "try_proba": 27.0
         },
         {
@@ -749,6 +1880,19 @@
           "team": "Stade Rochelais",
           "position": "center",
           "season_pct": 12.5,
+          "feats": {
+            "player_try_rate": 12.5,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 16,
+            "is_home": 0,
+            "team_exp_norm": 26.4
+          },
           "try_proba": 26.4
         },
         {
@@ -757,6 +1901,19 @@
           "team": "Stade Rochelais",
           "position": "back_row",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 25.0
+          },
           "try_proba": 25.0
         },
         {
@@ -765,6 +1922,19 @@
           "team": "US Montauban",
           "position": "wing",
           "season_pct": 20.0,
+          "feats": {
+            "player_try_rate": 20.0,
+            "team_attack": 2.25,
+            "opp_defense": 3.75,
+            "exp_tries": 6.0,
+            "elo_team": 1366,
+            "elo_diff": -305,
+            "rank_scored_pg": 18.5,
+            "rank_opp_conceded": 24.9,
+            "games_played": 15,
+            "is_home": 1,
+            "team_exp_norm": 24.5
+          },
           "try_proba": 24.5
         },
         {
@@ -773,6 +1943,19 @@
           "team": "Stade Rochelais",
           "position": "center",
           "season_pct": 7.1,
+          "feats": {
+            "player_try_rate": 7.1,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 14,
+            "is_home": 0,
+            "team_exp_norm": 24.4
+          },
           "try_proba": 24.4
         },
         {
@@ -781,6 +1964,19 @@
           "team": "US Montauban",
           "position": "wing",
           "season_pct": 16.7,
+          "feats": {
+            "player_try_rate": 16.7,
+            "team_attack": 2.25,
+            "opp_defense": 3.75,
+            "exp_tries": 6.0,
+            "elo_team": 1366,
+            "elo_diff": -305,
+            "rank_scored_pg": 18.5,
+            "rank_opp_conceded": 24.9,
+            "games_played": 6,
+            "is_home": 1,
+            "team_exp_norm": 22.9
+          },
           "try_proba": 22.9
         },
         {
@@ -789,6 +1985,19 @@
           "team": "US Montauban",
           "position": "halfback",
           "season_pct": 20.0,
+          "feats": {
+            "player_try_rate": 20.0,
+            "team_attack": 2.25,
+            "opp_defense": 3.75,
+            "exp_tries": 6.0,
+            "elo_team": 1366,
+            "elo_diff": -305,
+            "rank_scored_pg": 18.5,
+            "rank_opp_conceded": 24.9,
+            "games_played": 10,
+            "is_home": 1,
+            "team_exp_norm": 20.4
+          },
           "try_proba": 20.4
         },
         {
@@ -797,6 +2006,19 @@
           "team": "Stade Rochelais",
           "position": "lock",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 19.9
+          },
           "try_proba": 19.9
         },
         {
@@ -805,6 +2027,19 @@
           "team": "Stade Rochelais",
           "position": "lock",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 19.9
+          },
           "try_proba": 19.9
         },
         {
@@ -813,6 +2048,19 @@
           "team": "Stade Rochelais",
           "position": "front_row",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.75,
+            "opp_defense": 2.25,
+            "exp_tries": 6.0,
+            "elo_team": 1671,
+            "elo_diff": 305,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 50.3,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 19.3
+          },
           "try_proba": 19.3
         }
       ]
@@ -829,6 +2077,19 @@
           "team": "Castres Olympique",
           "position": "fullback",
           "season_pct": 30.0,
+          "feats": {
+            "player_try_rate": 30.0,
+            "team_attack": 2.96,
+            "opp_defense": 2.38,
+            "exp_tries": 5.33,
+            "elo_team": 1584,
+            "elo_diff": 153,
+            "rank_scored_pg": 24.8,
+            "rank_opp_conceded": 29.9,
+            "games_played": 20,
+            "is_home": 0,
+            "team_exp_norm": 36.6
+          },
           "try_proba": 36.6
         },
         {
@@ -837,6 +2098,19 @@
           "team": "Castres Olympique",
           "position": "wing",
           "season_pct": 22.2,
+          "feats": {
+            "player_try_rate": 22.2,
+            "team_attack": 2.96,
+            "opp_defense": 2.38,
+            "exp_tries": 5.33,
+            "elo_team": 1584,
+            "elo_diff": 153,
+            "rank_scored_pg": 24.8,
+            "rank_opp_conceded": 29.9,
+            "games_played": 9,
+            "is_home": 0,
+            "team_exp_norm": 34.8
+          },
           "try_proba": 34.8
         },
         {
@@ -845,6 +2119,19 @@
           "team": "Castres Olympique",
           "position": "front_row",
           "season_pct": 21.7,
+          "feats": {
+            "player_try_rate": 21.7,
+            "team_attack": 2.96,
+            "opp_defense": 2.38,
+            "exp_tries": 5.33,
+            "elo_team": 1584,
+            "elo_diff": 153,
+            "rank_scored_pg": 24.8,
+            "rank_opp_conceded": 29.9,
+            "games_played": 23,
+            "is_home": 0,
+            "team_exp_norm": 27.1
+          },
           "try_proba": 27.1
         },
         {
@@ -853,6 +2140,19 @@
           "team": "Castres Olympique",
           "position": "halfback",
           "season_pct": 14.3,
+          "feats": {
+            "player_try_rate": 14.3,
+            "team_attack": 2.96,
+            "opp_defense": 2.38,
+            "exp_tries": 5.33,
+            "elo_team": 1584,
+            "elo_diff": 153,
+            "rank_scored_pg": 24.8,
+            "rank_opp_conceded": 29.9,
+            "games_played": 14,
+            "is_home": 0,
+            "team_exp_norm": 26.8
+          },
           "try_proba": 26.8
         },
         {
@@ -861,6 +2161,19 @@
           "team": "USA Perpignan",
           "position": "wing",
           "season_pct": 18.8,
+          "feats": {
+            "player_try_rate": 18.8,
+            "team_attack": 2.38,
+            "opp_defense": 2.96,
+            "exp_tries": 5.33,
+            "elo_team": 1431,
+            "elo_diff": -153,
+            "rank_scored_pg": 21.4,
+            "rank_opp_conceded": 29.2,
+            "games_played": 16,
+            "is_home": 1,
+            "team_exp_norm": 24.2
+          },
           "try_proba": 24.2
         },
         {
@@ -869,6 +2182,19 @@
           "team": "USA Perpignan",
           "position": "fullback",
           "season_pct": 22.2,
+          "feats": {
+            "player_try_rate": 22.2,
+            "team_attack": 2.38,
+            "opp_defense": 2.96,
+            "exp_tries": 5.33,
+            "elo_team": 1431,
+            "elo_diff": -153,
+            "rank_scored_pg": 21.4,
+            "rank_opp_conceded": 29.2,
+            "games_played": 9,
+            "is_home": 1,
+            "team_exp_norm": 23.5
+          },
           "try_proba": 23.5
         },
         {
@@ -877,6 +2203,19 @@
           "team": "Castres Olympique",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 2.96,
+            "opp_defense": 2.38,
+            "exp_tries": 5.33,
+            "elo_team": 1584,
+            "elo_diff": 153,
+            "rank_scored_pg": 24.8,
+            "rank_opp_conceded": 29.9,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 23.5
+          },
           "try_proba": 23.5
         },
         {
@@ -885,6 +2224,19 @@
           "team": "USA Perpignan",
           "position": "back_row",
           "season_pct": 21.4,
+          "feats": {
+            "player_try_rate": 21.4,
+            "team_attack": 2.38,
+            "opp_defense": 2.96,
+            "exp_tries": 5.33,
+            "elo_team": 1431,
+            "elo_diff": -153,
+            "rank_scored_pg": 21.4,
+            "rank_opp_conceded": 29.2,
+            "games_played": 14,
+            "is_home": 1,
+            "team_exp_norm": 23.0
+          },
           "try_proba": 23.0
         },
         {
@@ -893,6 +2245,19 @@
           "team": "USA Perpignan",
           "position": "wing",
           "season_pct": 14.3,
+          "feats": {
+            "player_try_rate": 14.3,
+            "team_attack": 2.38,
+            "opp_defense": 2.96,
+            "exp_tries": 5.33,
+            "elo_team": 1431,
+            "elo_diff": -153,
+            "rank_scored_pg": 21.4,
+            "rank_opp_conceded": 29.2,
+            "games_played": 7,
+            "is_home": 1,
+            "team_exp_norm": 22.6
+          },
           "try_proba": 22.6
         },
         {
@@ -901,6 +2266,19 @@
           "team": "USA Perpignan",
           "position": "front_row",
           "season_pct": 30.8,
+          "feats": {
+            "player_try_rate": 30.8,
+            "team_attack": 2.38,
+            "opp_defense": 2.96,
+            "exp_tries": 5.33,
+            "elo_team": 1431,
+            "elo_diff": -153,
+            "rank_scored_pg": 21.4,
+            "rank_opp_conceded": 29.2,
+            "games_played": 13,
+            "is_home": 1,
+            "team_exp_norm": 21.8
+          },
           "try_proba": 21.8
         },
         {
@@ -909,6 +2287,19 @@
           "team": "Castres Olympique",
           "position": "back_row",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 2.96,
+            "opp_defense": 2.38,
+            "exp_tries": 5.33,
+            "elo_team": 1584,
+            "elo_diff": 153,
+            "rank_scored_pg": 24.8,
+            "rank_opp_conceded": 29.9,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 19.3
+          },
           "try_proba": 19.3
         },
         {
@@ -917,6 +2308,19 @@
           "team": "USA Perpignan",
           "position": "flanker",
           "season_pct": 13.3,
+          "feats": {
+            "player_try_rate": 13.3,
+            "team_attack": 2.38,
+            "opp_defense": 2.96,
+            "exp_tries": 5.33,
+            "elo_team": 1431,
+            "elo_diff": -153,
+            "rank_scored_pg": 21.4,
+            "rank_opp_conceded": 29.2,
+            "games_played": 15,
+            "is_home": 1,
+            "team_exp_norm": 18.6
+          },
           "try_proba": 18.6
         },
         {
@@ -925,6 +2329,19 @@
           "team": "Castres Olympique",
           "position": "front_row",
           "season_pct": 8.3,
+          "feats": {
+            "player_try_rate": 8.3,
+            "team_attack": 2.96,
+            "opp_defense": 2.38,
+            "exp_tries": 5.33,
+            "elo_team": 1584,
+            "elo_diff": 153,
+            "rank_scored_pg": 24.8,
+            "rank_opp_conceded": 29.9,
+            "games_played": 12,
+            "is_home": 0,
+            "team_exp_norm": 18.0
+          },
           "try_proba": 18.0
         },
         {
@@ -933,6 +2350,19 @@
           "team": "Castres Olympique",
           "position": "flanker",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 2.96,
+            "opp_defense": 2.38,
+            "exp_tries": 5.33,
+            "elo_team": 1584,
+            "elo_diff": 153,
+            "rank_scored_pg": 24.8,
+            "rank_opp_conceded": 29.9,
+            "games_played": 15,
+            "is_home": 0,
+            "team_exp_norm": 17.6
+          },
           "try_proba": 17.6
         },
         {
@@ -941,6 +2371,19 @@
           "team": "Castres Olympique",
           "position": "halfback",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 2.96,
+            "opp_defense": 2.38,
+            "exp_tries": 5.33,
+            "elo_team": 1584,
+            "elo_diff": 153,
+            "rank_scored_pg": 24.8,
+            "rank_opp_conceded": 29.9,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 16.8
+          },
           "try_proba": 16.8
         },
         {
@@ -949,6 +2392,19 @@
           "team": "USA Perpignan",
           "position": "flanker",
           "season_pct": 5.0,
+          "feats": {
+            "player_try_rate": 5.0,
+            "team_attack": 2.38,
+            "opp_defense": 2.96,
+            "exp_tries": 5.33,
+            "elo_team": 1431,
+            "elo_diff": -153,
+            "rank_scored_pg": 21.4,
+            "rank_opp_conceded": 29.2,
+            "games_played": 20,
+            "is_home": 1,
+            "team_exp_norm": 16.1
+          },
           "try_proba": 16.1
         }
       ]
@@ -965,6 +2421,19 @@
           "team": "Oyonnax Rugby",
           "position": "wing",
           "season_pct": 53.3,
+          "feats": {
+            "player_try_rate": 53.3,
+            "team_attack": 4.0,
+            "opp_defense": 5.07,
+            "exp_tries": 9.07,
+            "elo_team": 1575,
+            "elo_diff": -172,
+            "rank_scored_pg": 31.8,
+            "rank_opp_conceded": 18.1,
+            "games_played": 15,
+            "is_home": 0,
+            "team_exp_norm": 55.9
+          },
           "try_proba": 55.9
         },
         {
@@ -973,6 +2442,19 @@
           "team": "RC Vannes",
           "position": "wing",
           "season_pct": 47.1,
+          "feats": {
+            "player_try_rate": 47.1,
+            "team_attack": 5.07,
+            "opp_defense": 4.0,
+            "exp_tries": 9.07,
+            "elo_team": 1747,
+            "elo_diff": 172,
+            "rank_scored_pg": 36.4,
+            "rank_opp_conceded": 22.0,
+            "games_played": 17,
+            "is_home": 1,
+            "team_exp_norm": 48.6
+          },
           "try_proba": 48.6
         },
         {
@@ -981,6 +2463,19 @@
           "team": "RC Vannes",
           "position": "wing",
           "season_pct": 29.2,
+          "feats": {
+            "player_try_rate": 29.2,
+            "team_attack": 5.07,
+            "opp_defense": 4.0,
+            "exp_tries": 9.07,
+            "elo_team": 1747,
+            "elo_diff": 172,
+            "rank_scored_pg": 36.4,
+            "rank_opp_conceded": 22.0,
+            "games_played": 24,
+            "is_home": 1,
+            "team_exp_norm": 46.5
+          },
           "try_proba": 46.5
         },
         {
@@ -989,6 +2484,19 @@
           "team": "RC Vannes",
           "position": "halfback",
           "season_pct": 38.1,
+          "feats": {
+            "player_try_rate": 38.1,
+            "team_attack": 5.07,
+            "opp_defense": 4.0,
+            "exp_tries": 9.07,
+            "elo_team": 1747,
+            "elo_diff": 172,
+            "rank_scored_pg": 36.4,
+            "rank_opp_conceded": 22.0,
+            "games_played": 21,
+            "is_home": 1,
+            "team_exp_norm": 45.9
+          },
           "try_proba": 45.9
         },
         {
@@ -997,6 +2505,19 @@
           "team": "RC Vannes",
           "position": "fullback",
           "season_pct": 31.8,
+          "feats": {
+            "player_try_rate": 31.8,
+            "team_attack": 5.07,
+            "opp_defense": 4.0,
+            "exp_tries": 9.07,
+            "elo_team": 1747,
+            "elo_diff": 172,
+            "rank_scored_pg": 36.4,
+            "rank_opp_conceded": 22.0,
+            "games_played": 22,
+            "is_home": 1,
+            "team_exp_norm": 45.8
+          },
           "try_proba": 45.8
         },
         {
@@ -1005,6 +2526,19 @@
           "team": "Oyonnax Rugby",
           "position": "back_row",
           "season_pct": 26.3,
+          "feats": {
+            "player_try_rate": 26.3,
+            "team_attack": 4.0,
+            "opp_defense": 5.07,
+            "exp_tries": 9.07,
+            "elo_team": 1575,
+            "elo_diff": -172,
+            "rank_scored_pg": 31.8,
+            "rank_opp_conceded": 18.1,
+            "games_played": 19,
+            "is_home": 0,
+            "team_exp_norm": 44.4
+          },
           "try_proba": 44.4
         },
         {
@@ -1013,6 +2547,19 @@
           "team": "RC Vannes",
           "position": "front_row",
           "season_pct": 40.0,
+          "feats": {
+            "player_try_rate": 40.0,
+            "team_attack": 5.07,
+            "opp_defense": 4.0,
+            "exp_tries": 9.07,
+            "elo_team": 1747,
+            "elo_diff": 172,
+            "rank_scored_pg": 36.4,
+            "rank_opp_conceded": 22.0,
+            "games_played": 15,
+            "is_home": 1,
+            "team_exp_norm": 43.6
+          },
           "try_proba": 43.6
         },
         {
@@ -1021,6 +2568,19 @@
           "team": "RC Vannes",
           "position": "center",
           "season_pct": 33.3,
+          "feats": {
+            "player_try_rate": 33.3,
+            "team_attack": 5.07,
+            "opp_defense": 4.0,
+            "exp_tries": 9.07,
+            "elo_team": 1747,
+            "elo_diff": 172,
+            "rank_scored_pg": 36.4,
+            "rank_opp_conceded": 22.0,
+            "games_played": 21,
+            "is_home": 1,
+            "team_exp_norm": 42.0
+          },
           "try_proba": 42.0
         },
         {
@@ -1029,6 +2589,19 @@
           "team": "RC Vannes",
           "position": "flanker",
           "season_pct": 25.0,
+          "feats": {
+            "player_try_rate": 25.0,
+            "team_attack": 5.07,
+            "opp_defense": 4.0,
+            "exp_tries": 9.07,
+            "elo_team": 1747,
+            "elo_diff": 172,
+            "rank_scored_pg": 36.4,
+            "rank_opp_conceded": 22.0,
+            "games_played": 20,
+            "is_home": 1,
+            "team_exp_norm": 41.4
+          },
           "try_proba": 41.4
         },
         {
@@ -1037,6 +2610,19 @@
           "team": "Oyonnax Rugby",
           "position": "fullback",
           "season_pct": 14.8,
+          "feats": {
+            "player_try_rate": 14.8,
+            "team_attack": 4.0,
+            "opp_defense": 5.07,
+            "exp_tries": 9.07,
+            "elo_team": 1575,
+            "elo_diff": -172,
+            "rank_scored_pg": 31.8,
+            "rank_opp_conceded": 18.1,
+            "games_played": 27,
+            "is_home": 0,
+            "team_exp_norm": 40.9
+          },
           "try_proba": 40.9
         },
         {
@@ -1045,6 +2631,19 @@
           "team": "Oyonnax Rugby",
           "position": "flanker",
           "season_pct": 19.2,
+          "feats": {
+            "player_try_rate": 19.2,
+            "team_attack": 4.0,
+            "opp_defense": 5.07,
+            "exp_tries": 9.07,
+            "elo_team": 1575,
+            "elo_diff": -172,
+            "rank_scored_pg": 31.8,
+            "rank_opp_conceded": 18.1,
+            "games_played": 26,
+            "is_home": 0,
+            "team_exp_norm": 39.0
+          },
           "try_proba": 39.0
         },
         {
@@ -1053,6 +2652,19 @@
           "team": "RC Vannes",
           "position": "center",
           "season_pct": 25.0,
+          "feats": {
+            "player_try_rate": 25.0,
+            "team_attack": 5.07,
+            "opp_defense": 4.0,
+            "exp_tries": 9.07,
+            "elo_team": 1747,
+            "elo_diff": 172,
+            "rank_scored_pg": 36.4,
+            "rank_opp_conceded": 22.0,
+            "games_played": 20,
+            "is_home": 1,
+            "team_exp_norm": 38.4
+          },
           "try_proba": 38.4
         },
         {
@@ -1061,6 +2673,19 @@
           "team": "Oyonnax Rugby",
           "position": "center",
           "season_pct": 22.2,
+          "feats": {
+            "player_try_rate": 22.2,
+            "team_attack": 4.0,
+            "opp_defense": 5.07,
+            "exp_tries": 9.07,
+            "elo_team": 1575,
+            "elo_diff": -172,
+            "rank_scored_pg": 31.8,
+            "rank_opp_conceded": 18.1,
+            "games_played": 9,
+            "is_home": 0,
+            "team_exp_norm": 30.8
+          },
           "try_proba": 30.8
         },
         {
@@ -1069,6 +2694,19 @@
           "team": "Oyonnax Rugby",
           "position": "flanker",
           "season_pct": 7.7,
+          "feats": {
+            "player_try_rate": 7.7,
+            "team_attack": 4.0,
+            "opp_defense": 5.07,
+            "exp_tries": 9.07,
+            "elo_team": 1575,
+            "elo_diff": -172,
+            "rank_scored_pg": 31.8,
+            "rank_opp_conceded": 18.1,
+            "games_played": 26,
+            "is_home": 0,
+            "team_exp_norm": 30.6
+          },
           "try_proba": 30.6
         },
         {
@@ -1077,6 +2715,19 @@
           "team": "RC Vannes",
           "position": "lock",
           "season_pct": 5.9,
+          "feats": {
+            "player_try_rate": 5.9,
+            "team_attack": 5.07,
+            "opp_defense": 4.0,
+            "exp_tries": 9.07,
+            "elo_team": 1747,
+            "elo_diff": 172,
+            "rank_scored_pg": 36.4,
+            "rank_opp_conceded": 22.0,
+            "games_played": 17,
+            "is_home": 1,
+            "team_exp_norm": 25.8
+          },
           "try_proba": 25.8
         },
         {
@@ -1085,6 +2736,19 @@
           "team": "RC Vannes",
           "position": "back_row",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 5.07,
+            "opp_defense": 4.0,
+            "exp_tries": 9.07,
+            "elo_team": 1747,
+            "elo_diff": 172,
+            "rank_scored_pg": 36.4,
+            "rank_opp_conceded": 22.0,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 25.6
+          },
           "try_proba": 25.6
         }
       ]
@@ -1101,6 +2765,19 @@
           "team": "Provence Rugby",
           "position": "wing",
           "season_pct": 42.9,
+          "feats": {
+            "player_try_rate": 42.9,
+            "team_attack": 3.87,
+            "opp_defense": 3.47,
+            "exp_tries": 7.33,
+            "elo_team": 1649,
+            "elo_diff": -16,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 17.4,
+            "games_played": 21,
+            "is_home": 0,
+            "team_exp_norm": 54.1
+          },
           "try_proba": 54.1
         },
         {
@@ -1109,6 +2786,19 @@
           "team": "Provence Rugby",
           "position": "halfback",
           "season_pct": 28.0,
+          "feats": {
+            "player_try_rate": 28.0,
+            "team_attack": 3.87,
+            "opp_defense": 3.47,
+            "exp_tries": 7.33,
+            "elo_team": 1649,
+            "elo_diff": -16,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 17.4,
+            "games_played": 25,
+            "is_home": 0,
+            "team_exp_norm": 44.8
+          },
           "try_proba": 44.8
         },
         {
@@ -1117,6 +2807,19 @@
           "team": "Provence Rugby",
           "position": "flanker",
           "season_pct": 22.2,
+          "feats": {
+            "player_try_rate": 22.2,
+            "team_attack": 3.87,
+            "opp_defense": 3.47,
+            "exp_tries": 7.33,
+            "elo_team": 1649,
+            "elo_diff": -16,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 17.4,
+            "games_played": 27,
+            "is_home": 0,
+            "team_exp_norm": 40.8
+          },
           "try_proba": 40.8
         },
         {
@@ -1125,6 +2828,19 @@
           "team": "Colomiers Rugby",
           "position": "wing",
           "season_pct": 27.8,
+          "feats": {
+            "player_try_rate": 27.8,
+            "team_attack": 3.47,
+            "opp_defense": 3.87,
+            "exp_tries": 7.33,
+            "elo_team": 1664,
+            "elo_diff": 16,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 24.2,
+            "games_played": 18,
+            "is_home": 1,
+            "team_exp_norm": 37.0
+          },
           "try_proba": 37.0
         },
         {
@@ -1133,6 +2849,19 @@
           "team": "Provence Rugby",
           "position": "halfback",
           "season_pct": 16.7,
+          "feats": {
+            "player_try_rate": 16.7,
+            "team_attack": 3.87,
+            "opp_defense": 3.47,
+            "exp_tries": 7.33,
+            "elo_team": 1649,
+            "elo_diff": -16,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 17.4,
+            "games_played": 18,
+            "is_home": 0,
+            "team_exp_norm": 35.4
+          },
           "try_proba": 35.4
         },
         {
@@ -1141,6 +2870,19 @@
           "team": "Colomiers Rugby",
           "position": "halfback",
           "season_pct": 28.6,
+          "feats": {
+            "player_try_rate": 28.6,
+            "team_attack": 3.47,
+            "opp_defense": 3.87,
+            "exp_tries": 7.33,
+            "elo_team": 1664,
+            "elo_diff": 16,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 24.2,
+            "games_played": 21,
+            "is_home": 1,
+            "team_exp_norm": 35.2
+          },
           "try_proba": 35.2
         },
         {
@@ -1149,6 +2891,19 @@
           "team": "Provence Rugby",
           "position": "back_row",
           "season_pct": 9.5,
+          "feats": {
+            "player_try_rate": 9.5,
+            "team_attack": 3.87,
+            "opp_defense": 3.47,
+            "exp_tries": 7.33,
+            "elo_team": 1649,
+            "elo_diff": -16,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 17.4,
+            "games_played": 21,
+            "is_home": 0,
+            "team_exp_norm": 33.2
+          },
           "try_proba": 33.2
         },
         {
@@ -1157,6 +2912,19 @@
           "team": "Colomiers Rugby",
           "position": "flanker",
           "season_pct": 20.8,
+          "feats": {
+            "player_try_rate": 20.8,
+            "team_attack": 3.47,
+            "opp_defense": 3.87,
+            "exp_tries": 7.33,
+            "elo_team": 1664,
+            "elo_diff": 16,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 24.2,
+            "games_played": 24,
+            "is_home": 1,
+            "team_exp_norm": 32.7
+          },
           "try_proba": 32.7
         },
         {
@@ -1165,6 +2933,19 @@
           "team": "Colomiers Rugby",
           "position": "center",
           "season_pct": 26.3,
+          "feats": {
+            "player_try_rate": 26.3,
+            "team_attack": 3.47,
+            "opp_defense": 3.87,
+            "exp_tries": 7.33,
+            "elo_team": 1664,
+            "elo_diff": 16,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 24.2,
+            "games_played": 19,
+            "is_home": 1,
+            "team_exp_norm": 31.4
+          },
           "try_proba": 31.4
         },
         {
@@ -1173,6 +2954,19 @@
           "team": "Colomiers Rugby",
           "position": "fullback",
           "season_pct": 8.7,
+          "feats": {
+            "player_try_rate": 8.7,
+            "team_attack": 3.47,
+            "opp_defense": 3.87,
+            "exp_tries": 7.33,
+            "elo_team": 1664,
+            "elo_diff": 16,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 24.2,
+            "games_played": 23,
+            "is_home": 1,
+            "team_exp_norm": 30.6
+          },
           "try_proba": 30.6
         },
         {
@@ -1181,6 +2975,19 @@
           "team": "Provence Rugby",
           "position": "flanker",
           "season_pct": 10.5,
+          "feats": {
+            "player_try_rate": 10.5,
+            "team_attack": 3.87,
+            "opp_defense": 3.47,
+            "exp_tries": 7.33,
+            "elo_team": 1649,
+            "elo_diff": -16,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 17.4,
+            "games_played": 19,
+            "is_home": 0,
+            "team_exp_norm": 30.0
+          },
           "try_proba": 30.0
         },
         {
@@ -1189,6 +2996,19 @@
           "team": "Provence Rugby",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.87,
+            "opp_defense": 3.47,
+            "exp_tries": 7.33,
+            "elo_team": 1649,
+            "elo_diff": -16,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 17.4,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 24.9
+          },
           "try_proba": 24.9
         },
         {
@@ -1197,6 +3017,19 @@
           "team": "Colomiers Rugby",
           "position": "wing",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.47,
+            "opp_defense": 3.87,
+            "exp_tries": 7.33,
+            "elo_team": 1664,
+            "elo_diff": 16,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 24.2,
+            "games_played": 0,
+            "is_home": 1,
+            "team_exp_norm": 24.3
+          },
           "try_proba": 24.3
         },
         {
@@ -1205,6 +3038,19 @@
           "team": "Provence Rugby",
           "position": "fullback",
           "season_pct": 0.0,
+          "feats": {
+            "player_try_rate": 0.0,
+            "team_attack": 3.87,
+            "opp_defense": 3.47,
+            "exp_tries": 7.33,
+            "elo_team": 1649,
+            "elo_diff": -16,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 17.4,
+            "games_played": 0,
+            "is_home": 0,
+            "team_exp_norm": 21.3
+          },
           "try_proba": 21.3
         },
         {
@@ -1213,6 +3059,19 @@
           "team": "Colomiers Rugby",
           "position": "lock",
           "season_pct": 5.0,
+          "feats": {
+            "player_try_rate": 5.0,
+            "team_attack": 3.47,
+            "opp_defense": 3.87,
+            "exp_tries": 7.33,
+            "elo_team": 1664,
+            "elo_diff": 16,
+            "rank_scored_pg": 28.2,
+            "rank_opp_conceded": 24.2,
+            "games_played": 20,
+            "is_home": 1,
+            "team_exp_norm": 20.9
+          },
           "try_proba": 20.9
         },
         {
@@ -1221,6 +3080,19 @@
           "team": "Provence Rugby",
           "position": "center",
           "season_pct": 5.9,
+          "feats": {
+            "player_try_rate": 5.9,
+            "team_attack": 3.87,
+            "opp_defense": 3.47,
+            "exp_tries": 7.33,
+            "elo_team": 1649,
+            "elo_diff": -16,
+            "rank_scored_pg": 30.2,
+            "rank_opp_conceded": 17.4,
+            "games_played": 17,
+            "is_home": 0,
+            "team_exp_norm": 20.8
+          },
           "try_proba": 20.8
         }
       ]
