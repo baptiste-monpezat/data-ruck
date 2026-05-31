@@ -1,0 +1,1229 @@
+{
+  "generated_at": "2026-05-31T15:49:24.618542",
+  "matches": [
+    {
+      "home": "ASM Clermont",
+      "away": "Racing 92",
+      "competition": "TOP 14",
+      "round": "J25",
+      "players": [
+        {
+          "name": "Wame NAITUVI",
+          "number": 14,
+          "team": "Racing 92",
+          "position": "wing",
+          "season_pct": 50.0,
+          "try_proba": 45.5
+        },
+        {
+          "name": "Max SPRING",
+          "number": 11,
+          "team": "Racing 92",
+          "position": "wing",
+          "season_pct": 27.8,
+          "try_proba": 41.8
+        },
+        {
+          "name": "Kylan HAMDAOUI",
+          "number": 15,
+          "team": "ASM Clermont",
+          "position": "fullback",
+          "season_pct": 23.5,
+          "try_proba": 41.7
+        },
+        {
+          "name": "Samuel JAMES",
+          "number": 15,
+          "team": "Racing 92",
+          "position": "fullback",
+          "season_pct": 15.4,
+          "try_proba": 34.6
+        },
+        {
+          "name": "Alivereti RAKA",
+          "number": 11,
+          "team": "ASM Clermont",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 31.7
+        },
+        {
+          "name": "Bautista DELGUY",
+          "number": 14,
+          "team": "ASM Clermont",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 31.7
+        },
+        {
+          "name": "Giorgi AKHALADZE",
+          "number": 1,
+          "team": "ASM Clermont",
+          "position": "front_row",
+          "season_pct": 15.8,
+          "try_proba": 31.4
+        },
+        {
+          "name": "Marcos KREMER",
+          "number": 7,
+          "team": "ASM Clermont",
+          "position": "flanker",
+          "season_pct": 9.1,
+          "try_proba": 30.1
+        },
+        {
+          "name": "Janick TARRIT",
+          "number": 2,
+          "team": "Racing 92",
+          "position": "front_row",
+          "season_pct": 22.2,
+          "try_proba": 29.8
+        },
+        {
+          "name": "Maxime BAUDONNE",
+          "number": 6,
+          "team": "Racing 92",
+          "position": "flanker",
+          "season_pct": 12.5,
+          "try_proba": 29.0
+        },
+        {
+          "name": "Selevasio TOLOFUA",
+          "number": 8,
+          "team": "ASM Clermont",
+          "position": "back_row",
+          "season_pct": 0.0,
+          "try_proba": 27.2
+        },
+        {
+          "name": "Fabien SANCONNIE",
+          "number": 7,
+          "team": "Racing 92",
+          "position": "flanker",
+          "season_pct": 14.3,
+          "try_proba": 27.1
+        },
+        {
+          "name": "Vinaya HABOSI",
+          "number": 13,
+          "team": "Racing 92",
+          "position": "center",
+          "season_pct": 15.0,
+          "try_proba": 26.5
+        },
+        {
+          "name": "Thomas CEYTE",
+          "number": 5,
+          "team": "ASM Clermont",
+          "position": "lock",
+          "season_pct": 5.0,
+          "try_proba": 25.9
+        },
+        {
+          "name": "Baptiste JAUNEAU",
+          "number": 9,
+          "team": "ASM Clermont",
+          "position": "halfback",
+          "season_pct": 0.0,
+          "try_proba": 24.3
+        },
+        {
+          "name": "Harrison PLUMMER",
+          "number": 10,
+          "team": "ASM Clermont",
+          "position": "halfback",
+          "season_pct": 0.0,
+          "try_proba": 24.3
+        }
+      ]
+    },
+    {
+      "home": "Montpellier Hérault Rugby",
+      "away": "Section Paloise",
+      "competition": "TOP 14",
+      "round": "J25",
+      "players": [
+        {
+          "name": "Emilien GAILLETON",
+          "number": 13,
+          "team": "Section Paloise",
+          "position": "center",
+          "season_pct": 47.1,
+          "try_proba": 45.5
+        },
+        {
+          "name": "Gabriel NGANDEBE",
+          "number": 14,
+          "team": "Montpellier Hérault Rugby",
+          "position": "wing",
+          "season_pct": 27.3,
+          "try_proba": 40.6
+        },
+        {
+          "name": "Tom BANKS",
+          "number": 15,
+          "team": "Montpellier Hérault Rugby",
+          "position": "fullback",
+          "season_pct": 21.7,
+          "try_proba": 38.1
+        },
+        {
+          "name": "Beka GORGADZE",
+          "number": 8,
+          "team": "Section Paloise",
+          "position": "back_row",
+          "season_pct": 18.8,
+          "try_proba": 37.6
+        },
+        {
+          "name": "Jordan UELESE",
+          "number": 2,
+          "team": "Montpellier Hérault Rugby",
+          "position": "front_row",
+          "season_pct": 35.3,
+          "try_proba": 36.5
+        },
+        {
+          "name": "Tumua MANU",
+          "number": 12,
+          "team": "Section Paloise",
+          "position": "center",
+          "season_pct": 25.0,
+          "try_proba": 31.0
+        },
+        {
+          "name": "Viliami VUNIPOLA",
+          "number": 8,
+          "team": "Montpellier Hérault Rugby",
+          "position": "back_row",
+          "season_pct": 5.0,
+          "try_proba": 29.5
+        },
+        {
+          "name": "Yacouba CAMARA",
+          "number": 6,
+          "team": "Montpellier Hérault Rugby",
+          "position": "flanker",
+          "season_pct": 13.3,
+          "try_proba": 29.3
+        },
+        {
+          "name": "Donovan TAOFIFENUA",
+          "number": 11,
+          "team": "Montpellier Hérault Rugby",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 27.8
+        },
+        {
+          "name": "Arthur VINCENT",
+          "number": 13,
+          "team": "Montpellier Hérault Rugby",
+          "position": "center",
+          "season_pct": 13.0,
+          "try_proba": 27.4
+        },
+        {
+          "name": "Léo COLY",
+          "number": 10,
+          "team": "Montpellier Hérault Rugby",
+          "position": "halfback",
+          "season_pct": 6.7,
+          "try_proba": 27.1
+        },
+        {
+          "name": "Aaron GRANDIDIER-NKANANG",
+          "number": 11,
+          "team": "Section Paloise",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 26.7
+        },
+        {
+          "name": "Gregoire ARFEUIL",
+          "number": 14,
+          "team": "Section Paloise",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 26.7
+        },
+        {
+          "name": "Auguste CADOT",
+          "number": 12,
+          "team": "Montpellier Hérault Rugby",
+          "position": "center",
+          "season_pct": 12.5,
+          "try_proba": 25.9
+        },
+        {
+          "name": "Luke WHITELOCK",
+          "number": 6,
+          "team": "Section Paloise",
+          "position": "flanker",
+          "season_pct": 6.2,
+          "try_proba": 23.8
+        },
+        {
+          "name": "Théo ATTISSOGBE",
+          "number": 15,
+          "team": "Section Paloise",
+          "position": "fullback",
+          "season_pct": 0.0,
+          "try_proba": 23.4
+        }
+      ]
+    },
+    {
+      "home": "RC Toulon",
+      "away": "Union Bordeaux-Bègles",
+      "competition": "TOP 14",
+      "round": "J25",
+      "players": [
+        {
+          "name": "Romain BUROS",
+          "number": 15,
+          "team": "Union Bordeaux-Bègles",
+          "position": "fullback",
+          "season_pct": 46.2,
+          "try_proba": 48.3
+        },
+        {
+          "name": "Madosha TAMBWE",
+          "number": 11,
+          "team": "Union Bordeaux-Bègles",
+          "position": "wing",
+          "season_pct": 22.2,
+          "try_proba": 43.6
+        },
+        {
+          "name": "Melvyn JAMINET",
+          "number": 15,
+          "team": "RC Toulon",
+          "position": "fullback",
+          "season_pct": 35.3,
+          "try_proba": 40.8
+        },
+        {
+          "name": "Pablo UBERTI",
+          "number": 14,
+          "team": "Union Bordeaux-Bègles",
+          "position": "wing",
+          "season_pct": 11.8,
+          "try_proba": 40.3
+        },
+        {
+          "name": "Mathis FERTE",
+          "number": 11,
+          "team": "RC Toulon",
+          "position": "wing",
+          "season_pct": 21.7,
+          "try_proba": 39.2
+        },
+        {
+          "name": "Martin PAGE RELO",
+          "number": 9,
+          "team": "Union Bordeaux-Bègles",
+          "position": "halfback",
+          "season_pct": 20.0,
+          "try_proba": 37.5
+        },
+        {
+          "name": "Temo MATIU",
+          "number": 8,
+          "team": "Union Bordeaux-Bègles",
+          "position": "back_row",
+          "season_pct": 11.1,
+          "try_proba": 36.3
+        },
+        {
+          "name": "Xan MOUSQUES",
+          "number": 13,
+          "team": "Union Bordeaux-Bègles",
+          "position": "center",
+          "season_pct": 21.4,
+          "try_proba": 34.3
+        },
+        {
+          "name": "Tomas ALBORNOZ",
+          "number": 10,
+          "team": "RC Toulon",
+          "position": "halfback",
+          "season_pct": 18.2,
+          "try_proba": 32.5
+        },
+        {
+          "name": "Connor SA",
+          "number": 2,
+          "team": "Union Bordeaux-Bègles",
+          "position": "front_row",
+          "season_pct": 16.7,
+          "try_proba": 30.1
+        },
+        {
+          "name": "Setariki TUICUVU",
+          "number": 14,
+          "team": "RC Toulon",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 27.7
+        },
+        {
+          "name": "Antoine FRISCH",
+          "number": 12,
+          "team": "RC Toulon",
+          "position": "center",
+          "season_pct": 16.7,
+          "try_proba": 26.7
+        },
+        {
+          "name": "Hugo REUS",
+          "number": 10,
+          "team": "Union Bordeaux-Bègles",
+          "position": "halfback",
+          "season_pct": 0.0,
+          "try_proba": 25.7
+        },
+        {
+          "name": "Sipili FALATEA",
+          "number": 3,
+          "team": "Union Bordeaux-Bègles",
+          "position": "front_row",
+          "season_pct": 10.0,
+          "try_proba": 25.2
+        },
+        {
+          "name": "Boris PALU",
+          "number": 7,
+          "team": "Union Bordeaux-Bègles",
+          "position": "flanker",
+          "season_pct": 0.0,
+          "try_proba": 25.2
+        },
+        {
+          "name": "Teddy BAUBIGNY",
+          "number": 2,
+          "team": "RC Toulon",
+          "position": "front_row",
+          "season_pct": 9.5,
+          "try_proba": 24.2
+        }
+      ]
+    },
+    {
+      "home": "Stade Français Paris",
+      "away": "Aviron Bayonnais",
+      "competition": "TOP 14",
+      "round": "J25",
+      "players": [
+        {
+          "name": "Tom SPRING",
+          "number": 14,
+          "team": "Aviron Bayonnais",
+          "position": "wing",
+          "season_pct": 42.9,
+          "try_proba": 46.7
+        },
+        {
+          "name": "Peniasi DAKUWAQA",
+          "number": 14,
+          "team": "Stade Français Paris",
+          "position": "wing",
+          "season_pct": 41.2,
+          "try_proba": 40.1
+        },
+        {
+          "name": "Leo BARRE",
+          "number": 15,
+          "team": "Stade Français Paris",
+          "position": "fullback",
+          "season_pct": 36.4,
+          "try_proba": 39.5
+        },
+        {
+          "name": "Samuel EZEALA",
+          "number": 11,
+          "team": "Stade Français Paris",
+          "position": "wing",
+          "season_pct": 16.7,
+          "try_proba": 37.2
+        },
+        {
+          "name": "Lucas MARTIN",
+          "number": 2,
+          "team": "Aviron Bayonnais",
+          "position": "front_row",
+          "season_pct": 33.3,
+          "try_proba": 36.8
+        },
+        {
+          "name": "Tani VILI",
+          "number": 6,
+          "team": "Stade Français Paris",
+          "position": "flanker",
+          "season_pct": 28.6,
+          "try_proba": 36.3
+        },
+        {
+          "name": "Louis CARBONEL",
+          "number": 10,
+          "team": "Stade Français Paris",
+          "position": "halfback",
+          "season_pct": 14.3,
+          "try_proba": 33.5
+        },
+        {
+          "name": "Yohan ORABE",
+          "number": 15,
+          "team": "Aviron Bayonnais",
+          "position": "fullback",
+          "season_pct": 11.1,
+          "try_proba": 33.3
+        },
+        {
+          "name": "Mathieu HIRIGOYEN",
+          "number": 7,
+          "team": "Stade Français Paris",
+          "position": "flanker",
+          "season_pct": 14.3,
+          "try_proba": 32.5
+        },
+        {
+          "name": "Paul ABADIE",
+          "number": 9,
+          "team": "Stade Français Paris",
+          "position": "halfback",
+          "season_pct": 12.5,
+          "try_proba": 32.4
+        },
+        {
+          "name": "Yoan TANGA MANGENE",
+          "number": 8,
+          "team": "Stade Français Paris",
+          "position": "back_row",
+          "season_pct": 0.0,
+          "try_proba": 26.9
+        },
+        {
+          "name": "Cheikh Saliou TIBERGHIEN",
+          "number": 11,
+          "team": "Aviron Bayonnais",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 25.9
+        },
+        {
+          "name": "Arthur ITURRIA",
+          "number": 4,
+          "team": "Aviron Bayonnais",
+          "position": "lock",
+          "season_pct": 11.8,
+          "try_proba": 23.5
+        },
+        {
+          "name": "Paul ALO EMILE",
+          "number": 3,
+          "team": "Stade Français Paris",
+          "position": "front_row",
+          "season_pct": 0.0,
+          "try_proba": 22.7
+        },
+        {
+          "name": "Joris SEGONDS",
+          "number": 10,
+          "team": "Aviron Bayonnais",
+          "position": "halfback",
+          "season_pct": 0.0,
+          "try_proba": 21.8
+        },
+        {
+          "name": "Nika LOMIDZE",
+          "number": 8,
+          "team": "Aviron Bayonnais",
+          "position": "back_row",
+          "season_pct": 0.0,
+          "try_proba": 21.0
+        }
+      ]
+    },
+    {
+      "home": "Stade Toulousain",
+      "away": "LOU Rugby",
+      "competition": "TOP 14",
+      "round": "J25",
+      "players": [
+        {
+          "name": "Monty IOANE",
+          "number": 14,
+          "team": "LOU Rugby",
+          "position": "wing",
+          "season_pct": 36.4,
+          "try_proba": 52.1
+        },
+        {
+          "name": "Matthis LEBEL",
+          "number": 11,
+          "team": "Stade Toulousain",
+          "position": "wing",
+          "season_pct": 29.4,
+          "try_proba": 50.8
+        },
+        {
+          "name": "Romain NTAMACK",
+          "number": 10,
+          "team": "Stade Toulousain",
+          "position": "halfback",
+          "season_pct": 26.7,
+          "try_proba": 47.0
+        },
+        {
+          "name": "Jack WILLIS",
+          "number": 7,
+          "team": "Stade Toulousain",
+          "position": "flanker",
+          "season_pct": 26.3,
+          "try_proba": 46.3
+        },
+        {
+          "name": "Thomas RAMOS",
+          "number": 15,
+          "team": "Stade Toulousain",
+          "position": "fullback",
+          "season_pct": 15.4,
+          "try_proba": 45.3
+        },
+        {
+          "name": "Esteban GONZALEZ",
+          "number": 9,
+          "team": "LOU Rugby",
+          "position": "halfback",
+          "season_pct": 29.4,
+          "try_proba": 44.3
+        },
+        {
+          "name": "Naoto SAITO",
+          "number": 9,
+          "team": "Stade Toulousain",
+          "position": "halfback",
+          "season_pct": 16.7,
+          "try_proba": 42.4
+        },
+        {
+          "name": "Celian POUZELGUES",
+          "number": 14,
+          "team": "Stade Toulousain",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 38.0
+        },
+        {
+          "name": "Joshua BRENNAN",
+          "number": 4,
+          "team": "Stade Toulousain",
+          "position": "lock",
+          "season_pct": 13.3,
+          "try_proba": 36.4
+        },
+        {
+          "name": "Peato MAUVAKA",
+          "number": 2,
+          "team": "Stade Toulousain",
+          "position": "front_row",
+          "season_pct": 14.3,
+          "try_proba": 34.6
+        },
+        {
+          "name": "Alexandre ROUMAT",
+          "number": 8,
+          "team": "Stade Toulousain",
+          "position": "back_row",
+          "season_pct": 0.0,
+          "try_proba": 33.1
+        },
+        {
+          "name": "Jiuta Naqoli WAINIQOLO",
+          "number": 11,
+          "team": "LOU Rugby",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 28.4
+        },
+        {
+          "name": "Francois CROS",
+          "number": 6,
+          "team": "Stade Toulousain",
+          "position": "flanker",
+          "season_pct": 0.0,
+          "try_proba": 27.9
+        },
+        {
+          "name": "Martin MELIANDE",
+          "number": 10,
+          "team": "LOU Rugby",
+          "position": "halfback",
+          "season_pct": 6.7,
+          "try_proba": 27.5
+        },
+        {
+          "name": "Theo MILLET",
+          "number": 12,
+          "team": "LOU Rugby",
+          "position": "center",
+          "season_pct": 10.0,
+          "try_proba": 24.8
+        },
+        {
+          "name": "Alexandre TCHAPTCHET NOUTCHA",
+          "number": 15,
+          "team": "LOU Rugby",
+          "position": "fullback",
+          "season_pct": 0.0,
+          "try_proba": 24.8
+        }
+      ]
+    },
+    {
+      "home": "US Montauban",
+      "away": "Stade Rochelais",
+      "competition": "TOP 14",
+      "round": "J25",
+      "players": [
+        {
+          "name": "Nolann LE GARREC",
+          "number": 9,
+          "team": "Stade Rochelais",
+          "position": "halfback",
+          "season_pct": 41.2,
+          "try_proba": 32.7
+        },
+        {
+          "name": "Jules FAVRE",
+          "number": 11,
+          "team": "Stade Rochelais",
+          "position": "wing",
+          "season_pct": 21.1,
+          "try_proba": 32.1
+        },
+        {
+          "name": "Ihaia WEST",
+          "number": 15,
+          "team": "Stade Rochelais",
+          "position": "fullback",
+          "season_pct": 14.3,
+          "try_proba": 30.4
+        },
+        {
+          "name": "Paul BOUDEHENT",
+          "number": 6,
+          "team": "Stade Rochelais",
+          "position": "flanker",
+          "season_pct": 16.7,
+          "try_proba": 28.7
+        },
+        {
+          "name": "Antoine HASTOY",
+          "number": 10,
+          "team": "Stade Rochelais",
+          "position": "halfback",
+          "season_pct": 10.0,
+          "try_proba": 28.3
+        },
+        {
+          "name": "Davit NINIASHVILI",
+          "number": 14,
+          "team": "Stade Rochelais",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 27.4
+        },
+        {
+          "name": "Andy TIMO",
+          "number": 7,
+          "team": "Stade Rochelais",
+          "position": "flanker",
+          "season_pct": 11.1,
+          "try_proba": 27.0
+        },
+        {
+          "name": "Semi LAGIVALA",
+          "number": 13,
+          "team": "Stade Rochelais",
+          "position": "center",
+          "season_pct": 12.5,
+          "try_proba": 26.4
+        },
+        {
+          "name": "Grégory ALLDRITT",
+          "number": 8,
+          "team": "Stade Rochelais",
+          "position": "back_row",
+          "season_pct": 0.0,
+          "try_proba": 25.0
+        },
+        {
+          "name": "Paul VALLEE",
+          "number": 11,
+          "team": "US Montauban",
+          "position": "wing",
+          "season_pct": 20.0,
+          "try_proba": 24.5
+        },
+        {
+          "name": "Adrien SEGURET",
+          "number": 12,
+          "team": "Stade Rochelais",
+          "position": "center",
+          "season_pct": 7.1,
+          "try_proba": 24.4
+        },
+        {
+          "name": "Yvan REILHAC",
+          "number": 14,
+          "team": "US Montauban",
+          "position": "wing",
+          "season_pct": 16.7,
+          "try_proba": 22.9
+        },
+        {
+          "name": "Mael CASTEL",
+          "number": 9,
+          "team": "US Montauban",
+          "position": "halfback",
+          "season_pct": 20.0,
+          "try_proba": 20.4
+        },
+        {
+          "name": "Charles KANTE SAMBA",
+          "number": 4,
+          "team": "Stade Rochelais",
+          "position": "lock",
+          "season_pct": 0.0,
+          "try_proba": 19.9
+        },
+        {
+          "name": "Watisoni WAQANISARAVI",
+          "number": 5,
+          "team": "Stade Rochelais",
+          "position": "lock",
+          "season_pct": 0.0,
+          "try_proba": 19.9
+        },
+        {
+          "name": "Alexandre KADDOURI",
+          "number": 1,
+          "team": "Stade Rochelais",
+          "position": "front_row",
+          "season_pct": 0.0,
+          "try_proba": 19.3
+        }
+      ]
+    },
+    {
+      "home": "USA Perpignan",
+      "away": "Castres Olympique",
+      "competition": "TOP 14",
+      "round": "J25",
+      "players": [
+        {
+          "name": "Théo CHABOUNI",
+          "number": 15,
+          "team": "Castres Olympique",
+          "position": "fullback",
+          "season_pct": 30.0,
+          "try_proba": 36.6
+        },
+        {
+          "name": "Remy BAGET",
+          "number": 11,
+          "team": "Castres Olympique",
+          "position": "wing",
+          "season_pct": 22.2,
+          "try_proba": 34.8
+        },
+        {
+          "name": "Teddy DURAND",
+          "number": 2,
+          "team": "Castres Olympique",
+          "position": "front_row",
+          "season_pct": 21.7,
+          "try_proba": 27.1
+        },
+        {
+          "name": "Pierre POPELIN",
+          "number": 10,
+          "team": "Castres Olympique",
+          "position": "halfback",
+          "season_pct": 14.3,
+          "try_proba": 26.8
+        },
+        {
+          "name": "Theo FORNER",
+          "number": 11,
+          "team": "USA Perpignan",
+          "position": "wing",
+          "season_pct": 18.8,
+          "try_proba": 24.2
+        },
+        {
+          "name": "Tommaso ALLAN",
+          "number": 15,
+          "team": "USA Perpignan",
+          "position": "fullback",
+          "season_pct": 22.2,
+          "try_proba": 23.5
+        },
+        {
+          "name": "Christian GUETANG AMBADIANG",
+          "number": 14,
+          "team": "Castres Olympique",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 23.5
+        },
+        {
+          "name": "Joaquin OVIEDO",
+          "number": 8,
+          "team": "USA Perpignan",
+          "position": "back_row",
+          "season_pct": 21.4,
+          "try_proba": 23.0
+        },
+        {
+          "name": "Tavite VEREDAMU",
+          "number": 14,
+          "team": "USA Perpignan",
+          "position": "wing",
+          "season_pct": 14.3,
+          "try_proba": 22.6
+        },
+        {
+          "name": "Ignacio RUIZ",
+          "number": 2,
+          "team": "USA Perpignan",
+          "position": "front_row",
+          "season_pct": 30.8,
+          "try_proba": 21.8
+        },
+        {
+          "name": "Veresa Tuqovu RAMOTOTABUA",
+          "number": 8,
+          "team": "Castres Olympique",
+          "position": "back_row",
+          "season_pct": 0.0,
+          "try_proba": 19.3
+        },
+        {
+          "name": "Mattéo LE CORVEC",
+          "number": 7,
+          "team": "USA Perpignan",
+          "position": "flanker",
+          "season_pct": 13.3,
+          "try_proba": 18.6
+        },
+        {
+          "name": "William COLLIER",
+          "number": 3,
+          "team": "Castres Olympique",
+          "position": "front_row",
+          "season_pct": 8.3,
+          "try_proba": 18.0
+        },
+        {
+          "name": "Mathieu BABILLOT",
+          "number": 6,
+          "team": "Castres Olympique",
+          "position": "flanker",
+          "season_pct": 0.0,
+          "try_proba": 17.6
+        },
+        {
+          "name": "Gauthier DOUBRERE",
+          "number": 9,
+          "team": "Castres Olympique",
+          "position": "halfback",
+          "season_pct": 0.0,
+          "try_proba": 16.8
+        },
+        {
+          "name": "Maxwell HICKS",
+          "number": 6,
+          "team": "USA Perpignan",
+          "position": "flanker",
+          "season_pct": 5.0,
+          "try_proba": 16.1
+        }
+      ]
+    },
+    {
+      "home": "RC Vannes",
+      "away": "Oyonnax Rugby",
+      "competition": "Pro D2",
+      "round": "DEMI-FINALE",
+      "players": [
+        {
+          "name": "Gavin STARK",
+          "number": 14,
+          "team": "Oyonnax Rugby",
+          "position": "wing",
+          "season_pct": 53.3,
+          "try_proba": 55.9
+        },
+        {
+          "name": "Enzo BENMEGAL",
+          "number": 14,
+          "team": "RC Vannes",
+          "position": "wing",
+          "season_pct": 47.1,
+          "try_proba": 48.6
+        },
+        {
+          "name": "Paul SURANO",
+          "number": 11,
+          "team": "RC Vannes",
+          "position": "wing",
+          "season_pct": 29.2,
+          "try_proba": 46.5
+        },
+        {
+          "name": "Michael RURU",
+          "number": 9,
+          "team": "RC Vannes",
+          "position": "halfback",
+          "season_pct": 38.1,
+          "try_proba": 45.9
+        },
+        {
+          "name": "Anthony BOUTHIER",
+          "number": 15,
+          "team": "RC Vannes",
+          "position": "fullback",
+          "season_pct": 31.8,
+          "try_proba": 45.8
+        },
+        {
+          "name": "Uzair CASSIEM",
+          "number": 8,
+          "team": "Oyonnax Rugby",
+          "position": "back_row",
+          "season_pct": 26.3,
+          "try_proba": 44.4
+        },
+        {
+          "name": "Théo BEZIAT",
+          "number": 2,
+          "team": "RC Vannes",
+          "position": "front_row",
+          "season_pct": 40.0,
+          "try_proba": 43.6
+        },
+        {
+          "name": "Pierre BOUDEHENT",
+          "number": 12,
+          "team": "RC Vannes",
+          "position": "center",
+          "season_pct": 33.3,
+          "try_proba": 42.0
+        },
+        {
+          "name": "Simon AUGRY",
+          "number": 6,
+          "team": "RC Vannes",
+          "position": "flanker",
+          "season_pct": 25.0,
+          "try_proba": 41.4
+        },
+        {
+          "name": "Justin BOURAUX",
+          "number": 15,
+          "team": "Oyonnax Rugby",
+          "position": "fullback",
+          "season_pct": 14.8,
+          "try_proba": 40.9
+        },
+        {
+          "name": "Cyriac GUILLY",
+          "number": 7,
+          "team": "Oyonnax Rugby",
+          "position": "flanker",
+          "season_pct": 19.2,
+          "try_proba": 39.0
+        },
+        {
+          "name": "Robin TACCOLA",
+          "number": 13,
+          "team": "RC Vannes",
+          "position": "center",
+          "season_pct": 25.0,
+          "try_proba": 38.4
+        },
+        {
+          "name": "Danny TOALA",
+          "number": 12,
+          "team": "Oyonnax Rugby",
+          "position": "center",
+          "season_pct": 22.2,
+          "try_proba": 30.8
+        },
+        {
+          "name": "Kevin LEBRETON",
+          "number": 6,
+          "team": "Oyonnax Rugby",
+          "position": "flanker",
+          "season_pct": 7.7,
+          "try_proba": 30.6
+        },
+        {
+          "name": "Matteo DESJEUX",
+          "number": 5,
+          "team": "RC Vannes",
+          "position": "lock",
+          "season_pct": 5.9,
+          "try_proba": 25.8
+        },
+        {
+          "name": "Sione KALAMAFONI",
+          "number": 8,
+          "team": "RC Vannes",
+          "position": "back_row",
+          "season_pct": 0.0,
+          "try_proba": 25.6
+        }
+      ]
+    },
+    {
+      "home": "Colomiers Rugby",
+      "away": "Provence Rugby",
+      "competition": "Pro D2",
+      "round": "DEMI-FINALE",
+      "players": [
+        {
+          "name": "Léo DROUET",
+          "number": 11,
+          "team": "Provence Rugby",
+          "position": "wing",
+          "season_pct": 42.9,
+          "try_proba": 54.1
+        },
+        {
+          "name": "Arthur COVILLE",
+          "number": 9,
+          "team": "Provence Rugby",
+          "position": "halfback",
+          "season_pct": 28.0,
+          "try_proba": 44.8
+        },
+        {
+          "name": "Albert TUISUE",
+          "number": 6,
+          "team": "Provence Rugby",
+          "position": "flanker",
+          "season_pct": 22.2,
+          "try_proba": 40.8
+        },
+        {
+          "name": "Vincent PINTO",
+          "number": 14,
+          "team": "Colomiers Rugby",
+          "position": "wing",
+          "season_pct": 27.8,
+          "try_proba": 37.0
+        },
+        {
+          "name": "Caleb MUNTZ",
+          "number": 10,
+          "team": "Provence Rugby",
+          "position": "halfback",
+          "season_pct": 16.7,
+          "try_proba": 35.4
+        },
+        {
+          "name": "Jules DANGLOT",
+          "number": 9,
+          "team": "Colomiers Rugby",
+          "position": "halfback",
+          "season_pct": 28.6,
+          "try_proba": 35.2
+        },
+        {
+          "name": "Tornike JALAGONIA",
+          "number": 8,
+          "team": "Provence Rugby",
+          "position": "back_row",
+          "season_pct": 9.5,
+          "try_proba": 33.2
+        },
+        {
+          "name": "Luka PLATARET",
+          "number": 6,
+          "team": "Colomiers Rugby",
+          "position": "flanker",
+          "season_pct": 20.8,
+          "try_proba": 32.7
+        },
+        {
+          "name": "Martin DULON",
+          "number": 13,
+          "team": "Colomiers Rugby",
+          "position": "center",
+          "season_pct": 26.3,
+          "try_proba": 31.4
+        },
+        {
+          "name": "Théo GIRAL",
+          "number": 15,
+          "team": "Colomiers Rugby",
+          "position": "fullback",
+          "season_pct": 8.7,
+          "try_proba": 30.6
+        },
+        {
+          "name": "Charly GAMBINI",
+          "number": 7,
+          "team": "Provence Rugby",
+          "position": "flanker",
+          "season_pct": 10.5,
+          "try_proba": 30.0
+        },
+        {
+          "name": "Adrien LAPEGUE - LAFAYE",
+          "number": 14,
+          "team": "Provence Rugby",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 24.9
+        },
+        {
+          "name": "Rodrigo DE BIVAR WEINHOLTZ CARDOSO MARTA",
+          "number": 11,
+          "team": "Colomiers Rugby",
+          "position": "wing",
+          "season_pct": 0.0,
+          "try_proba": 24.3
+        },
+        {
+          "name": "Manuel PORTELA MORAIS VAREIRO",
+          "number": 15,
+          "team": "Provence Rugby",
+          "position": "fullback",
+          "season_pct": 0.0,
+          "try_proba": 21.3
+        },
+        {
+          "name": "Thomas ADELAIDE",
+          "number": 5,
+          "team": "Colomiers Rugby",
+          "position": "lock",
+          "season_pct": 5.0,
+          "try_proba": 20.9
+        },
+        {
+          "name": "Pierre LUCAS",
+          "number": 12,
+          "team": "Provence Rugby",
+          "position": "center",
+          "season_pct": 5.9,
+          "try_proba": 20.8
+        }
+      ]
+    }
+  ]
+}
