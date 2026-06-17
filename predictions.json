@@ -33114,16 +33114,150 @@
         "base_correct": 1,
         "lineup_correct": 1,
         "total": 2
+      },
+      {
+        "champ": "prod2",
+        "season": "2025-2026",
+        "day": "finale",
+        "gen_at": "2026-06-05T19:04:42.903651",
+        "matches": [
+          {
+            "home": "RC Vannes",
+            "away": "Provence Rugby",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 34.3,
+              "pred_away": 15.7,
+              "pred_diff": 18.6,
+              "pred_total": 50.0,
+              "outcome": "H",
+              "prob_h": 91.7,
+              "prob_d": 0.8,
+              "prob_a": 7.4
+            },
+            "lineup": {
+              "pred_home": 31.2,
+              "pred_away": 16.7,
+              "pred_diff": 14.6,
+              "pred_total": 47.9,
+              "outcome": "H",
+              "prob_h": 87.2,
+              "prob_d": 1.1,
+              "prob_a": 11.7
+            },
+            "raw": {
+              "elo_home": 1710.5146196062165,
+              "elo_away": 1640.9795962486937,
+              "home_win_ratio": 0.6,
+              "away_win_ratio": 1.0,
+              "home_avg_score": 47.2,
+              "away_avg_score": 38.4,
+              "home_avg_conc": 17.4,
+              "away_avg_conc": 27.0,
+              "home_avg_margin": 29.8,
+              "away_avg_margin": 11.4,
+              "home_try_rate": 0.1483050847457627,
+              "away_try_rate": 0.13020833333333334,
+              "home_avg_poss": 0.518,
+              "away_avg_poss": 0.518,
+              "home_avg_kicks": 25.8,
+              "away_avg_kicks": 28.6,
+              "home_avg_pen": 0.2,
+              "away_avg_pen": 1.4,
+              "home_avg_yellow": 1.0,
+              "away_avg_yellow": 0.0,
+              "home_avg_red": 0.0,
+              "away_avg_red": 0.0,
+              "home_venue_win_ratio": 1.0,
+              "away_venue_win_ratio": 0.4,
+              "home_venue_avg_margin": 45.6,
+              "away_venue_avg_margin": -9.2,
+              "home_ppg": 3.2666666666666666,
+              "away_ppg": 2.533333333333333,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 4.47,
+              "lineup_h_avg_starts": 3.8,
+              "subs_h_avg_games_played": 2.25,
+              "charniere_h_avg_games_played": 4.0,
+              "charniere_h_avg_starts": 3.5,
+              "forwards_h_avg_games_played": 4.5,
+              "forwards_h_avg_starts": 3.88,
+              "backs_h_avg_games_played": 4.6,
+              "backs_h_avg_starts": 3.8,
+              "total_h_avg_games_played": 3.7,
+              "lineup_a_avg_games_played": 5.27,
+              "lineup_a_avg_starts": 3.93,
+              "subs_a_avg_games_played": 5.0,
+              "charniere_a_avg_games_played": 5.0,
+              "charniere_a_avg_starts": 3.5,
+              "forwards_a_avg_games_played": 5.88,
+              "forwards_a_avg_starts": 4.75,
+              "backs_a_avg_games_played": 4.4,
+              "backs_a_avg_starts": 2.8,
+              "total_a_avg_games_played": 5.17
+            },
+            "derived": {
+              "lineup_adj_elo_diff": 66.59502335752273,
+              "elo_lineup_interaction": -1.022164843355584,
+              "disruption_diff": 0.0,
+              "charniere_vs_total_diff": 0.13000000000000034,
+              "fwd_dominance_diff": -1.87
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 24.9,
+              "temperature_c": 17.9
+            },
+            "actual": {
+              "home": 18,
+              "away": 14
+            },
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Robin TACCOLA",
+                "club": "home",
+                "minute": 6
+              },
+              {
+                "name": "Paul CELLIO ZWILER",
+                "club": "away",
+                "minute": 27
+              },
+              {
+                "name": "Benjamin Thomas STEVENSON",
+                "club": "home",
+                "minute": 66
+              },
+              {
+                "name": "Joris CAZENAVE",
+                "club": "away",
+                "minute": 75
+              }
+            ]
+          }
+        ],
+        "complete": true,
+        "base_correct": 1,
+        "lineup_correct": 1,
+        "total": 1
       }
     ],
     "stats": {
-      "n": 244,
-      "base_ok": 179,
-      "lineup_ok": 184,
+      "n": 245,
+      "base_ok": 180,
+      "lineup_ok": 185,
       "home": {
-        "total": 182,
-        "base_ok": 175,
-        "lineup_ok": 176
+        "total": 183,
+        "base_ok": 176,
+        "lineup_ok": 177
       },
       "draw": {
         "total": 3,
@@ -59365,5 +59499,5 @@
       }
     }
   },
-  "generated_at": "17/06/2026 à 23:22"
+  "generated_at": "17/06/2026 à 23:29"
 }

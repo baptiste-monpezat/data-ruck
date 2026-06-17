@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T23:20:44.535838",
+  "generated_at": "2026-06-17T23:27:44.901628",
   "matches": [
     {
       "home": "Section Paloise",
@@ -156014,10 +156014,10 @@
       "top5_hit_pct": 84
     },
     "prod2": {
-      "n_matches": 244,
+      "n_matches": 245,
       "top1_hit_pct": 36,
       "top3_hit_pct": 67,
-      "top5_hit_pct": 79
+      "top5_hit_pct": 78
     }
   }
 }
