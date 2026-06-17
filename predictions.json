@@ -98,17 +98,41 @@
             "wind_speed_kmh": 24.9,
             "temperature_c": 17.9
           },
-          "actual": null,
-          "actual_outcome": null,
-          "base_correct": null,
-          "lineup_correct": null,
-          "actual_scorers": []
+          "actual": {
+            "home": 18,
+            "away": 14
+          },
+          "actual_outcome": "H",
+          "base_correct": true,
+          "lineup_correct": true,
+          "actual_scorers": [
+            {
+              "name": "Robin TACCOLA",
+              "club": "home",
+              "minute": 6
+            },
+            {
+              "name": "Paul CELLIO ZWILER",
+              "club": "away",
+              "minute": 27
+            },
+            {
+              "name": "Benjamin Thomas STEVENSON",
+              "club": "home",
+              "minute": 66
+            },
+            {
+              "name": "Joris CAZENAVE",
+              "club": "away",
+              "minute": 75
+            }
+          ]
         }
       ],
-      "complete": false,
-      "base_correct": 0,
-      "lineup_correct": 0,
-      "total": 0
+      "complete": true,
+      "base_correct": 1,
+      "lineup_correct": 1,
+      "total": 1
     },
     "history": [
       {
@@ -32523,16 +32547,583 @@
         "base_correct": 6,
         "lineup_correct": 6,
         "total": 8
+      },
+      {
+        "champ": "prod2",
+        "season": "2025-2026",
+        "day": "barrage",
+        "gen_at": "2026-05-29T18:21:21.040798",
+        "matches": [
+          {
+            "home": "Oyonnax Rugby",
+            "away": "Valence Romans",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 26.8,
+              "pred_away": 19.1,
+              "pred_diff": 7.7,
+              "pred_total": 45.8,
+              "outcome": "H",
+              "prob_h": 71.3,
+              "prob_d": 3.8,
+              "prob_a": 24.9
+            },
+            "lineup": {
+              "pred_home": 24.7,
+              "pred_away": 20.5,
+              "pred_diff": 4.2,
+              "pred_total": 45.2,
+              "outcome": "H",
+              "prob_h": 59.6,
+              "prob_d": 6.5,
+              "prob_a": 33.9
+            },
+            "raw": {
+              "elo_home": 1592.1618389139185,
+              "elo_away": 1593.818061960719,
+              "home_win_ratio": 0.8,
+              "away_win_ratio": 0.6,
+              "home_avg_score": 34.8,
+              "away_avg_score": 30.8,
+              "home_avg_conc": 21.0,
+              "away_avg_conc": 30.6,
+              "home_avg_margin": 13.8,
+              "away_avg_margin": 0.2,
+              "home_try_rate": 0.13218390804597702,
+              "away_try_rate": 0.11688311688311688,
+              "home_avg_poss": 0.496,
+              "away_avg_poss": 0.496,
+              "home_avg_kicks": 24.4,
+              "away_avg_kicks": 22.0,
+              "home_avg_pen": 1.4,
+              "away_avg_pen": 2.8,
+              "home_avg_yellow": 0.0,
+              "away_avg_yellow": 1.0,
+              "home_avg_red": 0.0,
+              "away_avg_red": 0.0,
+              "home_venue_win_ratio": 1.0,
+              "away_venue_win_ratio": 0.4,
+              "home_venue_avg_margin": 24.6,
+              "away_venue_avg_margin": -1.6,
+              "home_ppg": 2.2666666666666666,
+              "away_ppg": 2.533333333333333,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 4.13,
+              "lineup_h_avg_starts": 3.0,
+              "subs_h_avg_games_played": 4.25,
+              "charniere_h_avg_games_played": 6.5,
+              "charniere_h_avg_starts": 4.0,
+              "forwards_h_avg_games_played": 3.0,
+              "forwards_h_avg_starts": 2.12,
+              "backs_h_avg_games_played": 5.0,
+              "backs_h_avg_starts": 4.0,
+              "total_h_avg_games_played": 4.17,
+              "lineup_a_avg_games_played": 6.47,
+              "lineup_a_avg_starts": 4.8,
+              "subs_a_avg_games_played": 6.25,
+              "charniere_a_avg_games_played": 9.0,
+              "charniere_a_avg_starts": 8.0,
+              "forwards_a_avg_games_played": 7.12,
+              "forwards_a_avg_starts": 4.62,
+              "backs_a_avg_games_played": 4.4,
+              "backs_a_avg_starts": 3.8,
+              "total_a_avg_games_played": 6.39
+            },
+            "derived": {
+              "lineup_adj_elo_diff": -2.484334570200758,
+              "elo_lineup_interaction": 0.036768151638971215,
+              "disruption_diff": 0.0,
+              "charniere_vs_total_diff": -2.2,
+              "fwd_dominance_diff": -2.7
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 0.0,
+              "temperature_c": null
+            },
+            "actual": {
+              "home": 39,
+              "away": 14
+            },
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Ilia SPANDERASHVILI",
+                "club": "away",
+                "minute": 33
+              },
+              {
+                "name": "Uzair CASSIEM",
+                "club": "home",
+                "minute": 37
+              },
+              {
+                "name": "Enzo REYBIER",
+                "club": "home",
+                "minute": 52
+              },
+              {
+                "name": "Mohamed Karim QADIRI",
+                "club": "home",
+                "minute": 60
+              },
+              {
+                "name": "Ali OZ",
+                "club": "home",
+                "minute": 68
+              },
+              {
+                "name": "Kevin LEBRETON",
+                "club": "home",
+                "minute": 72
+              }
+            ]
+          },
+          {
+            "home": "Provence Rugby",
+            "away": "CA Brive",
+            "lineup_available": false,
+            "base": {
+              "pred_home": 28.5,
+              "pred_away": 17.2,
+              "pred_diff": 11.3,
+              "pred_total": 45.8,
+              "outcome": "H",
+              "prob_h": 74.9,
+              "prob_d": 3.5,
+              "prob_a": 21.5
+            },
+            "lineup": {
+              "pred_home": 26.2,
+              "pred_away": 18.2,
+              "pred_diff": 8.0,
+              "pred_total": 44.4,
+              "outcome": "H",
+              "prob_h": 73.3,
+              "prob_d": 3.5,
+              "prob_a": 23.2
+            },
+            "raw": {
+              "elo_home": 1640.9795962486937,
+              "elo_away": 1617.6076935484045,
+              "home_win_ratio": 1.0,
+              "away_win_ratio": 0.6,
+              "home_avg_score": 38.4,
+              "away_avg_score": 37.6,
+              "home_avg_conc": 27.0,
+              "away_avg_conc": 25.0,
+              "home_avg_margin": 11.4,
+              "away_avg_margin": 12.6,
+              "home_try_rate": 0.13020833333333334,
+              "away_try_rate": 0.1276595744680851,
+              "home_avg_poss": 0.518,
+              "away_avg_poss": 0.5399999999999999,
+              "home_avg_kicks": 28.6,
+              "away_avg_kicks": 23.2,
+              "home_avg_pen": 1.4,
+              "away_avg_pen": 2.0,
+              "home_avg_yellow": 0.0,
+              "away_avg_yellow": 1.0,
+              "home_avg_red": 0.0,
+              "away_avg_red": 0.0,
+              "home_venue_win_ratio": 0.6,
+              "away_venue_win_ratio": 0.6,
+              "home_venue_avg_margin": 7.2,
+              "away_venue_avg_margin": 5.4,
+              "home_ppg": 2.533333333333333,
+              "away_ppg": 2.3333333333333335,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 0.0,
+              "lineup_h_avg_starts": 0.0,
+              "subs_h_avg_games_played": 0.0,
+              "charniere_h_avg_games_played": 0.0,
+              "charniere_h_avg_starts": 0.0,
+              "forwards_h_avg_games_played": 0.0,
+              "forwards_h_avg_starts": 0.0,
+              "backs_h_avg_games_played": 0.0,
+              "backs_h_avg_starts": 0.0,
+              "total_h_avg_games_played": 0.0,
+              "lineup_a_avg_games_played": 0.0,
+              "lineup_a_avg_starts": 0.0,
+              "subs_a_avg_games_played": 0.0,
+              "charniere_a_avg_games_played": 0.0,
+              "charniere_a_avg_starts": 0.0,
+              "forwards_a_avg_games_played": 0.0,
+              "forwards_a_avg_starts": 0.0,
+              "backs_a_avg_games_played": 0.0,
+              "backs_a_avg_starts": 0.0,
+              "total_a_avg_games_played": 0.0
+            },
+            "derived": {
+              "lineup_adj_elo_diff": 23.371902700289183,
+              "elo_lineup_interaction": 0.0,
+              "disruption_diff": 0.0,
+              "charniere_vs_total_diff": 0.0,
+              "fwd_dominance_diff": 0.0
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 0.0,
+              "temperature_c": null
+            },
+            "actual": {
+              "home": 39,
+              "away": 21
+            },
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Asaeli TUIVUAKA",
+                "club": "away",
+                "minute": 18
+              },
+              {
+                "name": "Caleb MUNTZ",
+                "club": "home",
+                "minute": 20
+              },
+              {
+                "name": "Romain LATTERRADE",
+                "club": "home",
+                "minute": 23
+              },
+              {
+                "name": "Adrien LAPEGUE - LAFAYE",
+                "club": "home",
+                "minute": 35
+              },
+              {
+                "name": "Adrien LAPEGUE - LAFAYE",
+                "club": "home",
+                "minute": 45
+              },
+              {
+                "name": "Léo DROUET",
+                "club": "home",
+                "minute": 60
+              },
+              {
+                "name": "Sasha GUE",
+                "club": "away",
+                "minute": 68
+              },
+              {
+                "name": "Benjamin BOUDOU",
+                "club": "away",
+                "minute": 74
+              }
+            ]
+          }
+        ],
+        "complete": true,
+        "base_correct": 2,
+        "lineup_correct": 2,
+        "total": 2
+      },
+      {
+        "champ": "prod2",
+        "season": "2025-2026",
+        "day": "demi-finale",
+        "gen_at": "2026-05-29T18:21:54.490618",
+        "matches": [
+          {
+            "home": "RC Vannes",
+            "away": "Oyonnax Rugby",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 32.0,
+              "pred_away": 15.4,
+              "pred_diff": 16.6,
+              "pred_total": 47.4,
+              "outcome": "H",
+              "prob_h": 79.8,
+              "prob_d": 4.4,
+              "prob_a": 15.8
+            },
+            "lineup": {
+              "pred_home": 28.6,
+              "pred_away": 18.8,
+              "pred_diff": 9.8,
+              "pred_total": 47.4,
+              "outcome": "H",
+              "prob_h": 73.2,
+              "prob_d": 3.7,
+              "prob_a": 23.1
+            },
+            "raw": {
+              "elo_home": 1710.5146196062165,
+              "elo_away": 1592.1618389139185,
+              "home_win_ratio": 0.6,
+              "away_win_ratio": 0.8,
+              "home_avg_score": 47.2,
+              "away_avg_score": 34.8,
+              "home_avg_conc": 17.4,
+              "away_avg_conc": 21.0,
+              "home_avg_margin": 29.8,
+              "away_avg_margin": 13.8,
+              "home_try_rate": 0.1483050847457627,
+              "away_try_rate": 0.13218390804597702,
+              "home_avg_poss": 0.518,
+              "away_avg_poss": 0.496,
+              "home_avg_kicks": 25.8,
+              "away_avg_kicks": 24.4,
+              "home_avg_pen": 0.2,
+              "away_avg_pen": 1.4,
+              "home_avg_yellow": 1.0,
+              "away_avg_yellow": 0.0,
+              "home_avg_red": 0.0,
+              "away_avg_red": 0.0,
+              "home_venue_win_ratio": 1.0,
+              "away_venue_win_ratio": 0.2,
+              "home_venue_avg_margin": 45.6,
+              "away_venue_avg_margin": -1.0,
+              "home_ppg": 3.2666666666666666,
+              "away_ppg": 2.2666666666666666,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 4.33,
+              "lineup_h_avg_starts": 3.4,
+              "subs_h_avg_games_played": 2.62,
+              "charniere_h_avg_games_played": 3.0,
+              "charniere_h_avg_starts": 0.5,
+              "forwards_h_avg_games_played": 4.5,
+              "forwards_h_avg_starts": 3.88,
+              "backs_h_avg_games_played": 4.6,
+              "backs_h_avg_starts": 3.8,
+              "total_h_avg_games_played": 3.74,
+              "lineup_a_avg_games_played": 4.13,
+              "lineup_a_avg_starts": 3.13,
+              "subs_a_avg_games_played": 4.25,
+              "charniere_a_avg_games_played": 6.5,
+              "charniere_a_avg_starts": 4.0,
+              "forwards_a_avg_games_played": 2.75,
+              "forwards_a_avg_starts": 2.12,
+              "backs_a_avg_games_played": 5.4,
+              "backs_a_avg_starts": 4.4,
+              "total_a_avg_games_played": 4.17
+            },
+            "derived": {
+              "lineup_adj_elo_diff": 117.49278069229798,
+              "elo_lineup_interaction": -0.508916956976881,
+              "disruption_diff": 0.0,
+              "charniere_vs_total_diff": -3.77,
+              "fwd_dominance_diff": 2.3600000000000003
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 0.0,
+              "temperature_c": null
+            },
+            "actual": {
+              "home": 48,
+              "away": 7
+            },
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Mohamed Karim QADIRI",
+                "club": "away",
+                "minute": 26
+              },
+              {
+                "name": "Théo BEZIAT",
+                "club": "home",
+                "minute": 28
+              },
+              {
+                "name": "Pierre BOUDEHENT",
+                "club": "home",
+                "minute": 33
+              },
+              {
+                "name": "Paul SURANO",
+                "club": "home",
+                "minute": 65
+              },
+              {
+                "name": "Francisco GORRISSEN",
+                "club": "home",
+                "minute": 73
+              },
+              {
+                "name": "Paul SURANO",
+                "club": "home",
+                "minute": 77
+              }
+            ]
+          },
+          {
+            "home": "Colomiers Rugby",
+            "away": "Provence Rugby",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 26.6,
+              "pred_away": 18.7,
+              "pred_diff": 7.9,
+              "pred_total": 45.3,
+              "outcome": "H",
+              "prob_h": 75.2,
+              "prob_d": 3.5,
+              "prob_a": 21.3
+            },
+            "lineup": {
+              "pred_home": 26.8,
+              "pred_away": 19.1,
+              "pred_diff": 7.7,
+              "pred_total": 45.8,
+              "outcome": "H",
+              "prob_h": 72.4,
+              "prob_d": 3.5,
+              "prob_a": 24.0
+            },
+            "raw": {
+              "elo_home": 1653.2352333972963,
+              "elo_away": 1640.9795962486937,
+              "home_win_ratio": 0.6,
+              "away_win_ratio": 1.0,
+              "home_avg_score": 31.2,
+              "away_avg_score": 38.4,
+              "home_avg_conc": 24.2,
+              "away_avg_conc": 27.0,
+              "home_avg_margin": 7.0,
+              "away_avg_margin": 11.4,
+              "home_try_rate": 0.11538461538461539,
+              "away_try_rate": 0.13020833333333334,
+              "home_avg_poss": 0.476,
+              "away_avg_poss": 0.518,
+              "home_avg_kicks": 25.4,
+              "away_avg_kicks": 28.6,
+              "home_avg_pen": 2.4,
+              "away_avg_pen": 1.4,
+              "home_avg_yellow": 1.0,
+              "away_avg_yellow": 0.0,
+              "home_avg_red": 0.0,
+              "away_avg_red": 0.0,
+              "home_venue_win_ratio": 0.8,
+              "away_venue_win_ratio": 0.4,
+              "home_venue_avg_margin": 17.4,
+              "away_venue_avg_margin": -9.2,
+              "home_ppg": 2.8,
+              "away_ppg": 2.533333333333333,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 5.67,
+              "lineup_h_avg_starts": 4.07,
+              "subs_h_avg_games_played": 3.88,
+              "charniere_h_avg_games_played": 4.5,
+              "charniere_h_avg_starts": 1.5,
+              "forwards_h_avg_games_played": 5.62,
+              "forwards_h_avg_starts": 3.62,
+              "backs_h_avg_games_played": 6.2,
+              "backs_h_avg_starts": 5.8,
+              "total_h_avg_games_played": 5.04,
+              "lineup_a_avg_games_played": 4.8,
+              "lineup_a_avg_starts": 3.8,
+              "subs_a_avg_games_played": 5.0,
+              "charniere_a_avg_games_played": 5.0,
+              "charniere_a_avg_starts": 3.5,
+              "forwards_a_avg_games_played": 5.88,
+              "forwards_a_avg_starts": 4.75,
+              "backs_a_avg_games_played": 3.0,
+              "backs_a_avg_starts": 2.4,
+              "total_a_avg_games_played": 4.87
+            },
+            "derived": {
+              "lineup_adj_elo_diff": 12.595637148602545,
+              "elo_lineup_interaction": 0.02083458315262432,
+              "disruption_diff": 0.0,
+              "charniere_vs_total_diff": -2.2700000000000005,
+              "fwd_dominance_diff": -4.529999999999999
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 5.6,
+              "temperature_c": 28.4
+            },
+            "actual": {
+              "home": 28,
+              "away": 36
+            },
+            "actual_outcome": "A",
+            "base_correct": false,
+            "lineup_correct": false,
+            "actual_scorers": [
+              {
+                "name": "Charly GAMBINI",
+                "club": "away",
+                "minute": 11
+              },
+              {
+                "name": "Rodrigo DE BIVAR WEINHOLTZ CARDOSO MARTA",
+                "club": "home",
+                "minute": 42
+              },
+              {
+                "name": "Charly GAMBINI",
+                "club": "away",
+                "minute": 50
+              },
+              {
+                "name": "Manuel PORTELA MORAIS VAREIRO",
+                "club": "away",
+                "minute": 68
+              },
+              {
+                "name": "Setareki BITUNIYATA",
+                "club": "away",
+                "minute": 74
+              },
+              {
+                "name": "Rodrigo DE BIVAR WEINHOLTZ CARDOSO MARTA",
+                "club": "home",
+                "minute": 76
+              },
+              {
+                "name": "Eliott MAUREL",
+                "club": "home",
+                "minute": 80
+              }
+            ]
+          }
+        ],
+        "complete": true,
+        "base_correct": 1,
+        "lineup_correct": 1,
+        "total": 2
       }
     ],
     "stats": {
-      "n": 240,
-      "base_ok": 176,
-      "lineup_ok": 181,
+      "n": 244,
+      "base_ok": 179,
+      "lineup_ok": 184,
       "home": {
-        "total": 179,
-        "base_ok": 172,
-        "lineup_ok": 173
+        "total": 182,
+        "base_ok": 175,
+        "lineup_ok": 176
       },
       "draw": {
         "total": 3,
@@ -32540,7 +33131,7 @@
         "lineup_ok": 0
       },
       "away": {
-        "total": 58,
+        "total": 59,
         "base_ok": 4,
         "lineup_ok": 8
       }
@@ -32551,61 +33142,61 @@
       "champ": "top14",
       "season": "2025-2026",
       "day": "demi-finale",
-      "gen_at": "2026-06-15T22:33:06.716240",
+      "gen_at": "2026-06-17T23:10:06.488579",
       "matches": [
         {
           "home": "Stade Toulousain",
           "away": "Racing 92",
           "lineup_available": false,
           "base": {
-            "pred_home": 29.0,
-            "pred_away": 17.8,
-            "pred_diff": 11.2,
-            "pred_total": 46.9,
+            "pred_home": 28.1,
+            "pred_away": 18.1,
+            "pred_diff": 10.1,
+            "pred_total": 46.2,
             "outcome": "H",
             "prob_h": 66.0,
-            "prob_d": 3.6,
-            "prob_a": 30.4
+            "prob_d": 2.8,
+            "prob_a": 31.2
           },
           "lineup": {
-            "pred_home": 26.8,
-            "pred_away": 18.6,
-            "pred_diff": 8.2,
+            "pred_home": 26.6,
+            "pred_away": 18.8,
+            "pred_diff": 7.8,
             "pred_total": 45.4,
             "outcome": "H",
-            "prob_h": 65.2,
-            "prob_d": 4.4,
-            "prob_a": 30.4
+            "prob_h": 65.6,
+            "prob_d": 3.4,
+            "prob_a": 31.0
           },
           "raw": {
-            "elo_home": 1770.827623925091,
-            "elo_away": 1677.5869956635963,
-            "home_win_ratio": 0.6,
-            "away_win_ratio": 0.6,
-            "home_avg_score": 33.2,
-            "away_avg_score": 33.4,
-            "home_avg_conc": 29.6,
-            "away_avg_conc": 15.4,
-            "home_avg_margin": 3.6,
-            "away_avg_margin": 18.0,
-            "home_try_rate": 0.13253012048192772,
-            "away_try_rate": 0.1721556886227545,
-            "home_avg_poss": 0.5700000000000001,
-            "away_avg_poss": 0.4725,
-            "home_avg_kicks": 24.2,
-            "away_avg_kicks": 28.25,
+            "elo_home": 1750.61430779113,
+            "elo_away": 1713.0551558151901,
+            "home_win_ratio": 0.4,
+            "away_win_ratio": 0.8,
+            "home_avg_score": 28.8,
+            "away_avg_score": 34.4,
+            "home_avg_conc": 30.8,
+            "away_avg_conc": 23.6,
+            "home_avg_margin": -2.0,
+            "away_avg_margin": 10.8,
+            "home_try_rate": 0.1388888888888889,
+            "away_try_rate": 0.12209302325581396,
+            "home_avg_poss": 0.606,
+            "away_avg_poss": 0.45,
+            "home_avg_kicks": 22.6,
+            "away_avg_kicks": 21.0,
             "home_avg_pen": 1.2,
-            "away_avg_pen": 1.5,
-            "home_avg_yellow": null,
-            "away_avg_yellow": null,
-            "home_avg_red": null,
-            "away_avg_red": null,
+            "away_avg_pen": 2.2,
+            "home_avg_yellow": 0.0,
+            "away_avg_yellow": 0.0,
+            "home_avg_red": 0.0,
+            "away_avg_red": 0.0,
             "home_venue_win_ratio": 0.8,
-            "away_venue_win_ratio": 0.4,
+            "away_venue_win_ratio": 0.6,
             "home_venue_avg_margin": 19.4,
-            "away_venue_avg_margin": 8.6,
-            "home_ppg": 2.88,
-            "away_ppg": 2.4615384615384617,
+            "away_venue_avg_margin": 9.0,
+            "home_ppg": 2.769230769230769,
+            "away_ppg": 2.5925925925925926,
             "home_n_games": 5,
             "away_n_games": 5,
             "home_n_home_games": 5,
@@ -32634,7 +33225,7 @@
             "total_a_avg_games_played": null
           },
           "derived": {
-            "lineup_adj_elo_diff": 93.24062826149475,
+            "lineup_adj_elo_diff": 37.55915197593981,
             "elo_lineup_interaction": 0.0,
             "disruption_diff": 0.0,
             "charniere_vs_total_diff": 0.0,
@@ -32642,8 +33233,8 @@
           },
           "weather": {
             "rain_mm": 0.0,
-            "wind_speed_kmh": 13.5,
-            "temperature_c": 29.0
+            "wind_speed_kmh": 9.9,
+            "temperature_c": 28.5
           },
           "actual": null,
           "actual_outcome": null,
@@ -32656,54 +33247,54 @@
           "away": "Stade Français Paris",
           "lineup_available": false,
           "base": {
-            "pred_home": 27.1,
-            "pred_away": 17.5,
-            "pred_diff": 9.6,
-            "pred_total": 44.6,
+            "pred_home": 28.0,
+            "pred_away": 18.5,
+            "pred_diff": 9.4,
+            "pred_total": 46.5,
             "outcome": "H",
-            "prob_h": 69.7,
-            "prob_d": 6.3,
-            "prob_a": 24.0
+            "prob_h": 63.0,
+            "prob_d": 12.0,
+            "prob_a": 25.0
           },
           "lineup": {
-            "pred_home": 25.8,
-            "pred_away": 18.4,
-            "pred_diff": 7.3,
-            "pred_total": 44.2,
+            "pred_home": 26.7,
+            "pred_away": 19.0,
+            "pred_diff": 7.7,
+            "pred_total": 45.7,
             "outcome": "H",
-            "prob_h": 68.4,
-            "prob_d": 6.8,
-            "prob_a": 24.8
+            "prob_h": 62.8,
+            "prob_d": 11.8,
+            "prob_a": 25.4
           },
           "raw": {
-            "elo_home": 1717.498162211205,
-            "elo_away": 1686.549619238683,
+            "elo_home": 1727.3474659848935,
+            "elo_away": 1687.7625108622697,
             "home_win_ratio": 1.0,
             "away_win_ratio": 0.8,
-            "home_avg_score": 37.2,
-            "away_avg_score": 40.8,
-            "home_avg_conc": 22.0,
+            "home_avg_score": 34.4,
+            "away_avg_score": 47.4,
+            "home_avg_conc": 20.8,
             "away_avg_conc": 19.0,
-            "home_avg_margin": 15.2,
-            "away_avg_margin": 21.8,
-            "home_try_rate": 0.12903225806451613,
-            "away_try_rate": 0.17769607843137256,
-            "home_avg_poss": 0.524,
-            "away_avg_poss": 0.525,
-            "home_avg_kicks": 20.6,
-            "away_avg_kicks": 18.5,
-            "home_avg_pen": 2.0,
-            "away_avg_pen": 0.75,
-            "home_avg_yellow": null,
-            "away_avg_yellow": null,
-            "home_avg_red": null,
-            "away_avg_red": null,
+            "home_avg_margin": 13.6,
+            "away_avg_margin": 28.4,
+            "home_try_rate": 0.12209302325581396,
+            "away_try_rate": 0.14767932489451477,
+            "home_avg_poss": 0.518,
+            "away_avg_poss": 0.514,
+            "home_avg_kicks": 22.4,
+            "away_avg_kicks": 16.4,
+            "home_avg_pen": 2.2,
+            "away_avg_pen": 0.4,
+            "home_avg_yellow": 0.0,
+            "away_avg_yellow": 1.0,
+            "home_avg_red": 0.0,
+            "away_avg_red": 0.0,
             "home_venue_win_ratio": 1.0,
-            "away_venue_win_ratio": 0.6,
+            "away_venue_win_ratio": 0.4,
             "home_venue_avg_margin": 26.4,
-            "away_venue_avg_margin": 1.6,
-            "home_ppg": 2.64,
-            "away_ppg": 2.4615384615384617,
+            "away_venue_avg_margin": -0.4,
+            "home_ppg": 2.6923076923076925,
+            "away_ppg": 2.4444444444444446,
             "home_n_games": 5,
             "away_n_games": 5,
             "home_n_home_games": 5,
@@ -32732,7 +33323,7 @@
             "total_a_avg_games_played": null
           },
           "derived": {
-            "lineup_adj_elo_diff": 30.94854297252209,
+            "lineup_adj_elo_diff": 39.584955122623796,
             "elo_lineup_interaction": 0.0,
             "disruption_diff": 0.0,
             "charniere_vs_total_diff": 0.0,
@@ -32740,8 +33331,8 @@
           },
           "weather": {
             "rain_mm": 0.0,
-            "wind_speed_kmh": 7.5,
-            "temperature_c": 26.8
+            "wind_speed_kmh": 4.3,
+            "temperature_c": 26.5
           },
           "actual": null,
           "actual_outcome": null,
@@ -57269,216 +57860,1028 @@
       {
         "champ": "top14",
         "season": "2025-2026",
-        "day": "Barrage",
-        "gen_at": "2026-06-15T22:27:36.079646",
+        "day": 26,
+        "gen_at": "2026-06-05T19:02:37.583803",
         "matches": [
           {
-            "home": "Section Paloise",
-            "away": "Racing 92",
+            "home": "Aviron Bayonnais",
+            "away": "USA Perpignan",
             "lineup_available": true,
             "base": {
-              "pred_home": 26.9,
-              "pred_away": 19.8,
-              "pred_diff": 7.2,
-              "pred_total": 46.7,
+              "pred_home": 28.9,
+              "pred_away": 16.7,
+              "pred_diff": 12.2,
+              "pred_total": 45.6,
               "outcome": "H",
-              "prob_h": 56.6,
-              "prob_d": 8.5,
-              "prob_a": 34.9
+              "prob_h": 71.4,
+              "prob_d": 4.9,
+              "prob_a": 23.7
             },
             "lineup": {
-              "pred_home": 26.7,
-              "pred_away": 19.1,
-              "pred_diff": 7.6,
-              "pred_total": 45.9,
+              "pred_home": 34.5,
+              "pred_away": 13.1,
+              "pred_diff": 21.4,
+              "pred_total": 47.6,
               "outcome": "H",
-              "prob_h": 61.1,
-              "prob_d": 7.6,
-              "prob_a": 31.4
+              "prob_h": 84.0,
+              "prob_d": 4.1,
+              "prob_a": 11.9
             },
             "raw": {
-              "elo_home": 1687.0717690489705,
-              "elo_away": 1677.1292507198955,
-              "home_win_ratio": 0.6,
-              "away_win_ratio": 0.8,
-              "home_avg_score": 31.0,
-              "away_avg_score": 42.8,
-              "home_avg_conc": 23.2,
-              "away_avg_conc": 19.4,
-              "home_avg_margin": 7.8,
-              "away_avg_margin": 23.4,
-              "home_try_rate": 0.0967741935483871,
-              "away_try_rate": 0.1308411214953271,
-              "home_avg_poss": 0.538,
-              "away_avg_poss": 0.47000000000000003,
-              "home_avg_kicks": 33.0,
-              "away_avg_kicks": 27.2,
-              "home_avg_pen": 4.0,
-              "away_avg_pen": 2.0,
+              "elo_home": 1552.5971583104915,
+              "elo_away": 1495.1249806226535,
+              "home_win_ratio": 0.0,
+              "away_win_ratio": 0.2,
+              "home_avg_score": 28.4,
+              "away_avg_score": 27.0,
+              "home_avg_conc": 45.2,
+              "away_avg_conc": 36.4,
+              "home_avg_margin": -16.8,
+              "away_avg_margin": -9.4,
+              "home_try_rate": 0.147887323943662,
+              "away_try_rate": 0.11851851851851852,
+              "home_avg_poss": 0.48599999999999993,
+              "away_avg_poss": 0.45999999999999996,
+              "home_avg_kicks": 18.0,
+              "away_avg_kicks": 23.6,
+              "home_avg_pen": 0.2,
+              "away_avg_pen": 1.8,
               "home_avg_yellow": null,
               "away_avg_yellow": null,
               "home_avg_red": null,
               "away_avg_red": null,
-              "home_venue_win_ratio": 1.0,
-              "away_venue_win_ratio": 0.6,
-              "home_venue_avg_margin": 13.8,
-              "away_venue_avg_margin": 9.6,
-              "home_ppg": 2.56,
-              "away_ppg": 2.48,
+              "home_venue_win_ratio": 0.2,
+              "away_venue_win_ratio": 0.0,
+              "home_venue_avg_margin": -6.2,
+              "away_venue_avg_margin": -14.8,
+              "home_ppg": 1.84,
+              "away_ppg": 1.16,
               "home_n_games": 5,
               "away_n_games": 5,
               "home_n_home_games": 5,
               "away_n_away_games": 5
             },
             "exp_raw": {
-              "lineup_h_avg_games_played": 3.6,
-              "lineup_h_avg_starts": 3.0,
-              "subs_h_avg_games_played": 4.38,
-              "charniere_h_avg_games_played": 3.0,
-              "charniere_h_avg_starts": 3.0,
-              "forwards_h_avg_games_played": 3.75,
-              "forwards_h_avg_starts": 2.62,
-              "backs_h_avg_games_played": 3.6,
-              "backs_h_avg_starts": 3.6,
-              "total_h_avg_games_played": 3.87,
-              "lineup_a_avg_games_played": 4.07,
-              "lineup_a_avg_starts": 3.13,
-              "subs_a_avg_games_played": 3.75,
-              "charniere_a_avg_games_played": 3.5,
-              "charniere_a_avg_starts": 1.0,
-              "forwards_a_avg_games_played": 4.25,
-              "forwards_a_avg_starts": 3.38,
-              "backs_a_avg_games_played": 4.0,
-              "backs_a_avg_starts": 3.6,
-              "total_a_avg_games_played": 3.96
+              "lineup_h_avg_games_played": 6.93,
+              "lineup_h_avg_starts": 5.27,
+              "subs_h_avg_games_played": 5.0,
+              "charniere_h_avg_games_played": 4.5,
+              "charniere_h_avg_starts": 4.0,
+              "forwards_h_avg_games_played": 6.88,
+              "forwards_h_avg_starts": 4.75,
+              "backs_h_avg_games_played": 8.0,
+              "backs_h_avg_starts": 6.6,
+              "total_h_avg_games_played": 6.26,
+              "lineup_a_avg_games_played": 3.6,
+              "lineup_a_avg_starts": 2.07,
+              "subs_a_avg_games_played": 2.62,
+              "charniere_a_avg_games_played": 2.5,
+              "charniere_a_avg_starts": 0.5,
+              "forwards_a_avg_games_played": 4.0,
+              "forwards_a_avg_starts": 2.12,
+              "backs_a_avg_games_played": 3.4,
+              "backs_a_avg_starts": 2.6,
+              "total_a_avg_games_played": 3.26
             },
             "derived": {
-              "lineup_adj_elo_diff": 9.762518329075029,
-              "elo_lineup_interaction": -0.008948266496167511,
-              "disruption_diff": 0.0,
-              "charniere_vs_total_diff": 2.13,
-              "fwd_dominance_diff": -0.7599999999999998
+              "lineup_adj_elo_diff": 63.472177687837984,
+              "elo_lineup_interaction": 1.7241653306351394,
+              "disruption_diff": 2.6712,
+              "charniere_vs_total_diff": 0.30000000000000027,
+              "fwd_dominance_diff": -1.3699999999999997
             },
             "weather": {
               "rain_mm": 0.0,
-              "wind_speed_kmh": 5.8,
-              "temperature_c": 27.6
+              "wind_speed_kmh": 7.2,
+              "temperature_c": 19.0
             },
             "actual": {
-              "home": 0,
-              "away": 0
+              "home": 52,
+              "away": 7
             },
-            "actual_outcome": "D",
-            "base_correct": false,
-            "lineup_correct": false,
-            "actual_scorers": []
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Tom SPRING",
+                "club": "home",
+                "minute": 3
+              },
+              {
+                "name": "Maxime MACHENAUD",
+                "club": "home",
+                "minute": 17
+              },
+              {
+                "name": "Lucas MARTIN",
+                "club": "home",
+                "minute": 31
+              },
+              {
+                "name": "Lucas MARTIN",
+                "club": "home",
+                "minute": 46
+              },
+              {
+                "name": "Mathys LOTRIAN",
+                "club": "away",
+                "minute": 49
+              },
+              {
+                "name": "Yohan ORABE",
+                "club": "home",
+                "minute": 51
+              },
+              {
+                "name": "Federico MORI",
+                "club": "home",
+                "minute": 64
+              },
+              {
+                "name": "Tom SPRING",
+                "club": "home",
+                "minute": 70
+              },
+              {
+                "name": "Vincent GIUDICELLI",
+                "club": "home",
+                "minute": 80
+              }
+            ]
           },
           {
-            "home": "Stade Français Paris",
-            "away": "Stade Rochelais",
+            "home": "Castres Olympique",
+            "away": "RC Toulon",
             "lineup_available": true,
             "base": {
-              "pred_home": 26.8,
-              "pred_away": 18.3,
-              "pred_diff": 8.5,
-              "pred_total": 45.1,
-              "outcome": "H",
-              "prob_h": 71.6,
-              "prob_d": 4.6,
-              "prob_a": 23.8
-            },
-            "lineup": {
-              "pred_home": 26.1,
-              "pred_away": 18.9,
-              "pred_diff": 7.2,
+              "pred_home": 24.8,
+              "pred_away": 20.2,
+              "pred_diff": 4.6,
               "pred_total": 45.0,
               "outcome": "H",
-              "prob_h": 67.6,
-              "prob_d": 5.6,
-              "prob_a": 26.8
+              "prob_h": 67.0,
+              "prob_d": 5.2,
+              "prob_a": 27.8
+            },
+            "lineup": {
+              "pred_home": 25.4,
+              "pred_away": 19.2,
+              "pred_diff": 6.3,
+              "pred_total": 44.6,
+              "outcome": "H",
+              "prob_h": 78.0,
+              "prob_d": 3.4,
+              "prob_a": 18.5
             },
             "raw": {
-              "elo_home": 1686.8342347667922,
-              "elo_away": 1680.6532350950886,
-              "home_win_ratio": 0.8,
+              "elo_home": 1547.2803417829393,
+              "elo_away": 1613.7090819688697,
+              "home_win_ratio": 0.0,
+              "away_win_ratio": 0.6,
+              "home_avg_score": 24.2,
+              "away_avg_score": 36.2,
+              "home_avg_conc": 32.0,
+              "away_avg_conc": 32.8,
+              "home_avg_margin": -7.8,
+              "away_avg_margin": 3.4,
+              "home_try_rate": 0.1322314049586777,
+              "away_try_rate": 0.13812154696132595,
+              "home_avg_poss": 0.48599999999999993,
+              "away_avg_poss": 0.49800000000000005,
+              "home_avg_kicks": 25.6,
+              "away_avg_kicks": 16.6,
+              "home_avg_pen": 1.4,
+              "away_avg_pen": 0.8,
+              "home_avg_yellow": null,
+              "away_avg_yellow": null,
+              "home_avg_red": null,
+              "away_avg_red": null,
+              "home_venue_win_ratio": 0.4,
+              "away_venue_win_ratio": 0.2,
+              "home_venue_avg_margin": 2.4,
+              "away_venue_avg_margin": -5.2,
+              "home_ppg": 2.0,
+              "away_ppg": 2.36,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 6.87,
+              "lineup_h_avg_starts": 4.93,
+              "subs_h_avg_games_played": 4.88,
+              "charniere_h_avg_games_played": 4.0,
+              "charniere_h_avg_starts": 3.0,
+              "forwards_h_avg_games_played": 7.62,
+              "forwards_h_avg_starts": 5.0,
+              "backs_h_avg_games_played": 6.8,
+              "backs_h_avg_starts": 5.6,
+              "total_h_avg_games_played": 6.17,
+              "lineup_a_avg_games_played": 6.47,
+              "lineup_a_avg_starts": 3.6,
+              "subs_a_avg_games_played": 4.75,
+              "charniere_a_avg_games_played": 2.0,
+              "charniere_a_avg_starts": 1.0,
+              "forwards_a_avg_games_played": 7.12,
+              "forwards_a_avg_starts": 3.25,
+              "backs_a_avg_games_played": 7.2,
+              "backs_a_avg_starts": 5.2,
+              "total_a_avg_games_played": 5.87
+            },
+            "derived": {
+              "lineup_adj_elo_diff": -65.82874018593034,
+              "elo_lineup_interaction": -0.1992862205577909,
+              "disruption_diff": 0.2860000000000005,
+              "charniere_vs_total_diff": 0.6700000000000004,
+              "fwd_dominance_diff": 1.3500000000000005
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 9.9,
+              "temperature_c": 21.1
+            },
+            "actual": {
+              "home": 38,
+              "away": 21
+            },
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Baptiste DELAPORTE",
+                "club": "home",
+                "minute": 17
+              },
+              {
+                "name": "Santiago ARATA PERRONE",
+                "club": "home",
+                "minute": 21
+              },
+              {
+                "name": "Setariki TUICUVU",
+                "club": "away",
+                "minute": 24
+              },
+              {
+                "name": "Florent VANVERBERGHE",
+                "club": "home",
+                "minute": 30
+              },
+              {
+                "name": "Théo CHABOUNI",
+                "club": "home",
+                "minute": 51
+              },
+              {
+                "name": "Joe QUERE KARABA",
+                "club": "away",
+                "minute": 59
+              },
+              {
+                "name": "Leone NAKARAWA",
+                "club": "home",
+                "minute": 69
+              },
+              {
+                "name": "Mikheili SHIOSHVILI",
+                "club": "away",
+                "minute": 79
+              },
+              {
+                "name": "Colin DUPUY",
+                "club": "home",
+                "minute": 80
+              }
+            ]
+          },
+          {
+            "home": "LOU Rugby",
+            "away": "Montpellier Hérault Rugby",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 27.2,
+              "pred_away": 20.2,
+              "pred_diff": 7.0,
+              "pred_total": 47.4,
+              "outcome": "H",
+              "prob_h": 67.0,
+              "prob_d": 4.1,
+              "prob_a": 28.9
+            },
+            "lineup": {
+              "pred_home": 26.0,
+              "pred_away": 20.4,
+              "pred_diff": 5.7,
+              "pred_total": 46.4,
+              "outcome": "H",
+              "prob_h": 74.1,
+              "prob_d": 3.6,
+              "prob_a": 22.3
+            },
+            "raw": {
+              "elo_home": 1576.7054226089754,
+              "elo_away": 1717.498162211205,
+              "home_win_ratio": 0.4,
               "away_win_ratio": 1.0,
-              "home_avg_score": 44.8,
-              "away_avg_score": 42.2,
-              "home_avg_conc": 28.4,
-              "away_avg_conc": 18.6,
-              "home_avg_margin": 16.4,
-              "away_avg_margin": 23.6,
-              "home_try_rate": 0.13839285714285715,
-              "away_try_rate": 0.12796208530805686,
-              "home_avg_poss": 0.5280000000000001,
-              "away_avg_poss": 0.536,
-              "home_avg_kicks": 19.0,
-              "away_avg_kicks": 24.6,
+              "home_avg_score": 27.8,
+              "away_avg_score": 37.2,
+              "home_avg_conc": 39.0,
+              "away_avg_conc": 22.0,
+              "home_avg_margin": -11.2,
+              "away_avg_margin": 15.2,
+              "home_try_rate": 0.12949640287769784,
+              "away_try_rate": 0.12903225806451613,
+              "home_avg_poss": 0.42400000000000004,
+              "away_avg_poss": 0.524,
+              "home_avg_kicks": 20.8,
+              "away_avg_kicks": 20.6,
               "home_avg_pen": 1.0,
               "away_avg_pen": 2.0,
               "home_avg_yellow": null,
               "away_avg_yellow": null,
               "home_avg_red": null,
               "away_avg_red": null,
-              "home_venue_win_ratio": 1.0,
+              "home_venue_win_ratio": 0.6,
               "away_venue_win_ratio": 0.8,
-              "home_venue_avg_margin": 25.2,
-              "away_venue_avg_margin": 10.8,
-              "home_ppg": 2.48,
-              "away_ppg": 2.24,
+              "home_venue_avg_margin": 13.8,
+              "away_venue_avg_margin": 0.4,
+              "home_ppg": 2.08,
+              "away_ppg": 3.12,
               "home_n_games": 5,
               "away_n_games": 5,
               "home_n_home_games": 5,
               "away_n_away_games": 5
             },
             "exp_raw": {
-              "lineup_h_avg_games_played": 4.4,
-              "lineup_h_avg_starts": 3.4,
-              "subs_h_avg_games_played": 3.62,
-              "charniere_h_avg_games_played": 4.0,
-              "charniere_h_avg_starts": 3.5,
-              "forwards_h_avg_games_played": 4.88,
-              "forwards_h_avg_starts": 3.5,
-              "backs_h_avg_games_played": 3.8,
-              "backs_h_avg_starts": 3.2,
-              "total_h_avg_games_played": 4.13,
-              "lineup_a_avg_games_played": 4.0,
-              "lineup_a_avg_starts": 3.2,
-              "subs_a_avg_games_played": 3.75,
-              "charniere_a_avg_games_played": 5.5,
-              "charniere_a_avg_starts": 5.5,
-              "forwards_a_avg_games_played": 3.38,
-              "forwards_a_avg_starts": 2.5,
-              "backs_a_avg_games_played": 4.4,
-              "backs_a_avg_starts": 3.4,
-              "total_a_avg_games_played": 3.91
+              "lineup_h_avg_games_played": 7.2,
+              "lineup_h_avg_starts": 5.6,
+              "subs_h_avg_games_played": 6.0,
+              "charniere_h_avg_games_played": 8.0,
+              "charniere_h_avg_starts": 6.5,
+              "forwards_h_avg_games_played": 7.62,
+              "forwards_h_avg_starts": 5.0,
+              "backs_h_avg_games_played": 6.2,
+              "backs_h_avg_starts": 6.2,
+              "total_h_avg_games_played": 6.78,
+              "lineup_a_avg_games_played": 7.27,
+              "lineup_a_avg_starts": 5.4,
+              "subs_a_avg_games_played": 5.88,
+              "charniere_a_avg_games_played": 7.5,
+              "charniere_a_avg_starts": 5.0,
+              "forwards_a_avg_games_played": 7.25,
+              "forwards_a_avg_starts": 5.38,
+              "backs_a_avg_games_played": 7.2,
+              "backs_a_avg_starts": 5.6,
+              "total_a_avg_games_played": 6.78
             },
             "derived": {
-              "lineup_adj_elo_diff": 6.620999671703602,
-              "elo_lineup_interaction": 0.013598199277747912,
-              "disruption_diff": 0.0,
-              "charniere_vs_total_diff": -2.1999999999999997,
-              "fwd_dominance_diff": 1.1999999999999997
+              "lineup_adj_elo_diff": -140.79273960222963,
+              "elo_lineup_interaction": -0.0,
+              "disruption_diff": 0.4139999999999997,
+              "charniere_vs_total_diff": 1.3000000000000007,
+              "fwd_dominance_diff": -0.9800000000000004
             },
             "weather": {
               "rain_mm": 0.0,
-              "wind_speed_kmh": 10.1,
-              "temperature_c": 24.6
+              "wind_speed_kmh": 6.2,
+              "temperature_c": 24.2
             },
             "actual": {
-              "home": 0,
-              "away": 0
+              "home": 25,
+              "away": 28
             },
-            "actual_outcome": "D",
+            "actual_outcome": "A",
             "base_correct": false,
             "lineup_correct": false,
-            "actual_scorers": []
+            "actual_scorers": [
+              {
+                "name": "Charlie CASSANG",
+                "club": "home",
+                "minute": 11
+              },
+              {
+                "name": "Josiah Meihana MARAKU",
+                "club": "home",
+                "minute": 15
+              },
+              {
+                "name": "Gabriel NGANDEBE",
+                "club": "away",
+                "minute": 19
+              },
+              {
+                "name": "Charlie CASSANG",
+                "club": "home",
+                "minute": 40
+              },
+              {
+                "name": "Christopher TOLOFUA",
+                "club": "away",
+                "minute": 54
+              },
+              {
+                "name": "Thomas DARMON",
+                "club": "away",
+                "minute": 63
+              }
+            ]
+          },
+          {
+            "home": "Racing 92",
+            "away": "Stade Toulousain",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 26.2,
+              "pred_away": 18.6,
+              "pred_diff": 7.6,
+              "pred_total": 44.8,
+              "outcome": "H",
+              "prob_h": 70.6,
+              "prob_d": 9.7,
+              "prob_a": 19.8
+            },
+            "lineup": {
+              "pred_home": 27.5,
+              "pred_away": 17.8,
+              "pred_diff": 9.7,
+              "pred_total": 45.3,
+              "outcome": "H",
+              "prob_h": 75.9,
+              "prob_d": 11.1,
+              "prob_a": 13.0
+            },
+            "raw": {
+              "elo_home": 1677.1292507198955,
+              "elo_away": 1770.827623925091,
+              "home_win_ratio": 0.8,
+              "away_win_ratio": 0.6,
+              "home_avg_score": 42.8,
+              "away_avg_score": 33.2,
+              "home_avg_conc": 19.4,
+              "away_avg_conc": 29.6,
+              "home_avg_margin": 23.4,
+              "away_avg_margin": 3.6,
+              "home_try_rate": 0.1308411214953271,
+              "away_try_rate": 0.13253012048192772,
+              "home_avg_poss": 0.47000000000000003,
+              "away_avg_poss": 0.5700000000000001,
+              "home_avg_kicks": 27.2,
+              "away_avg_kicks": 24.2,
+              "home_avg_pen": 2.0,
+              "away_avg_pen": 1.2,
+              "home_avg_yellow": null,
+              "away_avg_yellow": null,
+              "home_avg_red": null,
+              "away_avg_red": null,
+              "home_venue_win_ratio": 0.8,
+              "away_venue_win_ratio": 0.6,
+              "home_venue_avg_margin": 15.4,
+              "away_venue_avg_margin": -1.4,
+              "home_ppg": 2.8,
+              "away_ppg": 3.44,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 8.4,
+              "lineup_h_avg_starts": 6.27,
+              "subs_h_avg_games_played": 4.5,
+              "charniere_h_avg_games_played": 10.0,
+              "charniere_h_avg_starts": 8.5,
+              "forwards_h_avg_games_played": 8.12,
+              "forwards_h_avg_starts": 5.88,
+              "backs_h_avg_games_played": 8.2,
+              "backs_h_avg_starts": 6.0,
+              "total_h_avg_games_played": 7.04,
+              "lineup_a_avg_games_played": 5.8,
+              "lineup_a_avg_starts": 4.07,
+              "subs_a_avg_games_played": 6.0,
+              "charniere_a_avg_games_played": 6.5,
+              "charniere_a_avg_starts": 4.0,
+              "forwards_a_avg_games_played": 6.38,
+              "forwards_a_avg_starts": 4.38,
+              "backs_a_avg_games_played": 4.6,
+              "backs_a_avg_starts": 3.6,
+              "total_a_avg_games_played": 5.87
+            },
+            "derived": {
+              "lineup_adj_elo_diff": -91.35837320519559,
+              "elo_lineup_interaction": -1.0962709665007884,
+              "disruption_diff": 0.15359999999999907,
+              "charniere_vs_total_diff": 2.3000000000000007,
+              "fwd_dominance_diff": -0.8999999999999999
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 13.4,
+              "temperature_c": 20.2
+            },
+            "actual": {
+              "home": 31,
+              "away": 20
+            },
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Jonathan HILL",
+                "club": "home",
+                "minute": 9
+              },
+              {
+                "name": "Joshua BRENNAN",
+                "club": "away",
+                "minute": 13
+              },
+              {
+                "name": "Guillaume CRAMONT",
+                "club": "away",
+                "minute": 53
+              },
+              {
+                "name": "Leo CARBONNEAU",
+                "club": "home",
+                "minute": 56
+              },
+              {
+                "name": "Cyril BAILLE",
+                "club": "away",
+                "minute": 62
+              },
+              {
+                "name": "Antoine GIBERT",
+                "club": "home",
+                "minute": 67
+              },
+              {
+                "name": "Teddy THOMAS",
+                "club": "away",
+                "minute": 69
+              },
+              {
+                "name": "Vladi ASHVETIA",
+                "club": "home",
+                "minute": 76
+              }
+            ]
+          },
+          {
+            "home": "Section Paloise",
+            "away": "US Montauban",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 48.6,
+              "pred_away": 6.2,
+              "pred_diff": 42.5,
+              "pred_total": 54.8,
+              "outcome": "H",
+              "prob_h": 95.0,
+              "prob_d": 2.0,
+              "prob_a": 3.0
+            },
+            "lineup": {
+              "pred_home": 42.9,
+              "pred_away": 8.0,
+              "pred_diff": 34.9,
+              "pred_total": 50.9,
+              "outcome": "H",
+              "prob_h": 87.6,
+              "prob_d": 6.2,
+              "prob_a": 6.2
+            },
+            "raw": {
+              "elo_home": 1687.0717690489705,
+              "elo_away": 1350.4711776841457,
+              "home_win_ratio": 0.6,
+              "away_win_ratio": 0.0,
+              "home_avg_score": 31.0,
+              "away_avg_score": 15.8,
+              "home_avg_conc": 23.2,
+              "away_avg_conc": 61.8,
+              "home_avg_margin": 7.8,
+              "away_avg_margin": -46.0,
+              "home_try_rate": 0.0967741935483871,
+              "away_try_rate": 0.12658227848101264,
+              "home_avg_poss": 0.538,
+              "away_avg_poss": 0.49400000000000005,
+              "home_avg_kicks": 33.0,
+              "away_avg_kicks": 16.8,
+              "home_avg_pen": 4.0,
+              "away_avg_pen": 1.0,
+              "home_avg_yellow": null,
+              "away_avg_yellow": null,
+              "home_avg_red": null,
+              "away_avg_red": null,
+              "home_venue_win_ratio": 1.0,
+              "away_venue_win_ratio": 0.0,
+              "home_venue_avg_margin": 13.8,
+              "away_venue_avg_margin": -44.6,
+              "home_ppg": 2.92,
+              "away_ppg": 0.28,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 4.47,
+              "lineup_h_avg_starts": 2.27,
+              "subs_h_avg_games_played": 4.0,
+              "charniere_h_avg_games_played": 6.5,
+              "charniere_h_avg_starts": 3.0,
+              "forwards_h_avg_games_played": 5.38,
+              "forwards_h_avg_starts": 2.75,
+              "backs_h_avg_games_played": 2.2,
+              "backs_h_avg_starts": 1.2,
+              "total_h_avg_games_played": 4.3,
+              "lineup_a_avg_games_played": 6.33,
+              "lineup_a_avg_starts": 4.47,
+              "subs_a_avg_games_played": 3.25,
+              "charniere_a_avg_games_played": 5.5,
+              "charniere_a_avg_starts": 4.0,
+              "forwards_a_avg_games_played": 6.5,
+              "forwards_a_avg_starts": 3.88,
+              "backs_a_avg_games_played": 6.4,
+              "backs_a_avg_starts": 5.6,
+              "total_a_avg_games_played": 5.26
+            },
+            "derived": {
+              "lineup_adj_elo_diff": 334.6805913648248,
+              "elo_lineup_interaction": -3.231365677102318,
+              "disruption_diff": -0.6264000000000012,
+              "charniere_vs_total_diff": 1.1999999999999997,
+              "fwd_dominance_diff": 3.2699999999999996
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 4.1,
+              "temperature_c": 17.9
+            },
+            "actual": {
+              "home": 71,
+              "away": 35
+            },
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Nathan DECRON",
+                "club": "home",
+                "minute": 1
+              },
+              {
+                "name": "Mael CASTEL",
+                "club": "away",
+                "minute": 7
+              },
+              {
+                "name": "Lucas REY",
+                "club": "home",
+                "minute": 12
+              },
+              {
+                "name": "Aymeric LUC",
+                "club": "home",
+                "minute": 14
+              },
+              {
+                "name": "Thibault DAUBAGNA",
+                "club": "home",
+                "minute": 19
+              },
+              {
+                "name": "Tjiuee UANIVI",
+                "club": "away",
+                "minute": 23
+              },
+              {
+                "name": "Loïc CREDOZ",
+                "club": "home",
+                "minute": 32
+              },
+              {
+                "name": "Vakhtang JINTCHARADZE",
+                "club": "away",
+                "minute": 36
+              },
+              {
+                "name": "Jimi MAXIMIN",
+                "club": "home",
+                "minute": 40
+              },
+              {
+                "name": "Paul VALLEE",
+                "club": "away",
+                "minute": 45
+              },
+              {
+                "name": "Tumua MANU",
+                "club": "home",
+                "minute": 57
+              },
+              {
+                "name": "Paul VALLEE",
+                "club": "away",
+                "minute": 67
+              },
+              {
+                "name": "Clément LAPORTE",
+                "club": "home",
+                "minute": 74
+              },
+              {
+                "name": "Paulo Tauiliili PELESASA",
+                "club": "home",
+                "minute": 79
+              },
+              {
+                "name": "Aymeric LUC",
+                "club": "home",
+                "minute": 80
+              }
+            ]
+          },
+          {
+            "home": "Stade Rochelais",
+            "away": "Stade Français Paris",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 27.6,
+              "pred_away": 17.4,
+              "pred_diff": 10.1,
+              "pred_total": 45.0,
+              "outcome": "H",
+              "prob_h": 64.1,
+              "prob_d": 10.2,
+              "prob_a": 25.6
+            },
+            "lineup": {
+              "pred_home": 27.1,
+              "pred_away": 18.0,
+              "pred_diff": 9.1,
+              "pred_total": 45.1,
+              "outcome": "H",
+              "prob_h": 77.7,
+              "prob_d": 7.4,
+              "prob_a": 14.9
+            },
+            "raw": {
+              "elo_home": 1680.6532350950886,
+              "elo_away": 1686.8342347667922,
+              "home_win_ratio": 1.0,
+              "away_win_ratio": 0.8,
+              "home_avg_score": 42.2,
+              "away_avg_score": 44.8,
+              "home_avg_conc": 18.6,
+              "away_avg_conc": 28.4,
+              "home_avg_margin": 23.6,
+              "away_avg_margin": 16.4,
+              "home_try_rate": 0.12796208530805686,
+              "away_try_rate": 0.13839285714285715,
+              "home_avg_poss": 0.536,
+              "away_avg_poss": 0.5280000000000001,
+              "home_avg_kicks": 24.6,
+              "away_avg_kicks": 19.0,
+              "home_avg_pen": 2.0,
+              "away_avg_pen": 1.0,
+              "home_avg_yellow": null,
+              "away_avg_yellow": null,
+              "home_avg_red": null,
+              "away_avg_red": null,
+              "home_venue_win_ratio": 0.6,
+              "away_venue_win_ratio": 0.6,
+              "home_venue_avg_margin": 8.4,
+              "away_venue_avg_margin": 1.6,
+              "home_ppg": 2.72,
+              "away_ppg": 3.12,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 7.53,
+              "lineup_h_avg_starts": 6.47,
+              "subs_h_avg_games_played": 6.0,
+              "charniere_h_avg_games_played": 9.5,
+              "charniere_h_avg_starts": 8.5,
+              "forwards_h_avg_games_played": 7.12,
+              "forwards_h_avg_starts": 6.38,
+              "backs_h_avg_games_played": 7.4,
+              "backs_h_avg_starts": 5.8,
+              "total_h_avg_games_played": 7.0,
+              "lineup_a_avg_games_played": 7.13,
+              "lineup_a_avg_starts": 4.93,
+              "subs_a_avg_games_played": 4.88,
+              "charniere_a_avg_games_played": 5.5,
+              "charniere_a_avg_starts": 3.5,
+              "forwards_a_avg_games_played": 7.25,
+              "forwards_a_avg_starts": 4.5,
+              "backs_a_avg_games_played": 7.6,
+              "backs_a_avg_starts": 6.2,
+              "total_a_avg_games_played": 6.35
+            },
+            "derived": {
+              "lineup_adj_elo_diff": -4.880999671703602,
+              "elo_lineup_interaction": -0.04017649786607344,
+              "disruption_diff": 1.3320000000000007,
+              "charniere_vs_total_diff": 3.46,
+              "fwd_dominance_diff": 2.2800000000000002
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 15.8,
+              "temperature_c": 17.5
+            },
+            "actual": {
+              "home": 27,
+              "away": 22
+            },
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Nolann LE GARREC",
+                "club": "home",
+                "minute": 12
+              },
+              {
+                "name": "Joseph MARCHANT",
+                "club": "away",
+                "minute": 17
+              },
+              {
+                "name": "Jérémy Charles WARD",
+                "club": "away",
+                "minute": 40
+              },
+              {
+                "name": "Semi LAGIVALA",
+                "club": "home",
+                "minute": 70
+              },
+              {
+                "name": "Quentin LESPIAUCQ",
+                "club": "home",
+                "minute": 78
+              }
+            ]
+          },
+          {
+            "home": "Union Bordeaux-Bègles",
+            "away": "ASM Clermont",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 26.5,
+              "pred_away": 18.4,
+              "pred_diff": 8.1,
+              "pred_total": 44.9,
+              "outcome": "H",
+              "prob_h": 72.7,
+              "prob_d": 6.0,
+              "prob_a": 21.3
+            },
+            "lineup": {
+              "pred_home": 25.3,
+              "pred_away": 19.3,
+              "pred_diff": 6.0,
+              "pred_total": 44.7,
+              "outcome": "H",
+              "prob_h": 57.8,
+              "prob_d": 9.4,
+              "prob_a": 32.8
+            },
+            "raw": {
+              "elo_home": 1656.5319304386844,
+              "elo_away": 1644.3704922727773,
+              "home_win_ratio": 0.4,
+              "away_win_ratio": 0.6,
+              "home_avg_score": 27.0,
+              "away_avg_score": 29.0,
+              "home_avg_conc": 33.0,
+              "away_avg_conc": 25.2,
+              "home_avg_margin": -6.0,
+              "away_avg_margin": 3.8,
+              "home_try_rate": 0.11851851851851852,
+              "away_try_rate": 0.11724137931034483,
+              "home_avg_poss": 0.476,
+              "away_avg_poss": 0.51,
+              "home_avg_kicks": 25.2,
+              "away_avg_kicks": 25.2,
+              "home_avg_pen": 2.2,
+              "away_avg_pen": 2.0,
+              "home_avg_yellow": null,
+              "away_avg_yellow": null,
+              "home_avg_red": null,
+              "away_avg_red": null,
+              "home_venue_win_ratio": 0.6,
+              "away_venue_win_ratio": 0.4,
+              "home_venue_avg_margin": 9.4,
+              "away_venue_avg_margin": -6.2,
+              "home_ppg": 2.76,
+              "away_ppg": 2.68,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 6.87,
+              "lineup_h_avg_starts": 5.13,
+              "subs_h_avg_games_played": 6.5,
+              "charniere_h_avg_games_played": 8.0,
+              "charniere_h_avg_starts": 5.5,
+              "forwards_h_avg_games_played": 6.75,
+              "forwards_h_avg_starts": 4.75,
+              "backs_h_avg_games_played": 6.6,
+              "backs_h_avg_starts": 5.6,
+              "total_h_avg_games_played": 6.74,
+              "lineup_a_avg_games_played": 7.0,
+              "lineup_a_avg_starts": 5.87,
+              "subs_a_avg_games_played": 7.62,
+              "charniere_a_avg_games_played": 9.5,
+              "charniere_a_avg_starts": 9.0,
+              "forwards_a_avg_games_played": 6.25,
+              "forwards_a_avg_starts": 4.5,
+              "backs_a_avg_games_played": 7.2,
+              "backs_a_avg_starts": 6.8,
+              "total_a_avg_games_played": 7.22
+            },
+            "derived": {
+              "lineup_adj_elo_diff": 11.201438165907158,
+              "elo_lineup_interaction": -0.0583749031963543,
+              "disruption_diff": -0.37400000000000055,
+              "charniere_vs_total_diff": -2.76,
+              "fwd_dominance_diff": 1.4500000000000002
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 11.4,
+              "temperature_c": 19.0
+            },
+            "actual": {
+              "home": 31,
+              "away": 34
+            },
+            "actual_outcome": "A",
+            "base_correct": false,
+            "lineup_correct": false,
+            "actual_scorers": [
+              {
+                "name": "Harrison PLUMMER",
+                "club": "away",
+                "minute": 17
+              },
+              {
+                "name": "Maxime LUCU",
+                "club": "home",
+                "minute": 21
+              },
+              {
+                "name": "Temo MATIU",
+                "club": "home",
+                "minute": 28
+              },
+              {
+                "name": "Pierre BOCHATON",
+                "club": "home",
+                "minute": 38
+              },
+              {
+                "name": "Léon DARRICARRERE",
+                "club": "away",
+                "minute": 40
+              },
+              {
+                "name": "Giorgi AKHALADZE",
+                "club": "away",
+                "minute": 51
+              },
+              {
+                "name": "Kylan HAMDAOUI",
+                "club": "away",
+                "minute": 65
+              },
+              {
+                "name": "Maxime LUCU",
+                "club": "home",
+                "minute": 73
+              }
+            ]
           }
         ],
         "complete": true,
-        "base_correct": 0,
-        "lineup_correct": 0,
-        "total": 2
+        "base_correct": 5,
+        "lineup_correct": 5,
+        "total": 7
       },
       {
         "champ": "top14",
@@ -57579,41 +58982,388 @@
               "temperature_c": 28.5
             },
             "actual": {
-              "home": 0,
-              "away": 0
+              "home": 24,
+              "away": 47
             },
-            "actual_outcome": "D",
+            "actual_outcome": "A",
             "base_correct": false,
             "lineup_correct": false,
-            "actual_scorers": []
+            "actual_scorers": [
+              {
+                "name": "Tornike JALAGONIA",
+                "club": "home",
+                "minute": 20
+              },
+              {
+                "name": "Andrès ZAFRA TARAZONA",
+                "club": "home",
+                "minute": 25
+              },
+              {
+                "name": "Peceli YATO",
+                "club": "away",
+                "minute": 37
+              },
+              {
+                "name": "Theo FORNER",
+                "club": "away",
+                "minute": 40
+              },
+              {
+                "name": "Joaquin OVIEDO",
+                "club": "away",
+                "minute": 43
+              },
+              {
+                "name": "Peceli YATO",
+                "club": "away",
+                "minute": 51
+              },
+              {
+                "name": "Léo DROUET",
+                "club": "home",
+                "minute": 60
+              },
+              {
+                "name": "Ignacio RUIZ",
+                "club": "away",
+                "minute": 63
+              },
+              {
+                "name": "Setareki BITUNIYATA",
+                "club": "home",
+                "minute": 74
+              },
+              {
+                "name": "Joaquin OVIEDO",
+                "club": "away",
+                "minute": 78
+              },
+              {
+                "name": "Jeronimo DE LA FUENTE",
+                "club": "away",
+                "minute": 80
+              }
+            ]
           }
         ],
         "complete": true,
         "base_correct": 0,
         "lineup_correct": 0,
         "total": 1
+      },
+      {
+        "champ": "top14",
+        "season": "2025-2026",
+        "day": "barrage",
+        "gen_at": "2026-06-17T22:39:27.160232",
+        "matches": [
+          {
+            "home": "Section Paloise",
+            "away": "Racing 92",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 26.9,
+              "pred_away": 19.8,
+              "pred_diff": 7.2,
+              "pred_total": 46.7,
+              "outcome": "H",
+              "prob_h": 56.6,
+              "prob_d": 8.5,
+              "prob_a": 34.9
+            },
+            "lineup": {
+              "pred_home": 26.7,
+              "pred_away": 19.1,
+              "pred_diff": 7.6,
+              "pred_total": 45.9,
+              "outcome": "H",
+              "prob_h": 61.1,
+              "prob_d": 7.6,
+              "prob_a": 31.4
+            },
+            "raw": {
+              "elo_home": 1687.0717690489705,
+              "elo_away": 1677.1292507198955,
+              "home_win_ratio": 0.6,
+              "away_win_ratio": 0.8,
+              "home_avg_score": 31.0,
+              "away_avg_score": 42.8,
+              "home_avg_conc": 23.2,
+              "away_avg_conc": 19.4,
+              "home_avg_margin": 7.8,
+              "away_avg_margin": 23.4,
+              "home_try_rate": 0.0967741935483871,
+              "away_try_rate": 0.1308411214953271,
+              "home_avg_poss": 0.538,
+              "away_avg_poss": 0.47000000000000003,
+              "home_avg_kicks": 33.0,
+              "away_avg_kicks": 27.2,
+              "home_avg_pen": 4.0,
+              "away_avg_pen": 2.0,
+              "home_avg_yellow": null,
+              "away_avg_yellow": null,
+              "home_avg_red": null,
+              "away_avg_red": null,
+              "home_venue_win_ratio": 1.0,
+              "away_venue_win_ratio": 0.6,
+              "home_venue_avg_margin": 13.8,
+              "away_venue_avg_margin": 9.6,
+              "home_ppg": 2.56,
+              "away_ppg": 2.48,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 3.6,
+              "lineup_h_avg_starts": 3.0,
+              "subs_h_avg_games_played": 4.38,
+              "charniere_h_avg_games_played": 3.0,
+              "charniere_h_avg_starts": 3.0,
+              "forwards_h_avg_games_played": 3.75,
+              "forwards_h_avg_starts": 2.62,
+              "backs_h_avg_games_played": 3.6,
+              "backs_h_avg_starts": 3.6,
+              "total_h_avg_games_played": 3.87,
+              "lineup_a_avg_games_played": 4.07,
+              "lineup_a_avg_starts": 3.13,
+              "subs_a_avg_games_played": 3.75,
+              "charniere_a_avg_games_played": 3.5,
+              "charniere_a_avg_starts": 1.0,
+              "forwards_a_avg_games_played": 4.25,
+              "forwards_a_avg_starts": 3.38,
+              "backs_a_avg_games_played": 4.0,
+              "backs_a_avg_starts": 3.6,
+              "total_a_avg_games_played": 3.96
+            },
+            "derived": {
+              "lineup_adj_elo_diff": 9.762518329075029,
+              "elo_lineup_interaction": -0.008948266496167511,
+              "disruption_diff": 0.0,
+              "charniere_vs_total_diff": 2.13,
+              "fwd_dominance_diff": -0.7599999999999998
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 5.8,
+              "temperature_c": 27.6
+            },
+            "actual": {
+              "home": 31,
+              "away": 33
+            },
+            "actual_outcome": "A",
+            "base_correct": false,
+            "lineup_correct": false,
+            "actual_scorers": [
+              {
+                "name": "Leo CARBONNEAU",
+                "club": "away",
+                "minute": 3
+              },
+              {
+                "name": "Hugo AURADOU",
+                "club": "home",
+                "minute": 11
+              },
+              {
+                "name": "Joe SIMMONDS",
+                "club": "home",
+                "minute": 32
+              },
+              {
+                "name": "Gael FICKOU",
+                "club": "away",
+                "minute": 51
+              },
+              {
+                "name": "Leo CARBONNEAU",
+                "club": "away",
+                "minute": 54
+              },
+              {
+                "name": "Beka GORGADZE",
+                "club": "home",
+                "minute": 58
+              },
+              {
+                "name": "Lucas REY",
+                "club": "home",
+                "minute": 73
+              }
+            ]
+          },
+          {
+            "home": "Stade Français Paris",
+            "away": "Stade Rochelais",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 26.8,
+              "pred_away": 18.3,
+              "pred_diff": 8.5,
+              "pred_total": 45.1,
+              "outcome": "H",
+              "prob_h": 71.6,
+              "prob_d": 4.6,
+              "prob_a": 23.8
+            },
+            "lineup": {
+              "pred_home": 26.1,
+              "pred_away": 18.9,
+              "pred_diff": 7.2,
+              "pred_total": 45.0,
+              "outcome": "H",
+              "prob_h": 67.6,
+              "prob_d": 5.6,
+              "prob_a": 26.8
+            },
+            "raw": {
+              "elo_home": 1686.8342347667922,
+              "elo_away": 1680.6532350950886,
+              "home_win_ratio": 0.8,
+              "away_win_ratio": 1.0,
+              "home_avg_score": 44.8,
+              "away_avg_score": 42.2,
+              "home_avg_conc": 28.4,
+              "away_avg_conc": 18.6,
+              "home_avg_margin": 16.4,
+              "away_avg_margin": 23.6,
+              "home_try_rate": 0.13839285714285715,
+              "away_try_rate": 0.12796208530805686,
+              "home_avg_poss": 0.5280000000000001,
+              "away_avg_poss": 0.536,
+              "home_avg_kicks": 19.0,
+              "away_avg_kicks": 24.6,
+              "home_avg_pen": 1.0,
+              "away_avg_pen": 2.0,
+              "home_avg_yellow": null,
+              "away_avg_yellow": null,
+              "home_avg_red": null,
+              "away_avg_red": null,
+              "home_venue_win_ratio": 1.0,
+              "away_venue_win_ratio": 0.8,
+              "home_venue_avg_margin": 25.2,
+              "away_venue_avg_margin": 10.8,
+              "home_ppg": 2.48,
+              "away_ppg": 2.24,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 4.4,
+              "lineup_h_avg_starts": 3.4,
+              "subs_h_avg_games_played": 3.62,
+              "charniere_h_avg_games_played": 4.0,
+              "charniere_h_avg_starts": 3.5,
+              "forwards_h_avg_games_played": 4.88,
+              "forwards_h_avg_starts": 3.5,
+              "backs_h_avg_games_played": 3.8,
+              "backs_h_avg_starts": 3.2,
+              "total_h_avg_games_played": 4.13,
+              "lineup_a_avg_games_played": 4.0,
+              "lineup_a_avg_starts": 3.2,
+              "subs_a_avg_games_played": 3.75,
+              "charniere_a_avg_games_played": 5.5,
+              "charniere_a_avg_starts": 5.5,
+              "forwards_a_avg_games_played": 3.38,
+              "forwards_a_avg_starts": 2.5,
+              "backs_a_avg_games_played": 4.4,
+              "backs_a_avg_starts": 3.4,
+              "total_a_avg_games_played": 3.91
+            },
+            "derived": {
+              "lineup_adj_elo_diff": 6.620999671703602,
+              "elo_lineup_interaction": 0.013598199277747912,
+              "disruption_diff": 0.0,
+              "charniere_vs_total_diff": -2.1999999999999997,
+              "fwd_dominance_diff": 1.1999999999999997
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 10.1,
+              "temperature_c": 24.6
+            },
+            "actual": {
+              "home": 45,
+              "away": 5
+            },
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Romain BRIATTE",
+                "club": "home",
+                "minute": 7
+              },
+              {
+                "name": "Romain BRIATTE",
+                "club": "home",
+                "minute": 29
+              },
+              {
+                "name": "Leo BARRE",
+                "club": "home",
+                "minute": 34
+              },
+              {
+                "name": "Jules FAVRE",
+                "club": "away",
+                "minute": 52
+              },
+              {
+                "name": "Joseph MARCHANT",
+                "club": "home",
+                "minute": 61
+              },
+              {
+                "name": "Jérémy Charles WARD",
+                "club": "home",
+                "minute": 66
+              },
+              {
+                "name": "Joseph MARCHANT",
+                "club": "home",
+                "minute": 72
+              },
+              {
+                "name": "Romain BRIATTE",
+                "club": "home",
+                "minute": 80
+              }
+            ]
+          }
+        ],
+        "complete": true,
+        "base_correct": 1,
+        "lineup_correct": 1,
+        "total": 2
       }
     ],
     "stats": {
-      "n": 178,
-      "base_ok": 133,
-      "lineup_ok": 131,
+      "n": 185,
+      "base_ok": 139,
+      "lineup_ok": 137,
       "home": {
-        "total": 125,
-        "base_ok": 123,
-        "lineup_ok": 124
+        "total": 131,
+        "base_ok": 129,
+        "lineup_ok": 130
       },
       "draw": {
-        "total": 6,
+        "total": 3,
         "base_ok": 0,
         "lineup_ok": 0
       },
       "away": {
-        "total": 47,
+        "total": 51,
         "base_ok": 10,
         "lineup_ok": 7
       }
     }
   },
-  "generated_at": "15/06/2026 à 22:34"
+  "generated_at": "17/06/2026 à 23:13"
 }
