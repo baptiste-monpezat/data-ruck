@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T23:10:29.669742",
+  "generated_at": "2026-06-17T23:20:44.535838",
   "matches": [
     {
       "home": "Section Paloise",
@@ -67017,7 +67017,7 @@
         ]
       }
     ],
-    "top14_Barrage_2025-2026": [
+    "top14_barrage_2025-2026": [
       {
         "home": "Section Paloise",
         "away": "Racing 92",
@@ -156008,16 +156008,16 @@
   },
   "performance": {
     "top14": {
-      "n_matches": 182,
+      "n_matches": 185,
       "top1_hit_pct": 36,
-      "top3_hit_pct": 70,
-      "top5_hit_pct": 85
+      "top3_hit_pct": 69,
+      "top5_hit_pct": 84
     },
     "prod2": {
-      "n_matches": 240,
+      "n_matches": 244,
       "top1_hit_pct": 36,
       "top3_hit_pct": 67,
-      "top5_hit_pct": 78
+      "top5_hit_pct": 79
     }
   }
 }
