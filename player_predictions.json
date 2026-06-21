@@ -1,33 +1,55 @@
 {
-  "generated_at": "2026-06-17T23:27:44.901628",
+  "generated_at": "2026-06-21T14:48:06.830409",
   "matches": [
     {
-      "home": "Section Paloise",
+      "home": "Stade Toulousain",
       "away": "Racing 92",
       "competition": "TOP 14",
-      "round": "BARRAGE",
+      "round": "DEMI-FINALE",
       "players": [
         {
-          "name": "Wilfried HULLEU",
+          "name": "Teddy THOMAS",
           "number": 14,
-          "team": "Racing 92",
+          "team": "Stade Toulousain",
           "position": "wing",
-          "season_pct": 56.2,
+          "season_pct": 38.9,
           "feats": {
-            "player_try_rate": 56.2,
-            "team_attack": 3.75,
-            "opp_defense": 3.54,
-            "exp_tries": 7.29,
-            "elo_team": 1694,
-            "elo_diff": 22,
-            "rank_scored_pg": 31.8,
-            "rank_opp_conceded": 25.6,
-            "games_played": 16,
-            "is_home": 0,
-            "team_exp_norm": 75.3
+            "player_try_rate": 38.9,
+            "team_attack": 5.17,
+            "opp_defense": 3.75,
+            "exp_tries": 8.92,
+            "elo_team": 1733,
+            "elo_diff": 39,
+            "rank_scored_pg": 37.7,
+            "rank_opp_conceded": 27.8,
+            "games_played": 18,
+            "is_home": 1,
+            "team_exp_norm": 77.1
           },
-          "try_proba": 75.3,
-          "try_proba_base": 38.7
+          "try_proba": 77.1,
+          "try_proba_base": 44.8
+        },
+        {
+          "name": "Matthis LEBEL",
+          "number": 11,
+          "team": "Stade Toulousain",
+          "position": "wing",
+          "season_pct": 29.4,
+          "feats": {
+            "player_try_rate": 29.4,
+            "team_attack": 5.17,
+            "opp_defense": 3.75,
+            "exp_tries": 8.92,
+            "elo_team": 1733,
+            "elo_diff": 39,
+            "rank_scored_pg": 37.7,
+            "rank_opp_conceded": 27.8,
+            "games_played": 17,
+            "is_home": 1,
+            "team_exp_norm": 69.4
+          },
+          "try_proba": 69.4,
+          "try_proba_base": 43.9
         },
         {
           "name": "Max SPRING",
@@ -38,84 +60,172 @@
           "feats": {
             "player_try_rate": 27.8,
             "team_attack": 3.75,
-            "opp_defense": 3.54,
-            "exp_tries": 7.29,
+            "opp_defense": 5.17,
+            "exp_tries": 8.92,
             "elo_team": 1694,
-            "elo_diff": 22,
+            "elo_diff": -39,
             "rank_scored_pg": 31.8,
-            "rank_opp_conceded": 25.6,
+            "rank_opp_conceded": 23.7,
             "games_played": 18,
             "is_home": 0,
-            "team_exp_norm": 54.1
+            "team_exp_norm": 56.3
           },
-          "try_proba": 54.1,
-          "try_proba_base": 35.9
+          "try_proba": 56.3,
+          "try_proba_base": 36.4
         },
         {
-          "name": "Gregoire ARFEUIL",
+          "name": "Nathan HUGHES",
+          "number": 8,
+          "team": "Racing 92",
+          "position": "back_row",
+          "season_pct": 39.1,
+          "feats": {
+            "player_try_rate": 39.1,
+            "team_attack": 3.75,
+            "opp_defense": 5.17,
+            "exp_tries": 8.92,
+            "elo_team": 1694,
+            "elo_diff": -39,
+            "rank_scored_pg": 31.8,
+            "rank_opp_conceded": 23.7,
+            "games_played": 23,
+            "is_home": 0,
+            "team_exp_norm": 47.3
+          },
+          "try_proba": 47.3,
+          "try_proba_base": 34.5
+        },
+        {
+          "name": "Alexandre ROUMAT",
+          "number": 8,
+          "team": "Stade Toulousain",
+          "position": "back_row",
+          "season_pct": 20.0,
+          "feats": {
+            "player_try_rate": 20.0,
+            "team_attack": 5.17,
+            "opp_defense": 3.75,
+            "exp_tries": 8.92,
+            "elo_team": 1733,
+            "elo_diff": 39,
+            "rank_scored_pg": 37.7,
+            "rank_opp_conceded": 27.8,
+            "games_played": 20,
+            "is_home": 1,
+            "team_exp_norm": 45.2
+          },
+          "try_proba": 45.2,
+          "try_proba_base": 39.8
+        },
+        {
+          "name": "Romain NTAMACK",
+          "number": 10,
+          "team": "Stade Toulousain",
+          "position": "halfback",
+          "season_pct": 26.7,
+          "feats": {
+            "player_try_rate": 26.7,
+            "team_attack": 5.17,
+            "opp_defense": 3.75,
+            "exp_tries": 8.92,
+            "elo_team": 1733,
+            "elo_diff": 39,
+            "rank_scored_pg": 37.7,
+            "rank_opp_conceded": 27.8,
+            "games_played": 15,
+            "is_home": 1,
+            "team_exp_norm": 41.8
+          },
+          "try_proba": 41.8,
+          "try_proba_base": 38.9
+        },
+        {
+          "name": "Joseph MANU",
           "number": 14,
-          "team": "Section Paloise",
+          "team": "Racing 92",
           "position": "wing",
-          "season_pct": 33.3,
+          "season_pct": 5.6,
           "feats": {
-            "player_try_rate": 33.3,
-            "team_attack": 3.54,
-            "opp_defense": 3.75,
-            "exp_tries": 7.29,
-            "elo_team": 1672,
-            "elo_diff": -22,
-            "rank_scored_pg": 31.4,
-            "rank_opp_conceded": 27.8,
+            "player_try_rate": 5.6,
+            "team_attack": 3.75,
+            "opp_defense": 5.17,
+            "exp_tries": 8.92,
+            "elo_team": 1694,
+            "elo_diff": -39,
+            "rank_scored_pg": 31.8,
+            "rank_opp_conceded": 23.7,
             "games_played": 18,
-            "is_home": 1,
-            "team_exp_norm": 48.0
+            "is_home": 0,
+            "team_exp_norm": 40.0
           },
-          "try_proba": 48.0,
-          "try_proba_base": 29.6
+          "try_proba": 40.0,
+          "try_proba_base": 32.6
         },
         {
-          "name": "Aaron GRANDIDIER-NKANANG",
-          "number": 11,
-          "team": "Section Paloise",
-          "position": "wing",
-          "season_pct": 28.6,
-          "feats": {
-            "player_try_rate": 28.6,
-            "team_attack": 3.54,
-            "opp_defense": 3.75,
-            "exp_tries": 7.29,
-            "elo_team": 1672,
-            "elo_diff": -22,
-            "rank_scored_pg": 31.4,
-            "rank_opp_conceded": 27.8,
-            "games_played": 21,
-            "is_home": 1,
-            "team_exp_norm": 47.0
-          },
-          "try_proba": 47.0,
-          "try_proba_base": 29.5
-        },
-        {
-          "name": "Théo ATTISSOGBE",
+          "name": "Blair KINGHORN",
           "number": 15,
-          "team": "Section Paloise",
+          "team": "Stade Toulousain",
           "position": "fullback",
-          "season_pct": 30.0,
+          "season_pct": 6.2,
           "feats": {
-            "player_try_rate": 30.0,
-            "team_attack": 3.54,
+            "player_try_rate": 6.2,
+            "team_attack": 5.17,
             "opp_defense": 3.75,
-            "exp_tries": 7.29,
-            "elo_team": 1672,
-            "elo_diff": -22,
-            "rank_scored_pg": 31.4,
+            "exp_tries": 8.92,
+            "elo_team": 1733,
+            "elo_diff": 39,
+            "rank_scored_pg": 37.7,
             "rank_opp_conceded": 27.8,
-            "games_played": 10,
+            "games_played": 16,
             "is_home": 1,
-            "team_exp_norm": 31.8
+            "team_exp_norm": 38.4
           },
-          "try_proba": 31.8,
-          "try_proba_base": 26.9
+          "try_proba": 38.4,
+          "try_proba_base": 37.9
+        },
+        {
+          "name": "Jack WILLIS",
+          "number": 7,
+          "team": "Stade Toulousain",
+          "position": "flanker",
+          "season_pct": 26.3,
+          "feats": {
+            "player_try_rate": 26.3,
+            "team_attack": 5.17,
+            "opp_defense": 3.75,
+            "exp_tries": 8.92,
+            "elo_team": 1733,
+            "elo_diff": 39,
+            "rank_scored_pg": 37.7,
+            "rank_opp_conceded": 27.8,
+            "games_played": 19,
+            "is_home": 1,
+            "team_exp_norm": 37.5
+          },
+          "try_proba": 37.5,
+          "try_proba_base": 37.6
+        },
+        {
+          "name": "Antoine DUPONT",
+          "number": 9,
+          "team": "Stade Toulousain",
+          "position": "halfback",
+          "season_pct": 25.0,
+          "feats": {
+            "player_try_rate": 25.0,
+            "team_attack": 5.17,
+            "opp_defense": 3.75,
+            "exp_tries": 8.92,
+            "elo_team": 1733,
+            "elo_diff": 39,
+            "rank_scored_pg": 37.7,
+            "rank_opp_conceded": 27.8,
+            "games_played": 8,
+            "is_home": 1,
+            "team_exp_norm": 36.8
+          },
+          "try_proba": 36.8,
+          "try_proba_base": 37.4
         },
         {
           "name": "Samuel JAMES",
@@ -126,62 +236,62 @@
           "feats": {
             "player_try_rate": 15.4,
             "team_attack": 3.75,
-            "opp_defense": 3.54,
-            "exp_tries": 7.29,
+            "opp_defense": 5.17,
+            "exp_tries": 8.92,
             "elo_team": 1694,
-            "elo_diff": 22,
+            "elo_diff": -39,
             "rank_scored_pg": 31.8,
-            "rank_opp_conceded": 25.6,
+            "rank_opp_conceded": 23.7,
             "games_played": 13,
             "is_home": 0,
-            "team_exp_norm": 29.7
+            "team_exp_norm": 30.3
           },
-          "try_proba": 29.7,
-          "try_proba_base": 29.4
+          "try_proba": 30.3,
+          "try_proba_base": 29.2
         },
         {
-          "name": "Emilien GAILLETON",
+          "name": "Pierre-louis BARASSI",
           "number": 13,
-          "team": "Section Paloise",
+          "team": "Stade Toulousain",
           "position": "center",
-          "season_pct": 47.1,
+          "season_pct": 25.0,
           "feats": {
-            "player_try_rate": 47.1,
-            "team_attack": 3.54,
+            "player_try_rate": 25.0,
+            "team_attack": 5.17,
             "opp_defense": 3.75,
-            "exp_tries": 7.29,
-            "elo_team": 1672,
-            "elo_diff": -22,
-            "rank_scored_pg": 31.4,
+            "exp_tries": 8.92,
+            "elo_team": 1733,
+            "elo_diff": 39,
+            "rank_scored_pg": 37.7,
             "rank_opp_conceded": 27.8,
-            "games_played": 17,
+            "games_played": 12,
             "is_home": 1,
-            "team_exp_norm": 27.2
+            "team_exp_norm": 28.0
           },
-          "try_proba": 27.2,
-          "try_proba_base": 25.7
+          "try_proba": 28.0,
+          "try_proba_base": 33.8
         },
         {
-          "name": "Beka GORGADZE",
-          "number": 8,
-          "team": "Section Paloise",
-          "position": "back_row",
-          "season_pct": 18.8,
+          "name": "Emmanuel MEAFOU",
+          "number": 5,
+          "team": "Stade Toulousain",
+          "position": "lock",
+          "season_pct": 30.0,
           "feats": {
-            "player_try_rate": 18.8,
-            "team_attack": 3.54,
+            "player_try_rate": 30.0,
+            "team_attack": 5.17,
             "opp_defense": 3.75,
-            "exp_tries": 7.29,
-            "elo_team": 1672,
-            "elo_diff": -22,
-            "rank_scored_pg": 31.4,
+            "exp_tries": 8.92,
+            "elo_team": 1733,
+            "elo_diff": 39,
+            "rank_scored_pg": 37.7,
             "rank_opp_conceded": 27.8,
-            "games_played": 16,
+            "games_played": 10,
             "is_home": 1,
-            "team_exp_norm": 26.6
+            "team_exp_norm": 27.4
           },
-          "try_proba": 26.6,
-          "try_proba_base": 25.5
+          "try_proba": 27.4,
+          "try_proba_base": 33.6
         },
         {
           "name": "Leo CARBONNEAU",
@@ -192,180 +302,70 @@
           "feats": {
             "player_try_rate": 13.6,
             "team_attack": 3.75,
-            "opp_defense": 3.54,
-            "exp_tries": 7.29,
+            "opp_defense": 5.17,
+            "exp_tries": 8.92,
             "elo_team": 1694,
-            "elo_diff": 22,
+            "elo_diff": -39,
             "rank_scored_pg": 31.8,
-            "rank_opp_conceded": 25.6,
+            "rank_opp_conceded": 23.7,
             "games_played": 22,
             "is_home": 0,
-            "team_exp_norm": 26.5
+            "team_exp_norm": 27.0
           },
-          "try_proba": 26.5,
-          "try_proba_base": 27.9
+          "try_proba": 27.0,
+          "try_proba_base": 27.6
         },
         {
-          "name": "Shingirai Dylan Masimba MANYARARA",
-          "number": 8,
-          "team": "Racing 92",
-          "position": "back_row",
-          "season_pct": 7.7,
-          "feats": {
-            "player_try_rate": 7.7,
-            "team_attack": 3.75,
-            "opp_defense": 3.54,
-            "exp_tries": 7.29,
-            "elo_team": 1694,
-            "elo_diff": 22,
-            "rank_scored_pg": 31.8,
-            "rank_opp_conceded": 25.6,
-            "games_played": 13,
-            "is_home": 0,
-            "team_exp_norm": 23.1
-          },
-          "try_proba": 23.1,
-          "try_proba_base": 26.2
-        },
-        {
-          "name": "Juliàn Sixto MONTOYA",
-          "number": 2,
-          "team": "Section Paloise",
-          "position": "front_row",
-          "season_pct": 42.9,
-          "feats": {
-            "player_try_rate": 42.9,
-            "team_attack": 3.54,
-            "opp_defense": 3.75,
-            "exp_tries": 7.29,
-            "elo_team": 1672,
-            "elo_diff": -22,
-            "rank_scored_pg": 31.4,
-            "rank_opp_conceded": 27.8,
-            "games_played": 14,
-            "is_home": 1,
-            "team_exp_norm": 22.3
-          },
-          "try_proba": 22.3,
-          "try_proba_base": 24.0
-        },
-        {
-          "name": "Maxime BAUDONNE",
-          "number": 6,
-          "team": "Racing 92",
-          "position": "flanker",
-          "season_pct": 12.5,
-          "feats": {
-            "player_try_rate": 12.5,
-            "team_attack": 3.75,
-            "opp_defense": 3.54,
-            "exp_tries": 7.29,
-            "elo_team": 1694,
-            "elo_diff": 22,
-            "rank_scored_pg": 31.8,
-            "rank_opp_conceded": 25.6,
-            "games_played": 24,
-            "is_home": 0,
-            "team_exp_norm": 22.2
-          },
-          "try_proba": 22.2,
-          "try_proba_base": 25.7
-        },
-        {
-          "name": "Daniel ROBSON",
-          "number": 9,
-          "team": "Section Paloise",
-          "position": "halfback",
-          "season_pct": 12.5,
-          "feats": {
-            "player_try_rate": 12.5,
-            "team_attack": 3.54,
-            "opp_defense": 3.75,
-            "exp_tries": 7.29,
-            "elo_team": 1672,
-            "elo_diff": -22,
-            "rank_scored_pg": 31.4,
-            "rank_opp_conceded": 27.8,
-            "games_played": 16,
-            "is_home": 1,
-            "team_exp_norm": 21.5
-          },
-          "try_proba": 21.5,
-          "try_proba_base": 23.7
-        },
-        {
-          "name": "Antoine GIBERT",
-          "number": 10,
-          "team": "Racing 92",
-          "position": "halfback",
-          "season_pct": 0.0,
-          "feats": {
-            "player_try_rate": 0.0,
-            "team_attack": 3.75,
-            "opp_defense": 3.54,
-            "exp_tries": 7.29,
-            "elo_team": 1694,
-            "elo_diff": 22,
-            "rank_scored_pg": 31.8,
-            "rank_opp_conceded": 25.6,
-            "games_played": 18,
-            "is_home": 0,
-            "team_exp_norm": 19.3
-          },
-          "try_proba": 19.3,
-          "try_proba_base": 23.9
-        },
-        {
-          "name": "Joe SIMMONDS",
-          "number": 10,
-          "team": "Section Paloise",
-          "position": "halfback",
-          "season_pct": 9.1,
-          "feats": {
-            "player_try_rate": 9.1,
-            "team_attack": 3.54,
-            "opp_defense": 3.75,
-            "exp_tries": 7.29,
-            "elo_team": 1672,
-            "elo_diff": -22,
-            "rank_scored_pg": 31.4,
-            "rank_opp_conceded": 27.8,
-            "games_played": 11,
-            "is_home": 1,
-            "team_exp_norm": 18.7
-          },
-          "try_proba": 18.7,
-          "try_proba_base": 22.4
-        },
-        {
-          "name": "Fabien BRAU-BOIRIE",
+          "name": "Santiago CHOCOBARES",
           "number": 12,
-          "team": "Section Paloise",
+          "team": "Stade Toulousain",
           "position": "center",
-          "season_pct": 22.2,
+          "season_pct": 20.0,
           "feats": {
-            "player_try_rate": 22.2,
-            "team_attack": 3.54,
+            "player_try_rate": 20.0,
+            "team_attack": 5.17,
             "opp_defense": 3.75,
-            "exp_tries": 7.29,
-            "elo_team": 1672,
-            "elo_diff": -22,
-            "rank_scored_pg": 31.4,
+            "exp_tries": 8.92,
+            "elo_team": 1733,
+            "elo_diff": 39,
+            "rank_scored_pg": 37.7,
             "rank_opp_conceded": 27.8,
-            "games_played": 18,
+            "games_played": 10,
             "is_home": 1,
-            "team_exp_norm": 18.5
+            "team_exp_norm": 24.8
           },
-          "try_proba": 18.5,
-          "try_proba_base": 22.3
+          "try_proba": 24.8,
+          "try_proba_base": 32.2
+        },
+        {
+          "name": "Gael FICKOU",
+          "number": 13,
+          "team": "Racing 92",
+          "position": "center",
+          "season_pct": 31.2,
+          "feats": {
+            "player_try_rate": 31.2,
+            "team_attack": 3.75,
+            "opp_defense": 5.17,
+            "exp_tries": 8.92,
+            "elo_team": 1694,
+            "elo_diff": -39,
+            "rank_scored_pg": 31.8,
+            "rank_opp_conceded": 23.7,
+            "games_played": 16,
+            "is_home": 0,
+            "team_exp_norm": 22.9
+          },
+          "try_proba": 22.9,
+          "try_proba_base": 25.4
         }
       ]
     },
     {
-      "home": "Stade Français Paris",
-      "away": "Stade Rochelais",
+      "home": "Montpellier Hérault Rugby",
+      "away": "Stade Français Paris",
       "competition": "TOP 14",
-      "round": "BARRAGE",
+      "round": "DEMI-FINALE",
       "players": [
         {
           "name": "Peniasi DAKUWAQA",
@@ -376,62 +376,40 @@
           "feats": {
             "player_try_rate": 41.2,
             "team_attack": 4.17,
-            "opp_defense": 3.75,
-            "exp_tries": 7.92,
+            "opp_defense": 3.96,
+            "exp_tries": 8.12,
             "elo_team": 1652,
-            "elo_diff": -35,
+            "elo_diff": -17,
             "rank_scored_pg": 33.4,
-            "rank_opp_conceded": 24.4,
+            "rank_opp_conceded": 22.6,
             "games_played": 17,
-            "is_home": 1,
-            "team_exp_norm": 60.7
-          },
-          "try_proba": 60.7,
-          "try_proba_base": 36.7
-        },
-        {
-          "name": "Davit NINIASHVILI",
-          "number": 11,
-          "team": "Stade Rochelais",
-          "position": "wing",
-          "season_pct": 35.0,
-          "feats": {
-            "player_try_rate": 35.0,
-            "team_attack": 3.75,
-            "opp_defense": 4.17,
-            "exp_tries": 7.92,
-            "elo_team": 1687,
-            "elo_diff": 35,
-            "rank_scored_pg": 31.7,
-            "rank_opp_conceded": 25.5,
-            "games_played": 20,
             "is_home": 0,
-            "team_exp_norm": 59.0
+            "team_exp_norm": 66.1
           },
-          "try_proba": 59.0,
-          "try_proba_base": 36.5
+          "try_proba": 66.1,
+          "try_proba_base": 40.7
         },
         {
-          "name": "Jack NOWELL",
+          "name": "Gabriel NGANDEBE",
           "number": 14,
-          "team": "Stade Rochelais",
+          "team": "Montpellier Hérault Rugby",
           "position": "wing",
-          "season_pct": 35.3,
+          "season_pct": 27.3,
           "feats": {
-            "player_try_rate": 35.3,
-            "team_attack": 3.75,
+            "player_try_rate": 27.3,
+            "team_attack": 3.96,
             "opp_defense": 4.17,
-            "exp_tries": 7.92,
-            "elo_team": 1687,
-            "elo_diff": 35,
+            "exp_tries": 8.12,
+            "elo_team": 1669,
+            "elo_diff": 17,
             "rank_scored_pg": 31.7,
             "rank_opp_conceded": 25.5,
-            "games_played": 17,
-            "is_home": 0,
-            "team_exp_norm": 57.0
+            "games_played": 22,
+            "is_home": 1,
+            "team_exp_norm": 57.2
           },
-          "try_proba": 57.0,
-          "try_proba_base": 36.2
+          "try_proba": 57.2,
+          "try_proba_base": 35.1
         },
         {
           "name": "Leo BARRE",
@@ -442,18 +420,40 @@
           "feats": {
             "player_try_rate": 36.4,
             "team_attack": 4.17,
-            "opp_defense": 3.75,
-            "exp_tries": 7.92,
+            "opp_defense": 3.96,
+            "exp_tries": 8.12,
             "elo_team": 1652,
-            "elo_diff": -35,
+            "elo_diff": -17,
             "rank_scored_pg": 33.4,
-            "rank_opp_conceded": 24.4,
+            "rank_opp_conceded": 22.6,
             "games_played": 22,
-            "is_home": 1,
-            "team_exp_norm": 47.1
+            "is_home": 0,
+            "team_exp_norm": 48.9
           },
-          "try_proba": 47.1,
-          "try_proba_base": 34.7
+          "try_proba": 48.9,
+          "try_proba_base": 37.4
+        },
+        {
+          "name": "Donovan TAOFIFENUA",
+          "number": 11,
+          "team": "Montpellier Hérault Rugby",
+          "position": "wing",
+          "season_pct": 21.4,
+          "feats": {
+            "player_try_rate": 21.4,
+            "team_attack": 3.96,
+            "opp_defense": 4.17,
+            "exp_tries": 8.12,
+            "elo_team": 1669,
+            "elo_diff": 17,
+            "rank_scored_pg": 31.7,
+            "rank_opp_conceded": 25.5,
+            "games_played": 14,
+            "is_home": 1,
+            "team_exp_norm": 48.1
+          },
+          "try_proba": 48.1,
+          "try_proba_base": 33.7
         },
         {
           "name": "Joseph MARCHANT",
@@ -464,40 +464,40 @@
           "feats": {
             "player_try_rate": 15.8,
             "team_attack": 4.17,
-            "opp_defense": 3.75,
-            "exp_tries": 7.92,
+            "opp_defense": 3.96,
+            "exp_tries": 8.12,
             "elo_team": 1652,
-            "elo_diff": -35,
+            "elo_diff": -17,
             "rank_scored_pg": 33.4,
-            "rank_opp_conceded": 24.4,
+            "rank_opp_conceded": 22.6,
             "games_played": 19,
-            "is_home": 1,
-            "team_exp_norm": 45.6
+            "is_home": 0,
+            "team_exp_norm": 47.2
           },
-          "try_proba": 45.6,
-          "try_proba_base": 34.4
+          "try_proba": 47.2,
+          "try_proba_base": 37.0
         },
         {
-          "name": "Nolann LE GARREC",
-          "number": 9,
-          "team": "Stade Rochelais",
-          "position": "halfback",
-          "season_pct": 41.2,
+          "name": "Tom BANKS",
+          "number": 15,
+          "team": "Montpellier Hérault Rugby",
+          "position": "fullback",
+          "season_pct": 21.7,
           "feats": {
-            "player_try_rate": 41.2,
-            "team_attack": 3.75,
+            "player_try_rate": 21.7,
+            "team_attack": 3.96,
             "opp_defense": 4.17,
-            "exp_tries": 7.92,
-            "elo_team": 1687,
-            "elo_diff": 35,
+            "exp_tries": 8.12,
+            "elo_team": 1669,
+            "elo_diff": 17,
             "rank_scored_pg": 31.7,
             "rank_opp_conceded": 25.5,
-            "games_played": 17,
-            "is_home": 0,
-            "team_exp_norm": 37.2
+            "games_played": 23,
+            "is_home": 1,
+            "team_exp_norm": 40.7
           },
-          "try_proba": 37.2,
-          "try_proba_base": 31.9
+          "try_proba": 40.7,
+          "try_proba_base": 32.3
         },
         {
           "name": "Yoan TANGA MANGENE",
@@ -508,40 +508,18 @@
           "feats": {
             "player_try_rate": 20.0,
             "team_attack": 4.17,
-            "opp_defense": 3.75,
-            "exp_tries": 7.92,
+            "opp_defense": 3.96,
+            "exp_tries": 8.12,
             "elo_team": 1652,
-            "elo_diff": -35,
+            "elo_diff": -17,
             "rank_scored_pg": 33.4,
-            "rank_opp_conceded": 24.4,
+            "rank_opp_conceded": 22.6,
             "games_played": 20,
-            "is_home": 1,
-            "team_exp_norm": 32.8
-          },
-          "try_proba": 32.8,
-          "try_proba_base": 31.3
-        },
-        {
-          "name": "Grégory ALLDRITT",
-          "number": 8,
-          "team": "Stade Rochelais",
-          "position": "back_row",
-          "season_pct": 19.0,
-          "feats": {
-            "player_try_rate": 19.0,
-            "team_attack": 3.75,
-            "opp_defense": 4.17,
-            "exp_tries": 7.92,
-            "elo_team": 1687,
-            "elo_diff": 35,
-            "rank_scored_pg": 31.7,
-            "rank_opp_conceded": 25.5,
-            "games_played": 21,
             "is_home": 0,
-            "team_exp_norm": 31.0
+            "team_exp_norm": 32.6
           },
-          "try_proba": 31.0,
-          "try_proba_base": 29.9
+          "try_proba": 32.6,
+          "try_proba_base": 32.2
         },
         {
           "name": "Noah Tisie NENE",
@@ -552,18 +530,18 @@
           "feats": {
             "player_try_rate": 50.0,
             "team_attack": 4.17,
-            "opp_defense": 3.75,
-            "exp_tries": 7.92,
+            "opp_defense": 3.96,
+            "exp_tries": 8.12,
             "elo_team": 1652,
-            "elo_diff": -35,
+            "elo_diff": -17,
             "rank_scored_pg": 33.4,
-            "rank_opp_conceded": 24.4,
+            "rank_opp_conceded": 22.6,
             "games_played": 14,
-            "is_home": 1,
-            "team_exp_norm": 30.9
+            "is_home": 0,
+            "team_exp_norm": 30.5
           },
-          "try_proba": 30.9,
-          "try_proba_base": 30.7
+          "try_proba": 30.5,
+          "try_proba_base": 31.3
         },
         {
           "name": "Jérémy Charles WARD",
@@ -574,18 +552,18 @@
           "feats": {
             "player_try_rate": 42.1,
             "team_attack": 4.17,
-            "opp_defense": 3.75,
-            "exp_tries": 7.92,
+            "opp_defense": 3.96,
+            "exp_tries": 8.12,
             "elo_team": 1652,
-            "elo_diff": -35,
+            "elo_diff": -17,
             "rank_scored_pg": 33.4,
-            "rank_opp_conceded": 24.4,
+            "rank_opp_conceded": 22.6,
             "games_played": 19,
-            "is_home": 1,
-            "team_exp_norm": 29.5
+            "is_home": 0,
+            "team_exp_norm": 28.9
           },
-          "try_proba": 29.5,
-          "try_proba_base": 30.2
+          "try_proba": 28.9,
+          "try_proba_base": 30.6
         },
         {
           "name": "Tanginoa Palu HALAIFONUA",
@@ -596,40 +574,84 @@
           "feats": {
             "player_try_rate": 31.6,
             "team_attack": 4.17,
-            "opp_defense": 3.75,
-            "exp_tries": 7.92,
+            "opp_defense": 3.96,
+            "exp_tries": 8.12,
             "elo_team": 1652,
-            "elo_diff": -35,
+            "elo_diff": -17,
             "rank_scored_pg": 33.4,
-            "rank_opp_conceded": 24.4,
+            "rank_opp_conceded": 22.6,
             "games_played": 19,
-            "is_home": 1,
-            "team_exp_norm": 29.3
+            "is_home": 0,
+            "team_exp_norm": 28.7
           },
-          "try_proba": 29.3,
-          "try_proba_base": 30.1
+          "try_proba": 28.7,
+          "try_proba_base": 30.5
         },
         {
-          "name": "Ihaia WEST",
-          "number": 15,
-          "team": "Stade Rochelais",
-          "position": "fullback",
+          "name": "Lenni NOUCHI",
+          "number": 6,
+          "team": "Montpellier Hérault Rugby",
+          "position": "flanker",
+          "season_pct": 29.4,
+          "feats": {
+            "player_try_rate": 29.4,
+            "team_attack": 3.96,
+            "opp_defense": 4.17,
+            "exp_tries": 8.12,
+            "elo_team": 1669,
+            "elo_diff": 17,
+            "rank_scored_pg": 31.7,
+            "rank_opp_conceded": 25.5,
+            "games_played": 17,
+            "is_home": 1,
+            "team_exp_norm": 28.6
+          },
+          "try_proba": 28.6,
+          "try_proba_base": 28.8
+        },
+        {
+          "name": "Hugo Domingo MIOTTI",
+          "number": 10,
+          "team": "Montpellier Hérault Rugby",
+          "position": "halfback",
           "season_pct": 14.3,
           "feats": {
             "player_try_rate": 14.3,
-            "team_attack": 3.75,
+            "team_attack": 3.96,
             "opp_defense": 4.17,
-            "exp_tries": 7.92,
-            "elo_team": 1687,
-            "elo_diff": 35,
+            "exp_tries": 8.12,
+            "elo_team": 1669,
+            "elo_diff": 17,
             "rank_scored_pg": 31.7,
             "rank_opp_conceded": 25.5,
-            "games_played": 14,
-            "is_home": 0,
-            "team_exp_norm": 28.5
+            "games_played": 21,
+            "is_home": 1,
+            "team_exp_norm": 28.4
           },
-          "try_proba": 28.5,
-          "try_proba_base": 28.9
+          "try_proba": 28.4,
+          "try_proba_base": 28.7
+        },
+        {
+          "name": "Viliami VUNIPOLA",
+          "number": 8,
+          "team": "Montpellier Hérault Rugby",
+          "position": "back_row",
+          "season_pct": 5.0,
+          "feats": {
+            "player_try_rate": 5.0,
+            "team_attack": 3.96,
+            "opp_defense": 4.17,
+            "exp_tries": 8.12,
+            "elo_team": 1669,
+            "elo_diff": 17,
+            "rank_scored_pg": 31.7,
+            "rank_opp_conceded": 25.5,
+            "games_played": 20,
+            "is_home": 1,
+            "team_exp_norm": 27.0
+          },
+          "try_proba": 27.0,
+          "try_proba_base": 28.1
         },
         {
           "name": "Louis CARBONEL",
@@ -640,17 +662,17 @@
           "feats": {
             "player_try_rate": 14.3,
             "team_attack": 4.17,
-            "opp_defense": 3.75,
-            "exp_tries": 7.92,
+            "opp_defense": 3.96,
+            "exp_tries": 8.12,
             "elo_team": 1652,
-            "elo_diff": -35,
+            "elo_diff": -17,
             "rank_scored_pg": 33.4,
-            "rank_opp_conceded": 24.4,
+            "rank_opp_conceded": 22.6,
             "games_played": 21,
-            "is_home": 1,
-            "team_exp_norm": 27.2
+            "is_home": 0,
+            "team_exp_norm": 26.5
           },
-          "try_proba": 27.2,
+          "try_proba": 26.5,
           "try_proba_base": 29.3
         },
         {
@@ -662,62 +684,40 @@
           "feats": {
             "player_try_rate": 15.0,
             "team_attack": 4.17,
-            "opp_defense": 3.75,
-            "exp_tries": 7.92,
+            "opp_defense": 3.96,
+            "exp_tries": 8.12,
             "elo_team": 1652,
-            "elo_diff": -35,
+            "elo_diff": -17,
             "rank_scored_pg": 33.4,
-            "rank_opp_conceded": 24.4,
+            "rank_opp_conceded": 22.6,
             "games_played": 20,
-            "is_home": 1,
-            "team_exp_norm": 27.1
+            "is_home": 0,
+            "team_exp_norm": 26.3
           },
-          "try_proba": 27.1,
+          "try_proba": 26.3,
           "try_proba_base": 29.2
         },
         {
-          "name": "Oscar JEGOU",
-          "number": 7,
-          "team": "Stade Rochelais",
-          "position": "flanker",
-          "season_pct": 25.0,
-          "feats": {
-            "player_try_rate": 25.0,
-            "team_attack": 3.75,
-            "opp_defense": 4.17,
-            "exp_tries": 7.92,
-            "elo_team": 1687,
-            "elo_diff": 35,
-            "rank_scored_pg": 31.7,
-            "rank_opp_conceded": 25.5,
-            "games_played": 16,
-            "is_home": 0,
-            "team_exp_norm": 23.2
-          },
-          "try_proba": 23.2,
-          "try_proba_base": 26.3
-        },
-        {
-          "name": "Antoine HASTOY",
-          "number": 10,
-          "team": "Stade Rochelais",
+          "name": "Alistaire PRICE",
+          "number": 9,
+          "team": "Montpellier Hérault Rugby",
           "position": "halfback",
           "season_pct": 10.0,
           "feats": {
             "player_try_rate": 10.0,
-            "team_attack": 3.75,
+            "team_attack": 3.96,
             "opp_defense": 4.17,
-            "exp_tries": 7.92,
-            "elo_team": 1687,
-            "elo_diff": 35,
+            "exp_tries": 8.12,
+            "elo_team": 1669,
+            "elo_diff": 17,
             "rank_scored_pg": 31.7,
             "rank_opp_conceded": 25.5,
             "games_played": 20,
-            "is_home": 0,
-            "team_exp_norm": 23.0
+            "is_home": 1,
+            "team_exp_norm": 26.1
           },
-          "try_proba": 23.0,
-          "try_proba_base": 26.2
+          "try_proba": 26.1,
+          "try_proba_base": 27.7
         }
       ]
     },
@@ -67735,6 +67735,1090 @@
             },
             "try_proba": 23.0,
             "try_proba_base": 26.2
+          }
+        ]
+      }
+    ],
+    "top14_demi-finale_2025-2026": [
+      {
+        "home": "Stade Toulousain",
+        "away": "Racing 92",
+        "competition": "TOP 14",
+        "round": "DEMI-FINALE",
+        "players": [
+          {
+            "name": "Teddy THOMAS",
+            "number": 14,
+            "team": "Stade Toulousain",
+            "position": "wing",
+            "season_pct": 38.9,
+            "feats": {
+              "player_try_rate": 38.9,
+              "team_attack": 5.17,
+              "opp_defense": 3.75,
+              "exp_tries": 8.92,
+              "elo_team": 1733,
+              "elo_diff": 39,
+              "rank_scored_pg": 37.7,
+              "rank_opp_conceded": 27.8,
+              "games_played": 18,
+              "is_home": 1,
+              "team_exp_norm": 77.1
+            },
+            "try_proba": 77.1,
+            "try_proba_base": 44.8
+          },
+          {
+            "name": "Matthis LEBEL",
+            "number": 11,
+            "team": "Stade Toulousain",
+            "position": "wing",
+            "season_pct": 29.4,
+            "feats": {
+              "player_try_rate": 29.4,
+              "team_attack": 5.17,
+              "opp_defense": 3.75,
+              "exp_tries": 8.92,
+              "elo_team": 1733,
+              "elo_diff": 39,
+              "rank_scored_pg": 37.7,
+              "rank_opp_conceded": 27.8,
+              "games_played": 17,
+              "is_home": 1,
+              "team_exp_norm": 69.4
+            },
+            "try_proba": 69.4,
+            "try_proba_base": 43.9
+          },
+          {
+            "name": "Max SPRING",
+            "number": 11,
+            "team": "Racing 92",
+            "position": "wing",
+            "season_pct": 27.8,
+            "feats": {
+              "player_try_rate": 27.8,
+              "team_attack": 3.75,
+              "opp_defense": 5.17,
+              "exp_tries": 8.92,
+              "elo_team": 1694,
+              "elo_diff": -39,
+              "rank_scored_pg": 31.8,
+              "rank_opp_conceded": 23.7,
+              "games_played": 18,
+              "is_home": 0,
+              "team_exp_norm": 56.3
+            },
+            "try_proba": 56.3,
+            "try_proba_base": 36.4
+          },
+          {
+            "name": "Nathan HUGHES",
+            "number": 8,
+            "team": "Racing 92",
+            "position": "back_row",
+            "season_pct": 39.1,
+            "feats": {
+              "player_try_rate": 39.1,
+              "team_attack": 3.75,
+              "opp_defense": 5.17,
+              "exp_tries": 8.92,
+              "elo_team": 1694,
+              "elo_diff": -39,
+              "rank_scored_pg": 31.8,
+              "rank_opp_conceded": 23.7,
+              "games_played": 23,
+              "is_home": 0,
+              "team_exp_norm": 47.3
+            },
+            "try_proba": 47.3,
+            "try_proba_base": 34.5
+          },
+          {
+            "name": "Alexandre ROUMAT",
+            "number": 8,
+            "team": "Stade Toulousain",
+            "position": "back_row",
+            "season_pct": 20.0,
+            "feats": {
+              "player_try_rate": 20.0,
+              "team_attack": 5.17,
+              "opp_defense": 3.75,
+              "exp_tries": 8.92,
+              "elo_team": 1733,
+              "elo_diff": 39,
+              "rank_scored_pg": 37.7,
+              "rank_opp_conceded": 27.8,
+              "games_played": 20,
+              "is_home": 1,
+              "team_exp_norm": 45.2
+            },
+            "try_proba": 45.2,
+            "try_proba_base": 39.8
+          },
+          {
+            "name": "Romain NTAMACK",
+            "number": 10,
+            "team": "Stade Toulousain",
+            "position": "halfback",
+            "season_pct": 26.7,
+            "feats": {
+              "player_try_rate": 26.7,
+              "team_attack": 5.17,
+              "opp_defense": 3.75,
+              "exp_tries": 8.92,
+              "elo_team": 1733,
+              "elo_diff": 39,
+              "rank_scored_pg": 37.7,
+              "rank_opp_conceded": 27.8,
+              "games_played": 15,
+              "is_home": 1,
+              "team_exp_norm": 41.8
+            },
+            "try_proba": 41.8,
+            "try_proba_base": 38.9
+          },
+          {
+            "name": "Joseph MANU",
+            "number": 14,
+            "team": "Racing 92",
+            "position": "wing",
+            "season_pct": 5.6,
+            "feats": {
+              "player_try_rate": 5.6,
+              "team_attack": 3.75,
+              "opp_defense": 5.17,
+              "exp_tries": 8.92,
+              "elo_team": 1694,
+              "elo_diff": -39,
+              "rank_scored_pg": 31.8,
+              "rank_opp_conceded": 23.7,
+              "games_played": 18,
+              "is_home": 0,
+              "team_exp_norm": 40.0
+            },
+            "try_proba": 40.0,
+            "try_proba_base": 32.6
+          },
+          {
+            "name": "Blair KINGHORN",
+            "number": 15,
+            "team": "Stade Toulousain",
+            "position": "fullback",
+            "season_pct": 6.2,
+            "feats": {
+              "player_try_rate": 6.2,
+              "team_attack": 5.17,
+              "opp_defense": 3.75,
+              "exp_tries": 8.92,
+              "elo_team": 1733,
+              "elo_diff": 39,
+              "rank_scored_pg": 37.7,
+              "rank_opp_conceded": 27.8,
+              "games_played": 16,
+              "is_home": 1,
+              "team_exp_norm": 38.4
+            },
+            "try_proba": 38.4,
+            "try_proba_base": 37.9
+          },
+          {
+            "name": "Jack WILLIS",
+            "number": 7,
+            "team": "Stade Toulousain",
+            "position": "flanker",
+            "season_pct": 26.3,
+            "feats": {
+              "player_try_rate": 26.3,
+              "team_attack": 5.17,
+              "opp_defense": 3.75,
+              "exp_tries": 8.92,
+              "elo_team": 1733,
+              "elo_diff": 39,
+              "rank_scored_pg": 37.7,
+              "rank_opp_conceded": 27.8,
+              "games_played": 19,
+              "is_home": 1,
+              "team_exp_norm": 37.5
+            },
+            "try_proba": 37.5,
+            "try_proba_base": 37.6
+          },
+          {
+            "name": "Antoine DUPONT",
+            "number": 9,
+            "team": "Stade Toulousain",
+            "position": "halfback",
+            "season_pct": 25.0,
+            "feats": {
+              "player_try_rate": 25.0,
+              "team_attack": 5.17,
+              "opp_defense": 3.75,
+              "exp_tries": 8.92,
+              "elo_team": 1733,
+              "elo_diff": 39,
+              "rank_scored_pg": 37.7,
+              "rank_opp_conceded": 27.8,
+              "games_played": 8,
+              "is_home": 1,
+              "team_exp_norm": 36.8
+            },
+            "try_proba": 36.8,
+            "try_proba_base": 37.4
+          },
+          {
+            "name": "Samuel JAMES",
+            "number": 15,
+            "team": "Racing 92",
+            "position": "fullback",
+            "season_pct": 15.4,
+            "feats": {
+              "player_try_rate": 15.4,
+              "team_attack": 3.75,
+              "opp_defense": 5.17,
+              "exp_tries": 8.92,
+              "elo_team": 1694,
+              "elo_diff": -39,
+              "rank_scored_pg": 31.8,
+              "rank_opp_conceded": 23.7,
+              "games_played": 13,
+              "is_home": 0,
+              "team_exp_norm": 30.3
+            },
+            "try_proba": 30.3,
+            "try_proba_base": 29.2
+          },
+          {
+            "name": "Pierre-louis BARASSI",
+            "number": 13,
+            "team": "Stade Toulousain",
+            "position": "center",
+            "season_pct": 25.0,
+            "feats": {
+              "player_try_rate": 25.0,
+              "team_attack": 5.17,
+              "opp_defense": 3.75,
+              "exp_tries": 8.92,
+              "elo_team": 1733,
+              "elo_diff": 39,
+              "rank_scored_pg": 37.7,
+              "rank_opp_conceded": 27.8,
+              "games_played": 12,
+              "is_home": 1,
+              "team_exp_norm": 28.0
+            },
+            "try_proba": 28.0,
+            "try_proba_base": 33.8
+          },
+          {
+            "name": "Emmanuel MEAFOU",
+            "number": 5,
+            "team": "Stade Toulousain",
+            "position": "lock",
+            "season_pct": 30.0,
+            "feats": {
+              "player_try_rate": 30.0,
+              "team_attack": 5.17,
+              "opp_defense": 3.75,
+              "exp_tries": 8.92,
+              "elo_team": 1733,
+              "elo_diff": 39,
+              "rank_scored_pg": 37.7,
+              "rank_opp_conceded": 27.8,
+              "games_played": 10,
+              "is_home": 1,
+              "team_exp_norm": 27.4
+            },
+            "try_proba": 27.4,
+            "try_proba_base": 33.6
+          },
+          {
+            "name": "Leo CARBONNEAU",
+            "number": 9,
+            "team": "Racing 92",
+            "position": "halfback",
+            "season_pct": 13.6,
+            "feats": {
+              "player_try_rate": 13.6,
+              "team_attack": 3.75,
+              "opp_defense": 5.17,
+              "exp_tries": 8.92,
+              "elo_team": 1694,
+              "elo_diff": -39,
+              "rank_scored_pg": 31.8,
+              "rank_opp_conceded": 23.7,
+              "games_played": 22,
+              "is_home": 0,
+              "team_exp_norm": 27.0
+            },
+            "try_proba": 27.0,
+            "try_proba_base": 27.6
+          },
+          {
+            "name": "Santiago CHOCOBARES",
+            "number": 12,
+            "team": "Stade Toulousain",
+            "position": "center",
+            "season_pct": 20.0,
+            "feats": {
+              "player_try_rate": 20.0,
+              "team_attack": 5.17,
+              "opp_defense": 3.75,
+              "exp_tries": 8.92,
+              "elo_team": 1733,
+              "elo_diff": 39,
+              "rank_scored_pg": 37.7,
+              "rank_opp_conceded": 27.8,
+              "games_played": 10,
+              "is_home": 1,
+              "team_exp_norm": 24.8
+            },
+            "try_proba": 24.8,
+            "try_proba_base": 32.2
+          },
+          {
+            "name": "Gael FICKOU",
+            "number": 13,
+            "team": "Racing 92",
+            "position": "center",
+            "season_pct": 31.2,
+            "feats": {
+              "player_try_rate": 31.2,
+              "team_attack": 3.75,
+              "opp_defense": 5.17,
+              "exp_tries": 8.92,
+              "elo_team": 1694,
+              "elo_diff": -39,
+              "rank_scored_pg": 31.8,
+              "rank_opp_conceded": 23.7,
+              "games_played": 16,
+              "is_home": 0,
+              "team_exp_norm": 22.9
+            },
+            "try_proba": 22.9,
+            "try_proba_base": 25.4
+          }
+        ]
+      },
+      {
+        "home": "Montpellier Hérault Rugby",
+        "away": "Stade Français Paris",
+        "competition": "TOP 14",
+        "round": "DEMI-FINALE",
+        "players": [
+          {
+            "name": "Peniasi DAKUWAQA",
+            "number": 14,
+            "team": "Stade Français Paris",
+            "position": "wing",
+            "season_pct": 41.2,
+            "feats": {
+              "player_try_rate": 41.2,
+              "team_attack": 4.17,
+              "opp_defense": 3.96,
+              "exp_tries": 8.12,
+              "elo_team": 1652,
+              "elo_diff": -17,
+              "rank_scored_pg": 33.4,
+              "rank_opp_conceded": 22.6,
+              "games_played": 17,
+              "is_home": 0,
+              "team_exp_norm": 66.1
+            },
+            "try_proba": 66.1,
+            "try_proba_base": 40.7
+          },
+          {
+            "name": "Gabriel NGANDEBE",
+            "number": 14,
+            "team": "Montpellier Hérault Rugby",
+            "position": "wing",
+            "season_pct": 27.3,
+            "feats": {
+              "player_try_rate": 27.3,
+              "team_attack": 3.96,
+              "opp_defense": 4.17,
+              "exp_tries": 8.12,
+              "elo_team": 1669,
+              "elo_diff": 17,
+              "rank_scored_pg": 31.7,
+              "rank_opp_conceded": 25.5,
+              "games_played": 22,
+              "is_home": 1,
+              "team_exp_norm": 57.2
+            },
+            "try_proba": 57.2,
+            "try_proba_base": 35.1
+          },
+          {
+            "name": "Leo BARRE",
+            "number": 15,
+            "team": "Stade Français Paris",
+            "position": "fullback",
+            "season_pct": 36.4,
+            "feats": {
+              "player_try_rate": 36.4,
+              "team_attack": 4.17,
+              "opp_defense": 3.96,
+              "exp_tries": 8.12,
+              "elo_team": 1652,
+              "elo_diff": -17,
+              "rank_scored_pg": 33.4,
+              "rank_opp_conceded": 22.6,
+              "games_played": 22,
+              "is_home": 0,
+              "team_exp_norm": 48.9
+            },
+            "try_proba": 48.9,
+            "try_proba_base": 37.4
+          },
+          {
+            "name": "Donovan TAOFIFENUA",
+            "number": 11,
+            "team": "Montpellier Hérault Rugby",
+            "position": "wing",
+            "season_pct": 21.4,
+            "feats": {
+              "player_try_rate": 21.4,
+              "team_attack": 3.96,
+              "opp_defense": 4.17,
+              "exp_tries": 8.12,
+              "elo_team": 1669,
+              "elo_diff": 17,
+              "rank_scored_pg": 31.7,
+              "rank_opp_conceded": 25.5,
+              "games_played": 14,
+              "is_home": 1,
+              "team_exp_norm": 48.1
+            },
+            "try_proba": 48.1,
+            "try_proba_base": 33.7
+          },
+          {
+            "name": "Joseph MARCHANT",
+            "number": 11,
+            "team": "Stade Français Paris",
+            "position": "wing",
+            "season_pct": 15.8,
+            "feats": {
+              "player_try_rate": 15.8,
+              "team_attack": 4.17,
+              "opp_defense": 3.96,
+              "exp_tries": 8.12,
+              "elo_team": 1652,
+              "elo_diff": -17,
+              "rank_scored_pg": 33.4,
+              "rank_opp_conceded": 22.6,
+              "games_played": 19,
+              "is_home": 0,
+              "team_exp_norm": 47.2
+            },
+            "try_proba": 47.2,
+            "try_proba_base": 37.0
+          },
+          {
+            "name": "Tom BANKS",
+            "number": 15,
+            "team": "Montpellier Hérault Rugby",
+            "position": "fullback",
+            "season_pct": 21.7,
+            "feats": {
+              "player_try_rate": 21.7,
+              "team_attack": 3.96,
+              "opp_defense": 4.17,
+              "exp_tries": 8.12,
+              "elo_team": 1669,
+              "elo_diff": 17,
+              "rank_scored_pg": 31.7,
+              "rank_opp_conceded": 25.5,
+              "games_played": 23,
+              "is_home": 1,
+              "team_exp_norm": 40.7
+            },
+            "try_proba": 40.7,
+            "try_proba_base": 32.3
+          },
+          {
+            "name": "Yoan TANGA MANGENE",
+            "number": 8,
+            "team": "Stade Français Paris",
+            "position": "back_row",
+            "season_pct": 20.0,
+            "feats": {
+              "player_try_rate": 20.0,
+              "team_attack": 4.17,
+              "opp_defense": 3.96,
+              "exp_tries": 8.12,
+              "elo_team": 1652,
+              "elo_diff": -17,
+              "rank_scored_pg": 33.4,
+              "rank_opp_conceded": 22.6,
+              "games_played": 20,
+              "is_home": 0,
+              "team_exp_norm": 32.6
+            },
+            "try_proba": 32.6,
+            "try_proba_base": 32.2
+          },
+          {
+            "name": "Noah Tisie NENE",
+            "number": 12,
+            "team": "Stade Français Paris",
+            "position": "center",
+            "season_pct": 50.0,
+            "feats": {
+              "player_try_rate": 50.0,
+              "team_attack": 4.17,
+              "opp_defense": 3.96,
+              "exp_tries": 8.12,
+              "elo_team": 1652,
+              "elo_diff": -17,
+              "rank_scored_pg": 33.4,
+              "rank_opp_conceded": 22.6,
+              "games_played": 14,
+              "is_home": 0,
+              "team_exp_norm": 30.5
+            },
+            "try_proba": 30.5,
+            "try_proba_base": 31.3
+          },
+          {
+            "name": "Jérémy Charles WARD",
+            "number": 13,
+            "team": "Stade Français Paris",
+            "position": "center",
+            "season_pct": 42.1,
+            "feats": {
+              "player_try_rate": 42.1,
+              "team_attack": 4.17,
+              "opp_defense": 3.96,
+              "exp_tries": 8.12,
+              "elo_team": 1652,
+              "elo_diff": -17,
+              "rank_scored_pg": 33.4,
+              "rank_opp_conceded": 22.6,
+              "games_played": 19,
+              "is_home": 0,
+              "team_exp_norm": 28.9
+            },
+            "try_proba": 28.9,
+            "try_proba_base": 30.6
+          },
+          {
+            "name": "Tanginoa Palu HALAIFONUA",
+            "number": 6,
+            "team": "Stade Français Paris",
+            "position": "flanker",
+            "season_pct": 31.6,
+            "feats": {
+              "player_try_rate": 31.6,
+              "team_attack": 4.17,
+              "opp_defense": 3.96,
+              "exp_tries": 8.12,
+              "elo_team": 1652,
+              "elo_diff": -17,
+              "rank_scored_pg": 33.4,
+              "rank_opp_conceded": 22.6,
+              "games_played": 19,
+              "is_home": 0,
+              "team_exp_norm": 28.7
+            },
+            "try_proba": 28.7,
+            "try_proba_base": 30.5
+          },
+          {
+            "name": "Lenni NOUCHI",
+            "number": 6,
+            "team": "Montpellier Hérault Rugby",
+            "position": "flanker",
+            "season_pct": 29.4,
+            "feats": {
+              "player_try_rate": 29.4,
+              "team_attack": 3.96,
+              "opp_defense": 4.17,
+              "exp_tries": 8.12,
+              "elo_team": 1669,
+              "elo_diff": 17,
+              "rank_scored_pg": 31.7,
+              "rank_opp_conceded": 25.5,
+              "games_played": 17,
+              "is_home": 1,
+              "team_exp_norm": 28.6
+            },
+            "try_proba": 28.6,
+            "try_proba_base": 28.8
+          },
+          {
+            "name": "Hugo Domingo MIOTTI",
+            "number": 10,
+            "team": "Montpellier Hérault Rugby",
+            "position": "halfback",
+            "season_pct": 14.3,
+            "feats": {
+              "player_try_rate": 14.3,
+              "team_attack": 3.96,
+              "opp_defense": 4.17,
+              "exp_tries": 8.12,
+              "elo_team": 1669,
+              "elo_diff": 17,
+              "rank_scored_pg": 31.7,
+              "rank_opp_conceded": 25.5,
+              "games_played": 21,
+              "is_home": 1,
+              "team_exp_norm": 28.4
+            },
+            "try_proba": 28.4,
+            "try_proba_base": 28.7
+          },
+          {
+            "name": "Viliami VUNIPOLA",
+            "number": 8,
+            "team": "Montpellier Hérault Rugby",
+            "position": "back_row",
+            "season_pct": 5.0,
+            "feats": {
+              "player_try_rate": 5.0,
+              "team_attack": 3.96,
+              "opp_defense": 4.17,
+              "exp_tries": 8.12,
+              "elo_team": 1669,
+              "elo_diff": 17,
+              "rank_scored_pg": 31.7,
+              "rank_opp_conceded": 25.5,
+              "games_played": 20,
+              "is_home": 1,
+              "team_exp_norm": 27.0
+            },
+            "try_proba": 27.0,
+            "try_proba_base": 28.1
+          },
+          {
+            "name": "Louis CARBONEL",
+            "number": 10,
+            "team": "Stade Français Paris",
+            "position": "halfback",
+            "season_pct": 14.3,
+            "feats": {
+              "player_try_rate": 14.3,
+              "team_attack": 4.17,
+              "opp_defense": 3.96,
+              "exp_tries": 8.12,
+              "elo_team": 1652,
+              "elo_diff": -17,
+              "rank_scored_pg": 33.4,
+              "rank_opp_conceded": 22.6,
+              "games_played": 21,
+              "is_home": 0,
+              "team_exp_norm": 26.5
+            },
+            "try_proba": 26.5,
+            "try_proba_base": 29.3
+          },
+          {
+            "name": "Tawera KERR BARLOW",
+            "number": 9,
+            "team": "Stade Français Paris",
+            "position": "halfback",
+            "season_pct": 15.0,
+            "feats": {
+              "player_try_rate": 15.0,
+              "team_attack": 4.17,
+              "opp_defense": 3.96,
+              "exp_tries": 8.12,
+              "elo_team": 1652,
+              "elo_diff": -17,
+              "rank_scored_pg": 33.4,
+              "rank_opp_conceded": 22.6,
+              "games_played": 20,
+              "is_home": 0,
+              "team_exp_norm": 26.3
+            },
+            "try_proba": 26.3,
+            "try_proba_base": 29.2
+          },
+          {
+            "name": "Alistaire PRICE",
+            "number": 9,
+            "team": "Montpellier Hérault Rugby",
+            "position": "halfback",
+            "season_pct": 10.0,
+            "feats": {
+              "player_try_rate": 10.0,
+              "team_attack": 3.96,
+              "opp_defense": 4.17,
+              "exp_tries": 8.12,
+              "elo_team": 1669,
+              "elo_diff": 17,
+              "rank_scored_pg": 31.7,
+              "rank_opp_conceded": 25.5,
+              "games_played": 20,
+              "is_home": 1,
+              "team_exp_norm": 26.1
+            },
+            "try_proba": 26.1,
+            "try_proba_base": 27.7
+          }
+        ]
+      }
+    ],
+    "prod2_access-prod-d2_2025-2026": [
+      {
+        "home": "Stade Niçois Rugby",
+        "away": "Stade Montois Rugby",
+        "competition": "Pro D2",
+        "round": "ACCESS-PROD-D2",
+        "players": [
+          {
+            "name": "Gatien MASSE",
+            "number": 14,
+            "team": "Stade Montois Rugby",
+            "position": "wing",
+            "season_pct": 20.0,
+            "feats": {
+              "player_try_rate": 20.0,
+              "team_attack": 2.77,
+              "opp_defense": 3.0,
+              "exp_tries": 5.77,
+              "elo_team": 1481,
+              "elo_diff": 68,
+              "rank_scored_pg": 23.4,
+              "rank_opp_conceded": 21.4,
+              "games_played": 25,
+              "is_home": 0,
+              "team_exp_norm": 40.5
+            },
+            "try_proba": 40.5,
+            "try_proba_base": 28.3
+          },
+          {
+            "name": "Inoke KURUKURUVAKATINI",
+            "number": 11,
+            "team": "Stade Niçois Rugby",
+            "position": "wing",
+            "season_pct": 0.0,
+            "feats": {
+              "player_try_rate": 0.0,
+              "team_attack": 3.0,
+              "opp_defense": 2.77,
+              "exp_tries": 5.77,
+              "elo_team": 1414,
+              "elo_diff": -68,
+              "rank_scored_pg": 21.4,
+              "rank_opp_conceded": 31.7,
+              "games_played": 0,
+              "is_home": 1,
+              "team_exp_norm": 38.7
+            },
+            "try_proba": 38.7,
+            "try_proba_base": 27.5
+          },
+          {
+            "name": "Clément EGIZIANO",
+            "number": 14,
+            "team": "Stade Niçois Rugby",
+            "position": "wing",
+            "season_pct": 0.0,
+            "feats": {
+              "player_try_rate": 0.0,
+              "team_attack": 3.0,
+              "opp_defense": 2.77,
+              "exp_tries": 5.77,
+              "elo_team": 1414,
+              "elo_diff": -68,
+              "rank_scored_pg": 21.4,
+              "rank_opp_conceded": 31.7,
+              "games_played": 0,
+              "is_home": 1,
+              "team_exp_norm": 38.7
+            },
+            "try_proba": 38.7,
+            "try_proba_base": 27.5
+          },
+          {
+            "name": "Alexandre DE NARDI",
+            "number": 15,
+            "team": "Stade Montois Rugby",
+            "position": "fullback",
+            "season_pct": 42.1,
+            "feats": {
+              "player_try_rate": 42.1,
+              "team_attack": 2.77,
+              "opp_defense": 3.0,
+              "exp_tries": 5.77,
+              "elo_team": 1481,
+              "elo_diff": 68,
+              "rank_scored_pg": 23.4,
+              "rank_opp_conceded": 21.4,
+              "games_played": 19,
+              "is_home": 0,
+              "team_exp_norm": 35.0
+            },
+            "try_proba": 35.0,
+            "try_proba_base": 26.9
+          },
+          {
+            "name": "Samuel TUIFUA",
+            "number": 8,
+            "team": "Stade Montois Rugby",
+            "position": "back_row",
+            "season_pct": 47.4,
+            "feats": {
+              "player_try_rate": 47.4,
+              "team_attack": 2.77,
+              "opp_defense": 3.0,
+              "exp_tries": 5.77,
+              "elo_team": 1481,
+              "elo_diff": 68,
+              "rank_scored_pg": 23.4,
+              "rank_opp_conceded": 21.4,
+              "games_played": 19,
+              "is_home": 0,
+              "team_exp_norm": 34.5
+            },
+            "try_proba": 34.5,
+            "try_proba_base": 26.8
+          },
+          {
+            "name": "Pierre SAYERSE",
+            "number": 11,
+            "team": "Stade Montois Rugby",
+            "position": "wing",
+            "season_pct": 18.2,
+            "feats": {
+              "player_try_rate": 18.2,
+              "team_attack": 2.77,
+              "opp_defense": 3.0,
+              "exp_tries": 5.77,
+              "elo_team": 1481,
+              "elo_diff": 68,
+              "rank_scored_pg": 23.4,
+              "rank_opp_conceded": 21.4,
+              "games_played": 11,
+              "is_home": 0,
+              "team_exp_norm": 31.1
+            },
+            "try_proba": 31.1,
+            "try_proba_base": 25.8
+          },
+          {
+            "name": "Jean Pascal BARRAQUE",
+            "number": 15,
+            "team": "Stade Niçois Rugby",
+            "position": "fullback",
+            "season_pct": 0.0,
+            "feats": {
+              "player_try_rate": 0.0,
+              "team_attack": 3.0,
+              "opp_defense": 2.77,
+              "exp_tries": 5.77,
+              "elo_team": 1414,
+              "elo_diff": -68,
+              "rank_scored_pg": 21.4,
+              "rank_opp_conceded": 31.7,
+              "games_played": 0,
+              "is_home": 1,
+              "team_exp_norm": 25.4
+            },
+            "try_proba": 25.4,
+            "try_proba_base": 23.3
+          },
+          {
+            "name": "Jonah MAU'U",
+            "number": 8,
+            "team": "Stade Niçois Rugby",
+            "position": "back_row",
+            "season_pct": 0.0,
+            "feats": {
+              "player_try_rate": 0.0,
+              "team_attack": 3.0,
+              "opp_defense": 2.77,
+              "exp_tries": 5.77,
+              "elo_team": 1414,
+              "elo_diff": -68,
+              "rank_scored_pg": 21.4,
+              "rank_opp_conceded": 31.7,
+              "games_played": 0,
+              "is_home": 1,
+              "team_exp_norm": 22.8
+            },
+            "try_proba": 22.8,
+            "try_proba_base": 22.2
+          },
+          {
+            "name": "Ioane IASHAGASHVILI",
+            "number": 6,
+            "team": "Stade Montois Rugby",
+            "position": "flanker",
+            "season_pct": 31.6,
+            "feats": {
+              "player_try_rate": 31.6,
+              "team_attack": 2.77,
+              "opp_defense": 3.0,
+              "exp_tries": 5.77,
+              "elo_team": 1481,
+              "elo_diff": 68,
+              "rank_scored_pg": 23.4,
+              "rank_opp_conceded": 21.4,
+              "games_played": 19,
+              "is_home": 0,
+              "team_exp_norm": 22.4
+            },
+            "try_proba": 22.4,
+            "try_proba_base": 22.4
+          },
+          {
+            "name": "Lisati MILO-HARRIS",
+            "number": 9,
+            "team": "Stade Montois Rugby",
+            "position": "halfback",
+            "season_pct": 20.0,
+            "feats": {
+              "player_try_rate": 20.0,
+              "team_attack": 2.77,
+              "opp_defense": 3.0,
+              "exp_tries": 5.77,
+              "elo_team": 1481,
+              "elo_diff": 68,
+              "rank_scored_pg": 23.4,
+              "rank_opp_conceded": 21.4,
+              "games_played": 25,
+              "is_home": 0,
+              "team_exp_norm": 19.9
+            },
+            "try_proba": 19.9,
+            "try_proba_base": 21.2
+          },
+          {
+            "name": "Tyler MORGAN",
+            "number": 13,
+            "team": "Stade Niçois Rugby",
+            "position": "center",
+            "season_pct": 11.1,
+            "feats": {
+              "player_try_rate": 11.1,
+              "team_attack": 3.0,
+              "opp_defense": 2.77,
+              "exp_tries": 5.77,
+              "elo_team": 1414,
+              "elo_diff": -68,
+              "rank_scored_pg": 21.4,
+              "rank_opp_conceded": 31.7,
+              "games_played": 9,
+              "is_home": 1,
+              "team_exp_norm": 19.8
+            },
+            "try_proba": 19.8,
+            "try_proba_base": 20.7
+          },
+          {
+            "name": "Hugo SARRASIN",
+            "number": 6,
+            "team": "Stade Niçois Rugby",
+            "position": "flanker",
+            "season_pct": 0.0,
+            "feats": {
+              "player_try_rate": 0.0,
+              "team_attack": 3.0,
+              "opp_defense": 2.77,
+              "exp_tries": 5.77,
+              "elo_team": 1414,
+              "elo_diff": -68,
+              "rank_scored_pg": 21.4,
+              "rank_opp_conceded": 31.7,
+              "games_played": 0,
+              "is_home": 1,
+              "team_exp_norm": 19.2
+            },
+            "try_proba": 19.2,
+            "try_proba_base": 20.4
+          },
+          {
+            "name": "Bastien BERENGUEL",
+            "number": 7,
+            "team": "Stade Niçois Rugby",
+            "position": "flanker",
+            "season_pct": 0.0,
+            "feats": {
+              "player_try_rate": 0.0,
+              "team_attack": 3.0,
+              "opp_defense": 2.77,
+              "exp_tries": 5.77,
+              "elo_team": 1414,
+              "elo_diff": -68,
+              "rank_scored_pg": 21.4,
+              "rank_opp_conceded": 31.7,
+              "games_played": 0,
+              "is_home": 1,
+              "team_exp_norm": 19.2
+            },
+            "try_proba": 19.2,
+            "try_proba_base": 20.4
+          },
+          {
+            "name": "Guillaume ROUET",
+            "number": 9,
+            "team": "Stade Niçois Rugby",
+            "position": "halfback",
+            "season_pct": 0.0,
+            "feats": {
+              "player_try_rate": 0.0,
+              "team_attack": 3.0,
+              "opp_defense": 2.77,
+              "exp_tries": 5.77,
+              "elo_team": 1414,
+              "elo_diff": -68,
+              "rank_scored_pg": 21.4,
+              "rank_opp_conceded": 31.7,
+              "games_played": 0,
+              "is_home": 1,
+              "team_exp_norm": 18.8
+            },
+            "try_proba": 18.8,
+            "try_proba_base": 20.2
+          },
+          {
+            "name": "Owen WILLIAMS",
+            "number": 10,
+            "team": "Stade Niçois Rugby",
+            "position": "halfback",
+            "season_pct": 0.0,
+            "feats": {
+              "player_try_rate": 0.0,
+              "team_attack": 3.0,
+              "opp_defense": 2.77,
+              "exp_tries": 5.77,
+              "elo_team": 1414,
+              "elo_diff": -68,
+              "rank_scored_pg": 21.4,
+              "rank_opp_conceded": 31.7,
+              "games_played": 0,
+              "is_home": 1,
+              "team_exp_norm": 18.8
+            },
+            "try_proba": 18.8,
+            "try_proba_base": 20.2
+          },
+          {
+            "name": "Raphaël ROBIC",
+            "number": 7,
+            "team": "Stade Montois Rugby",
+            "position": "flanker",
+            "season_pct": 15.0,
+            "feats": {
+              "player_try_rate": 15.0,
+              "team_attack": 2.77,
+              "opp_defense": 3.0,
+              "exp_tries": 5.77,
+              "elo_team": 1481,
+              "elo_diff": 68,
+              "rank_scored_pg": 23.4,
+              "rank_opp_conceded": 21.4,
+              "games_played": 20,
+              "is_home": 0,
+              "team_exp_norm": 16.9
+            },
+            "try_proba": 16.9,
+            "try_proba_base": 19.4
           }
         ]
       }
@@ -156008,13 +157092,13 @@
   },
   "performance": {
     "top14": {
-      "n_matches": 185,
+      "n_matches": 187,
       "top1_hit_pct": 36,
-      "top3_hit_pct": 69,
+      "top3_hit_pct": 70,
       "top5_hit_pct": 84
     },
     "prod2": {
-      "n_matches": 245,
+      "n_matches": 246,
       "top1_hit_pct": 36,
       "top3_hit_pct": 67,
       "top5_hit_pct": 78
