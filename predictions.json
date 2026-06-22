@@ -33389,27 +33389,27 @@
       "champ": "top14",
       "season": "2025-2026",
       "day": "finale",
-      "gen_at": "2026-06-21T15:00:37.056775",
+      "gen_at": "2026-06-22T12:36:32.827347",
       "matches": [
         {
           "home": "Stade Toulousain",
           "away": "Montpellier Hérault Rugby",
           "lineup_available": false,
           "base": {
-            "pred_home": 28.3,
-            "pred_away": 18.2,
-            "pred_diff": 10.1,
-            "pred_total": 46.5,
+            "pred_home": 28.4,
+            "pred_away": 18.4,
+            "pred_diff": 10.0,
+            "pred_total": 46.8,
             "outcome": "H",
             "prob_h": 77.0,
             "prob_d": 2.0,
             "prob_a": 21.0
           },
           "lineup": {
-            "pred_home": 26.7,
+            "pred_home": 26.8,
             "pred_away": 18.9,
-            "pred_diff": 7.8,
-            "pred_total": 45.6,
+            "pred_diff": 7.9,
+            "pred_total": 45.7,
             "outcome": "H",
             "prob_h": 77.5,
             "prob_d": 2.4,
@@ -33480,8 +33480,8 @@
           },
           "weather": {
             "rain_mm": 0.0,
-            "wind_speed_kmh": 5.5,
-            "temperature_c": 30.9
+            "wind_speed_kmh": 9.2,
+            "temperature_c": 28.4
           },
           "actual": null,
           "actual_outcome": null,
@@ -59805,5 +59805,5 @@
       }
     }
   },
-  "generated_at": "21/06/2026 à 15:04"
+  "generated_at": "22/06/2026 à 12:36"
 }
