@@ -36353,43 +36353,43 @@
       "champ": "top14",
       "season": "2025-2026",
       "day": "finale",
-      "gen_at": "2026-06-23T11:40:34.898108",
+      "gen_at": "2026-06-25T10:04:01.074427",
       "matches": [
         {
           "home": "Stade Toulousain",
           "away": "Montpellier Hérault Rugby",
           "lineup_available": false,
           "base": {
-            "pred_home": 28.3,
-            "pred_away": 18.3,
-            "pred_diff": 9.9,
-            "pred_total": 46.6,
+            "pred_home": 28.7,
+            "pred_away": 17.9,
+            "pred_diff": 10.8,
+            "pred_total": 46.7,
             "outcome": "H",
             "prob_h": 77.0,
             "prob_d": 2.0,
             "prob_a": 21.0
           },
           "lineup": {
-            "pred_home": 26.9,
-            "pred_away": 18.6,
-            "pred_diff": 8.2,
-            "pred_total": 45.5,
+            "pred_home": 27.2,
+            "pred_away": 18.4,
+            "pred_diff": 8.8,
+            "pred_total": 45.6,
             "outcome": "H",
             "prob_h": 77.5,
             "prob_d": 2.4,
             "prob_a": 20.1
           },
           "decomp": {
-            "pred_tries_h": 3.3,
+            "pred_tries_h": 3.4,
             "pred_tries_a": 1.9,
             "pred_pen_h": 2.2,
-            "pred_pen_a": 2.0,
+            "pred_pen_a": 1.9,
             "conv_rate_h": 0.81,
             "conv_rate_a": 0.794,
             "kicker_h": null,
             "kicker_a": null,
-            "pred_score_h": 29.0,
-            "pred_score_a": 18.7
+            "pred_score_h": 29.3,
+            "pred_score_a": 18.9
           },
           "raw": {
             "elo_home": 1769.7264195346331,
@@ -36456,8 +36456,8 @@
           },
           "weather": {
             "rain_mm": 0.0,
-            "wind_speed_kmh": 12.4,
-            "temperature_c": 33.3
+            "wind_speed_kmh": 15.3,
+            "temperature_c": 34.0
           },
           "actual": null,
           "actual_outcome": null,
@@ -65025,5 +65025,5 @@
       }
     }
   },
-  "generated_at": "24/06/2026 à 21:01"
+  "generated_at": "25/06/2026 à 10:04"
 }
