@@ -36353,17 +36353,17 @@
       "champ": "top14",
       "season": "2025-2026",
       "day": "finale",
-      "gen_at": "2026-06-26T11:38:09.277216",
+      "gen_at": "2026-06-27T12:43:41.910378",
       "matches": [
         {
           "home": "Stade Toulousain",
           "away": "Montpellier Hérault Rugby",
-          "lineup_available": false,
+          "lineup_available": true,
           "base": {
-            "pred_home": 28.2,
-            "pred_away": 18.4,
-            "pred_diff": 9.9,
-            "pred_total": 46.6,
+            "pred_home": 28.5,
+            "pred_away": 18.3,
+            "pred_diff": 10.2,
+            "pred_total": 46.8,
             "outcome": "H",
             "prob_h": 77.0,
             "prob_d": 2.0,
@@ -36371,25 +36371,25 @@
           },
           "lineup": {
             "pred_home": 26.9,
-            "pred_away": 18.6,
-            "pred_diff": 8.3,
-            "pred_total": 45.5,
+            "pred_away": 19.4,
+            "pred_diff": 7.6,
+            "pred_total": 46.3,
             "outcome": "H",
-            "prob_h": 77.5,
-            "prob_d": 2.4,
-            "prob_a": 20.1
+            "prob_h": 72.4,
+            "prob_d": 3.3,
+            "prob_a": 24.4
           },
           "decomp": {
-            "pred_tries_h": 3.3,
-            "pred_tries_a": 1.9,
-            "pred_pen_h": 2.2,
-            "pred_pen_a": 2.0,
-            "conv_rate_h": 0.81,
-            "conv_rate_a": 0.794,
-            "kicker_h": null,
-            "kicker_a": null,
-            "pred_score_h": 28.7,
-            "pred_score_a": 18.7
+            "pred_tries_h": 3.9,
+            "pred_tries_a": 1.8,
+            "pred_pen_h": 2.6,
+            "pred_pen_a": 1.6,
+            "conv_rate_h": 0.821,
+            "conv_rate_a": 0.815,
+            "kicker_h": "Romain NTAMACK",
+            "kicker_a": "Hugo Domingo MIOTTI",
+            "pred_score_h": 33.9,
+            "pred_score_a": 17.1
           },
           "raw": {
             "elo_home": 1769.7264195346331,
@@ -36426,38 +36426,38 @@
             "away_n_away_games": 5
           },
           "exp_raw": {
-            "lineup_h_avg_games_played": null,
-            "lineup_h_avg_starts": null,
-            "subs_h_avg_games_played": null,
-            "charniere_h_avg_games_played": null,
-            "charniere_h_avg_starts": null,
-            "forwards_h_avg_games_played": null,
-            "forwards_h_avg_starts": null,
-            "backs_h_avg_games_played": null,
-            "backs_h_avg_starts": null,
-            "total_h_avg_games_played": null,
-            "lineup_a_avg_games_played": null,
-            "lineup_a_avg_starts": null,
-            "subs_a_avg_games_played": null,
-            "charniere_a_avg_games_played": null,
-            "charniere_a_avg_starts": null,
-            "forwards_a_avg_games_played": null,
-            "forwards_a_avg_starts": null,
-            "backs_a_avg_games_played": null,
-            "backs_a_avg_starts": null,
-            "total_a_avg_games_played": null
+            "lineup_h_avg_games_played": 3.2,
+            "lineup_h_avg_starts": 2.4,
+            "subs_h_avg_games_played": 3.12,
+            "charniere_h_avg_games_played": 1.5,
+            "charniere_h_avg_starts": 1.5,
+            "forwards_h_avg_games_played": 3.5,
+            "forwards_h_avg_starts": 2.5,
+            "backs_h_avg_games_played": 3.4,
+            "backs_h_avg_starts": 2.6,
+            "total_h_avg_games_played": 3.17,
+            "lineup_a_avg_games_played": 3.93,
+            "lineup_a_avg_starts": 3.27,
+            "subs_a_avg_games_played": 4.25,
+            "charniere_a_avg_games_played": 0.0,
+            "charniere_a_avg_starts": 0.0,
+            "forwards_a_avg_games_played": 5.25,
+            "forwards_a_avg_starts": 4.25,
+            "backs_a_avg_games_played": 3.4,
+            "backs_a_avg_starts": 3.0,
+            "total_a_avg_games_played": 4.04
           },
           "derived": {
-            "lineup_adj_elo_diff": 27.77850159858781,
-            "elo_lineup_interaction": 0.0,
+            "lineup_adj_elo_diff": 26.038501598587807,
+            "elo_lineup_interaction": -0.24167296390771398,
             "disruption_diff": 0.0,
-            "charniere_vs_total_diff": 0.0,
-            "fwd_dominance_diff": 0.0
+            "charniere_vs_total_diff": 2.37,
+            "fwd_dominance_diff": -1.35
           },
           "weather": {
             "rain_mm": 0.0,
-            "wind_speed_kmh": 12.8,
-            "temperature_c": 33.9
+            "wind_speed_kmh": 10.0,
+            "temperature_c": 34.8
           },
           "actual": null,
           "actual_outcome": null,
@@ -65025,5 +65025,5 @@
       }
     }
   },
-  "generated_at": "26/06/2026 à 11:38"
+  "generated_at": "27/06/2026 à 12:59"
 }
