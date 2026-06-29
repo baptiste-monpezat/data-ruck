@@ -36459,17 +36459,46 @@
             "wind_speed_kmh": 10.0,
             "temperature_c": 34.8
           },
-          "actual": null,
-          "actual_outcome": null,
-          "base_correct": null,
-          "lineup_correct": null,
-          "actual_scorers": []
+          "actual": {
+            "home": 28,
+            "away": 20
+          },
+          "actual_outcome": "H",
+          "base_correct": true,
+          "lineup_correct": true,
+          "actual_scorers": [
+            {
+              "name": "Peato MAUVAKA",
+              "club": "home",
+              "minute": 7
+            },
+            {
+              "name": "Peato MAUVAKA",
+              "club": "home",
+              "minute": 34
+            },
+            {
+              "name": "Antoine DUPONT",
+              "club": "home",
+              "minute": 37
+            },
+            {
+              "name": "Justo PICCARDO",
+              "club": "away",
+              "minute": 42
+            },
+            {
+              "name": "Léo COLY",
+              "club": "away",
+              "minute": 64
+            }
+          ]
         }
       ],
-      "complete": false,
-      "base_correct": 0,
-      "lineup_correct": 0,
-      "total": 0
+      "complete": true,
+      "base_correct": 1,
+      "lineup_correct": 1,
+      "total": 1
     },
     "history": [
       {
@@ -65002,16 +65031,167 @@
         "base_correct": 2,
         "lineup_correct": 2,
         "total": 2
+      },
+      {
+        "champ": "top14",
+        "season": "2025-2026",
+        "day": "finale",
+        "gen_at": "2026-06-27T12:43:41.910378",
+        "matches": [
+          {
+            "home": "Stade Toulousain",
+            "away": "Montpellier Hérault Rugby",
+            "lineup_available": true,
+            "base": {
+              "pred_home": 28.5,
+              "pred_away": 18.3,
+              "pred_diff": 10.2,
+              "pred_total": 46.8,
+              "outcome": "H",
+              "prob_h": 77.0,
+              "prob_d": 2.0,
+              "prob_a": 21.0
+            },
+            "lineup": {
+              "pred_home": 26.9,
+              "pred_away": 19.4,
+              "pred_diff": 7.6,
+              "pred_total": 46.3,
+              "outcome": "H",
+              "prob_h": 72.4,
+              "prob_d": 3.3,
+              "prob_a": 24.4
+            },
+            "decomp": {
+              "pred_tries_h": 3.9,
+              "pred_tries_a": 1.8,
+              "pred_pen_h": 2.6,
+              "pred_pen_a": 1.6,
+              "conv_rate_h": 0.821,
+              "conv_rate_a": 0.815,
+              "kicker_h": "Romain NTAMACK",
+              "kicker_a": "Hugo Domingo MIOTTI",
+              "pred_score_h": 33.9,
+              "pred_score_a": 17.1
+            },
+            "raw": {
+              "elo_home": 1769.7264195346331,
+              "elo_away": 1741.9479179360453,
+              "home_win_ratio": 0.6,
+              "away_win_ratio": 1.0,
+              "home_avg_score": 38.2,
+              "away_avg_score": 34.8,
+              "home_avg_conc": 28.8,
+              "away_avg_conc": 19.6,
+              "home_avg_margin": 9.4,
+              "away_avg_margin": 15.2,
+              "home_try_rate": 0.14136125654450263,
+              "away_try_rate": 0.1149425287356322,
+              "home_avg_poss": 0.592,
+              "away_avg_poss": 0.512,
+              "home_avg_kicks": 17.4,
+              "away_avg_kicks": 17.6,
+              "home_avg_pen": 1.2,
+              "away_avg_pen": 2.8,
+              "home_avg_yellow": 0.0,
+              "away_avg_yellow": 0.0,
+              "home_avg_red": 0.0,
+              "away_avg_red": 0.0,
+              "home_venue_win_ratio": 0.8,
+              "away_venue_win_ratio": 0.8,
+              "home_venue_avg_margin": 16.4,
+              "away_venue_avg_margin": -1.0,
+              "home_ppg": 2.814814814814815,
+              "away_ppg": 2.740740740740741,
+              "home_n_games": 5,
+              "away_n_games": 5,
+              "home_n_home_games": 5,
+              "away_n_away_games": 5
+            },
+            "exp_raw": {
+              "lineup_h_avg_games_played": 3.2,
+              "lineup_h_avg_starts": 2.4,
+              "subs_h_avg_games_played": 3.12,
+              "charniere_h_avg_games_played": 1.5,
+              "charniere_h_avg_starts": 1.5,
+              "forwards_h_avg_games_played": 3.5,
+              "forwards_h_avg_starts": 2.5,
+              "backs_h_avg_games_played": 3.4,
+              "backs_h_avg_starts": 2.6,
+              "total_h_avg_games_played": 3.17,
+              "lineup_a_avg_games_played": 3.93,
+              "lineup_a_avg_starts": 3.27,
+              "subs_a_avg_games_played": 4.25,
+              "charniere_a_avg_games_played": 0.0,
+              "charniere_a_avg_starts": 0.0,
+              "forwards_a_avg_games_played": 5.25,
+              "forwards_a_avg_starts": 4.25,
+              "backs_a_avg_games_played": 3.4,
+              "backs_a_avg_starts": 3.0,
+              "total_a_avg_games_played": 4.04
+            },
+            "derived": {
+              "lineup_adj_elo_diff": 26.038501598587807,
+              "elo_lineup_interaction": -0.24167296390771398,
+              "disruption_diff": 0.0,
+              "charniere_vs_total_diff": 2.37,
+              "fwd_dominance_diff": -1.35
+            },
+            "weather": {
+              "rain_mm": 0.0,
+              "wind_speed_kmh": 10.0,
+              "temperature_c": 34.8
+            },
+            "actual": {
+              "home": 28,
+              "away": 20
+            },
+            "actual_outcome": "H",
+            "base_correct": true,
+            "lineup_correct": true,
+            "actual_scorers": [
+              {
+                "name": "Peato MAUVAKA",
+                "club": "home",
+                "minute": 7
+              },
+              {
+                "name": "Peato MAUVAKA",
+                "club": "home",
+                "minute": 34
+              },
+              {
+                "name": "Antoine DUPONT",
+                "club": "home",
+                "minute": 37
+              },
+              {
+                "name": "Justo PICCARDO",
+                "club": "away",
+                "minute": 42
+              },
+              {
+                "name": "Léo COLY",
+                "club": "away",
+                "minute": 64
+              }
+            ]
+          }
+        ],
+        "complete": true,
+        "base_correct": 1,
+        "lineup_correct": 1,
+        "total": 1
       }
     ],
     "stats": {
-      "n": 187,
-      "base_ok": 141,
-      "lineup_ok": 139,
+      "n": 188,
+      "base_ok": 142,
+      "lineup_ok": 140,
       "home": {
-        "total": 133,
-        "base_ok": 131,
-        "lineup_ok": 132
+        "total": 134,
+        "base_ok": 132,
+        "lineup_ok": 133
       },
       "draw": {
         "total": 3,
@@ -65025,5 +65205,5 @@
       }
     }
   },
-  "generated_at": "27/06/2026 à 12:59"
+  "generated_at": "29/06/2026 à 10:23"
 }

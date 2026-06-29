@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:59:39.559939",
+  "generated_at": "2026-06-29T10:23:40.909586",
   "matches": [
     {
       "home": "Stade Toulousain",
@@ -157094,7 +157094,7 @@
   },
   "performance": {
     "top14": {
-      "n_matches": 187,
+      "n_matches": 188,
       "top1_hit_pct": 37,
       "top3_hit_pct": 70,
       "top5_hit_pct": 84
