@@ -1,0 +1,5154 @@
+[
+  {
+    "id": 1,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "wikipedia_top14",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 1999-2000 ?",
+      "options": [
+        "Castres Olympique",
+        "ASM Clermont Auvergne",
+        "Biarritz Olympique PB",
+        "Stade Français Paris"
+      ],
+      "answer": 3,
+      "explanation": "Stade Français Paris a remporté le Bouclier de Brennus lors de la saison 1999-2000."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 1999-2000 season?",
+      "options": [
+        "Castres Olympique",
+        "ASM Clermont Auvergne",
+        "Biarritz Olympique PB",
+        "Stade Français Paris"
+      ],
+      "answer": 3,
+      "explanation": "Stade Français Paris won the Bouclier de Brennus in the 1999-2000 season."
+    }
+  },
+  {
+    "id": 2,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "wikipedia_top14",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2000-2001 ?",
+      "options": [
+        "Stade Toulousain",
+        "Biarritz Olympique PB",
+        "USA Perpignan",
+        "Castres Olympique"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain a remporté le Bouclier de Brennus lors de la saison 2000-2001."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2000-2001 season?",
+      "options": [
+        "Stade Toulousain",
+        "Biarritz Olympique PB",
+        "USA Perpignan",
+        "Castres Olympique"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain won the Bouclier de Brennus in the 2000-2001 season."
+    }
+  },
+  {
+    "id": 3,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "wikipedia_top14",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2001-2002 ?",
+      "options": [
+        "ASM Clermont Auvergne",
+        "Biarritz Olympique PB",
+        "Montpellier Hérault Rugby",
+        "Racing 92"
+      ],
+      "answer": 1,
+      "explanation": "Biarritz Olympique PB a remporté le Bouclier de Brennus lors de la saison 2001-2002."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2001-2002 season?",
+      "options": [
+        "ASM Clermont Auvergne",
+        "Biarritz Olympique PB",
+        "Montpellier Hérault Rugby",
+        "Racing 92"
+      ],
+      "answer": 1,
+      "explanation": "Biarritz Olympique PB won the Bouclier de Brennus in the 2001-2002 season."
+    }
+  },
+  {
+    "id": 4,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "wikipedia_top14",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2002-2003 ?",
+      "options": [
+        "Stade Français Paris",
+        "Racing 92",
+        "Montpellier Hérault Rugby",
+        "Stade Toulousain"
+      ],
+      "answer": 0,
+      "explanation": "Stade Français Paris a remporté le Bouclier de Brennus lors de la saison 2002-2003."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2002-2003 season?",
+      "options": [
+        "Stade Français Paris",
+        "Racing 92",
+        "Montpellier Hérault Rugby",
+        "Stade Toulousain"
+      ],
+      "answer": 0,
+      "explanation": "Stade Français Paris won the Bouclier de Brennus in the 2002-2003 season."
+    }
+  },
+  {
+    "id": 5,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "wikipedia_top14",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2003-2004 ?",
+      "options": [
+        "Stade Français Paris",
+        "USA Perpignan",
+        "Racing 92",
+        "ASM Clermont Auvergne"
+      ],
+      "answer": 0,
+      "explanation": "Stade Français Paris a remporté le Bouclier de Brennus lors de la saison 2003-2004."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2003-2004 season?",
+      "options": [
+        "Stade Français Paris",
+        "USA Perpignan",
+        "Racing 92",
+        "ASM Clermont Auvergne"
+      ],
+      "answer": 0,
+      "explanation": "Stade Français Paris won the Bouclier de Brennus in the 2003-2004 season."
+    }
+  },
+  {
+    "id": 6,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2004-2005 ?",
+      "options": [
+        "Stade Français Paris",
+        "Stade Toulousain",
+        "Biarritz Olympique PB",
+        "USA Perpignan"
+      ],
+      "answer": 2,
+      "explanation": "Biarritz Olympique PB a remporté le Bouclier de Brennus 2005 en battant Stade Français Paris 37-34 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2004-2005 season?",
+      "options": [
+        "Stade Français Paris",
+        "Stade Toulousain",
+        "Biarritz Olympique PB",
+        "USA Perpignan"
+      ],
+      "answer": 2,
+      "explanation": "Biarritz Olympique PB won the 2005 Bouclier de Brennus, defeating Stade Français Paris 37-34 in the final."
+    }
+  },
+  {
+    "id": 7,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2005-2006 ?",
+      "options": [
+        "Biarritz Olympique PB",
+        "ASM Clermont Auvergne",
+        "Stade Toulousain",
+        "RC Toulon"
+      ],
+      "answer": 0,
+      "explanation": "Biarritz Olympique PB a remporté le Bouclier de Brennus 2006 en battant Stade Toulousain 40-13 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2005-2006 season?",
+      "options": [
+        "Biarritz Olympique PB",
+        "ASM Clermont Auvergne",
+        "Stade Toulousain",
+        "RC Toulon"
+      ],
+      "answer": 0,
+      "explanation": "Biarritz Olympique PB won the 2006 Bouclier de Brennus, defeating Stade Toulousain 40-13 in the final."
+    }
+  },
+  {
+    "id": 8,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2006-2007 ?",
+      "options": [
+        "Castres Olympique",
+        "Stade Français Paris",
+        "USA Perpignan",
+        "RC Toulon"
+      ],
+      "answer": 1,
+      "explanation": "Stade Français Paris a remporté le Bouclier de Brennus 2007 en battant ASM Clermont 23-18 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2006-2007 season?",
+      "options": [
+        "Castres Olympique",
+        "Stade Français Paris",
+        "USA Perpignan",
+        "RC Toulon"
+      ],
+      "answer": 1,
+      "explanation": "Stade Français Paris won the 2007 Bouclier de Brennus, defeating ASM Clermont 23-18 in the final."
+    }
+  },
+  {
+    "id": 9,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2007-2008 ?",
+      "options": [
+        "Castres Olympique",
+        "Biarritz Olympique PB",
+        "Stade Toulousain",
+        "USA Perpignan"
+      ],
+      "answer": 2,
+      "explanation": "Stade Toulousain a remporté le Bouclier de Brennus 2008 en battant ASM Clermont 26-20 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2007-2008 season?",
+      "options": [
+        "Castres Olympique",
+        "Biarritz Olympique PB",
+        "Stade Toulousain",
+        "USA Perpignan"
+      ],
+      "answer": 2,
+      "explanation": "Stade Toulousain won the 2008 Bouclier de Brennus, defeating ASM Clermont 26-20 in the final."
+    }
+  },
+  {
+    "id": 10,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2008-2009 ?",
+      "options": [
+        "ASM Clermont Auvergne",
+        "USA Perpignan",
+        "Castres Olympique",
+        "RC Toulon"
+      ],
+      "answer": 1,
+      "explanation": "USA Perpignan a remporté le Bouclier de Brennus 2009 en battant ASM Clermont 22-13 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2008-2009 season?",
+      "options": [
+        "ASM Clermont Auvergne",
+        "USA Perpignan",
+        "Castres Olympique",
+        "RC Toulon"
+      ],
+      "answer": 1,
+      "explanation": "USA Perpignan won the 2009 Bouclier de Brennus, defeating ASM Clermont 22-13 in the final."
+    }
+  },
+  {
+    "id": 11,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "wikipedia_top14",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2009-2010 ?",
+      "options": [
+        "Racing 92",
+        "ASM Clermont Auvergne",
+        "RC Toulon",
+        "Stade Toulousain"
+      ],
+      "answer": 1,
+      "explanation": "ASM Clermont Auvergne a remporté le Bouclier de Brennus lors de la saison 2009-2010."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2009-2010 season?",
+      "options": [
+        "Racing 92",
+        "ASM Clermont Auvergne",
+        "RC Toulon",
+        "Stade Toulousain"
+      ],
+      "answer": 1,
+      "explanation": "ASM Clermont Auvergne won the Bouclier de Brennus in the 2009-2010 season."
+    }
+  },
+  {
+    "id": 12,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2010-2011 ?",
+      "options": [
+        "Stade Toulousain",
+        "Stade Français Paris",
+        "ASM Clermont Auvergne",
+        "Racing 92"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain a remporté le Bouclier de Brennus 2011 en battant Montpellier Hérault Rugby 15-10 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2010-2011 season?",
+      "options": [
+        "Stade Toulousain",
+        "Stade Français Paris",
+        "ASM Clermont Auvergne",
+        "Racing 92"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain won the 2011 Bouclier de Brennus, defeating Montpellier Hérault Rugby 15-10 in the final."
+    }
+  },
+  {
+    "id": 13,
+    "category": "top14",
+    "difficulty": "hard",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2011-2012 ?",
+      "options": [
+        "RC Toulon",
+        "USA Perpignan",
+        "ASM Clermont Auvergne",
+        "Stade Toulousain"
+      ],
+      "answer": 3,
+      "explanation": "Stade Toulousain a remporté le Bouclier de Brennus 2012 en battant RC Toulon 18-12 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2011-2012 season?",
+      "options": [
+        "RC Toulon",
+        "USA Perpignan",
+        "ASM Clermont Auvergne",
+        "Stade Toulousain"
+      ],
+      "answer": 3,
+      "explanation": "Stade Toulousain won the 2012 Bouclier de Brennus, defeating RC Toulon 18-12 in the final."
+    }
+  },
+  {
+    "id": 14,
+    "category": "top14",
+    "difficulty": "medium",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2012-2013 ?",
+      "options": [
+        "Stade Toulousain",
+        "Castres Olympique",
+        "Racing 92",
+        "Biarritz Olympique PB"
+      ],
+      "answer": 1,
+      "explanation": "Castres Olympique a remporté le Bouclier de Brennus 2013 en battant RC Toulon 19-14 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2012-2013 season?",
+      "options": [
+        "Stade Toulousain",
+        "Castres Olympique",
+        "Racing 92",
+        "Biarritz Olympique PB"
+      ],
+      "answer": 1,
+      "explanation": "Castres Olympique won the 2013 Bouclier de Brennus, defeating RC Toulon 19-14 in the final."
+    }
+  },
+  {
+    "id": 15,
+    "category": "top14",
+    "difficulty": "medium",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2013-2014 ?",
+      "options": [
+        "Montpellier Hérault Rugby",
+        "Castres Olympique",
+        "RC Toulon",
+        "Biarritz Olympique PB"
+      ],
+      "answer": 2,
+      "explanation": "RC Toulon a remporté le Bouclier de Brennus 2014 en battant Castres Olympique 18-10 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2013-2014 season?",
+      "options": [
+        "Montpellier Hérault Rugby",
+        "Castres Olympique",
+        "RC Toulon",
+        "Biarritz Olympique PB"
+      ],
+      "answer": 2,
+      "explanation": "RC Toulon won the 2014 Bouclier de Brennus, defeating Castres Olympique 18-10 in the final."
+    }
+  },
+  {
+    "id": 16,
+    "category": "top14",
+    "difficulty": "medium",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2014-2015 ?",
+      "options": [
+        "Racing 92",
+        "Montpellier Hérault Rugby",
+        "Castres Olympique",
+        "Stade Français Paris"
+      ],
+      "answer": 3,
+      "explanation": "Stade Français Paris a remporté le Bouclier de Brennus 2015 en battant ASM Clermont 12-6 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2014-2015 season?",
+      "options": [
+        "Racing 92",
+        "Montpellier Hérault Rugby",
+        "Castres Olympique",
+        "Stade Français Paris"
+      ],
+      "answer": 3,
+      "explanation": "Stade Français Paris won the 2015 Bouclier de Brennus, defeating ASM Clermont 12-6 in the final."
+    }
+  },
+  {
+    "id": 17,
+    "category": "top14",
+    "difficulty": "medium",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2015-2016 ?",
+      "options": [
+        "Castres Olympique",
+        "Stade Toulousain",
+        "Montpellier Hérault Rugby",
+        "Racing 92"
+      ],
+      "answer": 3,
+      "explanation": "Racing 92 a remporté le Bouclier de Brennus 2016 en battant RC Toulon 29-21 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2015-2016 season?",
+      "options": [
+        "Castres Olympique",
+        "Stade Toulousain",
+        "Montpellier Hérault Rugby",
+        "Racing 92"
+      ],
+      "answer": 3,
+      "explanation": "Racing 92 won the 2016 Bouclier de Brennus, defeating RC Toulon 29-21 in the final."
+    }
+  },
+  {
+    "id": 18,
+    "category": "top14",
+    "difficulty": "medium",
+    "source": "wikipedia_top14",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2016-2017 ?",
+      "options": [
+        "Montpellier Hérault Rugby",
+        "ASM Clermont Auvergne",
+        "Stade Toulousain",
+        "RC Toulon"
+      ],
+      "answer": 1,
+      "explanation": "ASM Clermont Auvergne a remporté le Bouclier de Brennus lors de la saison 2016-2017."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2016-2017 season?",
+      "options": [
+        "Montpellier Hérault Rugby",
+        "ASM Clermont Auvergne",
+        "Stade Toulousain",
+        "RC Toulon"
+      ],
+      "answer": 1,
+      "explanation": "ASM Clermont Auvergne won the Bouclier de Brennus in the 2016-2017 season."
+    }
+  },
+  {
+    "id": 19,
+    "category": "top14",
+    "difficulty": "medium",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2017-2018 ?",
+      "options": [
+        "RC Toulon",
+        "Racing 92",
+        "Stade Toulousain",
+        "Castres Olympique"
+      ],
+      "answer": 3,
+      "explanation": "Castres Olympique a remporté le Bouclier de Brennus 2018 en battant Montpellier Hérault Rugby 29-13 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2017-2018 season?",
+      "options": [
+        "RC Toulon",
+        "Racing 92",
+        "Stade Toulousain",
+        "Castres Olympique"
+      ],
+      "answer": 3,
+      "explanation": "Castres Olympique won the 2018 Bouclier de Brennus, defeating Montpellier Hérault Rugby 29-13 in the final."
+    }
+  },
+  {
+    "id": 20,
+    "category": "top14",
+    "difficulty": "medium",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2018-2019 ?",
+      "options": [
+        "Castres Olympique",
+        "Stade Français Paris",
+        "Montpellier Hérault Rugby",
+        "Stade Toulousain"
+      ],
+      "answer": 3,
+      "explanation": "Stade Toulousain a remporté le Bouclier de Brennus 2019 en battant ASM Clermont 24-18 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2018-2019 season?",
+      "options": [
+        "Castres Olympique",
+        "Stade Français Paris",
+        "Montpellier Hérault Rugby",
+        "Stade Toulousain"
+      ],
+      "answer": 3,
+      "explanation": "Stade Toulousain won the 2019 Bouclier de Brennus, defeating ASM Clermont 24-18 in the final."
+    }
+  },
+  {
+    "id": 21,
+    "category": "top14",
+    "difficulty": "medium",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2020-2021 ?",
+      "options": [
+        "Stade Toulousain",
+        "Racing 92",
+        "Biarritz Olympique PB",
+        "ASM Clermont Auvergne"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain a remporté le Bouclier de Brennus 2021 en battant Stade Rochelais 18-8 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2020-2021 season?",
+      "options": [
+        "Stade Toulousain",
+        "Racing 92",
+        "Biarritz Olympique PB",
+        "ASM Clermont Auvergne"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain won the 2021 Bouclier de Brennus, defeating Stade Rochelais 18-8 in the final."
+    }
+  },
+  {
+    "id": 22,
+    "category": "top14",
+    "difficulty": "easy",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2021-2022 ?",
+      "options": [
+        "USA Perpignan",
+        "Stade Français Paris",
+        "Montpellier Hérault Rugby",
+        "RC Toulon"
+      ],
+      "answer": 2,
+      "explanation": "Montpellier Hérault Rugby a remporté le Bouclier de Brennus 2022 en battant Castres Olympique 29-10 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2021-2022 season?",
+      "options": [
+        "USA Perpignan",
+        "Stade Français Paris",
+        "Montpellier Hérault Rugby",
+        "RC Toulon"
+      ],
+      "answer": 2,
+      "explanation": "Montpellier Hérault Rugby won the 2022 Bouclier de Brennus, defeating Castres Olympique 29-10 in the final."
+    }
+  },
+  {
+    "id": 23,
+    "category": "top14",
+    "difficulty": "easy",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2022-2023 ?",
+      "options": [
+        "RC Toulon",
+        "ASM Clermont Auvergne",
+        "Biarritz Olympique PB",
+        "Stade Toulousain"
+      ],
+      "answer": 3,
+      "explanation": "Stade Toulousain a remporté le Bouclier de Brennus 2023 en battant Stade Rochelais 29-26 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2022-2023 season?",
+      "options": [
+        "RC Toulon",
+        "ASM Clermont Auvergne",
+        "Biarritz Olympique PB",
+        "Stade Toulousain"
+      ],
+      "answer": 3,
+      "explanation": "Stade Toulousain won the 2023 Bouclier de Brennus, defeating Stade Rochelais 29-26 in the final."
+    }
+  },
+  {
+    "id": 24,
+    "category": "top14",
+    "difficulty": "easy",
+    "source": "wikipedia_top14",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2023-2024 ?",
+      "options": [
+        "Stade Toulousain",
+        "Montpellier Hérault Rugby",
+        "Biarritz Olympique PB",
+        "Racing 92"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain a remporté le Bouclier de Brennus lors de la saison 2023-2024."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2023-2024 season?",
+      "options": [
+        "Stade Toulousain",
+        "Montpellier Hérault Rugby",
+        "Biarritz Olympique PB",
+        "Racing 92"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain won the Bouclier de Brennus in the 2023-2024 season."
+    }
+  },
+  {
+    "id": 25,
+    "category": "top14",
+    "difficulty": "easy",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2024-2025 ?",
+      "options": [
+        "Stade Français Paris",
+        "Stade Toulousain",
+        "Biarritz Olympique PB",
+        "RC Toulon"
+      ],
+      "answer": 1,
+      "explanation": "Stade Toulousain a remporté le Bouclier de Brennus 2025 en battant Union Bordeaux-Bègles 39-33 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2024-2025 season?",
+      "options": [
+        "Stade Français Paris",
+        "Stade Toulousain",
+        "Biarritz Olympique PB",
+        "RC Toulon"
+      ],
+      "answer": 1,
+      "explanation": "Stade Toulousain won the 2025 Bouclier de Brennus, defeating Union Bordeaux-Bègles 39-33 in the final."
+    }
+  },
+  {
+    "id": 26,
+    "category": "top14",
+    "difficulty": "easy",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le Top 14 lors de la saison 2025-2026 ?",
+      "options": [
+        "Stade Toulousain",
+        "USA Perpignan",
+        "Racing 92",
+        "Castres Olympique"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain a remporté le Bouclier de Brennus 2026 en battant Montpellier Hérault Rugby 28-20 en finale."
+    },
+    "en": {
+      "question": "Who won the Top 14 in the 2025-2026 season?",
+      "options": [
+        "Stade Toulousain",
+        "USA Perpignan",
+        "Racing 92",
+        "Castres Olympique"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain won the 2026 Bouclier de Brennus, defeating Montpellier Hérault Rugby 28-20 in the final."
+    }
+  },
+  {
+    "id": 27,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2001-2002 ?",
+      "options": [
+        "USA Perpignan",
+        "RC Toulon",
+        "Stade Montois Rugby",
+        "FC Auch Gers"
+      ],
+      "answer": 2,
+      "explanation": "Stade Montois Rugby a remporté le titre de Pro D2 lors de la saison 2001-2002."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2001-2002 season?",
+      "options": [
+        "USA Perpignan",
+        "RC Toulon",
+        "Stade Montois Rugby",
+        "FC Auch Gers"
+      ],
+      "answer": 2,
+      "explanation": "Stade Montois Rugby won the Pro D2 title in the 2001-2002 season."
+    }
+  },
+  {
+    "id": 28,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2002-2003 ?",
+      "options": [
+        "RC Toulon",
+        "SU Agen",
+        "US Montauban",
+        "Montpellier Hérault Rugby"
+      ],
+      "answer": 3,
+      "explanation": "Montpellier Hérault Rugby a remporté le titre de Pro D2 lors de la saison 2002-2003."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2002-2003 season?",
+      "options": [
+        "RC Toulon",
+        "SU Agen",
+        "US Montauban",
+        "Montpellier Hérault Rugby"
+      ],
+      "answer": 3,
+      "explanation": "Montpellier Hérault Rugby won the Pro D2 title in the 2002-2003 season."
+    }
+  },
+  {
+    "id": 29,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2003-2004 ?",
+      "options": [
+        "FC Auch Gers",
+        "USA Perpignan",
+        "Montpellier Hérault Rugby",
+        "Racing Métro 92"
+      ],
+      "answer": 0,
+      "explanation": "FC Auch Gers a remporté le titre de Pro D2 lors de la saison 2003-2004."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2003-2004 season?",
+      "options": [
+        "FC Auch Gers",
+        "USA Perpignan",
+        "Montpellier Hérault Rugby",
+        "Racing Métro 92"
+      ],
+      "answer": 0,
+      "explanation": "FC Auch Gers won the Pro D2 title in the 2003-2004 season."
+    }
+  },
+  {
+    "id": 30,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2004-2005 ?",
+      "options": [
+        "Aviron Bayonnais",
+        "Oyonnax Rugby",
+        "FC Auch Gers",
+        "RC Toulon"
+      ],
+      "answer": 3,
+      "explanation": "RC Toulon a remporté le titre de Pro D2 lors de la saison 2004-2005."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2004-2005 season?",
+      "options": [
+        "Aviron Bayonnais",
+        "Oyonnax Rugby",
+        "FC Auch Gers",
+        "RC Toulon"
+      ],
+      "answer": 3,
+      "explanation": "RC Toulon won the Pro D2 title in the 2004-2005 season."
+    }
+  },
+  {
+    "id": 31,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2005-2006 ?",
+      "options": [
+        "US Montauban",
+        "FC Grenoble Rugby",
+        "USA Perpignan",
+        "Oyonnax Rugby"
+      ],
+      "answer": 0,
+      "explanation": "US Montauban a remporté le titre de Pro D2 lors de la saison 2005-2006."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2005-2006 season?",
+      "options": [
+        "US Montauban",
+        "FC Grenoble Rugby",
+        "USA Perpignan",
+        "Oyonnax Rugby"
+      ],
+      "answer": 0,
+      "explanation": "US Montauban won the Pro D2 title in the 2005-2006 season."
+    }
+  },
+  {
+    "id": 32,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2006-2007 ?",
+      "options": [
+        "FC Auch Gers",
+        "Stade Montois Rugby",
+        "RC Vannes",
+        "US Montauban"
+      ],
+      "answer": 0,
+      "explanation": "FC Auch Gers a remporté le titre de Pro D2 lors de la saison 2006-2007."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2006-2007 season?",
+      "options": [
+        "FC Auch Gers",
+        "Stade Montois Rugby",
+        "RC Vannes",
+        "US Montauban"
+      ],
+      "answer": 0,
+      "explanation": "FC Auch Gers won the Pro D2 title in the 2006-2007 season."
+    }
+  },
+  {
+    "id": 33,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2007-2008 ?",
+      "options": [
+        "Montpellier Hérault Rugby",
+        "SU Agen",
+        "US Montauban",
+        "RC Toulon"
+      ],
+      "answer": 3,
+      "explanation": "RC Toulon a remporté le titre de Pro D2 lors de la saison 2007-2008."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2007-2008 season?",
+      "options": [
+        "Montpellier Hérault Rugby",
+        "SU Agen",
+        "US Montauban",
+        "RC Toulon"
+      ],
+      "answer": 3,
+      "explanation": "RC Toulon won the Pro D2 title in the 2007-2008 season."
+    }
+  },
+  {
+    "id": 34,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2008-2009 ?",
+      "options": [
+        "Stade Montois Rugby",
+        "LOU Rugby",
+        "RC Toulon",
+        "Racing Métro 92"
+      ],
+      "answer": 3,
+      "explanation": "Racing Métro 92 a remporté le titre de Pro D2 lors de la saison 2008-2009."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2008-2009 season?",
+      "options": [
+        "Stade Montois Rugby",
+        "LOU Rugby",
+        "RC Toulon",
+        "Racing Métro 92"
+      ],
+      "answer": 3,
+      "explanation": "Racing Métro 92 won the Pro D2 title in the 2008-2009 season."
+    }
+  },
+  {
+    "id": 35,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2009-2010 ?",
+      "options": [
+        "Oyonnax Rugby",
+        "Racing Métro 92",
+        "SU Agen",
+        "Section Paloise"
+      ],
+      "answer": 2,
+      "explanation": "SU Agen a remporté le titre de Pro D2 lors de la saison 2009-2010."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2009-2010 season?",
+      "options": [
+        "Oyonnax Rugby",
+        "Racing Métro 92",
+        "SU Agen",
+        "Section Paloise"
+      ],
+      "answer": 2,
+      "explanation": "SU Agen won the Pro D2 title in the 2009-2010 season."
+    }
+  },
+  {
+    "id": 36,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2010-2011 ?",
+      "options": [
+        "US Montauban",
+        "Section Paloise",
+        "LOU Rugby",
+        "Montpellier Hérault Rugby"
+      ],
+      "answer": 2,
+      "explanation": "LOU Rugby a remporté le titre de Pro D2 lors de la saison 2010-2011."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2010-2011 season?",
+      "options": [
+        "US Montauban",
+        "Section Paloise",
+        "LOU Rugby",
+        "Montpellier Hérault Rugby"
+      ],
+      "answer": 2,
+      "explanation": "LOU Rugby won the Pro D2 title in the 2010-2011 season."
+    }
+  },
+  {
+    "id": 37,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2011-2012 ?",
+      "options": [
+        "FC Auch Gers",
+        "SU Agen",
+        "Montpellier Hérault Rugby",
+        "FC Grenoble Rugby"
+      ],
+      "answer": 3,
+      "explanation": "FC Grenoble Rugby a remporté le titre de Pro D2 lors de la saison 2011-2012."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2011-2012 season?",
+      "options": [
+        "FC Auch Gers",
+        "SU Agen",
+        "Montpellier Hérault Rugby",
+        "FC Grenoble Rugby"
+      ],
+      "answer": 3,
+      "explanation": "FC Grenoble Rugby won the Pro D2 title in the 2011-2012 season."
+    }
+  },
+  {
+    "id": 38,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2012-2013 ?",
+      "options": [
+        "Oyonnax Rugby",
+        "Stade Montois Rugby",
+        "Section Paloise",
+        "Racing Métro 92"
+      ],
+      "answer": 0,
+      "explanation": "Oyonnax Rugby a remporté le titre de Pro D2 lors de la saison 2012-2013."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2012-2013 season?",
+      "options": [
+        "Oyonnax Rugby",
+        "Stade Montois Rugby",
+        "Section Paloise",
+        "Racing Métro 92"
+      ],
+      "answer": 0,
+      "explanation": "Oyonnax Rugby won the Pro D2 title in the 2012-2013 season."
+    }
+  },
+  {
+    "id": 39,
+    "category": "prod2",
+    "difficulty": "hard",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2013-2014 ?",
+      "options": [
+        "Oyonnax Rugby",
+        "LOU Rugby",
+        "FC Grenoble Rugby",
+        "Section Paloise"
+      ],
+      "answer": 1,
+      "explanation": "LOU Rugby a remporté le titre de Pro D2 lors de la saison 2013-2014."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2013-2014 season?",
+      "options": [
+        "Oyonnax Rugby",
+        "LOU Rugby",
+        "FC Grenoble Rugby",
+        "Section Paloise"
+      ],
+      "answer": 1,
+      "explanation": "LOU Rugby won the Pro D2 title in the 2013-2014 season."
+    }
+  },
+  {
+    "id": 40,
+    "category": "prod2",
+    "difficulty": "medium",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2014-2015 ?",
+      "options": [
+        "US Montauban",
+        "Montpellier Hérault Rugby",
+        "Section Paloise",
+        "Aviron Bayonnais"
+      ],
+      "answer": 2,
+      "explanation": "Section Paloise a remporté le titre de Pro D2 lors de la saison 2014-2015."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2014-2015 season?",
+      "options": [
+        "US Montauban",
+        "Montpellier Hérault Rugby",
+        "Section Paloise",
+        "Aviron Bayonnais"
+      ],
+      "answer": 2,
+      "explanation": "Section Paloise won the Pro D2 title in the 2014-2015 season."
+    }
+  },
+  {
+    "id": 41,
+    "category": "prod2",
+    "difficulty": "medium",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2015-2016 ?",
+      "options": [
+        "LOU Rugby",
+        "USA Perpignan",
+        "Stade Montois Rugby",
+        "RC Toulon"
+      ],
+      "answer": 0,
+      "explanation": "LOU Rugby a remporté le titre de Pro D2 lors de la saison 2015-2016."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2015-2016 season?",
+      "options": [
+        "LOU Rugby",
+        "USA Perpignan",
+        "Stade Montois Rugby",
+        "RC Toulon"
+      ],
+      "answer": 0,
+      "explanation": "LOU Rugby won the Pro D2 title in the 2015-2016 season."
+    }
+  },
+  {
+    "id": 42,
+    "category": "prod2",
+    "difficulty": "medium",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2016-2017 ?",
+      "options": [
+        "RC Toulon",
+        "RC Vannes",
+        "Oyonnax Rugby",
+        "LOU Rugby"
+      ],
+      "answer": 2,
+      "explanation": "Oyonnax Rugby a remporté le titre de Pro D2 lors de la saison 2016-2017."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2016-2017 season?",
+      "options": [
+        "RC Toulon",
+        "RC Vannes",
+        "Oyonnax Rugby",
+        "LOU Rugby"
+      ],
+      "answer": 2,
+      "explanation": "Oyonnax Rugby won the Pro D2 title in the 2016-2017 season."
+    }
+  },
+  {
+    "id": 43,
+    "category": "prod2",
+    "difficulty": "medium",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2017-2018 ?",
+      "options": [
+        "RC Vannes",
+        "USA Perpignan",
+        "FC Grenoble Rugby",
+        "Racing Métro 92"
+      ],
+      "answer": 1,
+      "explanation": "USA Perpignan a remporté le titre de Pro D2 lors de la saison 2017-2018."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2017-2018 season?",
+      "options": [
+        "RC Vannes",
+        "USA Perpignan",
+        "FC Grenoble Rugby",
+        "Racing Métro 92"
+      ],
+      "answer": 1,
+      "explanation": "USA Perpignan won the Pro D2 title in the 2017-2018 season."
+    }
+  },
+  {
+    "id": 44,
+    "category": "prod2",
+    "difficulty": "medium",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2018-2019 ?",
+      "options": [
+        "Racing Métro 92",
+        "LOU Rugby",
+        "Montpellier Hérault Rugby",
+        "Aviron Bayonnais"
+      ],
+      "answer": 3,
+      "explanation": "Aviron Bayonnais a remporté le titre de Pro D2 2019 en battant CA Brive 21-19 en finale."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2018-2019 season?",
+      "options": [
+        "Racing Métro 92",
+        "LOU Rugby",
+        "Montpellier Hérault Rugby",
+        "Aviron Bayonnais"
+      ],
+      "answer": 3,
+      "explanation": "Aviron Bayonnais won the 2019 Pro D2 title, defeating CA Brive 21-19 in the final."
+    }
+  },
+  {
+    "id": 45,
+    "category": "prod2",
+    "difficulty": "medium",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2020-2021 ?",
+      "options": [
+        "USA Perpignan",
+        "SU Agen",
+        "RC Toulon",
+        "Aviron Bayonnais"
+      ],
+      "answer": 0,
+      "explanation": "USA Perpignan a remporté le titre de Pro D2 2021 en battant Biarritz Olympique PB 33-14 en finale."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2020-2021 season?",
+      "options": [
+        "USA Perpignan",
+        "SU Agen",
+        "RC Toulon",
+        "Aviron Bayonnais"
+      ],
+      "answer": 0,
+      "explanation": "USA Perpignan won the 2021 Pro D2 title, defeating Biarritz Olympique PB 33-14 in the final."
+    }
+  },
+  {
+    "id": 46,
+    "category": "prod2",
+    "difficulty": "easy",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2021-2022 ?",
+      "options": [
+        "Aviron Bayonnais",
+        "US Montauban",
+        "RC Toulon",
+        "Oyonnax Rugby"
+      ],
+      "answer": 0,
+      "explanation": "Aviron Bayonnais a remporté le titre de Pro D2 2022 en battant Stade Montois Rugby 49-20 en finale."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2021-2022 season?",
+      "options": [
+        "Aviron Bayonnais",
+        "US Montauban",
+        "RC Toulon",
+        "Oyonnax Rugby"
+      ],
+      "answer": 0,
+      "explanation": "Aviron Bayonnais won the 2022 Pro D2 title, defeating Stade Montois Rugby 49-20 in the final."
+    }
+  },
+  {
+    "id": 47,
+    "category": "prod2",
+    "difficulty": "easy",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2022-2023 ?",
+      "options": [
+        "Oyonnax Rugby",
+        "RC Vannes",
+        "LOU Rugby",
+        "Aviron Bayonnais"
+      ],
+      "answer": 0,
+      "explanation": "Oyonnax Rugby a remporté le titre de Pro D2 2023 en battant FC Grenoble Rugby 14-3 en finale."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2022-2023 season?",
+      "options": [
+        "Oyonnax Rugby",
+        "RC Vannes",
+        "LOU Rugby",
+        "Aviron Bayonnais"
+      ],
+      "answer": 0,
+      "explanation": "Oyonnax Rugby won the 2023 Pro D2 title, defeating FC Grenoble Rugby 14-3 in the final."
+    }
+  },
+  {
+    "id": 48,
+    "category": "prod2",
+    "difficulty": "easy",
+    "source": "wikipedia_prod2",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2023-2024 ?",
+      "options": [
+        "RC Vannes",
+        "FC Auch Gers",
+        "SU Agen",
+        "RC Toulon"
+      ],
+      "answer": 0,
+      "explanation": "RC Vannes a remporté le titre de Pro D2 lors de la saison 2023-2024."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2023-2024 season?",
+      "options": [
+        "RC Vannes",
+        "FC Auch Gers",
+        "SU Agen",
+        "RC Toulon"
+      ],
+      "answer": 0,
+      "explanation": "RC Vannes won the Pro D2 title in the 2023-2024 season."
+    }
+  },
+  {
+    "id": 49,
+    "category": "prod2",
+    "difficulty": "easy",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2024-2025 ?",
+      "options": [
+        "US Montauban",
+        "USA Perpignan",
+        "Aviron Bayonnais",
+        "RC Vannes"
+      ],
+      "answer": 0,
+      "explanation": "US Montauban a remporté le titre de Pro D2 2025 en battant FC Grenoble Rugby 24-19 en finale."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2024-2025 season?",
+      "options": [
+        "US Montauban",
+        "USA Perpignan",
+        "Aviron Bayonnais",
+        "RC Vannes"
+      ],
+      "answer": 0,
+      "explanation": "US Montauban won the 2025 Pro D2 title, defeating FC Grenoble Rugby 24-19 in the final."
+    }
+  },
+  {
+    "id": 50,
+    "category": "prod2",
+    "difficulty": "easy",
+    "source": "local_match_files",
+    "fr": {
+      "question": "Qui a remporté le championnat Pro D2 lors de la saison 2025-2026 ?",
+      "options": [
+        "RC Toulon",
+        "RC Vannes",
+        "US Montauban",
+        "Oyonnax Rugby"
+      ],
+      "answer": 1,
+      "explanation": "RC Vannes a remporté le titre de Pro D2 2026 en battant Provence Rugby 18-14 en finale."
+    },
+    "en": {
+      "question": "Who won the Pro D2 championship in the 2025-2026 season?",
+      "options": [
+        "RC Toulon",
+        "RC Vannes",
+        "US Montauban",
+        "Oyonnax Rugby"
+      ],
+      "answer": 1,
+      "explanation": "RC Vannes won the 2026 Pro D2 title, defeating Provence Rugby 18-14 in the final."
+    }
+  },
+  {
+    "id": 51,
+    "category": "players",
+    "difficulty": "easy",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Qui détient le record de points inscrits dans toute l'histoire de la Coupe du Monde de rugby ?",
+      "options": [
+        "Ronan O'Gara",
+        "Gavin Hastings",
+        "Dan Carter",
+        "Jonny Wilkinson"
+      ],
+      "answer": 3,
+      "explanation": "Jonny Wilkinson (Angleterre) détient le record avec 277 points en Coupe du Monde, lors de ses participations en 1999, 2003 et 2007."
+    },
+    "en": {
+      "question": "Who holds the all-time record for most points scored in Rugby World Cup history?",
+      "options": [
+        "Ronan O'Gara",
+        "Gavin Hastings",
+        "Dan Carter",
+        "Jonny Wilkinson"
+      ],
+      "answer": 3,
+      "explanation": "Jonny Wilkinson (England) holds the record with 277 World Cup points across the 1999, 2003 and 2007 tournaments."
+    }
+  },
+  {
+    "id": 52,
+    "category": "players",
+    "difficulty": "medium",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Qui détient le record du plus grand nombre de points inscrits en matchs internationaux (test-matchs) ?",
+      "options": [
+        "Neil Jenkins",
+        "Jonny Wilkinson",
+        "Dan Carter",
+        "Ronan O'Gara"
+      ],
+      "answer": 2,
+      "explanation": "Dan Carter (Nouvelle-Zélande) détient le record avec 1 598 points en test-matchs sur 112 sélections."
+    },
+    "en": {
+      "question": "Who holds the all-time record for most points scored in test match rugby?",
+      "options": [
+        "Neil Jenkins",
+        "Jonny Wilkinson",
+        "Dan Carter",
+        "Ronan O'Gara"
+      ],
+      "answer": 2,
+      "explanation": "Dan Carter (New Zealand) holds the record with 1,598 test match points across 112 caps."
+    }
+  },
+  {
+    "id": 53,
+    "category": "players",
+    "difficulty": "medium",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Quel joueur partage avec Bryan Habana le record d'essais inscrits dans toute l'histoire de la Coupe du Monde ?",
+      "options": [
+        "Jonah Lomu",
+        "Doug Howlett",
+        "Julian Savea",
+        "Drew Mitchell"
+      ],
+      "answer": 0,
+      "explanation": "Jonah Lomu et Bryan Habana détiennent conjointement le record avec 15 essais en Coupe du Monde. Lomu en a inscrit 7 en 1995 et 8 en 1999."
+    },
+    "en": {
+      "question": "Which player shares with Bryan Habana the all-time record for most tries in Rugby World Cup history?",
+      "options": [
+        "Jonah Lomu",
+        "Doug Howlett",
+        "Julian Savea",
+        "Drew Mitchell"
+      ],
+      "answer": 0,
+      "explanation": "Jonah Lomu and Bryan Habana jointly hold the record with 15 World Cup tries. Lomu scored 7 in 1995 and 8 in 1999."
+    }
+  },
+  {
+    "id": 54,
+    "category": "players",
+    "difficulty": "medium",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Quel joueur a inscrit 4 essais lors de la demi-finale de la Coupe du Monde 1995 entre la Nouvelle-Zélande et l'Angleterre ?",
+      "options": [
+        "Jonah Lomu",
+        "Marc Ellis",
+        "Joel Stransky",
+        "David Campese"
+      ],
+      "answer": 0,
+      "explanation": "Jonah Lomu a réalisé une performance légendaire en inscrivant 4 essais contre l'Angleterre lors de la demi-finale du Mondial 1995, dominant littéralement la défense anglaise."
+    },
+    "en": {
+      "question": "Which player scored 4 tries in the 1995 Rugby World Cup semi-final between New Zealand and England?",
+      "options": [
+        "Jonah Lomu",
+        "Marc Ellis",
+        "Joel Stransky",
+        "David Campese"
+      ],
+      "answer": 0,
+      "explanation": "Jonah Lomu delivered a legendary performance, scoring 4 tries against England in the 1995 World Cup semi-final in a display that shocked the rugby world."
+    }
+  },
+  {
+    "id": 55,
+    "category": "players",
+    "difficulty": "hard",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "En 2007, Bryan Habana a inscrit 8 essais en Coupe du Monde, égalant le record en un seul tournoi établi par quel joueur en 1999 ?",
+      "options": [
+        "Gareth Edwards",
+        "David Campese",
+        "Marc Ellis",
+        "Jonah Lomu"
+      ],
+      "answer": 3,
+      "explanation": "Jonah Lomu avait inscrit 8 essais lors du Mondial 1999. Bryan Habana l'a égalé en 2007, record qui a depuis été partagé par Julian Savea (2015) et Will Jordan (2023)."
+    },
+    "en": {
+      "question": "In 2007, Bryan Habana scored 8 tries to equal the single-tournament World Cup record set by which player in 1999?",
+      "options": [
+        "Gareth Edwards",
+        "David Campese",
+        "Marc Ellis",
+        "Jonah Lomu"
+      ],
+      "answer": 3,
+      "explanation": "Jonah Lomu set the record with 8 tries at the 1999 World Cup. Bryan Habana matched it in 2007, a record since shared by Julian Savea (2015) and Will Jordan (2023)."
+    }
+  },
+  {
+    "id": 56,
+    "category": "players",
+    "difficulty": "medium",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Quel joueur détient le record mondial de drops réussis en rugby international avec 36 ?",
+      "options": [
+        "Hugo Porta",
+        "Naas Botha",
+        "Dan Carter",
+        "Jonny Wilkinson"
+      ],
+      "answer": 3,
+      "explanation": "Jonny Wilkinson (Angleterre) détient le record mondial avec 36 drops réussis en carrière internationale, dont le célèbre drop de la finale du Mondial 2003."
+    },
+    "en": {
+      "question": "Which player holds the world record for most drop goals in international rugby with 36?",
+      "options": [
+        "Hugo Porta",
+        "Naas Botha",
+        "Dan Carter",
+        "Jonny Wilkinson"
+      ],
+      "answer": 3,
+      "explanation": "Jonny Wilkinson (England) holds the world record with 36 international drop goals, including his famous winning drop in the 2003 World Cup final."
+    }
+  },
+  {
+    "id": 57,
+    "category": "players",
+    "difficulty": "easy",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Quel joueur a inscrit le drop décisif lors de la finale de la Coupe du Monde 2003, offrant la victoire à l'Angleterre (20-17) face à l'Australie ?",
+      "options": [
+        "Dan Carter",
+        "Stephen Larkham",
+        "Elton Flatley",
+        "Jonny Wilkinson"
+      ],
+      "answer": 3,
+      "explanation": "Jonny Wilkinson a inscrit un drop en prolongation, à 26 secondes du coup de sifflet final, pour offrir à l'Angleterre son unique titre mondial."
+    },
+    "en": {
+      "question": "Which player kicked the decisive drop goal in the 2003 World Cup final, giving England a 20-17 victory over Australia?",
+      "options": [
+        "Dan Carter",
+        "Stephen Larkham",
+        "Elton Flatley",
+        "Jonny Wilkinson"
+      ],
+      "answer": 3,
+      "explanation": "Jonny Wilkinson kicked a drop goal in extra time, with 26 seconds remaining, to give England their only World Cup title."
+    }
+  },
+  {
+    "id": 58,
+    "category": "players",
+    "difficulty": "easy",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Dans quel club français Dan Carter a-t-il évolué en Top 14 (2015-2018) ?",
+      "options": [
+        "Stade Toulousain",
+        "ASM Clermont Auvergne",
+        "Stade Français Paris",
+        "Racing 92"
+      ],
+      "answer": 3,
+      "explanation": "Dan Carter a rejoint le Racing 92 en 2015 et a remporté le titre de champion de France lors de la saison 2015-2016, en étant élu homme du match en finale."
+    },
+    "en": {
+      "question": "Which French club did Dan Carter play for in the Top 14 (2015-2018)?",
+      "options": [
+        "Stade Toulousain",
+        "ASM Clermont Auvergne",
+        "Stade Français Paris",
+        "Racing 92"
+      ],
+      "answer": 3,
+      "explanation": "Dan Carter joined Racing 92 in 2015 and won the Top 14 title in the 2015-2016 season, being named Man of the Match in the final."
+    }
+  },
+  {
+    "id": 59,
+    "category": "players",
+    "difficulty": "hard",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Quel joueur est le seul à avoir été capitaine des Lions britanno-irlandais lors de deux tournées différentes (1997 et 2001) ?",
+      "options": [
+        "Gareth Edwards",
+        "Will Carling",
+        "Brian O'Driscoll",
+        "Martin Johnson"
+      ],
+      "answer": 3,
+      "explanation": "Martin Johnson (Angleterre) est le seul joueur à avoir capitaine les Lions deux fois : en Afrique du Sud en 1997 (victoire 2-1) et en Australie en 2001 (défaite 2-1)."
+    },
+    "en": {
+      "question": "Which player is the only one to have captained the British & Irish Lions on two separate tours (1997 and 2001)?",
+      "options": [
+        "Gareth Edwards",
+        "Will Carling",
+        "Brian O'Driscoll",
+        "Martin Johnson"
+      ],
+      "answer": 3,
+      "explanation": "Martin Johnson (England) is the only player to captain the Lions twice: in South Africa in 1997 (2-1 win) and Australia in 2001 (2-1 loss)."
+    }
+  },
+  {
+    "id": 60,
+    "category": "players",
+    "difficulty": "hard",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Quel joueur fut le premier à franchir la barre des 1 000 points en Coupe d'Europe (Heineken Cup) ?",
+      "options": [
+        "Stephen Jones",
+        "Percy Montgomery",
+        "Ronan O'Gara",
+        "Jonny Wilkinson"
+      ],
+      "answer": 2,
+      "explanation": "Ronan O'Gara (Munster / Irlande) est devenu le premier joueur à atteindre 1 000 points en Heineken Cup en décembre 2008, au cours d'une carrière entière avec Munster."
+    },
+    "en": {
+      "question": "Which player was the first to score 1,000 points in the European Champions Cup / Heineken Cup?",
+      "options": [
+        "Stephen Jones",
+        "Percy Montgomery",
+        "Ronan O'Gara",
+        "Jonny Wilkinson"
+      ],
+      "answer": 2,
+      "explanation": "Ronan O'Gara (Munster / Ireland) became the first player to reach 1,000 Heineken Cup points in December 2008, during a career spent entirely with Munster."
+    }
+  },
+  {
+    "id": 61,
+    "category": "players",
+    "difficulty": "medium",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Quel All Black détient le record de sélections avec la Nouvelle-Zélande, avec 148 caps ?",
+      "options": [
+        "Dan Carter",
+        "Jonah Lomu",
+        "Colin Meads",
+        "Richie McCaw"
+      ],
+      "answer": 3,
+      "explanation": "Richie McCaw a disputé 148 tests avec la Nouvelle-Zélande entre 2001 et 2015, dont 110 en tant que capitaine. Il a remporté deux Coupes du Monde (2011, 2015)."
+    },
+    "en": {
+      "question": "Which All Black holds the record for most caps with New Zealand, with 148?",
+      "options": [
+        "Dan Carter",
+        "Jonah Lomu",
+        "Colin Meads",
+        "Richie McCaw"
+      ],
+      "answer": 3,
+      "explanation": "Richie McCaw earned 148 caps with New Zealand between 2001 and 2015, captaining the team 110 times. He won two World Cups (2011, 2015)."
+    }
+  },
+  {
+    "id": 62,
+    "category": "players",
+    "difficulty": "hard",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Quel joueur détient le record de sélections dans le Tournoi des Six Nations avec 69 apparitions ?",
+      "options": [
+        "Sergio Parisse",
+        "Ronan O'Gara",
+        "Brian O'Driscoll",
+        "Fabien Pelous"
+      ],
+      "answer": 0,
+      "explanation": "Sergio Parisse (Italie) détient le record avec 69 sélections au Tournoi des Six Nations, disputé entre 2002 et 2019. Il a joué l'essentiel de sa carrière club au Stade Français Paris."
+    },
+    "en": {
+      "question": "Which player holds the record for most appearances in the Six Nations Championship with 69 caps?",
+      "options": [
+        "Sergio Parisse",
+        "Ronan O'Gara",
+        "Brian O'Driscoll",
+        "Fabien Pelous"
+      ],
+      "answer": 0,
+      "explanation": "Sergio Parisse (Italy) holds the record with 69 Six Nations appearances between 2002 and 2019. He spent most of his club career at Stade Français Paris."
+    }
+  },
+  {
+    "id": 63,
+    "category": "players",
+    "difficulty": "hard",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Quel joueur a remporté deux titres de champion de France (Top 14) avec le Stade Français Paris, en 2007 et 2015 ?",
+      "options": [
+        "Mauro Bergamasco",
+        "Alessandro Troncon",
+        "Sergio Parisse",
+        "Andrea Masi"
+      ],
+      "answer": 2,
+      "explanation": "Sergio Parisse a joué 265 matchs avec le Stade Français Paris (2005-2019) et y a remporté deux Boucliers de Brennus, en 2006-07 et 2014-15."
+    },
+    "en": {
+      "question": "Which player won two Top 14 titles with Stade Français Paris, in 2007 and 2015?",
+      "options": [
+        "Mauro Bergamasco",
+        "Alessandro Troncon",
+        "Sergio Parisse",
+        "Andrea Masi"
+      ],
+      "answer": 2,
+      "explanation": "Sergio Parisse made 265 appearances for Stade Français Paris (2005-2019) and won two Bouclier de Brennus titles there, in 2006-07 and 2014-15."
+    }
+  },
+  {
+    "id": 64,
+    "category": "players",
+    "difficulty": "hard",
+    "source": "wikipedia_players",
+    "fr": {
+      "question": "Quel joueur sud-africain détenait, à sa retraite en 2018, le record d'essais en test-matchs avec 67 essais ?",
+      "options": [
+        "Siya Kolisi",
+        "Bryan Habana",
+        "Joost van der Westhuizen",
+        "Jonah Lomu"
+      ],
+      "answer": 1,
+      "explanation": "Bryan Habana a inscrit 67 essais en 124 tests avec l'Afrique du Sud entre 2004 et 2016, établissant un record africain. Il a remporté la Coupe du Monde 2007 et le titre IRB Player of the Year la même année."
+    },
+    "en": {
+      "question": "Which South African player held, at his retirement in 2018, the test try-scoring record with 67 tries?",
+      "options": [
+        "Siya Kolisi",
+        "Bryan Habana",
+        "Joost van der Westhuizen",
+        "Jonah Lomu"
+      ],
+      "answer": 1,
+      "explanation": "Bryan Habana scored 67 tries in 124 tests for South Africa between 2004 and 2016. He won the 2007 World Cup and the IRB Player of the Year award that same year."
+    }
+  },
+  {
+    "id": 65,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 1995-96 ?",
+      "options": [
+        "Stade Toulousain",
+        "Cardiff",
+        "Biarritz Olympique",
+        "Leicester Tigers"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain a remporté la Coupe d'Europe 96 en battant Cardiff 21-18 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 1995-96 season?",
+      "options": [
+        "Stade Toulousain",
+        "Cardiff",
+        "Biarritz Olympique",
+        "Leicester Tigers"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain won the 96 European Champions Cup, defeating Cardiff 21-18 in the final."
+    }
+  },
+  {
+    "id": 66,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 1996-97 ?",
+      "options": [
+        "Brive",
+        "Saracens",
+        "Leicester Tigers",
+        "ASM Clermont"
+      ],
+      "answer": 0,
+      "explanation": "Brive a remporté la Coupe d'Europe 97 en battant Leicester Tigers 28-9 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 1996-97 season?",
+      "options": [
+        "Brive",
+        "Saracens",
+        "Leicester Tigers",
+        "ASM Clermont"
+      ],
+      "answer": 0,
+      "explanation": "Brive won the 97 European Champions Cup, defeating Leicester Tigers 28-9 in the final."
+    }
+  },
+  {
+    "id": 67,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 1997-98 ?",
+      "options": [
+        "Bath",
+        "Wasps",
+        "Brive",
+        "Leinster"
+      ],
+      "answer": 0,
+      "explanation": "Bath a remporté la Coupe d'Europe 98 en battant Brive 19-18 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 1997-98 season?",
+      "options": [
+        "Bath",
+        "Wasps",
+        "Brive",
+        "Leinster"
+      ],
+      "answer": 0,
+      "explanation": "Bath won the 98 European Champions Cup, defeating Brive 19-18 in the final."
+    }
+  },
+  {
+    "id": 68,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 1998-99 ?",
+      "options": [
+        "Racing 92",
+        "Colomiers",
+        "Ulster",
+        "Perpignan"
+      ],
+      "answer": 2,
+      "explanation": "Ulster a remporté la Coupe d'Europe 99 en battant Colomiers 21-6 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 1998-99 season?",
+      "options": [
+        "Racing 92",
+        "Colomiers",
+        "Ulster",
+        "Perpignan"
+      ],
+      "answer": 2,
+      "explanation": "Ulster won the 99 European Champions Cup, defeating Colomiers 21-6 in the final."
+    }
+  },
+  {
+    "id": 69,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 1999-00 ?",
+      "options": [
+        "Munster",
+        "ASM Clermont",
+        "Northampton Saints",
+        "Racing 92"
+      ],
+      "answer": 2,
+      "explanation": "Northampton Saints a remporté la Coupe d'Europe 00 en battant Munster 9-8 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 1999-00 season?",
+      "options": [
+        "Munster",
+        "ASM Clermont",
+        "Northampton Saints",
+        "Racing 92"
+      ],
+      "answer": 2,
+      "explanation": "Northampton Saints won the 00 European Champions Cup, defeating Munster 9-8 in the final."
+    }
+  },
+  {
+    "id": 70,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2000-01 ?",
+      "options": [
+        "Biarritz Olympique",
+        "Leicester Tigers",
+        "Ulster",
+        "Stade Français Paris"
+      ],
+      "answer": 1,
+      "explanation": "Leicester Tigers a remporté la Coupe d'Europe 01 en battant Stade Français Paris 34-30 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2000-01 season?",
+      "options": [
+        "Biarritz Olympique",
+        "Leicester Tigers",
+        "Ulster",
+        "Stade Français Paris"
+      ],
+      "answer": 1,
+      "explanation": "Leicester Tigers won the 01 European Champions Cup, defeating Stade Français Paris 34-30 in the final."
+    }
+  },
+  {
+    "id": 71,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2001-02 ?",
+      "options": [
+        "Munster",
+        "Stade Toulousain",
+        "Leicester Tigers",
+        "Brive"
+      ],
+      "answer": 2,
+      "explanation": "Leicester Tigers a remporté la Coupe d'Europe 02 en battant Munster 15-9 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2001-02 season?",
+      "options": [
+        "Munster",
+        "Stade Toulousain",
+        "Leicester Tigers",
+        "Brive"
+      ],
+      "answer": 2,
+      "explanation": "Leicester Tigers won the 02 European Champions Cup, defeating Munster 15-9 in the final."
+    }
+  },
+  {
+    "id": 72,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2002-03 ?",
+      "options": [
+        "Stade Toulousain",
+        "Ulster",
+        "Perpignan",
+        "Brive"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain a remporté la Coupe d'Europe 03 en battant Perpignan 22-17 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2002-03 season?",
+      "options": [
+        "Stade Toulousain",
+        "Ulster",
+        "Perpignan",
+        "Brive"
+      ],
+      "answer": 0,
+      "explanation": "Stade Toulousain won the 03 European Champions Cup, defeating Perpignan 22-17 in the final."
+    }
+  },
+  {
+    "id": 73,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2003-04 ?",
+      "options": [
+        "Wasps",
+        "Leicester Tigers",
+        "Stade Toulousain",
+        "Stade Rochelais"
+      ],
+      "answer": 0,
+      "explanation": "Wasps a remporté la Coupe d'Europe 04 en battant Stade Toulousain 27-20 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2003-04 season?",
+      "options": [
+        "Wasps",
+        "Leicester Tigers",
+        "Stade Toulousain",
+        "Stade Rochelais"
+      ],
+      "answer": 0,
+      "explanation": "Wasps won the 04 European Champions Cup, defeating Stade Toulousain 27-20 in the final."
+    }
+  },
+  {
+    "id": 74,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2004-05 ?",
+      "options": [
+        "Stade Français Paris",
+        "Brive",
+        "Stade Toulousain",
+        "Exeter Chiefs"
+      ],
+      "answer": 2,
+      "explanation": "Stade Toulousain a remporté la Coupe d'Europe 05 en battant Stade Français Paris 18-12 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2004-05 season?",
+      "options": [
+        "Stade Français Paris",
+        "Brive",
+        "Stade Toulousain",
+        "Exeter Chiefs"
+      ],
+      "answer": 2,
+      "explanation": "Stade Toulousain won the 05 European Champions Cup, defeating Stade Français Paris 18-12 in the final."
+    }
+  },
+  {
+    "id": 75,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2005-06 ?",
+      "options": [
+        "Biarritz Olympique",
+        "Stade Rochelais",
+        "Munster",
+        "Northampton Saints"
+      ],
+      "answer": 2,
+      "explanation": "Munster a remporté la Coupe d'Europe 06 en battant Biarritz Olympique 23-19 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2005-06 season?",
+      "options": [
+        "Biarritz Olympique",
+        "Stade Rochelais",
+        "Munster",
+        "Northampton Saints"
+      ],
+      "answer": 2,
+      "explanation": "Munster won the 06 European Champions Cup, defeating Biarritz Olympique 23-19 in the final."
+    }
+  },
+  {
+    "id": 76,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2006-07 ?",
+      "options": [
+        "Wasps",
+        "Stade Français Paris",
+        "Leicester Tigers",
+        "Cardiff"
+      ],
+      "answer": 0,
+      "explanation": "Wasps a remporté la Coupe d'Europe 07 en battant Leicester Tigers 25-9 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2006-07 season?",
+      "options": [
+        "Wasps",
+        "Stade Français Paris",
+        "Leicester Tigers",
+        "Cardiff"
+      ],
+      "answer": 0,
+      "explanation": "Wasps won the 07 European Champions Cup, defeating Leicester Tigers 25-9 in the final."
+    }
+  },
+  {
+    "id": 77,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2007-08 ?",
+      "options": [
+        "RC Toulon",
+        "Stade Toulousain",
+        "Bath",
+        "Munster"
+      ],
+      "answer": 3,
+      "explanation": "Munster a remporté la Coupe d'Europe 08 en battant Stade Toulousain 16-13 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2007-08 season?",
+      "options": [
+        "RC Toulon",
+        "Stade Toulousain",
+        "Bath",
+        "Munster"
+      ],
+      "answer": 3,
+      "explanation": "Munster won the 08 European Champions Cup, defeating Stade Toulousain 16-13 in the final."
+    }
+  },
+  {
+    "id": 78,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2008-09 ?",
+      "options": [
+        "Leicester Tigers",
+        "Saracens",
+        "Brive",
+        "Leinster"
+      ],
+      "answer": 3,
+      "explanation": "Leinster a remporté la Coupe d'Europe 09 en battant Leicester Tigers 19-16 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2008-09 season?",
+      "options": [
+        "Leicester Tigers",
+        "Saracens",
+        "Brive",
+        "Leinster"
+      ],
+      "answer": 3,
+      "explanation": "Leinster won the 09 European Champions Cup, defeating Leicester Tigers 19-16 in the final."
+    }
+  },
+  {
+    "id": 79,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2009-10 ?",
+      "options": [
+        "Wasps",
+        "Stade Toulousain",
+        "Stade Français Paris",
+        "Biarritz Olympique"
+      ],
+      "answer": 1,
+      "explanation": "Stade Toulousain a remporté la Coupe d'Europe 10 en battant Biarritz Olympique 21-19 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2009-10 season?",
+      "options": [
+        "Wasps",
+        "Stade Toulousain",
+        "Stade Français Paris",
+        "Biarritz Olympique"
+      ],
+      "answer": 1,
+      "explanation": "Stade Toulousain won the 10 European Champions Cup, defeating Biarritz Olympique 21-19 in the final."
+    }
+  },
+  {
+    "id": 80,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2010-11 ?",
+      "options": [
+        "Leinster",
+        "Leicester Tigers",
+        "Northampton Saints",
+        "Perpignan"
+      ],
+      "answer": 0,
+      "explanation": "Leinster a remporté la Coupe d'Europe 11 en battant Northampton Saints 33-22 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2010-11 season?",
+      "options": [
+        "Leinster",
+        "Leicester Tigers",
+        "Northampton Saints",
+        "Perpignan"
+      ],
+      "answer": 0,
+      "explanation": "Leinster won the 11 European Champions Cup, defeating Northampton Saints 33-22 in the final."
+    }
+  },
+  {
+    "id": 81,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2011-12 ?",
+      "options": [
+        "Brive",
+        "Leinster",
+        "Ulster",
+        "Stade Rochelais"
+      ],
+      "answer": 1,
+      "explanation": "Leinster a remporté la Coupe d'Europe 12 en battant Ulster 42-14 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2011-12 season?",
+      "options": [
+        "Brive",
+        "Leinster",
+        "Ulster",
+        "Stade Rochelais"
+      ],
+      "answer": 1,
+      "explanation": "Leinster won the 12 European Champions Cup, defeating Ulster 42-14 in the final."
+    }
+  },
+  {
+    "id": 82,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2012-13 ?",
+      "options": [
+        "RC Toulon",
+        "ASM Clermont",
+        "Union Bordeaux-Bègles",
+        "Stade Toulousain"
+      ],
+      "answer": 0,
+      "explanation": "RC Toulon a remporté la Coupe d'Europe 13 en battant ASM Clermont 16-15 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2012-13 season?",
+      "options": [
+        "RC Toulon",
+        "ASM Clermont",
+        "Union Bordeaux-Bègles",
+        "Stade Toulousain"
+      ],
+      "answer": 0,
+      "explanation": "RC Toulon won the 13 European Champions Cup, defeating ASM Clermont 16-15 in the final."
+    }
+  },
+  {
+    "id": 83,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2013-14 ?",
+      "options": [
+        "Saracens",
+        "Munster",
+        "RC Toulon",
+        "Cardiff"
+      ],
+      "answer": 2,
+      "explanation": "RC Toulon a remporté la Coupe d'Europe 14 en battant Saracens 23-6 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2013-14 season?",
+      "options": [
+        "Saracens",
+        "Munster",
+        "RC Toulon",
+        "Cardiff"
+      ],
+      "answer": 2,
+      "explanation": "RC Toulon won the 14 European Champions Cup, defeating Saracens 23-6 in the final."
+    }
+  },
+  {
+    "id": 84,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2014-15 ?",
+      "options": [
+        "Leinster",
+        "Cardiff",
+        "RC Toulon",
+        "ASM Clermont"
+      ],
+      "answer": 2,
+      "explanation": "RC Toulon a remporté la Coupe d'Europe 15 en battant ASM Clermont 24-18 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2014-15 season?",
+      "options": [
+        "Leinster",
+        "Cardiff",
+        "RC Toulon",
+        "ASM Clermont"
+      ],
+      "answer": 2,
+      "explanation": "RC Toulon won the 15 European Champions Cup, defeating ASM Clermont 24-18 in the final."
+    }
+  },
+  {
+    "id": 85,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2015-16 ?",
+      "options": [
+        "Saracens",
+        "Racing 92",
+        "Perpignan",
+        "Exeter Chiefs"
+      ],
+      "answer": 0,
+      "explanation": "Saracens a remporté la Coupe d'Europe 16 en battant Racing 92 21-9 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2015-16 season?",
+      "options": [
+        "Saracens",
+        "Racing 92",
+        "Perpignan",
+        "Exeter Chiefs"
+      ],
+      "answer": 0,
+      "explanation": "Saracens won the 16 European Champions Cup, defeating Racing 92 21-9 in the final."
+    }
+  },
+  {
+    "id": 86,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2016-17 ?",
+      "options": [
+        "Leinster",
+        "ASM Clermont",
+        "Northampton Saints",
+        "Saracens"
+      ],
+      "answer": 3,
+      "explanation": "Saracens a remporté la Coupe d'Europe 17 en battant ASM Clermont 28-17 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2016-17 season?",
+      "options": [
+        "Leinster",
+        "ASM Clermont",
+        "Northampton Saints",
+        "Saracens"
+      ],
+      "answer": 3,
+      "explanation": "Saracens won the 17 European Champions Cup, defeating ASM Clermont 28-17 in the final."
+    }
+  },
+  {
+    "id": 87,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2017-18 ?",
+      "options": [
+        "Wasps",
+        "Leicester Tigers",
+        "Racing 92",
+        "Leinster"
+      ],
+      "answer": 3,
+      "explanation": "Leinster a remporté la Coupe d'Europe 18 en battant Racing 92 15-12 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2017-18 season?",
+      "options": [
+        "Wasps",
+        "Leicester Tigers",
+        "Racing 92",
+        "Leinster"
+      ],
+      "answer": 3,
+      "explanation": "Leinster won the 18 European Champions Cup, defeating Racing 92 15-12 in the final."
+    }
+  },
+  {
+    "id": 88,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2018-19 ?",
+      "options": [
+        "Leinster",
+        "Perpignan",
+        "RC Toulon",
+        "Saracens"
+      ],
+      "answer": 3,
+      "explanation": "Saracens a remporté la Coupe d'Europe 19 en battant Leinster 20-10 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2018-19 season?",
+      "options": [
+        "Leinster",
+        "Perpignan",
+        "RC Toulon",
+        "Saracens"
+      ],
+      "answer": 3,
+      "explanation": "Saracens won the 19 European Champions Cup, defeating Leinster 20-10 in the final."
+    }
+  },
+  {
+    "id": 89,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2019-20 ?",
+      "options": [
+        "Racing 92",
+        "Union Bordeaux-Bègles",
+        "Saracens",
+        "Exeter Chiefs"
+      ],
+      "answer": 3,
+      "explanation": "Exeter Chiefs a remporté la Coupe d'Europe 20 en battant Racing 92 31-27 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2019-20 season?",
+      "options": [
+        "Racing 92",
+        "Union Bordeaux-Bègles",
+        "Saracens",
+        "Exeter Chiefs"
+      ],
+      "answer": 3,
+      "explanation": "Exeter Chiefs won the 20 European Champions Cup, defeating Racing 92 31-27 in the final."
+    }
+  },
+  {
+    "id": 90,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2020-21 ?",
+      "options": [
+        "Munster",
+        "Stade Toulousain",
+        "Cardiff",
+        "Stade Rochelais"
+      ],
+      "answer": 1,
+      "explanation": "Stade Toulousain a remporté la Coupe d'Europe 21 en battant Stade Rochelais 22-17 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2020-21 season?",
+      "options": [
+        "Munster",
+        "Stade Toulousain",
+        "Cardiff",
+        "Stade Rochelais"
+      ],
+      "answer": 1,
+      "explanation": "Stade Toulousain won the 21 European Champions Cup, defeating Stade Rochelais 22-17 in the final."
+    }
+  },
+  {
+    "id": 91,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2021-22 ?",
+      "options": [
+        "Stade Français Paris",
+        "Stade Rochelais",
+        "Brive",
+        "Leinster"
+      ],
+      "answer": 1,
+      "explanation": "Stade Rochelais a remporté la Coupe d'Europe 22 en battant Leinster 24-21 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2021-22 season?",
+      "options": [
+        "Stade Français Paris",
+        "Stade Rochelais",
+        "Brive",
+        "Leinster"
+      ],
+      "answer": 1,
+      "explanation": "Stade Rochelais won the 22 European Champions Cup, defeating Leinster 24-21 in the final."
+    }
+  },
+  {
+    "id": 92,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2022-23 ?",
+      "options": [
+        "Leinster",
+        "Saracens",
+        "Leicester Tigers",
+        "Stade Rochelais"
+      ],
+      "answer": 3,
+      "explanation": "Stade Rochelais a remporté la Coupe d'Europe 23 en battant Leinster 27-26 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2022-23 season?",
+      "options": [
+        "Leinster",
+        "Saracens",
+        "Leicester Tigers",
+        "Stade Rochelais"
+      ],
+      "answer": 3,
+      "explanation": "Stade Rochelais won the 23 European Champions Cup, defeating Leinster 27-26 in the final."
+    }
+  },
+  {
+    "id": 93,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2023-24 ?",
+      "options": [
+        "Colomiers",
+        "Racing 92",
+        "Stade Toulousain",
+        "Leinster"
+      ],
+      "answer": 2,
+      "explanation": "Stade Toulousain a remporté la Coupe d'Europe 24 en battant Leinster 31-22 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2023-24 season?",
+      "options": [
+        "Colomiers",
+        "Racing 92",
+        "Stade Toulousain",
+        "Leinster"
+      ],
+      "answer": 2,
+      "explanation": "Stade Toulousain won the 24 European Champions Cup, defeating Leinster 31-22 in the final."
+    }
+  },
+  {
+    "id": 94,
+    "category": "champions_cup",
+    "difficulty": "hard",
+    "source": "wikipedia_champions_cup",
+    "fr": {
+      "question": "Qui a remporté la Coupe d'Europe (Champions Cup / Heineken Cup) lors de la saison 2024-25 ?",
+      "options": [
+        "Saracens",
+        "Northampton Saints",
+        "Perpignan",
+        "Union Bordeaux-Bègles"
+      ],
+      "answer": 3,
+      "explanation": "Union Bordeaux-Bègles a remporté la Coupe d'Europe 25 en battant Northampton Saints 28-20 en finale."
+    },
+    "en": {
+      "question": "Who won the European Champions Cup / Heineken Cup in the 2024-25 season?",
+      "options": [
+        "Saracens",
+        "Northampton Saints",
+        "Perpignan",
+        "Union Bordeaux-Bègles"
+      ],
+      "answer": 3,
+      "explanation": "Union Bordeaux-Bègles won the 25 European Champions Cup, defeating Northampton Saints 28-20 in the final."
+    }
+  },
+  {
+    "id": 95,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2002-03 ?",
+      "options": [
+        "Saracens",
+        "Northampton Saints",
+        "Gloucester",
+        "Wasps"
+      ],
+      "answer": 3,
+      "explanation": "Wasps a remporté le titre de Premiership 03 en battant Gloucester 39-3 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2002-03 season?",
+      "options": [
+        "Saracens",
+        "Northampton Saints",
+        "Gloucester",
+        "Wasps"
+      ],
+      "answer": 3,
+      "explanation": "Wasps won the 03 Premiership title, defeating Gloucester 39-3 in the final."
+    }
+  },
+  {
+    "id": 96,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2003-04 ?",
+      "options": [
+        "Wasps",
+        "Bath",
+        "Gloucester",
+        "Sale Sharks"
+      ],
+      "answer": 0,
+      "explanation": "Wasps a remporté le titre de Premiership 04 en battant Bath 10-6 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2003-04 season?",
+      "options": [
+        "Wasps",
+        "Bath",
+        "Gloucester",
+        "Sale Sharks"
+      ],
+      "answer": 0,
+      "explanation": "Wasps won the 04 Premiership title, defeating Bath 10-6 in the final."
+    }
+  },
+  {
+    "id": 97,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2004-05 ?",
+      "options": [
+        "Leicester Tigers",
+        "London Irish",
+        "Harlequins",
+        "Wasps"
+      ],
+      "answer": 3,
+      "explanation": "Wasps a remporté le titre de Premiership 05 en battant Leicester Tigers 39-14 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2004-05 season?",
+      "options": [
+        "Leicester Tigers",
+        "London Irish",
+        "Harlequins",
+        "Wasps"
+      ],
+      "answer": 3,
+      "explanation": "Wasps won the 05 Premiership title, defeating Leicester Tigers 39-14 in the final."
+    }
+  },
+  {
+    "id": 98,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2005-06 ?",
+      "options": [
+        "Harlequins",
+        "Sale Sharks",
+        "Leicester Tigers",
+        "Saracens"
+      ],
+      "answer": 1,
+      "explanation": "Sale Sharks a remporté le titre de Premiership 06 en battant Leicester Tigers 45-20 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2005-06 season?",
+      "options": [
+        "Harlequins",
+        "Sale Sharks",
+        "Leicester Tigers",
+        "Saracens"
+      ],
+      "answer": 1,
+      "explanation": "Sale Sharks won the 06 Premiership title, defeating Leicester Tigers 45-20 in the final."
+    }
+  },
+  {
+    "id": 99,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2006-07 ?",
+      "options": [
+        "Gloucester",
+        "Exeter Chiefs",
+        "London Irish",
+        "Leicester Tigers"
+      ],
+      "answer": 3,
+      "explanation": "Leicester Tigers a remporté le titre de Premiership 07 en battant Gloucester 44-16 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2006-07 season?",
+      "options": [
+        "Gloucester",
+        "Exeter Chiefs",
+        "London Irish",
+        "Leicester Tigers"
+      ],
+      "answer": 3,
+      "explanation": "Leicester Tigers won the 07 Premiership title, defeating Gloucester 44-16 in the final."
+    }
+  },
+  {
+    "id": 100,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2007-08 ?",
+      "options": [
+        "Leicester Tigers",
+        "Wasps",
+        "Gloucester",
+        "Exeter Chiefs"
+      ],
+      "answer": 1,
+      "explanation": "Wasps a remporté le titre de Premiership 08 en battant Leicester Tigers 26-16 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2007-08 season?",
+      "options": [
+        "Leicester Tigers",
+        "Wasps",
+        "Gloucester",
+        "Exeter Chiefs"
+      ],
+      "answer": 1,
+      "explanation": "Wasps won the 08 Premiership title, defeating Leicester Tigers 26-16 in the final."
+    }
+  },
+  {
+    "id": 101,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2008-09 ?",
+      "options": [
+        "London Irish",
+        "Bath",
+        "Leicester Tigers",
+        "Gloucester"
+      ],
+      "answer": 2,
+      "explanation": "Leicester Tigers a remporté le titre de Premiership 09 en battant London Irish 10-9 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2008-09 season?",
+      "options": [
+        "London Irish",
+        "Bath",
+        "Leicester Tigers",
+        "Gloucester"
+      ],
+      "answer": 2,
+      "explanation": "Leicester Tigers won the 09 Premiership title, defeating London Irish 10-9 in the final."
+    }
+  },
+  {
+    "id": 102,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2009-10 ?",
+      "options": [
+        "Exeter Chiefs",
+        "Bath",
+        "Saracens",
+        "Leicester Tigers"
+      ],
+      "answer": 3,
+      "explanation": "Leicester Tigers a remporté le titre de Premiership 10 en battant Saracens 33-27 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2009-10 season?",
+      "options": [
+        "Exeter Chiefs",
+        "Bath",
+        "Saracens",
+        "Leicester Tigers"
+      ],
+      "answer": 3,
+      "explanation": "Leicester Tigers won the 10 Premiership title, defeating Saracens 33-27 in the final."
+    }
+  },
+  {
+    "id": 103,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2010-11 ?",
+      "options": [
+        "Northampton Saints",
+        "Leicester Tigers",
+        "London Irish",
+        "Saracens"
+      ],
+      "answer": 3,
+      "explanation": "Saracens a remporté le titre de Premiership 11 en battant Leicester Tigers 22-18 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2010-11 season?",
+      "options": [
+        "Northampton Saints",
+        "Leicester Tigers",
+        "London Irish",
+        "Saracens"
+      ],
+      "answer": 3,
+      "explanation": "Saracens won the 11 Premiership title, defeating Leicester Tigers 22-18 in the final."
+    }
+  },
+  {
+    "id": 104,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2011-12 ?",
+      "options": [
+        "Leicester Tigers",
+        "Wasps",
+        "Northampton Saints",
+        "Harlequins"
+      ],
+      "answer": 3,
+      "explanation": "Harlequins a remporté le titre de Premiership 12 en battant Leicester Tigers 30-23 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2011-12 season?",
+      "options": [
+        "Leicester Tigers",
+        "Wasps",
+        "Northampton Saints",
+        "Harlequins"
+      ],
+      "answer": 3,
+      "explanation": "Harlequins won the 12 Premiership title, defeating Leicester Tigers 30-23 in the final."
+    }
+  },
+  {
+    "id": 105,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2012-13 ?",
+      "options": [
+        "Saracens",
+        "Northampton Saints",
+        "Leicester Tigers",
+        "Harlequins"
+      ],
+      "answer": 2,
+      "explanation": "Leicester Tigers a remporté le titre de Premiership 13 en battant Northampton Saints 37-17 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2012-13 season?",
+      "options": [
+        "Saracens",
+        "Northampton Saints",
+        "Leicester Tigers",
+        "Harlequins"
+      ],
+      "answer": 2,
+      "explanation": "Leicester Tigers won the 13 Premiership title, defeating Northampton Saints 37-17 in the final."
+    }
+  },
+  {
+    "id": 106,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2013-14 ?",
+      "options": [
+        "Leicester Tigers",
+        "Northampton Saints",
+        "London Irish",
+        "Saracens"
+      ],
+      "answer": 1,
+      "explanation": "Northampton Saints a remporté le titre de Premiership 14 en battant Saracens 24-20 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2013-14 season?",
+      "options": [
+        "Leicester Tigers",
+        "Northampton Saints",
+        "London Irish",
+        "Saracens"
+      ],
+      "answer": 1,
+      "explanation": "Northampton Saints won the 14 Premiership title, defeating Saracens 24-20 in the final."
+    }
+  },
+  {
+    "id": 107,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2014-15 ?",
+      "options": [
+        "Harlequins",
+        "Saracens",
+        "Bath",
+        "Leicester Tigers"
+      ],
+      "answer": 1,
+      "explanation": "Saracens a remporté le titre de Premiership 15 en battant Bath 28-16 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2014-15 season?",
+      "options": [
+        "Harlequins",
+        "Saracens",
+        "Bath",
+        "Leicester Tigers"
+      ],
+      "answer": 1,
+      "explanation": "Saracens won the 15 Premiership title, defeating Bath 28-16 in the final."
+    }
+  },
+  {
+    "id": 108,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2015-16 ?",
+      "options": [
+        "Exeter Chiefs",
+        "Bath",
+        "Saracens",
+        "Gloucester"
+      ],
+      "answer": 2,
+      "explanation": "Saracens a remporté le titre de Premiership 16 en battant Exeter Chiefs 28-20 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2015-16 season?",
+      "options": [
+        "Exeter Chiefs",
+        "Bath",
+        "Saracens",
+        "Gloucester"
+      ],
+      "answer": 2,
+      "explanation": "Saracens won the 16 Premiership title, defeating Exeter Chiefs 28-20 in the final."
+    }
+  },
+  {
+    "id": 109,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2016-17 ?",
+      "options": [
+        "Exeter Chiefs",
+        "Saracens",
+        "Bath",
+        "Wasps"
+      ],
+      "answer": 0,
+      "explanation": "Exeter Chiefs a remporté le titre de Premiership 17 en battant Wasps 23-20 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2016-17 season?",
+      "options": [
+        "Exeter Chiefs",
+        "Saracens",
+        "Bath",
+        "Wasps"
+      ],
+      "answer": 0,
+      "explanation": "Exeter Chiefs won the 17 Premiership title, defeating Wasps 23-20 in the final."
+    }
+  },
+  {
+    "id": 110,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2017-18 ?",
+      "options": [
+        "Exeter Chiefs",
+        "Saracens",
+        "London Irish",
+        "Sale Sharks"
+      ],
+      "answer": 1,
+      "explanation": "Saracens a remporté le titre de Premiership 18 en battant Exeter Chiefs 27-10 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2017-18 season?",
+      "options": [
+        "Exeter Chiefs",
+        "Saracens",
+        "London Irish",
+        "Sale Sharks"
+      ],
+      "answer": 1,
+      "explanation": "Saracens won the 18 Premiership title, defeating Exeter Chiefs 27-10 in the final."
+    }
+  },
+  {
+    "id": 111,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2018-19 ?",
+      "options": [
+        "London Irish",
+        "Sale Sharks",
+        "Exeter Chiefs",
+        "Saracens"
+      ],
+      "answer": 3,
+      "explanation": "Saracens a remporté le titre de Premiership 19 en battant Exeter Chiefs 37-34 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2018-19 season?",
+      "options": [
+        "London Irish",
+        "Sale Sharks",
+        "Exeter Chiefs",
+        "Saracens"
+      ],
+      "answer": 3,
+      "explanation": "Saracens won the 19 Premiership title, defeating Exeter Chiefs 37-34 in the final."
+    }
+  },
+  {
+    "id": 112,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2019-20 ?",
+      "options": [
+        "Northampton Saints",
+        "London Irish",
+        "Wasps",
+        "Exeter Chiefs"
+      ],
+      "answer": 3,
+      "explanation": "Exeter Chiefs a remporté le titre de Premiership 20 en battant Wasps 19-13 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2019-20 season?",
+      "options": [
+        "Northampton Saints",
+        "London Irish",
+        "Wasps",
+        "Exeter Chiefs"
+      ],
+      "answer": 3,
+      "explanation": "Exeter Chiefs won the 20 Premiership title, defeating Wasps 19-13 in the final."
+    }
+  },
+  {
+    "id": 113,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2020-21 ?",
+      "options": [
+        "Harlequins",
+        "Gloucester",
+        "Northampton Saints",
+        "Exeter Chiefs"
+      ],
+      "answer": 0,
+      "explanation": "Harlequins a remporté le titre de Premiership 21 en battant Exeter Chiefs 40-38 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2020-21 season?",
+      "options": [
+        "Harlequins",
+        "Gloucester",
+        "Northampton Saints",
+        "Exeter Chiefs"
+      ],
+      "answer": 0,
+      "explanation": "Harlequins won the 21 Premiership title, defeating Exeter Chiefs 40-38 in the final."
+    }
+  },
+  {
+    "id": 114,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2021-22 ?",
+      "options": [
+        "Saracens",
+        "Harlequins",
+        "Gloucester",
+        "Leicester Tigers"
+      ],
+      "answer": 3,
+      "explanation": "Leicester Tigers a remporté le titre de Premiership 22 en battant Saracens 15-12 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2021-22 season?",
+      "options": [
+        "Saracens",
+        "Harlequins",
+        "Gloucester",
+        "Leicester Tigers"
+      ],
+      "answer": 3,
+      "explanation": "Leicester Tigers won the 22 Premiership title, defeating Saracens 15-12 in the final."
+    }
+  },
+  {
+    "id": 115,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2022-23 ?",
+      "options": [
+        "Bath",
+        "Saracens",
+        "Wasps",
+        "Sale Sharks"
+      ],
+      "answer": 1,
+      "explanation": "Saracens a remporté le titre de Premiership 23 en battant Sale Sharks 35-25 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2022-23 season?",
+      "options": [
+        "Bath",
+        "Saracens",
+        "Wasps",
+        "Sale Sharks"
+      ],
+      "answer": 1,
+      "explanation": "Saracens won the 23 Premiership title, defeating Sale Sharks 35-25 in the final."
+    }
+  },
+  {
+    "id": 116,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2023-24 ?",
+      "options": [
+        "Northampton Saints",
+        "Bath",
+        "Exeter Chiefs",
+        "Sale Sharks"
+      ],
+      "answer": 0,
+      "explanation": "Northampton Saints a remporté le titre de Premiership 24 en battant Bath 25-21 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2023-24 season?",
+      "options": [
+        "Northampton Saints",
+        "Bath",
+        "Exeter Chiefs",
+        "Sale Sharks"
+      ],
+      "answer": 0,
+      "explanation": "Northampton Saints won the 24 Premiership title, defeating Bath 25-21 in the final."
+    }
+  },
+  {
+    "id": 117,
+    "category": "premiership",
+    "difficulty": "hard",
+    "source": "wikipedia_premiership",
+    "fr": {
+      "question": "Qui a remporté le championnat d'Angleterre (Premiership) lors de la saison 2024-25 ?",
+      "options": [
+        "Bath",
+        "Northampton Saints",
+        "Leicester Tigers",
+        "Harlequins"
+      ],
+      "answer": 0,
+      "explanation": "Bath a remporté le titre de Premiership 25 en battant Leicester Tigers 23-21 en finale."
+    },
+    "en": {
+      "question": "Who won the English Premiership in the 2024-25 season?",
+      "options": [
+        "Bath",
+        "Northampton Saints",
+        "Leicester Tigers",
+        "Harlequins"
+      ],
+      "answer": 0,
+      "explanation": "Bath won the 25 Premiership title, defeating Leicester Tigers 23-21 in the final."
+    }
+  },
+  {
+    "id": 118,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2001-02 ?",
+      "options": [
+        "Bulls",
+        "Llanelli Scarlets",
+        "Munster",
+        "Leinster"
+      ],
+      "answer": 3,
+      "explanation": "Leinster a remporté le titre lors de la saison 2001-02 en battant Munster 24-20 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2001-02 season?",
+      "options": [
+        "Bulls",
+        "Llanelli Scarlets",
+        "Munster",
+        "Leinster"
+      ],
+      "answer": 3,
+      "explanation": "Leinster won the 2001-02 URC/Pro14 title, defeating Munster 24-20 in the final."
+    }
+  },
+  {
+    "id": 119,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2002-03 ?",
+      "options": [
+        "Munster",
+        "Neath",
+        "Llanelli Scarlets",
+        "Leicester Tigers"
+      ],
+      "answer": 0,
+      "explanation": "Munster a remporté le titre lors de la saison 2002-03 en battant Neath 37-17 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2002-03 season?",
+      "options": [
+        "Munster",
+        "Neath",
+        "Llanelli Scarlets",
+        "Leicester Tigers"
+      ],
+      "answer": 0,
+      "explanation": "Munster won the 2002-03 URC/Pro14 title, defeating Neath 37-17 in the final."
+    }
+  },
+  {
+    "id": 120,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2003-04 ?",
+      "options": [
+        "DHL Stormers",
+        "Llanelli Scarlets",
+        "Ulster",
+        "Glasgow Warriors"
+      ],
+      "answer": 1,
+      "explanation": "Llanelli Scarlets a remporté le titre lors de la saison 2003-04 en battant Ulster en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2003-04 season?",
+      "options": [
+        "DHL Stormers",
+        "Llanelli Scarlets",
+        "Ulster",
+        "Glasgow Warriors"
+      ],
+      "answer": 1,
+      "explanation": "Llanelli Scarlets won the 2003-04 URC/Pro14 title, defeating Ulster in the final."
+    }
+  },
+  {
+    "id": 121,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2004-05 ?",
+      "options": [
+        "Bulls",
+        "Leicester Tigers",
+        "Leinster",
+        "Ospreys"
+      ],
+      "answer": 3,
+      "explanation": "Ospreys a remporté le titre lors de la saison 2004-05 en battant Leinster en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2004-05 season?",
+      "options": [
+        "Bulls",
+        "Leicester Tigers",
+        "Leinster",
+        "Ospreys"
+      ],
+      "answer": 3,
+      "explanation": "Ospreys won the 2004-05 URC/Pro14 title, defeating Leinster in the final."
+    }
+  },
+  {
+    "id": 122,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2005-06 ?",
+      "options": [
+        "Ulster",
+        "Leinster",
+        "Ospreys",
+        "Llanelli Scarlets"
+      ],
+      "answer": 0,
+      "explanation": "Ulster a remporté le titre lors de la saison 2005-06 en battant Llanelli Scarlets en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2005-06 season?",
+      "options": [
+        "Ulster",
+        "Leinster",
+        "Ospreys",
+        "Llanelli Scarlets"
+      ],
+      "answer": 0,
+      "explanation": "Ulster won the 2005-06 URC/Pro14 title, defeating Llanelli Scarlets in the final."
+    }
+  },
+  {
+    "id": 123,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2006-07 ?",
+      "options": [
+        "Ospreys",
+        "Leicester Tigers",
+        "Bulls",
+        "Connacht"
+      ],
+      "answer": 0,
+      "explanation": "Ospreys a remporté le titre lors de la saison 2006-07 en battant Leicester Tigers en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2006-07 season?",
+      "options": [
+        "Ospreys",
+        "Leicester Tigers",
+        "Bulls",
+        "Connacht"
+      ],
+      "answer": 0,
+      "explanation": "Ospreys won the 2006-07 URC/Pro14 title, defeating Leicester Tigers in the final."
+    }
+  },
+  {
+    "id": 124,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2007-08 ?",
+      "options": [
+        "Stormers",
+        "Neath",
+        "Leinster",
+        "Ospreys"
+      ],
+      "answer": 2,
+      "explanation": "Leinster a remporté le titre lors de la saison 2007-08 en battant Ospreys en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2007-08 season?",
+      "options": [
+        "Stormers",
+        "Neath",
+        "Leinster",
+        "Ospreys"
+      ],
+      "answer": 2,
+      "explanation": "Leinster won the 2007-08 URC/Pro14 title, defeating Ospreys in the final."
+    }
+  },
+  {
+    "id": 125,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2008-09 ?",
+      "options": [
+        "DHL Stormers",
+        "Bulls",
+        "Munster",
+        "Leinster"
+      ],
+      "answer": 2,
+      "explanation": "Munster a remporté le titre lors de la saison 2008-09 en battant Leinster en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2008-09 season?",
+      "options": [
+        "DHL Stormers",
+        "Bulls",
+        "Munster",
+        "Leinster"
+      ],
+      "answer": 2,
+      "explanation": "Munster won the 2008-09 URC/Pro14 title, defeating Leinster in the final."
+    }
+  },
+  {
+    "id": 126,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2009-10 ?",
+      "options": [
+        "Leinster",
+        "Stormers",
+        "Ospreys",
+        "Glasgow Warriors"
+      ],
+      "answer": 2,
+      "explanation": "Ospreys a remporté le titre lors de la saison 2009-10 en battant Leinster 17-12 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2009-10 season?",
+      "options": [
+        "Leinster",
+        "Stormers",
+        "Ospreys",
+        "Glasgow Warriors"
+      ],
+      "answer": 2,
+      "explanation": "Ospreys won the 2009-10 URC/Pro14 title, defeating Leinster 17-12 in the final."
+    }
+  },
+  {
+    "id": 127,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2010-11 ?",
+      "options": [
+        "Leinster",
+        "Ulster",
+        "Munster",
+        "Leicester Tigers"
+      ],
+      "answer": 2,
+      "explanation": "Munster a remporté le titre lors de la saison 2010-11 en battant Leinster en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2010-11 season?",
+      "options": [
+        "Leinster",
+        "Ulster",
+        "Munster",
+        "Leicester Tigers"
+      ],
+      "answer": 2,
+      "explanation": "Munster won the 2010-11 URC/Pro14 title, defeating Leinster in the final."
+    }
+  },
+  {
+    "id": 128,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2011-12 ?",
+      "options": [
+        "Leinster",
+        "Llanelli Scarlets",
+        "Ospreys",
+        "Leicester Tigers"
+      ],
+      "answer": 2,
+      "explanation": "Ospreys a remporté le titre lors de la saison 2011-12 en battant Leinster 31-30 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2011-12 season?",
+      "options": [
+        "Leinster",
+        "Llanelli Scarlets",
+        "Ospreys",
+        "Leicester Tigers"
+      ],
+      "answer": 2,
+      "explanation": "Ospreys won the 2011-12 URC/Pro14 title, defeating Leinster 31-30 in the final."
+    }
+  },
+  {
+    "id": 129,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2012-13 ?",
+      "options": [
+        "Scarlets",
+        "Neath",
+        "Leinster",
+        "Glasgow Warriors"
+      ],
+      "answer": 3,
+      "explanation": "Glasgow Warriors a remporté le titre lors de la saison 2012-13 en battant Leinster en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2012-13 season?",
+      "options": [
+        "Scarlets",
+        "Neath",
+        "Leinster",
+        "Glasgow Warriors"
+      ],
+      "answer": 3,
+      "explanation": "Glasgow Warriors won the 2012-13 URC/Pro14 title, defeating Leinster in the final."
+    }
+  },
+  {
+    "id": 130,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2013-14 ?",
+      "options": [
+        "Scarlets",
+        "Glasgow Warriors",
+        "Munster",
+        "Leinster"
+      ],
+      "answer": 3,
+      "explanation": "Leinster a remporté le titre lors de la saison 2013-14 en battant Glasgow Warriors en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2013-14 season?",
+      "options": [
+        "Scarlets",
+        "Glasgow Warriors",
+        "Munster",
+        "Leinster"
+      ],
+      "answer": 3,
+      "explanation": "Leinster won the 2013-14 URC/Pro14 title, defeating Glasgow Warriors in the final."
+    }
+  },
+  {
+    "id": 131,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2014-15 ?",
+      "options": [
+        "Neath",
+        "Munster",
+        "Stormers",
+        "Glasgow Warriors"
+      ],
+      "answer": 3,
+      "explanation": "Glasgow Warriors a remporté le titre lors de la saison 2014-15 en battant Munster en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2014-15 season?",
+      "options": [
+        "Neath",
+        "Munster",
+        "Stormers",
+        "Glasgow Warriors"
+      ],
+      "answer": 3,
+      "explanation": "Glasgow Warriors won the 2014-15 URC/Pro14 title, defeating Munster in the final."
+    }
+  },
+  {
+    "id": 132,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2015-16 ?",
+      "options": [
+        "Connacht",
+        "Munster",
+        "Scarlets",
+        "Leinster"
+      ],
+      "answer": 0,
+      "explanation": "Connacht a remporté le titre lors de la saison 2015-16 en battant Leinster 20-10 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2015-16 season?",
+      "options": [
+        "Connacht",
+        "Munster",
+        "Scarlets",
+        "Leinster"
+      ],
+      "answer": 0,
+      "explanation": "Connacht won the 2015-16 URC/Pro14 title, defeating Leinster 20-10 in the final."
+    }
+  },
+  {
+    "id": 133,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2016-17 ?",
+      "options": [
+        "Bulls",
+        "Scarlets",
+        "Munster",
+        "Leinster"
+      ],
+      "answer": 1,
+      "explanation": "Scarlets a remporté le titre lors de la saison 2016-17 en battant Munster 26-23 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2016-17 season?",
+      "options": [
+        "Bulls",
+        "Scarlets",
+        "Munster",
+        "Leinster"
+      ],
+      "answer": 1,
+      "explanation": "Scarlets won the 2016-17 URC/Pro14 title, defeating Munster 26-23 in the final."
+    }
+  },
+  {
+    "id": 134,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2017-18 ?",
+      "options": [
+        "Llanelli Scarlets",
+        "Leinster",
+        "Scarlets",
+        "Bulls"
+      ],
+      "answer": 1,
+      "explanation": "Leinster a remporté le titre lors de la saison 2017-18 en battant Scarlets 40-32 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2017-18 season?",
+      "options": [
+        "Llanelli Scarlets",
+        "Leinster",
+        "Scarlets",
+        "Bulls"
+      ],
+      "answer": 1,
+      "explanation": "Leinster won the 2017-18 URC/Pro14 title, defeating Scarlets 40-32 in the final."
+    }
+  },
+  {
+    "id": 135,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2018-19 ?",
+      "options": [
+        "DHL Stormers",
+        "Glasgow Warriors",
+        "Bulls",
+        "Leinster"
+      ],
+      "answer": 3,
+      "explanation": "Leinster a remporté le titre lors de la saison 2018-19 en battant Glasgow Warriors 18-15 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2018-19 season?",
+      "options": [
+        "DHL Stormers",
+        "Glasgow Warriors",
+        "Bulls",
+        "Leinster"
+      ],
+      "answer": 3,
+      "explanation": "Leinster won the 2018-19 URC/Pro14 title, defeating Glasgow Warriors 18-15 in the final."
+    }
+  },
+  {
+    "id": 136,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2019-20 ?",
+      "options": [
+        "Glasgow Warriors",
+        "Neath",
+        "Leinster",
+        "Ulster"
+      ],
+      "answer": 2,
+      "explanation": "Leinster a remporté le titre lors de la saison 2019-20 en battant Ulster en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2019-20 season?",
+      "options": [
+        "Glasgow Warriors",
+        "Neath",
+        "Leinster",
+        "Ulster"
+      ],
+      "answer": 2,
+      "explanation": "Leinster won the 2019-20 URC/Pro14 title, defeating Ulster in the final."
+    }
+  },
+  {
+    "id": 137,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2020-21 ?",
+      "options": [
+        "Stormers",
+        "Leinster",
+        "Munster",
+        "Scarlets"
+      ],
+      "answer": 1,
+      "explanation": "Leinster a remporté le titre lors de la saison 2020-21 en battant Munster en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2020-21 season?",
+      "options": [
+        "Stormers",
+        "Leinster",
+        "Munster",
+        "Scarlets"
+      ],
+      "answer": 1,
+      "explanation": "Leinster won the 2020-21 URC/Pro14 title, defeating Munster in the final."
+    }
+  },
+  {
+    "id": 138,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2021-22 ?",
+      "options": [
+        "Stormers",
+        "Neath",
+        "Bulls",
+        "Ospreys"
+      ],
+      "answer": 0,
+      "explanation": "Stormers a remporté le titre lors de la saison 2021-22 en battant Bulls 18-13 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2021-22 season?",
+      "options": [
+        "Stormers",
+        "Neath",
+        "Bulls",
+        "Ospreys"
+      ],
+      "answer": 0,
+      "explanation": "Stormers won the 2021-22 URC/Pro14 title, defeating Bulls 18-13 in the final."
+    }
+  },
+  {
+    "id": 139,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2022-23 ?",
+      "options": [
+        "Scarlets",
+        "Ospreys",
+        "DHL Stormers",
+        "Munster"
+      ],
+      "answer": 3,
+      "explanation": "Munster a remporté le titre lors de la saison 2022-23 en battant DHL Stormers 13-12 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2022-23 season?",
+      "options": [
+        "Scarlets",
+        "Ospreys",
+        "DHL Stormers",
+        "Munster"
+      ],
+      "answer": 3,
+      "explanation": "Munster won the 2022-23 URC/Pro14 title, defeating DHL Stormers 13-12 in the final."
+    }
+  },
+  {
+    "id": 140,
+    "category": "urc",
+    "difficulty": "hard",
+    "source": "wikipedia_urc",
+    "fr": {
+      "question": "Qui a remporté le championnat URC / Pro14 lors de la saison 2023-24 ?",
+      "options": [
+        "Glasgow Warriors",
+        "DHL Stormers",
+        "Llanelli Scarlets",
+        "Leinster"
+      ],
+      "answer": 0,
+      "explanation": "Glasgow Warriors a remporté le titre lors de la saison 2023-24 en battant Leinster 36-27 en finale."
+    },
+    "en": {
+      "question": "Who won the URC / Pro14 championship in the 2023-24 season?",
+      "options": [
+        "Glasgow Warriors",
+        "DHL Stormers",
+        "Llanelli Scarlets",
+        "Leinster"
+      ],
+      "answer": 0,
+      "explanation": "Glasgow Warriors won the 2023-24 URC/Pro14 title, defeating Leinster 36-27 in the final."
+    }
+  },
+  {
+    "id": 141,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Quelle nation a remporté la Coupe du Monde de rugby 1987 ?",
+      "options": [
+        "Afrique du Sud",
+        "Nouvelle-Zélande",
+        "Angleterre",
+        "Australie"
+      ],
+      "answer": 1,
+      "explanation": "Nouvelle-Zélande a remporté la Coupe du Monde 1987 organisée en Nouvelle-Zélande & Australie, en battant France 29-9 en finale."
+    },
+    "en": {
+      "question": "Which nation won the 1987 Rugby World Cup?",
+      "options": [
+        "England",
+        "South Africa",
+        "Australia",
+        "New Zealand"
+      ],
+      "answer": 3,
+      "explanation": "New Zealand won the 1987 Rugby World Cup, hosted in New Zealand & Australia, defeating France 29-9 in the final."
+    }
+  },
+  {
+    "id": 142,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Dans quel pays s'est déroulée la Coupe du Monde de rugby 1987 ?",
+      "options": [
+        "Nouvelle-Zélande",
+        "Afrique du Sud",
+        "Australie",
+        "Japon"
+      ],
+      "answer": 0,
+      "explanation": "La Coupe du Monde 1987 s'est déroulée en Nouvelle-Zélande & Australie. Nouvelle-Zélande a battu France 29-9 en finale."
+    },
+    "en": {
+      "question": "Which country hosted the 1987 Rugby World Cup?",
+      "options": [
+        "South Africa",
+        "New Zealand",
+        "Wales",
+        "Japan"
+      ],
+      "answer": 1,
+      "explanation": "The 1987 Rugby World Cup was hosted in New Zealand & Australia. New Zealand defeated France 29-9 in the final."
+    }
+  },
+  {
+    "id": 143,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Quelle nation a remporté la Coupe du Monde de rugby 1991 ?",
+      "options": [
+        "Australie",
+        "Afrique du Sud",
+        "Angleterre",
+        "Nouvelle-Zélande"
+      ],
+      "answer": 0,
+      "explanation": "Australie a remporté la Coupe du Monde 1991 organisée en Angleterre, en battant Angleterre 12-6 en finale."
+    },
+    "en": {
+      "question": "Which nation won the 1991 Rugby World Cup?",
+      "options": [
+        "New Zealand",
+        "South Africa",
+        "England",
+        "Australia"
+      ],
+      "answer": 3,
+      "explanation": "Australia won the 1991 Rugby World Cup, hosted in England, defeating England 12-6 in the final."
+    }
+  },
+  {
+    "id": 144,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Quelle nation a remporté la Coupe du Monde de rugby 1995 ?",
+      "options": [
+        "Nouvelle-Zélande",
+        "Australie",
+        "Afrique du Sud",
+        "Angleterre"
+      ],
+      "answer": 2,
+      "explanation": "Afrique du Sud a remporté la Coupe du Monde 1995 organisée en Afrique du Sud, en battant Nouvelle-Zélande 15-12 en finale."
+    },
+    "en": {
+      "question": "Which nation won the 1995 Rugby World Cup?",
+      "options": [
+        "New Zealand",
+        "England",
+        "Australia",
+        "South Africa"
+      ],
+      "answer": 3,
+      "explanation": "South Africa won the 1995 Rugby World Cup, hosted in South Africa, defeating New Zealand 15-12 in the final."
+    }
+  },
+  {
+    "id": 145,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Dans quel pays s'est déroulée la Coupe du Monde de rugby 1995 ?",
+      "options": [
+        "Pays de Galles",
+        "Angleterre",
+        "Afrique du Sud",
+        "Nouvelle-Zélande"
+      ],
+      "answer": 2,
+      "explanation": "La Coupe du Monde 1995 s'est déroulée en Afrique du Sud. Afrique du Sud a battu Nouvelle-Zélande 15-12 en finale."
+    },
+    "en": {
+      "question": "Which country hosted the 1995 Rugby World Cup?",
+      "options": [
+        "Australia",
+        "New Zealand",
+        "South Africa",
+        "England"
+      ],
+      "answer": 2,
+      "explanation": "The 1995 Rugby World Cup was hosted in South Africa. South Africa defeated New Zealand 15-12 in the final."
+    }
+  },
+  {
+    "id": 146,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Quelle nation a remporté la Coupe du Monde de rugby 1999 ?",
+      "options": [
+        "Afrique du Sud",
+        "Australie",
+        "Nouvelle-Zélande",
+        "Angleterre"
+      ],
+      "answer": 1,
+      "explanation": "Australie a remporté la Coupe du Monde 1999 organisée en Pays de Galles, en battant France 35-12 en finale."
+    },
+    "en": {
+      "question": "Which nation won the 1999 Rugby World Cup?",
+      "options": [
+        "New Zealand",
+        "Australia",
+        "South Africa",
+        "England"
+      ],
+      "answer": 1,
+      "explanation": "Australia won the 1999 Rugby World Cup, hosted in Wales, defeating France 35-12 in the final."
+    }
+  },
+  {
+    "id": 147,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Quelle nation a remporté la Coupe du Monde de rugby 2003 ?",
+      "options": [
+        "Australie",
+        "Nouvelle-Zélande",
+        "Afrique du Sud",
+        "Angleterre"
+      ],
+      "answer": 3,
+      "explanation": "Angleterre a remporté la Coupe du Monde 2003 organisée en Australie, en battant Australie 20-17 en finale."
+    },
+    "en": {
+      "question": "Which nation won the 2003 Rugby World Cup?",
+      "options": [
+        "New Zealand",
+        "England",
+        "Australia",
+        "South Africa"
+      ],
+      "answer": 1,
+      "explanation": "England won the 2003 Rugby World Cup, hosted in Australia, defeating Australia 20-17 in the final."
+    }
+  },
+  {
+    "id": 148,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Dans quel pays s'est déroulée la Coupe du Monde de rugby 2003 ?",
+      "options": [
+        "Australie",
+        "Nouvelle-Zélande",
+        "Afrique du Sud",
+        "Angleterre"
+      ],
+      "answer": 0,
+      "explanation": "La Coupe du Monde 2003 s'est déroulée en Australie. Angleterre a battu Australie 20-17 en finale."
+    },
+    "en": {
+      "question": "Which country hosted the 2003 Rugby World Cup?",
+      "options": [
+        "England",
+        "Australia",
+        "Japan",
+        "Wales"
+      ],
+      "answer": 1,
+      "explanation": "The 2003 Rugby World Cup was hosted in Australia. England defeated Australia 20-17 in the final."
+    }
+  },
+  {
+    "id": 149,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Quelle nation a remporté la Coupe du Monde de rugby 2007 ?",
+      "options": [
+        "Afrique du Sud",
+        "Angleterre",
+        "Australie",
+        "Nouvelle-Zélande"
+      ],
+      "answer": 0,
+      "explanation": "Afrique du Sud a remporté la Coupe du Monde 2007 organisée en France, en battant Angleterre 15-6 en finale."
+    },
+    "en": {
+      "question": "Which nation won the 2007 Rugby World Cup?",
+      "options": [
+        "Australia",
+        "South Africa",
+        "New Zealand",
+        "England"
+      ],
+      "answer": 1,
+      "explanation": "South Africa won the 2007 Rugby World Cup, hosted in France, defeating England 15-6 in the final."
+    }
+  },
+  {
+    "id": 150,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Dans quel pays s'est déroulée la Coupe du Monde de rugby 2007 ?",
+      "options": [
+        "France",
+        "Australie",
+        "Japon",
+        "Pays de Galles"
+      ],
+      "answer": 0,
+      "explanation": "La Coupe du Monde 2007 s'est déroulée en France. Afrique du Sud a battu Angleterre 15-6 en finale."
+    },
+    "en": {
+      "question": "Which country hosted the 2007 Rugby World Cup?",
+      "options": [
+        "New Zealand",
+        "Japan",
+        "South Africa",
+        "France"
+      ],
+      "answer": 3,
+      "explanation": "The 2007 Rugby World Cup was hosted in France. South Africa defeated England 15-6 in the final."
+    }
+  },
+  {
+    "id": 151,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Quelle nation a remporté la Coupe du Monde de rugby 2011 ?",
+      "options": [
+        "Angleterre",
+        "Afrique du Sud",
+        "Australie",
+        "Nouvelle-Zélande"
+      ],
+      "answer": 3,
+      "explanation": "Nouvelle-Zélande a remporté la Coupe du Monde 2011 organisée en Nouvelle-Zélande, en battant France 8-7 en finale."
+    },
+    "en": {
+      "question": "Which nation won the 2011 Rugby World Cup?",
+      "options": [
+        "Australia",
+        "England",
+        "New Zealand",
+        "South Africa"
+      ],
+      "answer": 2,
+      "explanation": "New Zealand won the 2011 Rugby World Cup, hosted in New Zealand, defeating France 8-7 in the final."
+    }
+  },
+  {
+    "id": 152,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Quelle nation a remporté la Coupe du Monde de rugby 2015 ?",
+      "options": [
+        "Afrique du Sud",
+        "Australie",
+        "Angleterre",
+        "Nouvelle-Zélande"
+      ],
+      "answer": 3,
+      "explanation": "Nouvelle-Zélande a remporté la Coupe du Monde 2015 organisée en Angleterre, en battant Australie 34-17 en finale."
+    },
+    "en": {
+      "question": "Which nation won the 2015 Rugby World Cup?",
+      "options": [
+        "New Zealand",
+        "England",
+        "South Africa",
+        "Australia"
+      ],
+      "answer": 0,
+      "explanation": "New Zealand won the 2015 Rugby World Cup, hosted in England, defeating Australia 34-17 in the final."
+    }
+  },
+  {
+    "id": 153,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Quelle nation a remporté la Coupe du Monde de rugby 2019 ?",
+      "options": [
+        "Australie",
+        "Afrique du Sud",
+        "Angleterre",
+        "Nouvelle-Zélande"
+      ],
+      "answer": 1,
+      "explanation": "Afrique du Sud a remporté la Coupe du Monde 2019 organisée en Japon, en battant Angleterre 32-12 en finale."
+    },
+    "en": {
+      "question": "Which nation won the 2019 Rugby World Cup?",
+      "options": [
+        "South Africa",
+        "Australia",
+        "New Zealand",
+        "England"
+      ],
+      "answer": 0,
+      "explanation": "South Africa won the 2019 Rugby World Cup, hosted in Japan, defeating England 32-12 in the final."
+    }
+  },
+  {
+    "id": 154,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Dans quel pays s'est déroulée la Coupe du Monde de rugby 2019 ?",
+      "options": [
+        "Japon",
+        "France",
+        "Nouvelle-Zélande",
+        "Pays de Galles"
+      ],
+      "answer": 0,
+      "explanation": "La Coupe du Monde 2019 s'est déroulée en Japon. Afrique du Sud a battu Angleterre 32-12 en finale."
+    },
+    "en": {
+      "question": "Which country hosted the 2019 Rugby World Cup?",
+      "options": [
+        "France",
+        "Japan",
+        "Wales",
+        "New Zealand"
+      ],
+      "answer": 1,
+      "explanation": "The 2019 Rugby World Cup was hosted in Japan. South Africa defeated England 32-12 in the final."
+    }
+  },
+  {
+    "id": 155,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Quelle nation a remporté la Coupe du Monde de rugby 2023 ?",
+      "options": [
+        "Nouvelle-Zélande",
+        "Australie",
+        "Afrique du Sud",
+        "Angleterre"
+      ],
+      "answer": 2,
+      "explanation": "Afrique du Sud a remporté la Coupe du Monde 2023 organisée en France, en battant Nouvelle-Zélande 12-11 en finale."
+    },
+    "en": {
+      "question": "Which nation won the 2023 Rugby World Cup?",
+      "options": [
+        "Australia",
+        "New Zealand",
+        "South Africa",
+        "England"
+      ],
+      "answer": 2,
+      "explanation": "South Africa won the 2023 Rugby World Cup, hosted in France, defeating New Zealand 12-11 in the final."
+    }
+  },
+  {
+    "id": 156,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_world_cup",
+    "fr": {
+      "question": "Dans quel pays s'est déroulée la Coupe du Monde de rugby 2023 ?",
+      "options": [
+        "Nouvelle-Zélande",
+        "Angleterre",
+        "France",
+        "Japon"
+      ],
+      "answer": 2,
+      "explanation": "La Coupe du Monde 2023 s'est déroulée en France. Afrique du Sud a battu Nouvelle-Zélande 12-11 en finale."
+    },
+    "en": {
+      "question": "Which country hosted the 2023 Rugby World Cup?",
+      "options": [
+        "France",
+        "England",
+        "New Zealand",
+        "Japan"
+      ],
+      "answer": 0,
+      "explanation": "The 2023 Rugby World Cup was hosted in France. South Africa defeated New Zealand 12-11 in the final."
+    }
+  },
+  {
+    "id": 157,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2003 ?",
+      "options": [
+        "Écosse",
+        "Italie",
+        "Angleterre",
+        "Irlande"
+      ],
+      "answer": 2,
+      "explanation": "Angleterre a réalisé le Grand Chelem lors du Tournoi des Six Nations 2003, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2003?",
+      "options": [
+        "England",
+        "France",
+        "Ireland",
+        "Scotland"
+      ],
+      "answer": 0,
+      "explanation": "England achieved the Grand Slam in the 2003 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 158,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2004 ?",
+      "options": [
+        "Irlande",
+        "France",
+        "Italie",
+        "Pays de Galles"
+      ],
+      "answer": 1,
+      "explanation": "France a réalisé le Grand Chelem lors du Tournoi des Six Nations 2004, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2004?",
+      "options": [
+        "England",
+        "Italy",
+        "France",
+        "Wales"
+      ],
+      "answer": 2,
+      "explanation": "France achieved the Grand Slam in the 2004 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 159,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2008 ?",
+      "options": [
+        "Écosse",
+        "Angleterre",
+        "France",
+        "Pays de Galles"
+      ],
+      "answer": 3,
+      "explanation": "Pays de Galles a réalisé le Grand Chelem lors du Tournoi des Six Nations 2008, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2008?",
+      "options": [
+        "Wales",
+        "England",
+        "France",
+        "Ireland"
+      ],
+      "answer": 0,
+      "explanation": "Wales achieved the Grand Slam in the 2008 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 160,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2010 ?",
+      "options": [
+        "Irlande",
+        "Pays de Galles",
+        "Angleterre",
+        "France"
+      ],
+      "answer": 3,
+      "explanation": "France a réalisé le Grand Chelem lors du Tournoi des Six Nations 2010, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2010?",
+      "options": [
+        "France",
+        "Scotland",
+        "Ireland",
+        "England"
+      ],
+      "answer": 0,
+      "explanation": "France achieved the Grand Slam in the 2010 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 161,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2011 ?",
+      "options": [
+        "Angleterre",
+        "France",
+        "Pays de Galles",
+        "Écosse"
+      ],
+      "answer": 0,
+      "explanation": "Angleterre a réalisé le Grand Chelem lors du Tournoi des Six Nations 2011, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2011?",
+      "options": [
+        "Scotland",
+        "England",
+        "France",
+        "Italy"
+      ],
+      "answer": 1,
+      "explanation": "England achieved the Grand Slam in the 2011 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 162,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2012 ?",
+      "options": [
+        "France",
+        "Pays de Galles",
+        "Angleterre",
+        "Écosse"
+      ],
+      "answer": 1,
+      "explanation": "Pays de Galles a réalisé le Grand Chelem lors du Tournoi des Six Nations 2012, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2012?",
+      "options": [
+        "Italy",
+        "England",
+        "France",
+        "Wales"
+      ],
+      "answer": 3,
+      "explanation": "Wales achieved the Grand Slam in the 2012 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 163,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2016 ?",
+      "options": [
+        "Angleterre",
+        "Écosse",
+        "Italie",
+        "France"
+      ],
+      "answer": 0,
+      "explanation": "Angleterre a réalisé le Grand Chelem lors du Tournoi des Six Nations 2016, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2016?",
+      "options": [
+        "Scotland",
+        "England",
+        "Wales",
+        "Ireland"
+      ],
+      "answer": 1,
+      "explanation": "England achieved the Grand Slam in the 2016 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 164,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2017 ?",
+      "options": [
+        "Angleterre",
+        "Irlande",
+        "France",
+        "Écosse"
+      ],
+      "answer": 0,
+      "explanation": "Angleterre a réalisé le Grand Chelem lors du Tournoi des Six Nations 2017, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2017?",
+      "options": [
+        "Scotland",
+        "France",
+        "England",
+        "Wales"
+      ],
+      "answer": 2,
+      "explanation": "England achieved the Grand Slam in the 2017 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 165,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2019 ?",
+      "options": [
+        "Pays de Galles",
+        "France",
+        "Écosse",
+        "Angleterre"
+      ],
+      "answer": 0,
+      "explanation": "Pays de Galles a réalisé le Grand Chelem lors du Tournoi des Six Nations 2019, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2019?",
+      "options": [
+        "Wales",
+        "Italy",
+        "France",
+        "England"
+      ],
+      "answer": 0,
+      "explanation": "Wales achieved the Grand Slam in the 2019 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 166,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2021 ?",
+      "options": [
+        "Pays de Galles",
+        "Irlande",
+        "France",
+        "Italie"
+      ],
+      "answer": 0,
+      "explanation": "Pays de Galles a réalisé le Grand Chelem lors du Tournoi des Six Nations 2021, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2021?",
+      "options": [
+        "France",
+        "Wales",
+        "England",
+        "Scotland"
+      ],
+      "answer": 1,
+      "explanation": "Wales achieved the Grand Slam in the 2021 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 167,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2022 ?",
+      "options": [
+        "France",
+        "Pays de Galles",
+        "Irlande",
+        "Italie"
+      ],
+      "answer": 0,
+      "explanation": "France a réalisé le Grand Chelem lors du Tournoi des Six Nations 2022, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2022?",
+      "options": [
+        "England",
+        "Italy",
+        "France",
+        "Ireland"
+      ],
+      "answer": 2,
+      "explanation": "France achieved the Grand Slam in the 2022 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 168,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2023 ?",
+      "options": [
+        "Irlande",
+        "Italie",
+        "Écosse",
+        "Pays de Galles"
+      ],
+      "answer": 0,
+      "explanation": "Irlande a réalisé le Grand Chelem lors du Tournoi des Six Nations 2023, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2023?",
+      "options": [
+        "Scotland",
+        "Wales",
+        "Italy",
+        "Ireland"
+      ],
+      "answer": 3,
+      "explanation": "Ireland achieved the Grand Slam in the 2023 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 169,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_six_nations",
+    "fr": {
+      "question": "Quelle équipe a réalisé le Grand Chelem du Tournoi des Six Nations en 2024 ?",
+      "options": [
+        "Italie",
+        "Irlande",
+        "Pays de Galles",
+        "Écosse"
+      ],
+      "answer": 1,
+      "explanation": "Irlande a réalisé le Grand Chelem lors du Tournoi des Six Nations 2024, en battant les cinq autres nations."
+    },
+    "en": {
+      "question": "Which team won the Six Nations Grand Slam in 2024?",
+      "options": [
+        "France",
+        "Italy",
+        "Scotland",
+        "Ireland"
+      ],
+      "answer": 3,
+      "explanation": "Ireland achieved the Grand Slam in the 2024 Six Nations, winning all five of their matches."
+    }
+  },
+  {
+    "id": 170,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 1996 ?",
+      "options": [
+        "Australie",
+        "Argentine",
+        "Nouvelle-Zélande",
+        "Afrique du Sud"
+      ],
+      "answer": 2,
+      "explanation": "Nouvelle-Zélande a remporté le Rugby Championship / Tri Nations 1996."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 1996?",
+      "options": [
+        "South Africa",
+        "Argentina",
+        "New Zealand",
+        "Australia"
+      ],
+      "answer": 2,
+      "explanation": "New Zealand won the 1996 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 171,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 1998 ?",
+      "options": [
+        "Afrique du Sud",
+        "Nouvelle-Zélande",
+        "Australie",
+        "Argentine"
+      ],
+      "answer": 0,
+      "explanation": "Afrique du Sud a remporté le Rugby Championship / Tri Nations 1998."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 1998?",
+      "options": [
+        "New Zealand",
+        "Argentina",
+        "South Africa",
+        "Australia"
+      ],
+      "answer": 2,
+      "explanation": "South Africa won the 1998 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 172,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2000 ?",
+      "options": [
+        "Australie",
+        "Afrique du Sud",
+        "Nouvelle-Zélande",
+        "Argentine"
+      ],
+      "answer": 0,
+      "explanation": "Australie a remporté le Rugby Championship / Tri Nations 2000."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2000?",
+      "options": [
+        "Argentina",
+        "Australia",
+        "New Zealand",
+        "South Africa"
+      ],
+      "answer": 1,
+      "explanation": "Australia won the 2000 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 173,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2001 ?",
+      "options": [
+        "Australie",
+        "Nouvelle-Zélande",
+        "Afrique du Sud",
+        "Argentine"
+      ],
+      "answer": 0,
+      "explanation": "Australie a remporté le Rugby Championship / Tri Nations 2001."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2001?",
+      "options": [
+        "Australia",
+        "Argentina",
+        "New Zealand",
+        "South Africa"
+      ],
+      "answer": 0,
+      "explanation": "Australia won the 2001 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 174,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2002 ?",
+      "options": [
+        "Afrique du Sud",
+        "Australie",
+        "Nouvelle-Zélande",
+        "Argentine"
+      ],
+      "answer": 2,
+      "explanation": "Nouvelle-Zélande a remporté le Rugby Championship / Tri Nations 2002."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2002?",
+      "options": [
+        "South Africa",
+        "Argentina",
+        "New Zealand",
+        "Australia"
+      ],
+      "answer": 2,
+      "explanation": "New Zealand won the 2002 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 175,
+    "category": "history",
+    "difficulty": "hard",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2004 ?",
+      "options": [
+        "Afrique du Sud",
+        "Australie",
+        "Nouvelle-Zélande",
+        "Argentine"
+      ],
+      "answer": 0,
+      "explanation": "Afrique du Sud a remporté le Rugby Championship / Tri Nations 2004."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2004?",
+      "options": [
+        "New Zealand",
+        "Australia",
+        "Argentina",
+        "South Africa"
+      ],
+      "answer": 3,
+      "explanation": "South Africa won the 2004 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 176,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2009 ?",
+      "options": [
+        "Nouvelle-Zélande",
+        "Afrique du Sud",
+        "Australie",
+        "Argentine"
+      ],
+      "answer": 1,
+      "explanation": "Afrique du Sud a remporté le Rugby Championship / Tri Nations 2009."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2009?",
+      "options": [
+        "South Africa",
+        "Australia",
+        "Argentina",
+        "New Zealand"
+      ],
+      "answer": 0,
+      "explanation": "South Africa won the 2009 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 177,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2010 ?",
+      "options": [
+        "Afrique du Sud",
+        "Nouvelle-Zélande",
+        "Argentine",
+        "Australie"
+      ],
+      "answer": 1,
+      "explanation": "Nouvelle-Zélande a remporté le Rugby Championship / Tri Nations 2010."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2010?",
+      "options": [
+        "South Africa",
+        "Argentina",
+        "New Zealand",
+        "Australia"
+      ],
+      "answer": 2,
+      "explanation": "New Zealand won the 2010 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 178,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2011 ?",
+      "options": [
+        "Australie",
+        "Argentine",
+        "Afrique du Sud",
+        "Nouvelle-Zélande"
+      ],
+      "answer": 0,
+      "explanation": "Australie a remporté le Rugby Championship / Tri Nations 2011."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2011?",
+      "options": [
+        "Argentina",
+        "South Africa",
+        "Australia",
+        "New Zealand"
+      ],
+      "answer": 2,
+      "explanation": "Australia won the 2011 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 179,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2014 ?",
+      "options": [
+        "Australie",
+        "Argentine",
+        "Afrique du Sud",
+        "Nouvelle-Zélande"
+      ],
+      "answer": 3,
+      "explanation": "Nouvelle-Zélande a remporté le Rugby Championship / Tri Nations 2014."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2014?",
+      "options": [
+        "Australia",
+        "Argentina",
+        "South Africa",
+        "New Zealand"
+      ],
+      "answer": 3,
+      "explanation": "New Zealand won the 2014 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 180,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2015 ?",
+      "options": [
+        "Afrique du Sud",
+        "Nouvelle-Zélande",
+        "Australie",
+        "Argentine"
+      ],
+      "answer": 2,
+      "explanation": "Australie a remporté le Rugby Championship / Tri Nations 2015."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2015?",
+      "options": [
+        "South Africa",
+        "Argentina",
+        "Australia",
+        "New Zealand"
+      ],
+      "answer": 2,
+      "explanation": "Australia won the 2015 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 181,
+    "category": "history",
+    "difficulty": "medium",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2018 ?",
+      "options": [
+        "Argentine",
+        "Nouvelle-Zélande",
+        "Afrique du Sud",
+        "Australie"
+      ],
+      "answer": 1,
+      "explanation": "Nouvelle-Zélande a remporté le Rugby Championship / Tri Nations 2018."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2018?",
+      "options": [
+        "New Zealand",
+        "Argentina",
+        "South Africa",
+        "Australia"
+      ],
+      "answer": 0,
+      "explanation": "New Zealand won the 2018 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 182,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2019 ?",
+      "options": [
+        "Australie",
+        "Argentine",
+        "Nouvelle-Zélande",
+        "Afrique du Sud"
+      ],
+      "answer": 3,
+      "explanation": "Afrique du Sud a remporté le Rugby Championship / Tri Nations 2019."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2019?",
+      "options": [
+        "Argentina",
+        "New Zealand",
+        "Australia",
+        "South Africa"
+      ],
+      "answer": 3,
+      "explanation": "South Africa won the 2019 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 183,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2024 ?",
+      "options": [
+        "Nouvelle-Zélande",
+        "Australie",
+        "Argentine",
+        "Afrique du Sud"
+      ],
+      "answer": 3,
+      "explanation": "Afrique du Sud a remporté le Rugby Championship / Tri Nations 2024."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2024?",
+      "options": [
+        "Argentina",
+        "South Africa",
+        "Australia",
+        "New Zealand"
+      ],
+      "answer": 1,
+      "explanation": "South Africa won the 2024 Rugby Championship / Tri Nations."
+    }
+  },
+  {
+    "id": 184,
+    "category": "history",
+    "difficulty": "easy",
+    "source": "wikipedia_rugby_championship",
+    "fr": {
+      "question": "Quelle nation a remporté le Rugby Championship (ou Tri Nations) en 2025 ?",
+      "options": [
+        "Afrique du Sud",
+        "Australie",
+        "Argentine",
+        "Nouvelle-Zélande"
+      ],
+      "answer": 0,
+      "explanation": "Afrique du Sud a remporté le Rugby Championship / Tri Nations 2025."
+    },
+    "en": {
+      "question": "Which nation won the Rugby Championship (or Tri Nations) in 2025?",
+      "options": [
+        "New Zealand",
+        "Australia",
+        "Argentina",
+        "South Africa"
+      ],
+      "answer": 3,
+      "explanation": "South Africa won the 2025 Rugby Championship / Tri Nations."
+    }
+  }
+]
