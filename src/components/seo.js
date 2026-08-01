@@ -14,7 +14,7 @@ const Seo = ({ page, description, type, path }) => {
                     description
                     author
                     keywords
-                    url
+                    siteUrl
                     lang
                 }
             }
@@ -46,15 +46,16 @@ const Seo = ({ page, description, type, path }) => {
             {/* Facebook */}
             <meta property="og:type" content={type} />
             <meta property="og:title" content={page} />
-            <meta property="og:url" content={`${data.site.siteMetadata.url}${path}`} />
+            <meta property="og:url" content={`${data.site.siteMetadata.siteUrl}${path || ''}`} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={data.file.childImageSharp.gatsbyImageData.images.fallback.src} />
             <meta property="og:image:alt" content={description}></meta>
+            <meta property="og:locale" content="fr_FR" />
 
             {/* Twitter */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content={page} />
-            <meta name="twitter:url" content={`${data.site.siteMetadata.url}${path}`} />
+            <meta name="twitter:url" content={`${data.site.siteMetadata.siteUrl}${path || ''}`} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={data.file.childImageSharp.gatsbyImageData.images.fallback.src} />
             <meta name="twitter:image:alt" content={description}></meta>

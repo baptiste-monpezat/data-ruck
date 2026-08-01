@@ -10,12 +10,12 @@ const CONTACT_EMAIL = 'baptiste.monpezat@gmail.com'
 const TRANSLATIONS = {
     fr: {
         nav: {
-            articles: 'Articles', analytics: 'Analytics', about: 'À propos', cta: 'Me contacter',
+            articles: 'Articles', analytics: 'Analytics', about: 'À propos', quiz: 'Quiz', players: 'Joueurs', cta: 'Me contacter',
         },
         hero: {
             eyebrow: "Rugby & data science",
-            subBefore: 'Chaque ', subHl: 'phase', subAfter: ' compte.',
-            lead: "Je m'appelle Baptiste. Je construis des modèles de prédiction, j'explore les statistiques rugby et je partage mes analyses ici — par passion pour le jeu et pour la data.",
+            subBefore: 'Rugby. ', subHl: 'Data', subAfter: '. Décisions.',
+            lead: "Je m'appelle Baptiste. J'explore les statistiques rugby et je partage mes analyses ici — par passion pour le jeu et pour la data.",
             ctaPrimary: 'Me contacter →', ctaGhost: 'Lire les articles',
         },
         insight: {
@@ -32,14 +32,35 @@ const TRANSLATIONS = {
         analytics: {
             loading: 'Chargement…', empty: 'Aucune prédiction disponible.',
             goTo: 'Accéder aux pronostics →', season: 'Saison',
-            viewFull: "Voir les pronostics complets & l'historique →",
+            viewFull: "Pronostics complets & historique →",
+            tabResult: 'Résultat', tabScorers: 'Marqueurs',
             outcomes: { H: 'Dom.', D: 'Nul', A: 'Ext.' },
+            scorers: {
+                title: 'Marqueurs probables',
+                sub: 'Probabilité de marquer un essai — modèle entraîné sur l\'historique, les compos et les ELOs',
+                tryProba: 'Proba.',
+                noData: 'Aucune prédiction de marqueurs disponible.',
+                seeAll: 'Voir tout',
+                clickHint: 'Cliquer un joueur pour les détails',
+                feats: {
+                    tryRate: 'Tx. essai (saison glissante)',  tryRateNote: '% matchs avec essai',
+                    teamAttack: 'Attaque équipe',             attackNote: 'essais/match moy.',
+                    oppDefense: 'Défense adverse',            defenseNote: 'essais concédés/match',
+                    expTries:   'Essais attendus (match)',    expNote:     'attaque + défense',
+                    elo:        'ELO équipe',
+                    eloDiff:    'Avantage ELO',               eloDiffNote: 'vs adversaire',
+                    rankScored: 'Pts marqués / match',        rankScoredNote: 'classement',
+                    rankConc:   'Pts concédés adv. / match',  rankConcNote:   'classement',
+                    games:      'Matchs joués (saison)',
+                    home: 'Dom.', away: 'Ext.',
+                },
+            },
         },
         about: {
             founder: 'Sport Data Analyst',
             headline: "Senior Data Analyst chez Betclic, passionné de rugby — j'explore les statistiques du jeu par le code.",
             bio: [
-                "Offload AI est né de Data Ruck, un blog personnel où je publie mes analyses rugby : prédiction de matchs, évaluation des joueurs, modèles statistiques. Un terrain de jeu personnel autant qu'un outil pour mieux comprendre le rugby.",
+                "Data Ruck est un blog personnel où je publie mes analyses rugby : prédiction de matchs, évaluation des joueurs, modèles statistiques. Un terrain de jeu personnel autant qu'un outil pour mieux comprendre le rugby.",
                 "Je construis ces modèles le soir et le week-end, par curiosité et par amour du sport. Si une analyse t'a plu ou si tu veux en discuter, n'hésite pas à me contacter.",
             ],
             cta: 'Me contacter →',
@@ -83,18 +104,18 @@ const TRANSLATIONS = {
                 errEmail: 'Merci d\'indiquer un e-mail valide.',
                 successTitle: 'E-mail prêt !',
                 successBody: "Ton application e-mail s'est ouverte avec le message pré-rempli — il ne reste plus qu'à envoyer.",
-                emailSubject: 'Message depuis Offload AI',
+                emailSubject: 'Message depuis Data Ruck',
             },
         },
         footer: { tagline: "Rugby & data science", copy: '© 2026 Baptiste Monpezat' },
     },
     en: {
         nav: {
-            articles: 'Articles', analytics: 'Analytics', about: 'About', cta: 'Get in touch',
+            articles: 'Articles', analytics: 'Analytics', about: 'About', quiz: 'Quiz', players: 'Players', cta: 'Get in touch',
         },
         hero: {
             eyebrow: 'Rugby & data science',
-            subBefore: 'Make every ', subHl: 'phase', subAfter: ' count.',
+            subBefore: 'Rugby. ', subHl: 'Data', subAfter: '. Decisions.',
             lead: "I'm Baptiste. I build prediction models, explore rugby statistics and share my analyses here — out of passion for the game and for data.",
             ctaPrimary: 'Get in touch →', ctaGhost: 'Read articles',
         },
@@ -112,14 +133,35 @@ const TRANSLATIONS = {
         analytics: {
             loading: 'Loading…', empty: 'No predictions available yet.',
             goTo: 'Go to predictions →', season: 'Season',
-            viewFull: 'View full predictions & history →',
+            viewFull: 'Full predictions & history →',
+            tabResult: 'Result', tabScorers: 'Scorers',
             outcomes: { H: 'Home', D: 'Draw', A: 'Away' },
+            scorers: {
+                title: 'Probable try scorers',
+                sub: 'Try-scoring probability — model trained on history, lineups and ELOs',
+                tryProba: 'Proba.',
+                noData: 'No scorer predictions available.',
+                seeAll: 'See all',
+                clickHint: 'Click a player for details',
+                feats: {
+                    tryRate: 'Try rate (rolling season)',     tryRateNote: '% games with try',
+                    teamAttack: 'Team attack',                attackNote: 'tries/game avg.',
+                    oppDefense: 'Opp. defense',               defenseNote: 'tries conceded/game',
+                    expTries:   'Expected tries (match)',     expNote:     'attack + defense',
+                    elo:        'Team ELO',
+                    eloDiff:    'ELO advantage',              eloDiffNote: 'vs opponent',
+                    rankScored: 'Pts scored / game',          rankScoredNote: 'standings',
+                    rankConc:   'Opp. pts conceded / game',   rankConcNote:   'standings',
+                    games:      'Games played (season)',
+                    home: 'Home', away: 'Away',
+                },
+            },
         },
         about: {
             founder: 'Sport Data Analyst',
             headline: "Senior Data Analyst at Betclic and rugby fan — I explore the game through code and statistics.",
             bio: [
-                "Offload AI grew out of Data Ruck, a personal blog where I publish my rugby analyses: match predictions, player ratings, statistical models. A personal playground as much as a tool for understanding the game better.",
+                "Data Ruck is a personal blog where I publish my rugby analyses: match predictions, player ratings, statistical models. A personal playground as much as a tool for understanding the game better.",
                 "I build these models in evenings and weekends, out of curiosity and love for the sport. If an analysis caught your eye or you want to chat about rugby and data, feel free to reach out.",
             ],
             cta: 'Get in touch →',
@@ -163,7 +205,7 @@ const TRANSLATIONS = {
                 errEmail: 'Please add a valid email.',
                 successTitle: 'Email ready!',
                 successBody: "Your email app opened with the message pre-filled — just hit send.",
-                emailSubject: 'Message from Offload AI',
+                emailSubject: 'Message from Data Ruck',
             },
         },
         footer: { tagline: 'Rugby & data science', copy: '© 2026 Baptiste Monpezat' },
@@ -174,15 +216,143 @@ const TRANSLATIONS = {
 const GlitchLogo = ({ variant = 'chrom sm', size = 'nav' }) => (
     <span
         className={`glogo ${variant}`}
-        data-text="OFFLOAD AI"
+        data-text="DATA RUCK"
         style={{ fontSize: size === 'hero' ? 'clamp(50px,8vw,104px)' : size === 'foot' ? '20px' : '21px' }}
     >
-        OFFLOAD <span className="ai-lime">AI</span>
+        DATA <span className="ai-lime">RUCK</span>
     </span>
 )
 
+// ── ELO ticker ────────────────────────────────────────────────────────────────
+const EloBanner = () => {
+    const [matches, setMatches] = React.useState([])
+
+    React.useEffect(() => {
+        Promise.all([
+            fetch('/predictions.json').then(r => r.json()),
+            fetch('/player_predictions.json').then(r => r.ok ? r.json() : null).catch(() => null),
+        ]).then(([data, scorer]) => {
+            const result = []
+            for (const [champKey, champLabel] of [['top14', 'TOP 14'], ['prod2', 'PRO D2']]) {
+                const champData = data[champKey]
+                const hist = champData?.history
+                if (!hist || hist.length < 1) continue
+
+                const roundAfter = champData.current
+                const isPlayoff  = isNaN(parseInt(roundAfter?.day))
+
+                // Build ELO lookup from last regular-season history round
+                const histElo = {}
+                for (const m of hist[hist.length - 1].matches) {
+                    if (m.raw?.elo_home != null) histElo[m.home] = m.raw.elo_home
+                    if (m.raw?.elo_away != null) histElo[m.away] = m.raw.elo_away
+                }
+
+                result.push({ separator: true, label: champLabel })
+
+                if (isPlayoff) {
+                    // Show current playoff round with ELO deltas vs the previous completed round.
+                    // delta = current round ELO (post-previous-match) minus hist[-1] ELO (pre-previous-match).
+                    for (const m of (roundAfter?.matches ?? [])) {
+                        const eloH = m.raw?.elo_home ?? histElo[m.home]
+                        const eloA = m.raw?.elo_away ?? histElo[m.away]
+                        if (eloH == null || eloA == null) continue
+                        const prevH = histElo[m.home], prevA = histElo[m.away]
+                        const dH = (m.raw?.elo_home != null && prevH != null) ? m.raw.elo_home - prevH : null
+                        const dA = (m.raw?.elo_away != null && prevA != null) ? m.raw.elo_away - prevA : null
+                        result.push({ home: m.home, away: m.away, day: roundAfter.day, eloH, eloA, deltaH: dH, deltaA: dA })
+                    }
+                } else {
+                    // Regular season: hist[-1] stores ELO before the last completed round;
+                    // current stores ELO before the upcoming round (= after last completed round).
+                    // Delta = current.elo - hist[-1].elo = impact of the last completed round.
+                    if (hist.length < 1) continue
+                    const roundN  = hist[hist.length - 1]  // last completed round (pre-round ELO)
+                    const afterElo = {}
+                    for (const m of roundAfter.matches) {  // current: post-last-round ELO
+                        if (m.raw?.elo_home != null) afterElo[m.home] = m.raw.elo_home
+                        if (m.raw?.elo_away != null) afterElo[m.away] = m.raw.elo_away
+                    }
+                    for (const m of roundN.matches) {
+                        const prevH = m.raw?.elo_home, prevA = m.raw?.elo_away
+                        if (prevH == null || prevA == null) continue
+                        const afterH = afterElo[m.home], afterA = afterElo[m.away]
+                        result.push({
+                            home: m.home, away: m.away,
+                            day: roundN.day,
+                            eloH: afterH ?? prevH, eloA: afterA ?? prevA,
+                            deltaH: afterH != null ? afterH - prevH : null,
+                            deltaA: afterA != null ? afterA - prevA : null,
+                        })
+                    }
+                }
+            }
+            setMatches(result)
+        }).catch(() => {})
+    }, [])
+
+    if (!matches.length) return null
+
+    const TeamElo = ({ name, elo, delta }) => {
+        const up    = delta != null && delta > 0.3
+        const down  = delta != null && delta < -0.3
+        const color = up ? 'var(--accent)' : down ? '#FF6B7A' : 'var(--muted)'
+        return (
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '5px' }}>
+                <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '11px', color: 'var(--chalk)', whiteSpace: 'nowrap' }}>{name}</span>
+                <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', color: 'var(--muted)' }}>{Math.round(elo)}</span>
+                {(up || down) && (
+                    <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', color, fontWeight: 700 }}>
+                        {up ? '▲' : '▼'}{delta > 0 ? '+' : ''}{delta.toFixed(1)}
+                    </span>
+                )}
+            </span>
+        )
+    }
+
+    const renderItem = (item, key) => {
+        if (item.separator) {
+            return (
+                <span key={key} style={{ display: 'inline-flex', alignItems: 'center', padding: '0 20px' }}>
+                    <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', letterSpacing: '.16em', textTransform: 'uppercase', color: 'var(--accent)', fontWeight: 700 }}>
+                        {item.label}
+                    </span>
+                </span>
+            )
+        }
+        return (
+            <span key={key} style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', padding: '0 20px', borderLeft: '1px solid var(--line)' }}>
+                <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '9px', letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--muted)', borderRight: '1px solid var(--line)', paddingRight: '10px' }}>
+                    {isNaN(parseInt(item.day)) ? item.day.replace('-', ' ') : `J${item.day}`}
+                </span>
+                <TeamElo name={item.home} elo={item.eloH} delta={item.deltaH} />
+                <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', color: 'var(--muted)', letterSpacing: '.1em' }}>VS</span>
+                <TeamElo name={item.away} elo={item.eloA} delta={item.deltaA} />
+            </span>
+        )
+    }
+
+    return (
+        <div style={{ background: 'var(--ink-2)', borderBottom: '1px solid var(--line)', height: '38px', display: 'flex', alignItems: 'center', overflow: 'hidden', position: 'relative' }}>
+            {/* Static ELO label */}
+            <div style={{ flexShrink: 0, height: '100%', display: 'flex', alignItems: 'center', padding: '0 16px', borderRight: '1px solid var(--line)', background: 'var(--ink-2)', zIndex: 3, gap: '6px' }}>
+                <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', letterSpacing: '.2em', textTransform: 'uppercase', color: 'var(--accent)', fontWeight: 700 }}>ELO</span>
+            </div>
+            {/* Fade right edge */}
+            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '60px', background: 'linear-gradient(to left, var(--ink-2), transparent)', zIndex: 2, pointerEvents: 'none' }} />
+            {/* Scrolling track */}
+            <div style={{ overflow: 'hidden', flex: 1 }}>
+                <div className="oa-ticker-track">
+                    {matches.map((item, i) => renderItem(item, i))}
+                    {matches.map((item, i) => renderItem(item, `d${i}`))}
+                </div>
+            </div>
+        </div>
+    )
+}
+
 // ── Insight card ──────────────────────────────────────────────────────────────
-const BREVO_FORM_ID_INSIGHT = typeof process !== 'undefined' ? (process.env.GATSBY_BREVO_FORM_ID || "") : ""
+const BREVO_FORM_ID_INSIGHT = process.env.GATSBY_BREVO_FORM_ID || ""
 
 const InsightCard = ({ t }) => {
     const [matches, setMatches] = React.useState([])
@@ -217,21 +387,25 @@ const InsightCard = ({ t }) => {
 
     const match = matches[idx] || null
 
-    const submitEmail = async (e) => {
-        e.preventDefault()
+    const submitEmail = async () => {
+        if (!email.trim()) return
         if (!BREVO_FORM_ID_INSIGHT) { setStatus("error"); return }
         setStatus("loading")
         try {
-            await fetch(BREVO_FORM_ID_INSIGHT, { method: "POST", mode: "no-cors", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: new URLSearchParams({ EMAIL: email, email_address_check: "", locale: "fr" }).toString() })
-            setStatus("ok")
-        } catch { setStatus("error") }
+            await fetch(BREVO_FORM_ID_INSIGHT, {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams({ EMAIL: email, email_address_check: "", locale: "fr" }).toString(),
+            })
+        } catch { /* CORS expected on opaque response */ }
+        setStatus("ok")
     }
 
     return (
         <div className="oa-insight">
             <div className="oa-insight-top">
                 <div className="oa-insight-top-l">
-                    <span className="cardmono">OA</span>
+                    <span className="cardmono">DR</span>
                     <b>{t.insight.title}</b>
                 </div>
                 <div className="oa-live">{t.insight.live}</div>
@@ -274,21 +448,43 @@ const InsightCard = ({ t }) => {
                 </div>
             )}
 
-            <div style={{ paddingTop: '14px' }}>
-                <div style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 700, fontSize: '12px', color: 'var(--chalk)', marginBottom: '10px' }}>{t.insight.newsletter}</div>
+            <div style={{ paddingTop: '18px' }}>
+                {/* Brand header */}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
+                    <span className="glogo" data-text="DATA RUCK" style={{ fontSize: '15px' }}>
+                        DATA <span className="ai-lime">RUCK</span>
+                    </span>
+                    <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '9px', letterSpacing: '.2em', textTransform: 'uppercase', color: 'var(--muted)', borderLeft: '1px solid var(--line)', paddingLeft: '10px' }}>
+                        Newsletter
+                    </span>
+                </div>
+
+                <div style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 700, fontSize: '13px', color: 'var(--chalk)', marginBottom: '12px', lineHeight: 1.4 }}>
+                    {t.insight.newsletter}
+                </div>
+
                 {status === 'ok' ? (
-                    <p style={{ fontSize: '12px', color: 'var(--accent)', margin: 0 }}>{t.insight.subscribed}</p>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'rgba(198,255,58,.08)', border: '1px solid rgba(198,255,58,.18)', borderRadius: '10px', padding: '10px 14px' }}>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M20 6L9 17l-5-5" />
+                        </svg>
+                        <span style={{ fontSize: '12px', color: 'var(--accent)', fontFamily: "'Space Grotesk',sans-serif" }}>{t.insight.subscribed}</span>
+                    </div>
                 ) : (
-                    <form onSubmit={submitEmail} style={{ display: 'flex', gap: '6px' }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                         <input
-                            type="email" required value={email} onChange={e => setEmail(e.target.value)}
+                            type="email" value={email} onChange={e => setEmail(e.target.value)}
+                            onKeyDown={e => e.key === 'Enter' && submitEmail()}
                             placeholder={t.insight.emailPh}
-                            style={{ flex: 1, fontSize: '12px', borderRadius: '6px', border: '1px solid var(--line)', background: 'rgba(242,237,228,.05)', color: 'var(--chalk)', padding: '7px 10px', outline: 'none', fontFamily: "'Space Grotesk',sans-serif" }}
+                            style={{ width: '100%', fontSize: '13px', borderRadius: '8px', border: '1px solid var(--line)', background: 'var(--ink)', color: 'var(--chalk)', padding: '10px 12px', outline: 'none', fontFamily: "'Space Grotesk',sans-serif", transition: 'border-color .15s' }}
+                            onFocus={e => e.target.style.borderColor = 'var(--accent)'}
+                            onBlur={e => e.target.style.borderColor = 'rgba(242,237,228,.13)'}
                         />
-                        <button type="submit" disabled={status === 'loading'}
-                            style={{ padding: '7px 14px', fontSize: '12px', fontWeight: 700, borderRadius: '6px', border: 'none', cursor: 'pointer', background: 'var(--accent)', color: 'var(--ink)', fontFamily: "'Space Grotesk',sans-serif", flexShrink: 0 }}
-                        >{t.insight.subscribe}</button>
-                    </form>
+                        <button type="button" onClick={submitEmail} disabled={status === 'loading'}
+                            style={{ width: '100%', padding: '10px', fontSize: '13px', fontWeight: 700, borderRadius: '999px', border: 'none', cursor: 'pointer', background: 'var(--accent)', color: 'var(--ink)', fontFamily: "'Space Grotesk',sans-serif", letterSpacing: '.04em', transition: 'transform .12s', opacity: status === 'loading' ? 0.5 : 1 }}
+                        >{status === 'loading' ? '…' : t.insight.subscribe}</button>
+                        {status === 'error' && <p style={{ fontSize: '11px', color: '#FF2E7E', margin: '4px 0 0', fontFamily: "'Space Grotesk',sans-serif" }}>{t.insight.subscribed ? 'Une erreur est survenue.' : 'Something went wrong.'}</p>}
+                    </div>
                 )}
             </div>
         </div>
@@ -414,17 +610,325 @@ function OutcomeBadge({ outcome, labels }) {
     )
 }
 
-function AnalyticsSection({ t }) {
-    const at = t.analytics
-    const [predData, setPredData] = React.useState(null)
-    const [loading, setLoading]   = React.useState(true)
-    const [champ, setChamp]       = React.useState('top14')
+// ── Player scorer predictions ─────────────────────────────────────────────────
+
+function ScorerFeatureTable({ player, home, away, sc }) {
+    const f = player.feats || {}
+    const isHome = f.is_home === 1
+    const teamColor = isHome ? 'var(--accent)' : 'var(--cyan)'
+    const rows = [
+        { label: sc.feats.tryRate,      val: `${f.player_try_rate ?? '—'}%`,     note: sc.feats.tryRateNote },
+        { label: sc.feats.teamAttack,   val: f.team_attack ?? '—',               note: sc.feats.attackNote },
+        { label: sc.feats.oppDefense,   val: f.opp_defense ?? '—',               note: sc.feats.defenseNote },
+        { label: sc.feats.expTries,     val: f.exp_tries ?? '—',                 note: sc.feats.expNote, highlight: true },
+        { label: sc.feats.elo,          val: f.elo_team ?? '—',                  note: '' },
+        { label: sc.feats.eloDiff,      val: f.elo_diff >= 0 ? `+${f.elo_diff}` : f.elo_diff, note: sc.feats.eloDiffNote, positive: f.elo_diff > 0 },
+        { label: sc.feats.rankScored,   val: f.rank_scored_pg ?? '—',            note: sc.feats.rankScoredNote },
+        { label: sc.feats.rankConc,     val: f.rank_opp_conceded ?? '—',         note: sc.feats.rankConcNote },
+        { label: sc.feats.games,        val: f.games_played ?? '—',              note: '' },
+    ]
+    return (
+        <div style={{ borderTop: '1px solid var(--line)', paddingTop: '10px', marginTop: '10px' }}>
+            <div style={{ fontFamily: "'Space Mono',monospace", fontSize: '9px', letterSpacing: '.18em', textTransform: 'uppercase', color: teamColor, marginBottom: '8px' }}>
+                {player.team} · {isHome ? (sc.feats.home || 'Dom.') : (sc.feats.away || 'Ext.')}
+            </div>
+            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '11px' }}>
+                <tbody>
+                    {rows.map((r, i) => (
+                        <tr key={i} style={{ borderTop: i === 0 ? 'none' : '1px solid rgba(242,237,228,.06)' }}>
+                            <td style={{ padding: '4px 0', color: 'var(--muted)', fontFamily: "'Space Grotesk',sans-serif", paddingRight: '12px' }}>{r.label}</td>
+                            <td style={{ padding: '4px 0', fontFamily: "'Space Mono',monospace", fontWeight: 700, textAlign: 'right',
+                                color: r.highlight ? 'var(--chalk)' : r.positive === true ? 'var(--accent)' : r.positive === false ? '#FF6B7A' : 'var(--chalk)' }}>
+                                {r.val}
+                            </td>
+                            {r.note ? <td style={{ padding: '4px 0 4px 8px', color: 'rgba(242,237,228,.35)', fontSize: '9px', fontFamily: "'Space Mono',monospace" }}>{r.note}</td> : <td />}
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+    )
+}
+
+function ScorerMatchCard({ match, sc }) {
+    const [open, setOpen] = React.useState(false)
+    const [openPlayer, setOpenPlayer] = React.useState(null)
+    const maxP = match.players[0]?.try_proba || 1
+    const POS_LABEL = {
+        wing: 'Ail.', fullback: 'Arr.', center: 'Ctr.', halfback: '1/2',
+        flanker: 'Flk.', back_row: '3ème L.', lock: '2ème L.', front_row: '1ère L.',
+    }
+    return (
+        <div style={{ background: 'var(--ink-2)', border: '1px solid var(--line)', borderRadius: '12px', overflow: 'hidden' }}>
+            <div style={{ padding: '16px 18px' }}>
+                {/* Header */}
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '14px' }}>
+                    <div style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 700, fontSize: '13px', color: 'var(--chalk)' }}>
+                        <span style={{ color: 'var(--accent)' }}>{match.home}</span>
+                        <span style={{ color: 'var(--muted)', fontWeight: 400, margin: '0 6px' }}>vs</span>
+                        <span style={{ color: 'var(--cyan)' }}>{match.away}</span>
+                    </div>
+                    <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', letterSpacing: '.12em', textTransform: 'uppercase', color: 'var(--muted)' }}>{match.round}</span>
+                </div>
+
+                {/* Player rows */}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                    {match.players.map((p, pi) => {
+                        const isExpanded = openPlayer === pi
+                        const color = p.team === match.home ? 'var(--accent)' : 'var(--cyan)'
+                        return (
+                            <div key={pi}>
+                                <button onClick={() => setOpenPlayer(isExpanded ? null : pi)}
+                                    style={{ width: '100%', background: isExpanded ? 'rgba(242,237,228,.04)' : 'none', border: 'none', cursor: 'pointer',
+                                        borderRadius: '6px', padding: '6px 8px', display: 'grid',
+                                        gridTemplateColumns: '22px 1fr 70px 44px', alignItems: 'center', gap: '8px' }}>
+                                    <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', color: 'var(--muted)', textAlign: 'right' }}>{p.number}</span>
+                                    <div style={{ textAlign: 'left', minWidth: 0 }}>
+                                        <span style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, fontSize: '12px', color: 'var(--chalk)',
+                                            whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', display: 'block' }}>{p.name}</span>
+                                        <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '9px', color, letterSpacing: '.04em' }}>{POS_LABEL[p.position] || p.position}</span>
+                                    </div>
+                                    <div style={{ height: '4px', background: 'rgba(242,237,228,.08)', borderRadius: '2px', overflow: 'hidden' }}>
+                                        <div style={{ height: '100%', width: `${(p.try_proba / maxP) * 100}%`, background: color, borderRadius: '2px' }} />
+                                    </div>
+                                    <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '11px', fontWeight: 700, color, textAlign: 'right' }}>{p.try_proba}%</span>
+                                </button>
+                                {isExpanded && (
+                                    <div style={{ padding: '0 8px 8px' }}>
+                                        <ScorerFeatureTable player={p} home={match.home} away={match.away} sc={sc} />
+                                    </div>
+                                )}
+                            </div>
+                        )
+                    })}
+                </div>
+            </div>
+        </div>
+    )
+}
+
+function PlayerPredictionsSection({ champ, t }) {
+    const sc = t.analytics.scorers
+    const [data, setData]       = React.useState(null)
+    const [loading, setLoading] = React.useState(true)
 
     React.useEffect(() => {
-        fetch('/predictions.json')
+        fetch('/player_predictions.json')
             .then(r => r.ok ? r.json() : Promise.reject())
-            .then(d => { setPredData(d); setLoading(false) })
+            .then(d => { setData(d); setLoading(false) })
             .catch(() => setLoading(false))
+    }, [])
+
+    const eyebrowStyle = { fontFamily: "'Space Mono',monospace", fontSize: '10px', letterSpacing: '.2em', textTransform: 'uppercase', color: 'var(--accent)' }
+
+    if (loading) return (
+        <div style={{ marginBottom: '28px' }}>
+            <div style={{ ...eyebrowStyle, marginBottom: '10px' }}>{sc.title}</div>
+            <div style={{ display: 'flex', gap: '10px', overflow: 'hidden' }}>
+                {[1,2,3].map(i => <div key={i} style={{ minWidth: '160px', height: '88px', background: 'var(--ink-2)', border: '1px solid var(--line)', borderRadius: '10px', opacity: 0.4, flexShrink: 0 }} />)}
+            </div>
+        </div>
+    )
+
+    if (!data?.matches?.length) return null
+
+    const champLabel = champ === 'top14' ? 'TOP 14' : 'PRO D2'
+    const matches = data.matches.filter(m => m.competition?.toUpperCase().replace(' ', '') === champLabel.replace(' ', ''))
+    if (!matches.length) return null
+
+    const POS_LABEL = {
+        wing: 'Ail.', fullback: 'Arr.', center: 'Ctr.', halfback: '1/2',
+        flanker: 'Flk.', back_row: '3L', lock: '2L', front_row: '1L',
+    }
+
+    return (
+        <div style={{ marginBottom: '28px' }}>
+            {/* Header row */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px' }}>
+                <div style={eyebrowStyle}>{sc.title}</div>
+                <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '9px', letterSpacing: '.1em', color: 'rgba(242,237,228,.3)', textTransform: 'uppercase' }}>
+                    {sc.clickHint}
+                </span>
+            </div>
+
+            {/* Swipe strip */}
+            <div style={{ overflowX: 'auto', scrollSnapType: 'x mandatory', WebkitOverflowScrolling: 'touch', display: 'flex', gap: '10px', paddingBottom: '4px', scrollbarWidth: 'none' }}
+                className="oa-scorer-scroll">
+                {matches.map((m, mi) => {
+                    const top3 = m.players.slice(0, 3)
+                    const maxP = top3[0]?.try_proba || 1
+                    const matchId = `${m.home}-vs-${m.away}`.toLowerCase().replace(/[\s']/g, '-').replace(/[^a-z0-9-]/g, '')
+                    return (
+                        <Link key={mi} to={`/predictions#${matchId}`} style={{ textDecoration: 'none', minWidth: '200px', maxWidth: '200px', flexShrink: 0, scrollSnapAlign: 'start', display: 'block' }}>
+                            <div style={{ background: 'var(--ink-2)', border: '1px solid var(--line)', borderRadius: '10px', padding: '12px 14px', transition: 'border-color .15s' }}
+                                onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(198,255,58,.4)'}
+                                onMouseLeave={e => e.currentTarget.style.borderColor = 'var(--line)'}>
+                                <div style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 700, fontSize: '11px', color: 'var(--muted)', marginBottom: '8px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                                    {m.home} <span style={{ fontWeight: 400 }}>vs</span> {m.away}
+                                </div>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
+                                    {top3.map((p, pi) => (
+                                        <div key={pi} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                            <div style={{ flex: 1, height: '3px', background: 'rgba(242,237,228,.08)', borderRadius: '2px', overflow: 'hidden' }}>
+                                                <div style={{ height: '100%', width: `${(p.try_proba / maxP) * 100}%`, background: p.team === m.home ? 'var(--accent)' : 'var(--cyan)', borderRadius: '2px' }} />
+                                            </div>
+                                            <span style={{ fontFamily: "'Space Grotesk',sans-serif", fontSize: '11px', fontWeight: 600, color: 'var(--chalk)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: '90px' }}>
+                                                {p.name.split(' ').pop()}
+                                            </span>
+                                            <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '9px', color: p.team === m.home ? 'var(--accent)' : 'var(--cyan)', flexShrink: 0 }}>
+                                                {POS_LABEL[p.position] || p.position}
+                                            </span>
+                                            <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', fontWeight: 700, color: p.team === m.home ? 'var(--accent)' : 'var(--cyan)', flexShrink: 0, minWidth: '32px', textAlign: 'right' }}>
+                                                {p.try_proba}%
+                                            </span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </Link>
+                    )
+                })}
+            </div>
+
+            {/* Full expandable cards */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '16px' }}>
+                {matches.map((m, mi) => (
+                    <ScorerMatchCard key={mi} match={m} sc={sc} />
+                ))}
+            </div>
+        </div>
+    )
+}
+
+function MergedMatchCard({ match, scorerMatch, at }) {
+    const sc = at.scorers
+    const [tab, setTab] = React.useState('result')
+    const [openPlayer, setOpenPlayer] = React.useState(null)
+    const primary = match.lineup_available ? match.lineup : match.base
+    const matchId = `${match.home}-vs-${match.away}`.toLowerCase().replace(/[\s']/g, '-').replace(/[^a-z0-9-]/g, '')
+
+    const POS_LABEL = {
+        wing: 'Ail.', fullback: 'Arr.', center: 'Ctr.', halfback: '1/2',
+        flanker: 'Flk.', back_row: '3ème L.', lock: '2ème L.', front_row: '1ère L.',
+    }
+    const tabBtn = (id, label) => (
+        <button onClick={() => { setTab(id); setOpenPlayer(null) }} style={{
+            background: 'none', border: 'none', cursor: 'pointer', padding: '4px 10px',
+            fontFamily: "'Space Mono',monospace", fontSize: '10px', letterSpacing: '.12em',
+            textTransform: 'uppercase', fontWeight: 700,
+            color: tab === id ? 'var(--chalk)' : 'var(--muted)',
+            borderBottom: `2px solid ${tab === id ? 'var(--accent)' : 'transparent'}`,
+            transition: 'color .15s',
+        }}>{label}</button>
+    )
+
+    return (
+        <div style={{ background: 'var(--ink-2)', border: '1px solid var(--line)', borderRadius: '12px', overflow: 'hidden' }}>
+            {/* Match header — always visible */}
+            <div style={{ padding: '14px 18px 0' }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '10px' }}>
+                    <div style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 700, fontSize: '13px' }}>
+                        <span style={{ color: 'var(--accent)' }}>{match.home}</span>
+                        <span style={{ color: 'var(--muted)', fontWeight: 400, margin: '0 6px' }}>vs</span>
+                        <span style={{ color: 'var(--cyan)' }}>{match.away}</span>
+                    </div>
+                    {match.lineup_available && (
+                        <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '9px', letterSpacing: '.08em', color: 'var(--accent)' }}>★ COMPO</span>
+                    )}
+                </div>
+                {/* Tabs */}
+                <div style={{ display: 'flex', gap: '0', borderBottom: '1px solid var(--line)', marginLeft: '-18px', marginRight: '-18px', paddingLeft: '18px' }}>
+                    {tabBtn('result', at.tabResult)}
+                    {scorerMatch && tabBtn('scorers', at.tabScorers)}
+                </div>
+            </div>
+
+            {/* Result tab */}
+            {tab === 'result' && (
+                <div style={{ padding: '14px 18px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '14px' }}>
+                        <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '20px', fontWeight: 700, color: 'var(--chalk)' }}>
+                            {Math.round(primary.pred_home)} – {Math.round(primary.pred_away)}
+                        </span>
+                        <OutcomeBadge outcome={primary.outcome} labels={at.outcomes} />
+                    </div>
+                    {/* Probability bars */}
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginBottom: '14px' }}>
+                        {[['Dom.', primary.prob_h, 'var(--accent)'], ['Nul', primary.prob_d, 'rgba(242,237,228,.4)'], ['Ext.', primary.prob_a, '#FF6B7A']].map(([lbl, pct, col]) => (
+                            <div key={lbl} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', color: 'var(--muted)', width: '28px', flexShrink: 0 }}>{lbl}</span>
+                                <div style={{ flex: 1, height: '6px', background: 'rgba(242,237,228,.08)', borderRadius: '3px', overflow: 'hidden' }}>
+                                    <div style={{ height: '100%', width: `${pct}%`, background: col, borderRadius: '3px', transition: 'width .4s' }} />
+                                </div>
+                                <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '11px', fontWeight: 700, color: col, width: '34px', textAlign: 'right', flexShrink: 0 }}>{pct}%</span>
+                            </div>
+                        ))}
+                    </div>
+                    <Link to={`/predictions#${matchId}`} style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--muted)', textDecoration: 'none' }}>
+                        {at.viewFull} →
+                    </Link>
+                </div>
+            )}
+
+            {/* Scorers tab */}
+            {tab === 'scorers' && scorerMatch && (
+                <div style={{ padding: '10px 18px 14px' }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                        {scorerMatch.players.slice(0, 5).map((p, pi) => {
+                            const isExpanded = openPlayer === pi
+                            const color = p.team === match.home ? 'var(--accent)' : 'var(--cyan)'
+                            const maxP = scorerMatch.players[0]?.try_proba || 1
+                            return (
+                                <div key={pi}>
+                                    <button onClick={() => setOpenPlayer(isExpanded ? null : pi)} style={{
+                                        width: '100%', background: isExpanded ? 'rgba(242,237,228,.04)' : 'none',
+                                        border: 'none', cursor: 'pointer', borderRadius: '6px', padding: '6px 8px',
+                                        display: 'grid', gridTemplateColumns: '22px 1fr 60px 44px', alignItems: 'center', gap: '8px',
+                                    }}>
+                                        <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '10px', color: 'var(--muted)', textAlign: 'right' }}>{p.number}</span>
+                                        <div style={{ textAlign: 'left', minWidth: 0 }}>
+                                            <span style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, fontSize: '12px', color: 'var(--chalk)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', display: 'block' }}>{p.name}</span>
+                                            <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '9px', color, letterSpacing: '.04em' }}>{POS_LABEL[p.position] || p.position}</span>
+                                        </div>
+                                        <div style={{ height: '3px', background: 'rgba(242,237,228,.08)', borderRadius: '2px', overflow: 'hidden' }}>
+                                            <div style={{ height: '100%', width: `${(p.try_proba / maxP) * 100}%`, background: color, borderRadius: '2px' }} />
+                                        </div>
+                                        <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '11px', fontWeight: 700, color, textAlign: 'right' }}>{p.try_proba}%</span>
+                                    </button>
+                                    {isExpanded && (
+                                        <div style={{ padding: '0 8px 8px' }}>
+                                            <ScorerFeatureTable player={p} home={match.home} away={match.away} sc={sc} />
+                                        </div>
+                                    )}
+                                </div>
+                            )
+                        })}
+                    </div>
+                    <Link to={`/predictions#${matchId}`} style={{ display: 'block', marginTop: '10px', fontFamily: "'Space Mono',monospace", fontSize: '10px', letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--muted)', textDecoration: 'none' }}>
+                        {at.viewFull} →
+                    </Link>
+                </div>
+            )}
+        </div>
+    )
+}
+
+function AnalyticsSection({ t }) {
+    const at = t.analytics
+    const [predData, setPredData]     = React.useState(null)
+    const [scorerData, setScorerData] = React.useState(null)
+    const [loading, setLoading]       = React.useState(true)
+    const [champ, setChamp]           = React.useState('top14')
+
+    React.useEffect(() => {
+        Promise.all([
+            fetch('/predictions.json').then(r => r.ok ? r.json() : null).catch(() => null),
+            fetch('/player_predictions.json').then(r => r.ok ? r.json() : null).catch(() => null),
+        ]).then(([pred, scorer]) => {
+            setPredData(pred)
+            setScorerData(scorer)
+            setLoading(false)
+        })
     }, [])
 
     if (loading) return <p style={{ color: 'var(--muted)', textAlign: 'center', padding: '48px 0' }}>{at.loading}</p>
@@ -441,26 +945,25 @@ function AnalyticsSection({ t }) {
     if (!champData) return null
     const { current } = champData
     const champLabel = champ === 'top14' ? 'Top 14' : 'Pro D2'
+    const champLabelUpper = champ === 'top14' ? 'TOP 14' : 'PRO D2'
+
+    const scorerMatches = scorerData?.matches?.filter(
+        m => m.competition?.toUpperCase().replace(' ', '') === champLabelUpper.replace(' ', '')
+    ) || []
 
     return (
         <div>
             {/* Championship selector */}
             <div style={{ display: 'flex', gap: '8px', marginBottom: '20px' }}>
                 {[{ id: 'top14', label: 'Top 14' }, { id: 'prod2', label: 'Pro D2' }].map(c => (
-                    <button
-                        key={c.id}
-                        onClick={() => setChamp(c.id)}
-                        style={{
-                            padding: '6px 16px', borderRadius: '999px', fontSize: '12px',
-                            fontWeight: 700, border: '1px solid', cursor: 'pointer',
-                            fontFamily: "'Space Grotesk',sans-serif",
-                            ...(champ === c.id
-                                ? { background: 'var(--accent)', borderColor: 'var(--accent)', color: 'var(--ink)' }
-                                : { background: 'transparent', borderColor: 'var(--line)', color: 'var(--muted)' }),
-                        }}
-                    >
-                        {c.label}
-                    </button>
+                    <button key={c.id} onClick={() => setChamp(c.id)} style={{
+                        padding: '6px 16px', borderRadius: '999px', fontSize: '12px',
+                        fontWeight: 700, border: '1px solid', cursor: 'pointer',
+                        fontFamily: "'Space Grotesk',sans-serif",
+                        ...(champ === c.id
+                            ? { background: 'var(--accent)', borderColor: 'var(--accent)', color: 'var(--ink)' }
+                            : { background: 'transparent', borderColor: 'var(--line)', color: 'var(--muted)' }),
+                    }}>{c.label}</button>
                 ))}
             </div>
 
@@ -474,41 +977,20 @@ function AnalyticsSection({ t }) {
                 </div>
             </div>
 
-            {/* Match rows */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '28px' }}>
+            {/* Merged match cards */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '28px' }}>
                 {current.matches.map((m, i) => {
-                    const primary = m.lineup_available ? m.lineup : m.base
-                    return (
-                        <div key={i} style={{
-                            display: 'grid', gridTemplateColumns: '1fr auto auto 1fr',
-                            alignItems: 'center', gap: '16px',
-                            background: 'var(--ink-2)', border: '1px solid var(--line)',
-                            borderRadius: '10px', padding: '12px 20px',
-                        }}>
-                            <span style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, color: 'var(--chalk)', fontSize: '14px' }}>
-                                {m.home}
-                            </span>
-                            <span style={{ fontFamily: "'Space Mono',monospace", fontSize: '13px', color: 'var(--muted)', whiteSpace: 'nowrap' }}>
-                                {Math.round(primary.pred_home)} – {Math.round(primary.pred_away)}
-                            </span>
-                            <OutcomeBadge outcome={primary.outcome} labels={at.outcomes} />
-                            <span style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, color: 'var(--chalk)', fontSize: '14px', textAlign: 'right' }}>
-                                {m.away}
-                            </span>
-                        </div>
-                    )
+                    const sm = scorerMatches.find(s => s.home === m.home && s.away === m.away) || null
+                    return <MergedMatchCard key={i} match={m} scorerMatch={sm} at={at} />
                 })}
             </div>
 
-            <Link
-                to="/predictions"
-                style={{
-                    display: 'inline-flex', alignItems: 'center', gap: '6px',
-                    fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, fontSize: '14px',
-                    color: 'var(--accent)', textDecoration: 'none',
-                    borderBottom: '1px solid rgba(198,255,58,.3)', paddingBottom: '2px',
-                }}
-            >
+            <Link to="/predictions" style={{
+                display: 'inline-flex', alignItems: 'center', gap: '6px',
+                fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, fontSize: '14px',
+                color: 'var(--accent)', textDecoration: 'none',
+                borderBottom: '1px solid rgba(198,255,58,.3)', paddingBottom: '2px',
+            }}>
                 {at.viewFull}
             </Link>
         </div>
@@ -620,12 +1102,13 @@ const IndexPage = ({ data }) => {
             <nav className="oa-nav">
                 <div className="oa-wrap">
                     <a className="oa-nav-brand" href="#top">
-                        <GlitchLogo variant="chrom sm" size="nav" />
+                        <GlitchLogo variant="" size="nav" />
                     </a>
                     <div className="oa-nav-links">
                         {CONTENT_TABS.map(tab => (
                             <button
                                 key={tab.id}
+                                className="oa-nav-tab"
                                 onClick={() => switchTab(tab.id)}
                                 style={tabBtnStyle(tab.id)}
                                 onMouseEnter={e => { if (activeTab !== tab.id) e.currentTarget.style.color = 'var(--chalk)' }}
@@ -635,8 +1118,18 @@ const IndexPage = ({ data }) => {
                             </button>
                         ))}
 
+                        {/* Quiz + Players links */}
+                        <Link to="/quiz" style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, fontSize: '13px', letterSpacing: '.08em', textTransform: 'uppercase', textDecoration: 'none', color: 'var(--muted)', transition: 'color .15s' }}
+                            onMouseEnter={e => e.currentTarget.style.color = 'var(--chalk)'}
+                            onMouseLeave={e => e.currentTarget.style.color = 'var(--muted)'}
+                        >{t.nav.quiz}</Link>
+                        <Link to="/player-quiz" style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, fontSize: '13px', letterSpacing: '.08em', textTransform: 'uppercase', textDecoration: 'none', color: 'var(--muted)', transition: 'color .15s' }}
+                            onMouseEnter={e => e.currentTarget.style.color = 'var(--chalk)'}
+                            onMouseLeave={e => e.currentTarget.style.color = 'var(--muted)'}
+                        >{t.nav.players}</Link>
+
                         {/* Language toggle */}
-                        <div style={{ display: 'flex', alignItems: 'center', borderLeft: '1px solid var(--line)', paddingLeft: '12px', gap: '0' }}>
+                        <div className="oa-nav-lang" style={{ display: 'flex', alignItems: 'center', borderLeft: '1px solid var(--line)', paddingLeft: '12px', gap: '0' }}>
                             <button style={langBtnStyle('fr')} onClick={() => changeLang('fr')}>FR</button>
                             <span style={{ color: 'var(--line)', fontSize: '12px' }}>|</span>
                             <button style={langBtnStyle('en')} onClick={() => changeLang('en')}>EN</button>
@@ -645,7 +1138,42 @@ const IndexPage = ({ data }) => {
                         <a href="#contact" className="oa-btn oa-btn-primary" style={{ color: '#15110E' }}>{t.nav.cta}</a>
                     </div>
                 </div>
+
+                {/* Mobile-only second row: tabs + lang toggle */}
+                <div className="oa-nav-mobile-row">
+                    <div className="oa-wrap" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '42px' }}>
+                        <div style={{ display: 'flex', gap: '0' }}>
+                            {CONTENT_TABS.map(tab => (
+                                <button
+                                    key={tab.id}
+                                    onClick={() => switchTab(tab.id)}
+                                    style={{
+                                        background: 'none', border: 'none', cursor: 'pointer',
+                                        fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, fontSize: '12px',
+                                        letterSpacing: '.06em', textTransform: 'uppercase',
+                                        color: activeTab === tab.id ? 'var(--chalk)' : 'var(--muted)',
+                                        padding: '4px 12px',
+                                        borderBottom: `2px solid ${activeTab === tab.id ? 'var(--accent)' : 'transparent'}`,
+                                        transition: 'color .15s',
+                                    }}
+                                >
+                                    {tab.label}
+                                </button>
+                            ))}
+                            <Link to="/quiz" style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, fontSize: '12px', letterSpacing: '.06em', textTransform: 'uppercase', textDecoration: 'none', color: 'var(--muted)', padding: '4px 12px' }}>{t.nav.quiz}</Link>
+                            <Link to="/player-quiz" style={{ fontFamily: "'Space Grotesk',sans-serif", fontWeight: 600, fontSize: '12px', letterSpacing: '.06em', textTransform: 'uppercase', textDecoration: 'none', color: 'var(--muted)', padding: '4px 12px' }}>{t.nav.players}</Link>
+                        </div>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0' }}>
+                            <button style={langBtnStyle('fr')} onClick={() => changeLang('fr')}>FR</button>
+                            <span style={{ color: 'var(--line)', fontSize: '12px' }}>|</span>
+                            <button style={langBtnStyle('en')} onClick={() => changeLang('en')}>EN</button>
+                        </div>
+                    </div>
+                </div>
             </nav>
+
+            {/* ── ELO ticker ── */}
+            <EloBanner />
 
             {/* ── hero ── */}
             <header className="oa-hero" id="top">
@@ -779,7 +1307,7 @@ const IndexPage = ({ data }) => {
             <footer className="oa-footer">
                 <div className="oa-wrap">
                     <a className="oa-footer-brand" href="#top">
-                        <GlitchLogo variant="chrom sm" size="foot" />
+                        <GlitchLogo variant="" size="foot" />
                     </a>
                     <span className="oa-fmeta">{t.footer.tagline}</span>
                     <span className="oa-fmeta">{t.footer.copy}</span>
@@ -810,8 +1338,8 @@ export const query = graphql`
 
 export const Head = () => (
     <Seo
-        page="Offload AI — L'IA au service du rugby"
-        description="Offload AI transforme vos données de match en décisions claires — analyse adverse, charge joueur, recrutement."
+        page="Data Ruck — La data au service du rugby"
+        description="Data Ruck transforme vos données de match en décisions claires — analyse adverse, charge joueur, recrutement."
         type="website"
         path=""
     />

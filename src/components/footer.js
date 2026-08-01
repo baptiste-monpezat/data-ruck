@@ -25,7 +25,7 @@ const Footer = () => (
                 display: 'inline-block',
             }}
         >
-            OFFLOAD <span style={{ color: 'var(--accent)' }}>AI</span>
+            DATA <span style={{ color: 'var(--accent)' }}>RUCK</span>
         </Link>
         <span
             style={{
@@ -38,6 +38,21 @@ const Footer = () => (
         >
             AI match intelligence for rugby
         </span>
+        <a
+            href="https://www.linkedin.com/in/baptiste-monpezat-898074129/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+                fontFamily: "'Space Mono', monospace",
+                fontSize: '11px',
+                letterSpacing: '.14em',
+                textTransform: 'uppercase',
+                color: 'var(--muted)',
+                textDecoration: 'none',
+            }}
+        >
+            LinkedIn
+        </a>
         <span
             style={{
                 fontFamily: "'Space Mono', monospace",
@@ -47,7 +62,7 @@ const Footer = () => (
                 color: 'var(--muted)',
             }}
         >
-            © 2026 Offload AI
+            © 2026 Data Ruck
         </span>
     </footer>
 )

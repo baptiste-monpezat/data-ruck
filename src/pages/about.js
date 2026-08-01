@@ -10,9 +10,9 @@ const About = () => (
         {/* Page header */}
         <div className="oa-page-header">
             <div style={wrap}>
-                <div className="oa-eyebrow">The team</div>
-                <h1>About Us</h1>
-                <p>Combining a decade of rugby fandom with professional sports data science to build smarter tools for the game.</p>
+                <div className="oa-eyebrow">Sport Data Analyst</div>
+                <h1>About</h1>
+                <p>Senior Data Analyst at Betclic and rugby fan — I explore the game through code and statistics.</p>
             </div>
         </div>
 
@@ -37,7 +37,7 @@ const About = () => (
                             Baptiste Monpezat
                         </p>
                         <p style={{ fontFamily: "'Space Mono', monospace", fontSize: '11px', letterSpacing: '.12em', textTransform: 'uppercase', color: 'var(--accent)', margin: 0 }}>
-                            Founder
+                            Sport Data Analyst
                         </p>
                     </div>
                 </div>
@@ -45,12 +45,11 @@ const About = () => (
                 {/* Text */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
                     <p style={{ fontSize: '19px', color: 'var(--chalk)', margin: 0, lineHeight: 1.6 }}>
-                        Senior Sports Data Analyst at Betclic — obsessed with mixing data science and rugby.
+                        Senior Data Analyst at Betclic and rugby fan — I explore the game through code and statistics.
                     </p>
                     {[
-                        "Offload AI started as a personal blog called Data Ruck, where I explored match prediction, player grading, and rugby analytics through code. Over time it became clear the same methods that help me understand the game could genuinely help clubs make better decisions.",
-                        "Whether it's spotting the next big thing on the pitch through clever stats, predicting match outcomes based on lineup experience and historical data, or building opposition dossiers — the goal is always the same: turn numbers into calls coaches can trust.",
-                        "If you want to see the data work up close, the articles section shows the research behind the models. The analytics section publishes live predictions each round of Top 14 and Pro D2.",
+                        "Data Ruck is a personal blog where I publish my rugby analyses: match predictions, player ratings, statistical models. A personal playground as much as a tool for understanding the game better.",
+                        "I build these models in evenings and weekends, out of curiosity and love for the sport. If an analysis caught your eye or you want to chat about rugby and data, feel free to reach out.",
                     ].map((text, i) => (
                         <p key={i} style={{ fontSize: '16px', color: 'var(--muted)', margin: 0, lineHeight: 1.75 }}>
                             {text}
@@ -88,6 +87,23 @@ const About = () => (
                         >
                             Read the articles
                         </a>
+                        <a
+                            href="https://www.linkedin.com/in/baptiste-monpezat-898074129/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                fontFamily: "'Space Grotesk', sans-serif",
+                                fontWeight: 600,
+                                fontSize: '14px',
+                                borderRadius: '999px',
+                                padding: '11px 22px',
+                                border: '1px solid var(--line)',
+                                color: 'var(--chalk)',
+                                textDecoration: 'none',
+                            }}
+                        >
+                            LinkedIn
+                        </a>
                     </div>
                 </div>
             </div>
@@ -114,7 +130,7 @@ const About = () => (
 )
 
 export const Head = () => (
-    <Seo page="About Us — Offload AI" description="Senior sports data analyst building AI match intelligence for rugby clubs." type="website" path="/about" />
+    <Seo page="About — Data Ruck" description="Senior Data Analyst at Betclic and rugby fan — I explore the game through code and statistics." type="website" path="/about" />
 )
 
 export default About

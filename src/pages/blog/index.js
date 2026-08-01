@@ -55,7 +55,7 @@ export const query = graphql`
 `
 
 export const Head = () => (
-    <Seo page="Articles — Offload AI" description="Data-driven rugby analysis articles." type="website" path="/blog/" />
+    <Seo page="Articles — Data Ruck" description="Data-driven rugby analysis articles." type="website" path="/blog/" />
 )
 
 export default BlogIndex

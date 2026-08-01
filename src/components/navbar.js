@@ -4,7 +4,9 @@ import { Link } from "gatsby"
 const NAV_LINKS = [
     { label: "Articles",  to: "/blog" },
     { label: "Analytics", to: "/predictions" },
-    { label: "About Us",  to: "/about" },
+    { label: "Quiz",      to: "/quiz" },
+    { label: "Joueurs",   to: "/player-quiz" },
+    { label: "About",     to: "/about" },
 ]
 
 const linkStyle = {
@@ -51,7 +53,7 @@ const Navbar = () => {
                         display: 'inline-block',
                         whiteSpace: 'nowrap',
                     }}>
-                        OFFLOAD <span style={{ color: 'var(--accent)' }}>AI</span>
+                        DATA <span style={{ color: 'var(--accent)' }}>RUCK</span>
                     </span>
                 </Link>
 

@@ -6,14 +6,13 @@ module.exports = {
   pathPrefix: "/",
   siteMetadata: {
     title: `Data Ruck`,
-    description: `A blog about Rugby data analytics`,
+    description: `Analyses, prédictions et modèles data appliqués au rugby — TOP 14, PRO D2 et Coupe du monde. Par Baptiste Monpezat, Sport Data Analyst.`,
     author: `Baptiste Monpezat`,
-    keywords: `rugby, data science, data analytics, machine learning, sport analytics`,
-    url: `https://baptiste-monpezat.github.io/data-ruck`,
+    keywords: `rugby, data science, analyse rugby, prédiction rugby, machine learning, TOP 14, PRO D2, statistiques rugby, sport analytics, pronostics rugby`,
+    url: `https://www.data-ruck.com`,
     siteUrl: `https://www.data-ruck.com`,
     ogImage: 'static/og-image.png',
-    lang: `en`
-
+    lang: `fr`
   },
   flags: {
     DEV_SSR: false
@@ -39,11 +38,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Data Ruck`,
+        short_name: `Data Ruck`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        background_color: `#15110E`,
+        theme_color: `#C6FF3A`,
         display: `standalone`,
         icon: `src/images/icon.png`
       }
